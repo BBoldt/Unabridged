@@ -258,6 +258,8 @@ languagefile {
     S:"Book.Your Friend the Pipe.Page04"=These Pipes have a Capacity of X Stacks per second, depending on the Material and the Size of the Pipe. When a Pipe tries to route an Item, the capacity of all which are closer to the destination gets used even if it is not in the same direction.
     S:"Book.Your Friend the Pipe.Page05"=This can lead into Pipes being stuck if there is no target, so that they all junk up, so make always sure the Pipes are large enough and that there is always a final target, if you have multiple Inputs.
     S:"Book.Your Friend the Pipe.Page06"=You can put a Conveyor Cover onto the Pipe to suck Items out of an Inventory, when using Import Mode. To measure how much of the Capactiy is being used, use the Active Machine Detector.
+    S:GT_TileEntity_OVERCLOCKERS=Overclocker Upgrades
+    S:GT_TileEntity_TRANSFORMERS=Transformer Upgrades
     S:TileEntity_DESCRIPTION_100=Adjustable Energy Storage Unit
     S:TileEntity_DESCRIPTION_101=Interdimensional Storage Unit
     S:TileEntity_DESCRIPTION_102=Generates Power during Thunderstorms
@@ -7289,6 +7291,8 @@ languagefile {
     S:item.Steel_Jack_Hammer.tooltip_main=For quickly making Holes
     S:item.Teslastaff.name=Tesla Staff
     S:item.Ultimate_Cheat_Armor.name=Ultimate Cheat Armor
+    S:item.Wrench_nhave.name=nhwrench
+    S:item.Wrench_nhave.tooltip_main=To dismantle and rotate Blocks of most Mods
     S:tile.BlockMetaID_Block.0.name=Advanced Machine Block
     S:tile.BlockMetaID_Block.1.name=Fusion Coil
     S:tile.BlockMetaID_Block.10.name=Highly Advanced Machineblock

@@ -116,7 +116,7 @@ block {
     B:"Craft metals with Wood Patterns"=false
     B:"Craft vanilla metal blocks"=true
     B:"Deny creation of non-metal mattocks"=false
-    B:"Enable Auto-Smelt and Fortune interaction"=true
+    B:"Enable Auto-Smelt and Fortune interaction"=false
     B:"Enable mod blue slime tools"=true
     B:"Enable mod bone tools"=true
     B:"Enable mod cactus tools"=true
@@ -130,7 +130,7 @@ block {
     B:"Keep levels on death"=true
     B:"Modifiers increase Mining Level"=true
     B:"Remove Vanilla Tool Recipes"=false
-    B:"Spawn beginner book"=true
+    B:"Spawn beginner book"=false
 }
 
 
@@ -144,6 +144,9 @@ dimblacklist {
 
     # Add dimension ID's to prevent slime islands from generating in them
     I:SlimeIslandDimBlacklist <
+        -27
+        -28
+        -29
      >
 
     # Generate slime islands in flat worlds
@@ -155,10 +158,21 @@ dimblacklist {
 
 
 ####################
+# environment checks
+####################
+
+"environment checks" {
+    # Change env check warnings to reflect that this is a modpack.
+    B:IsModpack=true
+}
+
+
+####################
 # equipables
 ####################
 
 equipables {
+    B:Exo-Armor-Craftable=true
     I:Exo-Boots=14119
     I:Exo-Chestpiece=14117
     I:Exo-Goggles=14116
@@ -268,6 +282,7 @@ looks {
 
 superfun {
     B:"All the world is Superfun"=false
+    B:Enable-TCon-Capes=true
 }
 
 
