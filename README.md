@@ -5,4 +5,5 @@ The grand mod spreadsheet: https://docs.google.com/spreadsheets/d/1EScCPDKYrzm2u
 
 Our subreddit: http://www.reddit.com/r/MinecraftUnabridged/
 
-If you have a problem, click "new issue" in the top right of the screen and give me as much information as you can!
+If you have a problem, click right here and give me as much information as you can!
+https://github.com/BBoldt/Unabridged/issues/new
