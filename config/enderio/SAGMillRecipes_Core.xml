@@ -207,6 +207,7 @@
       </input>
       <output>
         <itemStack modID="minecraft" itemName="sand"/>
+        <itemStack modID="minecraft" itemName="gravel" chance="0.1"/>
       </output>
     </recipe>
 
@@ -320,6 +321,16 @@
         <itemStack modID="minecraft" itemName="cobblestone" chance="0.15"/>
       </output>
     </recipe>
+    
+    <recipe name="DiamondOre" energyCost="300">
+      <input>
+        <itemStack modID="minecraft" itemName="diamond_ore" />        
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="diamond" number="1"/>
+        <itemStack modID="minecraft" itemName="diamond" number="1" chance="0.25"/>                
+      </output>
+    </recipe>
 
     <recipe name="LapisLazuliOre" energyCost="300">
       <input>      
@@ -368,8 +379,8 @@
         <itemStack modID="minecraft" itemName="stone_slab" itemMeta="7" />        
       </input>
       <output>
-        <itemStack modID="minecraft" itemName="quartz" number="2"/>
-        <itemStack modID="minecraft" itemName="quartz" number="2" chance="0.25"/>
+        <itemStack modID="minecraft" itemName="quartz" number="1"/>
+        <itemStack modID="minecraft" itemName="quartz" number="1" chance="0.25"/>
       </output>
     </recipe>
 
@@ -1630,7 +1641,7 @@
     
     <excludes>
       <itemStack modID="minecraft" itemName="glowstone" />
-      <itemStack modID="minecraft" itemName="wool" itemMeta="*"/>
+      <itemStack modID="minecraft" itemName="wool" itemMeta="*"/>      
     </excludes>
     
   </grindingBalls>

@@ -26,6 +26,74 @@ ore dictionary.
 -->
 
 <AlloySmelterRecipes>
+
+  <recipeGroup name="TConstruct">
+
+    <recipe name="Manyullyn from dust" energyCost="1000">
+      <input>
+        <itemStack oreDictionary="dustCobalt" />
+        <itemStack oreDictionary="dustArdite"/>
+      </input>                       
+      <output>
+        <itemStack modID="TConstruct" itemName="materials" itemMeta="5" exp="1"/> 
+      </output>
+    </recipe>
+
+    <recipe name="Manyullyn from ingots" energyCost="1000">
+      <input>
+        <itemStack oreDictionary="ingotArdite" />
+        <itemStack oreDictionary="ingotCobalt" />
+      </input>                       
+      <output>
+        <itemStack modID="TConstruct" itemName="materials" itemMeta="5" exp="1"/> 
+      </output>
+    </recipe>
+	
+    <recipe name="Alumite" energyCost="2000">
+      <input>
+        <itemStack modID="minecraft" itemName="iron_ingot" number="2" />         
+        <itemStack oreDictionary="ingotAluminium" number="5" />
+        <itemStack modID="minecraft" itemName="obsidian" number="2" />
+      </input>
+      <output>
+        <itemStack modID="TConstruct" itemName="materials" itemMeta="15" number="5" exp="0.5"/> 
+      </output>
+    </recipe>
+	
+      <recipe name="Aluminum Brass" energyCost="1500">
+      <input>
+        <itemStack oreDictionary="ingotgold" />
+        <itemStack oreDictionary="ingotbrass" />
+      </input>                       
+      <output>
+        <itemStack modID="TConstruct" itemName="materials" itemMeta="14" number="1" exp="1"/> 
+      </output>
+    </recipe>
+   </recipeGroup>
+	
+  <recipeGroup name="Other">
   
+      <recipe name="Bronze" energyCost="1500">
+      <input>
+        <itemStack oreDictionary="ingotTin" />
+        <itemStack oreDictionary="ingotCopper" number="3" />
+      </input>                       
+      <output>
+        <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="11300" number="4" exp="1"/> 
+      </output>
+    </recipe>
+	
+      <recipe name="Brass" energyCost="1500">
+      <input>
+        <itemStack oreDictionary="ingotZinc" />
+        <itemStack oreDictionary="ingotCopper" number="3" />
+      </input>                       
+      <output>
+        <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="11301" number="4" exp="1"/> 
+      </output>
+    </recipe>
+   </recipeGroup>
+  
+ 
 </AlloySmelterRecipes>  
 

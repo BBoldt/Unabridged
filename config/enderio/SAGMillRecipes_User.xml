@@ -79,6 +79,46 @@ found in the core file.
     </recipe>
 </recipeGroup>
 -->
-  
+  <recipeGroup name="TConstruct Ores/Ingots">
+
+    <recipe name="ArditeOre" energyCost="360">
+      <input>
+        <itemStack oreDictionary="oreArdite" />
+      </input>
+      <output>
+        <itemStack modID="OresPlus" itemName="dustArdite" number="2" />
+        <itemStack modID="OresPlus" itemName="dustTinyArdite" chance="0.125" />
+        <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2807" chance="0.5"/>
+      </output>
+    </recipe>
+
+    <recipe name="ArditeIngot" energyCost="240">
+      <input>
+        <itemStack oreDictionary="ingotArdite" />
+      </input>
+      <output>
+        <itemStack modID="OresPlus" itemName="dustArdite" />
+      </output>
+    </recipe>
+	
+    <recipe name="CobaltOre" energyCost="360">
+      <input>
+        <itemStack oreDictionary="oreCobalt" />
+      </input>
+      <output>
+        <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2033" number="2" />
+        <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="33" chance="0.125" />
+      </output>
+    </recipe>
+
+    <recipe name="CobaltIngot" energyCost="240">
+      <input>
+        <itemStack oreDictionary="ingotCobalt" />
+      </input>
+      <output>
+        <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2033" />
+      </output>
+    </recipe>
+  </recipeGroup>
 
 </SAGMillRecipes>
