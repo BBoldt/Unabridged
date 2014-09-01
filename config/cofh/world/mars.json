@@ -1,0 +1,198 @@
+{
+    "Conductive-Iron": {
+        "template": "uniform",
+        "block": "Quadrum:marsIronConductive",
+        "material": {
+            "name": "GalacticraftMars:tile.mars",
+            "metadata": 9
+        },
+        "clusterSize": 4,
+        "numClusters": 6,
+        "minHeight": 0,
+        "maxHeight": 32,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            "marsFlat"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -29
+        ]
+    },
+    "Gold": {
+        "template": "uniform",
+        "block": "Quadrum:marsGold",
+        "material": {
+            "name": "GalacticraftMars:tile.mars",
+            "metadata": 9
+        },
+        "clusterSize": 8,
+        "numClusters": 2,
+        "minHeight": 0,
+        "maxHeight": 32,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            "marsFlat"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -29
+        ]
+    },
+    "Nickel": {
+        "template": "uniform",
+        "block": "Quadrum:marsNickel",
+        "material": {
+            "name": "GalacticraftMars:tile.mars",
+            "metadata": 9
+        },
+        "clusterSize": 5,
+        "numClusters": 3,
+        "minHeight": 5,
+        "maxHeight": 20,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            "marsFlat"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -29
+        ]
+    },
+    "Lead": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "Quadrum:marsLead",
+                "weight": 90
+            },
+            {
+                "name": "Quadrum:marsSilver",
+                "weight": 10
+            }
+        ],
+        "clusterSize": 8,
+        "numClusters": 10,
+        "minHeight": 10,
+        "maxHeight": 35,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            "marsFlat"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -29
+        ]
+    },
+    "Silver": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "Quadrum:marsLead",
+                "weight": 20
+            },
+            {
+                "name": "Quadrum:marsSilver",
+                "weight": 80
+            }
+        ],
+        "clusterSize": 8,
+        "numClusters": 10,
+        "minHeight": 5,
+        "maxHeight": 30,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            "marsFlat"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -29
+        ]
+    },
+    "Zinc": {
+        "template": "uniform",
+        "block": "Quadrum:marsZinc",
+        "material": {
+            "name": "GalacticraftMars:tile.mars",
+            "metadata": 9
+        },
+        "clusterSize": 6,
+        "numClusters": 10,
+        "minHeight": 40,
+        "maxHeight": 75,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            "marsFlat"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -29
+        ]
+    },
+    "Signalum": {
+        "template": "uniform",
+        "block": "Quadrum:marsSignalum",
+        "material": {
+            "name": "GalacticraftMars:tile.mars",
+            "metadata": 9
+        },
+        "clusterSize": 7,
+        "numClusters": 8,
+        "minHeight": 0,
+        "maxHeight": 16,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            "marsFlat"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -29
+        ]
+    },
+    "Fluix-Crystal": {
+        "template": "uniform",
+        "block": "Quadrum:marsFluixCrystal",
+        "material": {
+            "name": "GalacticraftMars:tile.mars",
+            "metadata": 9
+        },
+        "clusterSize": 6,
+        "numClusters": 12,
+        "minHeight": 0,
+        "maxHeight": 100,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            "marsFlat"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -29
+        ]
+    },
+    "Blizz": {
+        "template": "uniform",
+        "block": "Quadrum:marsBlizz",
+        "material": "minecraft:ice",
+        "clusterSize": 3,
+        "numClusters": 25,
+        "minHeight": 60,
+        "maxHeight": 120,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            "marsFlat"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -29
+        ]
+    }
+}

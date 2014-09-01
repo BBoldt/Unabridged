@@ -1,0 +1,84 @@
+[
+    {
+        "name": "moonAnorthite",
+        "default-texture": "moonAnorthite",
+        "material": "stone",
+        "hardness": 1.5,
+        "resistance": 10,
+        "ore-dictionary": [
+            "oreAluminum",
+            "oreAluminium"
+        ],
+        "mining-level": 2
+    },
+    {
+        "name": "moonCyanite",
+        "default-texture": "moonCyanite",
+        "material": "stone",
+        "hardness": 1.5,
+        "resistance": 10,
+        "ore-dictionary": [
+            "oreCyanite"
+        ],
+        "mining-level": 2
+    },
+    {
+        "name": "moonIlmenite",
+        "default-texture": "moonIlmenite",
+        "material": "stone",
+        "hardness": 1.5,
+        "resistance": 10,
+        "ore-dictionary": [
+            "oreTitanium"
+        ],
+        "mining-level": 2
+    },
+    {
+        "name": "moonLumium",
+        "default-texture": "moonLumium",
+        "material": "stone",
+        "hardness": 1.5,
+        "resistance": 10,
+        "ore-dictionary": [
+            "oreLumium"
+        ],
+        "light-level": 10,
+        "mining-level": 2
+    },
+    {
+        "name": "moonQuartzCharged",
+        "default-texture": "moonQuartzCharged",
+        "material": "stone",
+        "hardness": 1.5,
+        "resistance": 10,
+        "ore-dictionary": [
+            "oreCertusQuartz"
+        ],
+        "drops": [
+            {
+                "item": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 1,
+                "amount": "1"
+            },
+            {
+                "item": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 2,
+                "amount": "2"
+            }
+        ],
+        "light-level": 5,
+        "mining-level": 2,
+		"drops-self": "false"
+    },
+    {
+        "name": "moonUranium",
+        "default-texture": "moonUranium",
+        "material": "stone",
+        "hardness": 1.5,
+        "resistance": 10,
+        "ore-dictionary": [
+            "oreUranium"
+        ],
+        "mining-level": 2
+    }
+]

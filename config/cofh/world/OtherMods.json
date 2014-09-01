@@ -1,0 +1,139 @@
+{
+    "yellorite-uranium": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "BigReactors:YelloriteOre",
+                "weight": 35
+            },
+            {
+                "name": "IC2:blockOreUran",
+                "weight": 65
+            }
+        ],
+        "clusterSize": 10,
+        "numClusters": 2,
+        "minHeight": 0,
+        "maxHeight": 50,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "zinc": {
+        "template": "uniform",
+        "block": {
+            "name": "Steamcraft:steamcraftOre",
+            "metadata": 1
+        },
+        "clusterSize": 6,
+        "numClusters": 10,
+        "minHeight": 40,
+        "maxHeight": 75,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "essence": {
+        "template": "uniform",
+        "block": "magicalcrops:magicalcrops_EssenceOre",
+        "clusterSize": 4,
+        "numClusters": 2,
+        "minHeight": 45,
+        "maxHeight": 80,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "osmium": {
+        "template": "uniform",
+        "block": "Mekanism:OreBlock",
+        "clusterSize": 4,
+        "numClusters": 6,
+        "minHeight": 0,
+        "maxHeight": 32,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "aluminum": {
+        "template": "normal",
+        "block": {
+            "name": "TConstruct:SearedBrick",
+            "metadata": 5
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 12,
+        "numClusters": 4,
+        "meanHeight": 64,
+        "maxVariance": 16,
+        "retrogen": "true",
+        "biomeRestriction": "blacklist",
+        "biomes": [
+            "ocean"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "silicon": {
+        "template": "uniform",
+        "block": {
+            "name": "GalacticraftCore:tile.gcBlockCore8",
+            "metadata": 1
+        },
+        "clusterSize": 6,
+        "numClusters": 6,
+        "minHeight": 8,
+        "maxHeight": 32,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "apatite": {
+        "template": "uniform",
+        "block": "Forestry:resources",
+        "clusterSize": 20,
+        "numClusters": 5,
+        "minHeight": 65,
+        "maxHeight": 256,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

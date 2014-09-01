@@ -1,0 +1,1 @@
+recipes.remove(<eauto:eauto.block.fabricatorFluid>);

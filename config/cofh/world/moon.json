@@ -1,0 +1,215 @@
+{
+    "anorthite": {
+        "template": "normal",
+        "block": "Quadrum:moonAnorthite",
+        "material": {
+            "name": "GalacticraftCore:tile.moonBlock",
+            "metadata": 4
+        },
+        "clusterSize": 12,
+        "numClusters": 4,
+        "meanHeight": 64,
+        "maxVariance": 16,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            "moon"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -28
+        ]
+    },
+    "cyanite-uranium": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "Quadrum:moonCyanite",
+                "weight": 75
+            },
+            {
+                "name": "Quadrum:moonUranium",
+                "weight": 25
+            }
+        ],
+        "material": {
+            "name": "GalacticraftCore:tile.moonBlock",
+            "metadata": 4
+        },
+        "clusterSize": 10,
+        "numClusters": 2,
+        "minHeight": 0,
+        "maxHeight": 25,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            "moon"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -28
+        ]
+    },
+    "uranium-cyanite": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "Quadrum:moonCyanite",
+                "weight": 25
+            },
+            {
+                "name": "Quadrum:moonUranium",
+                "weight": 75
+            }
+        ],
+        "material": {
+            "name": "GalacticraftCore:tile.moonBlock",
+            "metadata": 4
+        },
+        "clusterSize": 10,
+        "numClusters": 2,
+        "minHeight": 25,
+        "maxHeight": 50,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            "moon"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -28
+        ]
+    },
+    "ilmenite": {
+        "template": "uniform",
+        "block": "Quadrum:moonIlmenite",
+        "material": {
+            "name": "GalacticraftCore:tile.moonBlock",
+            "metadata": 4
+        },
+        "clusterSize": 8,
+        "numClusters": 2,
+        "minHeight": 0,
+        "maxHeight": 16,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            "moon"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -28
+        ]
+    },
+    "lumium": {
+        "template": "uniform",
+        "block": "Quadrum:moonLumium",
+        "material": {
+            "name": "GalacticraftCore:tile.moonBlock",
+            "metadata": 4
+        },
+        "clusterSize": 7,
+        "numClusters": 8,
+        "minHeight": 0,
+        "maxHeight": 64,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            "moon"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -28
+        ]
+    },
+    "quartzcharged": {
+        "template": "uniform",
+        "block": "Quadrum:moonQuartzCharged",
+        "material": {
+            "name": "GalacticraftCore:tile.moonBlock",
+            "metadata": 4
+        },
+        "clusterSize": 3,
+        "numClusters": 14,
+        "minHeight": 0,
+        "maxHeight": 64,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            "moon"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -28
+        ]
+    },
+    "cheese": {
+        "template": "uniform",
+        "block": {
+            "name": "GalacticraftCore:tile.moonBlock",
+            "metadata": 2
+        },
+        "material": {
+            "name": "GalacticraftCore:tile.moonBlock",
+            "metadata": 4
+        },
+        "clusterSize": 8,
+        "numClusters": 10,
+        "minHeight": 32,
+        "maxHeight": 64,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            "moon"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -28
+        ]
+    },
+    "tin": {
+        "template": "uniform",
+        "block": {
+            "name": "GalacticraftCore:tile.moonBlock",
+            "metadata": 1
+        },
+        "material": {
+            "name": "GalacticraftCore:tile.moonBlock",
+            "metadata": 4
+        },
+        "clusterSize": 8,
+        "numClusters": 10,
+        "minHeight": 20,
+        "maxHeight": 55,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            "moon"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -28
+        ]
+    },
+    "copper": {
+        "template": "uniform",
+        "block": "GalacticraftCore:tile.moonBlock",
+        "material": {
+            "name": "GalacticraftCore:tile.moonBlock",
+            "metadata": 4
+        },
+        "clusterSize": 8,
+        "numClusters": 10,
+        "minHeight": 40,
+        "maxHeight": 75,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            "moon"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -28
+        ]
+    }
+}
