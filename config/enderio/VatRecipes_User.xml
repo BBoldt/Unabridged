@@ -1,3 +1,34 @@
-<VatRecipes>  
-  
-</VatRecipes>  
+<VatRecipes>
+ 
+  <recipeGroup name="Unabridged">
+     
+    <recipe name="XP Juice" energyCost="20">
+      <input>
+        <itemStack modID="minecraft" itemName="sand" slot="0" multiplier="1"/>
+        <itemStack modID="minecraft" itemName="sand" slot="1" multiplier="1"/>
+        <fluidStack name="mobessence" multiplier="0.28"/>
+      </input>      
+      <output>
+        <fluidStack name="xpjuice"/>        
+      </output>
+     
+    </recipe>
+     
+      <recipe name="Mob Essence" energyCost="20">
+      <input>
+		<itemStack modID="minecraft" itemName="gravel" slot="0" multiplier="1"/>
+		<itemStack modID="minecraft" itemName="gravel" slot="1" multiplier="1"/>
+        <fluidStack name="xpjuice" multiplier="3.57"/>
+      </input>      
+      <output>
+        <fluidStack name="mobessence"/>        
+      </output>
+     
+    </recipe>
+       
+ 
+   
+  </recipeGroup>
+ 
+ 
+</VatRecipes>

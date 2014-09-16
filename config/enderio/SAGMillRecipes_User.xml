@@ -120,5 +120,15 @@ found in the core file.
       </output>
     </recipe>
   </recipeGroup>
-
+  <recipeGroup name="BigReactors">
+    <recipe name="YelloriteOre" energyCost="360">
+      <input>
+        <itemStack oreDictionary="oreYellorite" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustYellorium" number="2" />
+        <itemStack oreDictionary="dustCyanite" number="1" chance="0.05" />
+      </output>
+    </recipe>
+  </recipeGroup>
 </SAGMillRecipes>

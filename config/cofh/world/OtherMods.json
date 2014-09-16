@@ -99,11 +99,11 @@
             1
         ]
     },
-    "silicon": {
+    "GCsilicon": {
         "template": "uniform",
         "block": {
-            "name": "GalacticraftCore:tile.gcBlockCore8",
-            "metadata": 1
+            "name": "GalacticraftCore:tile.gcBlockCore",
+            "metadata": 8
         },
         "clusterSize": 6,
         "numClusters": 6,
