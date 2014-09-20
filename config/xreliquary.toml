@@ -28,3 +28,8 @@ hudPosition = 3
 torches = []
 
 
+[destruction_catalyst]
+mundane_blocks = ["minecraft:dirt""minecraft:grass""minecraft:gravel""minecraft:cobblestone""minecraft:stone""minecraft:sand""minecraft:sandstone""minecraft:snow""minecraft:soul_sand""minecraft:netherrack""minecraft:end_stone"]
+cost = 3
+
+
