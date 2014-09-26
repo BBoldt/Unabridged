@@ -25,3 +25,5 @@ tile.asteroidPlatinum.name=Platinum Ore
 tile.asteroidPlutonium.name=Plutonium Ore
 
 item.ingotPlutonium.name=Plutonium Ingot
+item.charcoalCactus.name=Cactus Charcoal
+item.fuelCokeCactus.name=Cactus Coke

@@ -19,3 +19,10 @@ recipes.addShaped(<magicalcrops:magicalcrops_ModMagicSeedsIridium>, [[<ore:oreIr
 
 // Iridium
 recipes.addShaped(<Quadrum:asteroidIridium>, [[irie, irie, irie], [irie, null, irie], [irie, irie, irie]]);
+
+// Platinum seeds
+recipes.remove(<magicalcrops:magicalcrops_ModMagicSeedsPlatinum>);
+recipes.addShaped(<magicalcrops:magicalcrops_ModMagicSeedsPlatinum>, [[<ore:ingotNickel>, exte, <ore:ingotPlatinum>], [exte, <minecraft:wheat_seeds>, exte], [<ore:ingotPlatinum>, exte, <ore:ingotNickel>]]);
+
+//Uranium name fix
+<magicalcrops:magicalcrops_ModMagicSeedsUranium>.displayName = "Uranium Seeds";
