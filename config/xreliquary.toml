@@ -133,5 +133,52 @@ holy_hand_grenade = true
 squid_beak = true
 bullet = true
 fortune_coin = true
+xreliquary:alkahest_tome = true
+xreliquary:altar = true
+xreliquary:altar_idle = true
+xreliquary:angelheart_vial = true
+xreliquary:angelic_feather = true
+xreliquary:bullet = true
+xreliquary:claws_of_the_firedrinker = true
+xreliquary:condensed_potion = true
+xreliquary:crimson_cloth = true
+xreliquary:destruction_catalyst = true
+xreliquary:dragon_claws = true
+xreliquary:dragon_talon = true
+xreliquary:emperor_chalice = true
+xreliquary:ender_staff = true
+xreliquary:fortune_coin = true
+xreliquary:glowing_bread = true
+xreliquary:glowing_water = true
+xreliquary:gun_part_ = true
+xreliquary:handgun = true
+xreliquary:hero_medallion = true
+xreliquary:holy_hand_grenade = true
+xreliquary:ice_magus_rod = true
+xreliquary:infernal_tear = true
+xreliquary:interdiction_torch = true
+xreliquary:kraken_shell = true
+xreliquary:kraken_shell_fragment = true
+xreliquary:lantern_of_paranoia = true
+xreliquary:lilypad = true
+xreliquary:magazine = true
+xreliquary:magicbane = true
+xreliquary:mercy_cross = true
+xreliquary:midas_touchstone = true
+xreliquary:phoenix_down = true
+xreliquary:salamander_eye = true
+xreliquary:serpent_staff = true
+xreliquary:sojourner_staff = true
+xreliquary:squid_beak = true
+xreliquary:twilight_cloak = true
+xreliquary:void_tear = true
+xreliquary:witch_hat = true
+xreliquary:witherless_rose = true
+xreliquary:wraith_eye = true
+xreliquary:wraith_node = true
+
+
+[wraith_eye]
+cost = 1
 
 

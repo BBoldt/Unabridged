@@ -30,3 +30,7 @@ recipes.addShapeless(<Botany:flowerbed:8> * 4, [<Botany:flowerbed:5>, <Botany:fl
 recipes.removeShapeless(<Botany:misc>);
 recipes.addShapeless(<Botany:misc> * 4, [<ore:dustAsh>]);
 
+// Wood Dust/Pulp unification
+<ore:pulpWood>.addAll(<ore:dustWood>);
+<ore:dustWood>.mirror(<ore:pulpWood>);
+
