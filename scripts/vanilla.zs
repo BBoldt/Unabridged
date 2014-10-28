@@ -16,3 +16,6 @@ recipes.addShapeless(<minecraft:hardened_clay> * 8, [<minecraft:water_bucket>.tr
 
 // Gray
 recipes.addShapeless(<minecraft:dye:8>, [<ore:dyeBlack>, <ore:dyeWhite>]);
+
+// Ebola Potato
+recipes.addShapeless(<Quadrum:potatoEbola>, [<AWWayofTime:bucketLife>.transformReplace(<minecraft:bucket>), <minecraft:poisonous_potato>, <ore:fertilizerOrganic>, <ore:fertilizerOrganic>]);

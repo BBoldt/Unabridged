@@ -15,3 +15,6 @@ recipes.addShaped(<TConstruct:knapsack>, [[<minecraft:leather>, <minecraft:leath
 // Plate
 recipes.remove(<minecraft:light_weighted_pressure_plate>);
 recipes.addShaped(<minecraft:light_weighted_pressure_plate>, [[<ore:ingotGold>, <ore:ingotGold>, null], [null, null, null], [null, null, null]]);
+
+// Smeltery removals
+mods.tconstruct.Smeltery.removeMelting(<minecraft:minecart>);

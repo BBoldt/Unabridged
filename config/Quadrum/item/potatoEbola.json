@@ -1,0 +1,17 @@
+{
+    "name": "potatoEbola",
+    "texture": "potatoEbola",
+		"ore-dictionary": [
+			"potatoEbola"
+        ],
+	"type": food,
+    "lore": [
+        "Danger!"
+    ],
+    "consume-effect": {
+        "id": 20,
+        "duration": 100,
+        "amplifier": 2,
+        "probability": 1
+    }
+}

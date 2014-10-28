@@ -11,4 +11,7 @@ recipes.addShaped(<Mariculture:machines_multi_rendered:3>, [[<ore:ingotSteel>, n
 recipes.remove(<Mekanism:SaltBlock>);
 recipes.addShaped(<Mekanism:SaltBlock>, [[<ore:dustSalt>, <ore:dustSalt>, null], [<ore:dustSalt>, <ore:dustSalt>, null]]);
 mods.mekanism.chemical.Oxidizer.addRecipe(<Mariculture:materials:12>, <gas:Brine>);
-mods.mariculture.Crucible.addRecipe(801, <Mekanism:Salt>, <liquid:salt.molten> * 20);
+
+// Iron Construction Block
+recipes.remove(<Mariculture:metals:5>);
+recipes.addShaped(<Mariculture:metals:5>, [[<ore:paneGlass>, <ore:ingotIron>, <ore:paneGlass>], [<ore:ingotIron>, null, <ore:ingotIron>], [<ore:paneGlass>, <ore:ingotIron>, <ore:paneGlass>]]);
