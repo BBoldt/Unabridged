@@ -1,2 +1,2 @@
 // DSU Cart
-recipes.addShapeless(<extracarts:extracarts_DSUCart>, [<minecraft:minecart>, <MineFactoryReloaded:tile.mfr.machine.1:3>]);
+recipes.addShapeless(<extracarts:extracarts_DSUCart>, [<minecraft:minecart>, <MineFactoryReloaded:machine.1:3>]);

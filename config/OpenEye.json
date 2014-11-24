@@ -23,9 +23,7 @@
             "value": false
         },
         "tags": {
-            "value": [
-                "Unabridged_1.7.10"
-            ]
+            "value": []
         },
         "sentCrashReportsLimit": {
             "comment": "Maximum number of crash reports from single category sent per single run",

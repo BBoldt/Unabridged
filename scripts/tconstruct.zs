@@ -18,3 +18,12 @@ recipes.addShaped(<minecraft:light_weighted_pressure_plate>, [[<ore:ingotGold>, 
 
 // Smeltery removals
 mods.tconstruct.Smeltery.removeMelting(<minecraft:minecart>);
+
+
+// Obsidian fix
+mods.tconstruct.Smeltery.removeMelting(<minecraft:obsidian>);
+mods.tconstruct.Smeltery.addMelting(<minecraft:obsidian>, <liquid:obsidian.molten> * 576, 1000);
+mods.tconstruct.Casting.removeBasinRecipe(<minecraft:obsidian>);
+mods.tconstruct.Casting.addBasinRecipe(<minecraft:obsidian>, <liquid:obsidian.molten> * 576, null, false, 20);
+mods.tconstruct.Smeltery.removeMelting(<ore:dustObsidian>);
+mods.tconstruct.Smeltery.addMelting(<ore:dustObsidian>, <liquid:obsidian.molten> * 144, 1000, <minecraft:obsidian>);

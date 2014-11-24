@@ -28,7 +28,7 @@ recipes.addShapeless(<PneumaticCraft:plasticPlant:6> * 2, [seed, <EnderIO:itemAl
 recipes.addShapeless(<PneumaticCraft:plasticPlant:8> * 2, [seed, <ore:dustSulfur>, <ore:dustSulfur>]);
 
 // Potion
-recipes.addShapeless(<PneumaticCraft:plasticPlant:9> * 2, [seed, <xreliquary:condensed_potion:12>, <xreliquary:condensed_potion:12>]);
+recipes.addShapeless(<PneumaticCraft:plasticPlant:9> * 2, [seed, <minecraft:potion:16>, <minecraft:potion:16>]);
 
 // Repulsion
 recipes.addShapeless(<PneumaticCraft:plasticPlant:10> * 2, [seed, <ore:itemRubber>, <ore:itemRubber>]);

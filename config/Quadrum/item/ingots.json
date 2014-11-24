@@ -1,8 +1,0 @@
-{
-    "name": "ingotPlutonium",
-    "texture": "ingotPlutonium",
-		"ore-dictionary": [
-			"ingotPlutonium"
-        ],
-	"has-effect": "true"
-}
