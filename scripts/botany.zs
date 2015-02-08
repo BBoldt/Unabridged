@@ -30,3 +30,91 @@ recipes.addShapeless(<Botany:flowerbed:8> * 4, [<Botany:flowerbed:5>, <Botany:fl
 recipes.removeShapeless(<Botany:misc>);
 recipes.addShapeless(<Botany:misc> * 4, [<ore:dustAsh>]);
 
+//Iron Trowel Alt recipe
+recipes.remove(<Botany:trowelIron>);
+recipes.addShaped(<Botany:trowelIron>, [[null, null, <ore:ingotIron>], [null, <ore:stickWood>, null]]);
+
+//Diamond Trowel Alt recipe
+recipes.remove(<Botany:trowelDiamond>);
+recipes.addShaped(<Botany:trowelDiamond>, [[null, null, <ore:gemDiamond>], [null, <ore:stickWood>, null]]);
+
+// Sap to Resin
+furnace.addRecipe(<BinnieCore:containerBucket:129>, <BinnieCore:containerBucket:128>, 0.5);
+furnace.addRecipe(<BinnieCore:containerCapsule:129>, <BinnieCore:containerCapsule:128>, 0.5);
+furnace.addRecipe(<BinnieCore:containerCan:129>, <BinnieCore:containerCan:128>, 0.5);
+
+/* Fence Recipes NEI */
+
+/* Single Wood */
+// Regular fences
+recipes.addShaped(<ExtraTrees:fence:*> * 4, [[<ExtraTrees:doubleSlab>, <ExtraTrees:doubleSlab>, <ExtraTrees:doubleSlab>], [<ExtraTrees:doubleSlab>, null, <ExtraTrees:doubleSlab>]]);
+
+// Embedded
+recipes.addShaped(<ExtraTrees:fence:2048> * 2, [[<ExtraTrees:fence>, null, null], [<minecraft:planks>, null, null], [<ExtraTrees:fence>, null, null]]);
+
+// Solid
+recipes.addShaped(<ExtraTrees:fence:1024> * 5, [[<ExtraTrees:fence>, <ExtraTrees:fence>, <ExtraTrees:fence>], [<ExtraTrees:fence>, <ExtraTrees:fence>, <ExtraTrees:fence>], [null, null, null]]);
+
+// Solid Embedded
+recipes.addShaped(<ExtraTrees:fence:3072> * 2, [[<ExtraTrees:fence:1024>, null, null], [<minecraft:planks>, null, null], [<ExtraTrees:fence:1024>, null, null]]);
+
+// Full
+recipes.addShaped(<ExtraTrees:fence:256> * 4, [[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>], [<minecraft:planks>, null, <minecraft:planks>], [null, <minecraft:planks>, null]]);
+
+// Full Embedded
+recipes.addShaped(<ExtraTrees:fence:2304> * 2, [[<ExtraTrees:fence:256>, null, null], [<minecraft:planks>, null, null], [<ExtraTrees:fence:256>, null, null]]);
+
+// Full Solid
+recipes.addShaped(<ExtraTrees:fence:1280> * 5, [[<ExtraTrees:fence:256>, <ExtraTrees:fence:256>, <ExtraTrees:fence:256>], [<ExtraTrees:fence:256>, <ExtraTrees:fence:256>, <ExtraTrees:fence:256>], [null, null, null]]);
+
+// Full Solid Embedded
+recipes.addShaped(<ExtraTrees:fence:3328> * 2, [[<ExtraTrees:fence:1280>, null, null], [<minecraft:planks>, null, null], [<ExtraTrees:fence:1280>, null, null]]);
+
+// Low
+recipes.addShaped(<ExtraTrees:fence:512> * 4, [[null, <minecraft:planks>, null], [<minecraft:planks>, null, <minecraft:planks>], [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]]);
+
+// Low Embedded
+recipes.addShaped(<ExtraTrees:fence:2560> * 2, [[<ExtraTrees:fence:512>, null, null], [<minecraft:planks>, null, null], [<ExtraTrees:fence:512>, null, null]]);
+
+// Low Solid
+recipes.addShaped(<ExtraTrees:fence:1536> * 5, [[<ExtraTrees:fence:512>, <ExtraTrees:fence:512>, <ExtraTrees:fence:512>], [<ExtraTrees:fence:512>, <ExtraTrees:fence:512>, <ExtraTrees:fence:512>], [null, null, null]]);
+
+// Low Solid Embedded
+recipes.addShaped(<ExtraTrees:fence:3584> * 2, [[<ExtraTrees:fence:1536>, null, null], [<minecraft:planks>, null, null], [<ExtraTrees:fence:1536>, null, null]]);
+
+/* Multifence */
+// Regular fences
+recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 131072}) * 4, [[<minecraft:planks>, <minecraft:planks:2>, <minecraft:planks>], [<minecraft:planks>, null, <minecraft:planks>]]);
+
+// Embedded
+recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 133120}) * 2, [[<ExtraTrees:multifence:16387>.withTag({meta: 131072}), null, null], [<minecraft:planks>, null, null], [<ExtraTrees:multifence:16387>.withTag({meta: 131072}), null, null]]);
+
+// Solid
+recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 132096}) * 5, [[<ExtraTrees:multifence:16387>.withTag({meta: 131072}), <ExtraTrees:multifence:16387>.withTag({meta: 131072}), <ExtraTrees:multifence:16387>.withTag({meta: 131072})], [<ExtraTrees:multifence:16387>.withTag({meta: 131072}), <ExtraTrees:multifence:16387>.withTag({meta: 131072}), <ExtraTrees:multifence:16387>.withTag({meta: 131072})], [null, null, null]]);
+
+// Solid Embedded
+recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 134144}) * 2, [[<ExtraTrees:multifence:16387>.withTag({meta: 132096}), null, null], [<minecraft:planks>, null, null], [<ExtraTrees:multifence:16387>.withTag({meta: 132096}), null, null]]);
+
+// Full
+recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 131328}) * 4, [[<minecraft:planks>, <minecraft:planks:2>, <minecraft:planks>], [<minecraft:planks>, null, <minecraft:planks>], [null, <minecraft:planks:2>, null]]);
+
+// Full Embedded
+recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 133376}) * 2, [[<ExtraTrees:multifence:16387>.withTag({meta: 131328}), null, null], [<minecraft:planks>, null, null], [<ExtraTrees:multifence:16387>.withTag({meta: 131328}), null, null]]);
+
+// Full Solid
+recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 132352}) * 5, [[<ExtraTrees:multifence:16387>.withTag({meta: 131328}), <ExtraTrees:multifence:16387>.withTag({meta: 131328}), <ExtraTrees:multifence:16387>.withTag({meta: 131328})], [<ExtraTrees:multifence:16387>.withTag({meta: 131328}), <ExtraTrees:multifence:16387>.withTag({meta: 131328}), <ExtraTrees:multifence:16387>.withTag({meta: 131328})], [null, null, null]]);
+
+// Full Solid Embedded
+recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 134400}) * 2, [[<ExtraTrees:multifence:16387>.withTag({meta: 132352}), null, null], [<minecraft:planks>, null, null], [<ExtraTrees:multifence:16387>.withTag({meta: 132352}), null, null]]);
+
+// Low
+recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 131584}) * 4, [[null, <minecraft:planks>, null], [<minecraft:planks:2>, null, <minecraft:planks:2>], [<minecraft:planks:2>, <minecraft:planks>, <minecraft:planks:2>]]);
+
+// Low Embedded
+recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 133632}) * 2, [[<ExtraTrees:multifence:16387>.withTag({meta: 131584}), null, null], [<minecraft:planks>, null, null], [<ExtraTrees:multifence:16387>.withTag({meta: 131584}), null, null]]);
+
+// Low Solid
+recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 132608}) * 5, [[<ExtraTrees:multifence:16387>.withTag({meta: 131584}), <ExtraTrees:multifence:16387>.withTag({meta: 131584}), <ExtraTrees:multifence:16387>.withTag({meta: 131584})], [<ExtraTrees:multifence:16387>.withTag({meta: 131584}), <ExtraTrees:multifence:16387>.withTag({meta: 131584}), <ExtraTrees:multifence:16387>.withTag({meta: 131584})], [null, null, null]]);
+
+// Low Solid Embedded
+recipes.addShaped(<ExtraTrees:multifence:16387>.withTag({meta: 134656}) * 2, [[<ExtraTrees:multifence:16387>.withTag({meta: 133632}), null, null], [<minecraft:planks>, null, null], [<ExtraTrees:multifence:16387>.withTag({meta: 133632}), null, null]]);

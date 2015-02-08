@@ -27,3 +27,11 @@ mods.tconstruct.Casting.removeBasinRecipe(<minecraft:obsidian>);
 mods.tconstruct.Casting.addBasinRecipe(<minecraft:obsidian>, <liquid:obsidian.molten> * 576, null, false, 20);
 mods.tconstruct.Smeltery.removeMelting(<ore:dustObsidian>);
 mods.tconstruct.Smeltery.addMelting(<ore:dustObsidian>, <liquid:obsidian.molten> * 144, 1000, <minecraft:obsidian>);
+
+// Go away berries
+<ore:nuggetIron>.remove(<TConstruct:oreBerries>);
+<ore:nuggetGold>.remove(<TConstruct:oreBerries:1>);
+<ore:nuggetCopper>.remove(<TConstruct:oreBerries:2>);
+<ore:nuggetTin>.remove(<TConstruct:oreBerries:3>);
+<ore:nuggetAluminum>.remove(<TConstruct:oreBerries:4>);
+<ore:nuggetAluminium>.remove(<TConstruct:oreBerries:4>);

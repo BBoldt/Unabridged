@@ -45,9 +45,9 @@
             1
         ]
     },
-    "essence": {
+    "gaianite": {
         "template": "uniform",
-        "block": "magicalcrops:magicalcrops_EssenceOre",
+        "block": "RCrops:BlockOreGaianite",
         "clusterSize": 4,
         "numClusters": 2,
         "minHeight": 45,
@@ -59,6 +59,24 @@
         "dimensions": [
             -1,
             1
+        ]
+    },
+    "nethergaianite": {
+        "template": "uniform",
+        "block": {
+            "name": "RCrops:BlockOreGaianite",
+            "metadata": 1
+        },
+        "clusterSize": 4,
+        "numClusters": 2,
+        "minHeight": 45,
+        "maxHeight": 80,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
         ]
     },
     "osmium": {
@@ -151,6 +169,95 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
+            1
+        ]
+    },
+	"marble": {
+        "template": "uniform",
+        "block": "chisel:marble",
+        "clusterSize": 45,
+        "numClusters": 1,
+        "minHeight": 64,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "andesite": {
+        "template": "uniform",
+        "block": "chisel:andesite",
+		"material": "minecraft:stone",
+        "clusterSize": 32,
+        "numClusters": 10,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "diorite": {
+        "template": "uniform",
+        "block": "chisel:diorite",
+		"material": "stone",
+        "clusterSize": 32,
+        "numClusters": 10,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"granite": {
+        "template": "uniform",
+        "block": "chisel:granite",
+		"material": "minecraft:stone",
+        "clusterSize": 32,
+        "numClusters": 10,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "essenceberries": {
+        "template": "uniform",
+        "block": {
+            "name": "TConstruct:ore.berries.two",
+            "metadata": 9
+        },
+		"material": "minecraft:dirt",
+        "clusterSize": 4,
+        "numClusters": 20,
+        "minHeight": 0,
+        "maxHeight": 12,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+			-1,
             1
         ]
     }

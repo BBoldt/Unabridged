@@ -1,1 +1,1 @@
-print("Minetweaker Unabridged 2.0");
+print("Unabridged Scripts");

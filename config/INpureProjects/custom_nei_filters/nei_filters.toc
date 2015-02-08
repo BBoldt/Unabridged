@@ -10,9 +10,6 @@ ForgeMicroblock.js
 ExtraUtilities.js
 BuildCraft.js
 Bibliocraft.js
-BibliowoodsBOP.js
-BibliowoodsForestry.js
 AppliedEnergistics2.js
 Tcon.js
 MFR.js
-Genetics.js
