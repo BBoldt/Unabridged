@@ -1,0 +1,37 @@
+#Define custom crops here: <name>,<fruit:fruitmeta>,<soil>,<baseblock:baseblockmeta>,<tier>,<rendermethod>,<information>
+# - name:         is the name of the crop you want, for example: claysanthemum
+# - fruit:        the fruit you want the crop to produce, for example: minecraft:clay:0 (metadata is optional, you can get this from NEI). Type "null" if you want the crop to have no fruit.
+# - soil:         the soil you want the crop to be planted on, if you specify null, it will grow on farmland and any soil you whitelisted. Other possible soils are soulsand, sand or mycelium.
+# - baseblock:    this is the block that has to be underneath for the plant to grow, for example: (this can also be gotten from NEI, if you don't want to specify, type null)
+# - tier:         from 1 to 5, the higher, the slower the crop will grow
+# - rendermethod: put 1 to render like a flower (in an X-pattern), put 6 to render like wheat (hashtag-pattern)
+# - information:  put a short description (in the same line) of the crop. This will appear in the journal<n#you will need to make a texture pack and add textures for the crops in agricraft/blocks with the name cropName1, cropName2, cropName3, cropName4
+#where name is the name you specified here, there have to be 4 textures, texture 4 is the mature one
+#for the seed texture, put a texture named seedName in the agricraft/items of your resourcepack
+#Example: claysanthemum,minecraft:clay,minecraft:sand,minecraft:hardened_clay,2,6,a crop that extracts clay from the soil to grow clay buds.
+#this will need textures cropClaysanthemum1, cropClaysanthemum2, Claysanthemum3, Claysanthemum4 in the agricraft/textures/blocks folder and seedClaysanthemum in the agricraft/textures/items folder of your resourcepack.
+#Note the capitalization, always put a capital in the texture name. Also, this crop will not grow unless it has a hardened clay block underneath the block of farmland it's on
+Airy-Infusia,Thaumcraft:ItemShard,null,Thaumcraft:blockCrystal,2,1,A magical plant that extracts primal Aer energy from the soil to grow Air shards.
+Fiery-Infusia,Thaumcraft:ItemShard:1,null,Thaumcraft:blockCrystal:1,2,1,A magical plant that extracts primal Ignis energy from the soil to grow Fire shards.
+Watery-Infusia,Thaumcraft:ItemShard:2,null,Thaumcraft:blockCrystal:2,2,1,A magical plant that extracts primal Aqua energy from the soil to grow Water shards.
+Terran-Infusia,Thaumcraft:ItemShard:3,null,Thaumcraft:blockCrystal:3,2,1,A magical plant that extracts primal Terra energy from the soil to grow Earth shards.
+Orderly-Infusia,Thaumcraft:ItemShard:4,null,Thaumcraft:blockCrystal:4,2,1,A magical plant that extracts primal Ordo energy from the soil to grow Order shards.
+Entropic-Infusia,Thaumcraft:ItemShard:5,null,Thaumcraft:blockCrystal:5,2,1,A magical plant that extracts primal Perditio energy from the soil to grow Entropy shards.
+Mithrium,ThermalFoundation:material:102,null,ThermalFoundation:Ore:6,2,4,A bit magical and shiny. Now what the hell are you going to use this for?
+Zincova,Steamcraft:steamcraftNugget:1,null,Steamcraft:steamcraftOre:1,2,4,An antique plant originally cultivated in the age of steam.
+Cockscoal,minecraft:coal,null,minecraft:coal_ore,2,4,HAHAHAHA COCKS! It's based on a real plant name I swear. This plant is coveted for its potential uses in industry.
+Apatacia,MagicBees:beeNugget:7,null,Forestry:resources,2,4,This plant provides a very useful fertilizer to agriculturists interested in forest-based technology.
+Urania,IC2:itemUran235small,null,IC2:blockOreUran,2,4,Hmmmm.... it stings a little when touched. I'm sure you'll be fine!
+Yelloria,aobd:dustTinyYellorium,null,BigReactors:YelloriteOre,2,4,Do you like dealing with things that seem like they would be dangerous but are somehow magically safe? Then you'll love this plant!
+Qwart,minecraft:quartz,soulsand,minecraft:quartz_ore,2,4,The quartz produced from this plant feels a bit... squishier... than normal. I'm sure it will be fine.
+Certophus,appliedenergistics2:item.ItemMultiMaterial,null,appliedenergistics2:tile.OreQuartz,2,4,This plant is revered for it's ability to produce crystals which can be applied in many energistic circumstances. *wink wink*
+Ambegonia,Thaumcraft:ItemResource:6,null,Thaumcraft:blockCustomOre:7,2,4,Is it magical? Or is it just decorative? This plant makes amber!
+Cinnamum,Thaumcraft:ItemNugget:5,null,Thaumcraft:blockCustomOre,2,4,This plant slowly oozes out drops of quicksilver. I think it can give you brain damage if you try to drink it so make sure not to do that.
+Biomilotus,BiomesOPlenty:biomeBlock,null,BiomesOPlenty:biomeBlock,2,4,Somehow this plant produces an entire block... Its drops are useful if you're trying to find a particular biome in the world.
+Ender-Amaranthyst,BiomesOPlenty:gems,null,BiomesOPlenty:gemOre,2,4,This plant can produce a material that may be very useful to you if you like making pink tools.
+Ruboner,BiomesOPlenty:gems:1,null,BiomesOPlenty:gemOre:2,2,4,This plant produces a gem that is usually found in very warm climates.
+Peridactyl,BiomesOPlenty:gems:2,null,BiomesOPlenty:gemOre:4,2,4,This plant produces a gem that is usually found in flat and green climates.
+Topazanthoxylum,BiomesOPlenty:gems:3,null,BiomesOPlenty:gemOre:6,2,4,This plant produces a gem that is usually found in tropical climates.
+Tanzanigella,BiomesOPlenty:gems:4,null,BiomesOPlenty:gemOre:8,2,4,This plant produces a gem that is usually found in cold and mountainous climates.
+Malachalidonium,BiomesOPlenty:gems:5,null,BiomesOPlenty:gemOre:10,2,4,This plant produces a gem that is usually found in very wet climates.
+Sapphuopsis,BiomesOPlenty:gems:6,null,BiomesOPlenty:gemOre:12,2,4,This plant produces a gem that is usually found in the ocean and watery climates.

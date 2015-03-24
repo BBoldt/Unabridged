@@ -1,17 +1,16 @@
 [
   {
     "address": "irc.esper.net",
-    "nick": "%USERNAME%",
+    "nick": "bboldt",
     "bot": {
-      "ident": "EiraIRC",
-      "description": "EiraIRC Bot"
+      "description": "Unabridged Player"
     },
     "settings": {
-      "autoJoin": true
+      "autoWho": true
     },
     "channels": [
       {
-        "name": "#Unabridged"
+        "name": "#unabridged"
       }
     ]
   }

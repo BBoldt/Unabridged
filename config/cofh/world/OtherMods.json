@@ -20,7 +20,10 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -1,
+            -30,
+			-29,
+			-28,
+			-1,
             1
         ]
     },
@@ -41,42 +44,11 @@
         ],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -1,
+            -30,
+			-29,
+			-28,
+			-1,
             1
-        ]
-    },
-    "gaianite": {
-        "template": "uniform",
-        "block": "RCrops:BlockOreGaianite",
-        "clusterSize": 4,
-        "numClusters": 2,
-        "minHeight": 45,
-        "maxHeight": 80,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
-    },
-    "nethergaianite": {
-        "template": "uniform",
-        "block": {
-            "name": "RCrops:BlockOreGaianite",
-            "metadata": 1
-        },
-        "clusterSize": 4,
-        "numClusters": 2,
-        "minHeight": 45,
-        "maxHeight": 80,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [
-            -1
         ]
     },
     "osmium": {
@@ -91,7 +63,10 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -1,
+            -30,
+			-29,
+			-28,
+			-1,
             1
         ]
     },
@@ -113,27 +88,52 @@
         ],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -1,
+            -30,
+			-29,
+			-28,
+			-1,
             1
         ]
     },
-    "GCsilicon": {
-        "template": "uniform",
+    "EnderAmethyst": {
+        "template": "normal",
         "block": {
-            "name": "GalacticraftCore:tile.gcBlockCore",
-            "metadata": 8
+            "name": "BiomesOPlenty:gemOre"
         },
-        "clusterSize": 6,
-        "numClusters": 6,
-        "minHeight": 8,
-        "maxHeight": 32,
+		"material": "minecraft:end_stone",
+        "clusterSize": 13,
+        "numClusters": 16,
+        "minHeight": 10,
+        "maxHeight": 118,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -30,
+			-29,
+			-28,
+			-1,
+            1
+        ]
+    },
+	"EnderAmethyst": {
+        "template": "normal",
+        "block": {
+            "name": "BiomesOPlenty:biomeBlock"
+        },
+		"material": "minecraft:end_stone",
+        "clusterSize": 16,
+        "numClusters": 24,
+        "minHeight": 10,
+        "maxHeight": 118,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
-            1
+			0
         ]
     },
     "apatite": {
@@ -150,7 +150,10 @@
         ],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -1,
+            -30,
+			-29,
+			-28,
+			-1,
             1
         ]
     },
@@ -168,7 +171,10 @@
         ],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -1,
+            -30,
+			-29,
+			-28,
+			-1,
             1
         ]
     },
@@ -186,7 +192,10 @@
         ],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -1,
+            -30,
+			-29,
+			-28,
+			-1,
             1
         ]
     },
@@ -203,7 +212,10 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -1,
+            -30,
+			-29,
+			-28,
+			-1,
             1
         ]
     },
@@ -220,7 +232,10 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -1,
+            -30,
+			-29,
+			-28,
+			-1,
             1
         ]
     },
@@ -237,7 +252,10 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -1,
+            -30,
+			-29,
+			-28,
+			-1,
             1
         ]
     },
@@ -257,6 +275,9 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
+            -30,
+			-29,
+			-28,
 			-1,
             1
         ]

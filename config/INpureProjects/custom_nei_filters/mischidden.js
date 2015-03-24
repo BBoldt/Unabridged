@@ -1,0 +1,30 @@
+if (mischidden_enabled) {
+    NEI.hide("AdvancedRepulsionSystems:DeFenceCodeDoor");
+    NEI.hide("AdvancedRepulsionSystems:field");
+    NEI.hide("AWWayofTime:blockMimic");
+    NEI.hide("AWWayofTime:blockSchemSaver");
+    NEI.hide("AWWayofTime:bloodLight");
+    NEI.hide("AWWayofTime:bloodMagicBaseItems:32");
+    NEI.hide("AWWayofTime:boundBootsWater");
+    NEI.hide("AWWayofTime:boundBootsWind");
+    NEI.hide("AWWayofTime:boundHelmetEarth");
+    NEI.hide("AWWayofTime:boundHelmetWater");
+    NEI.hide("AWWayofTime:boundHelmetWind");
+    NEI.hide("AWWayofTime:boundLeggingsEarth");
+    NEI.hide("AWWayofTime:boundLeggingsWater");
+    NEI.hide("AWWayofTime:boundLeggingsWater");
+    NEI.hide("AWWayofTime:boundLeggingsWind");
+    NEI.hide("AWWayofTime:boundPlateEarth");
+    NEI.hide("AWWayofTime:boundPlateWater");
+    NEI.hide("AWWayofTime:boundPlateWind");
+    NEI.hide("AWWayofTime:fluidSigil");
+    NEI.hide("AWWayofTime:itemBloodMagicBook");
+    NEI.hide("AWWayofTime:spectralBlock");
+    NEI.hide("AWWayofTime:spectralContainer");
+    NEI.hide("JAKJ_RedstoneInMotion:tile.JAKJ_RedstoneInMotion_Spectre");
+    NEI.hide("TConstruct:GravelOre:*");
+    NEI.hide("TConstruct:ore.berries.one:*");
+    NEI.hide("TwilightForest:tile.TFUncraftingTable");
+    NEI.override("TConstruct:ore.berries.two:*", [9]);
+    NEI.override("TConstruct:oreBerries:*", [5]);
+}

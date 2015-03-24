@@ -1,0 +1,5 @@
+#Define blocks to whitelist as fertile soil here: <mod>:<blockname>:<blockmeta>
+#You can get these values from NEI
+#Whitelisting a block as a fertile soil means you can plant crops on them
+#Note that this only works for crops that can be planted on farmland, crops that require a specific soil (e.g. nether wart or cactus) will still need that particular soil
+#For example: Forestry:soil:0 (this will add forestry humus to the whitelist)
