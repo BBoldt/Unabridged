@@ -8,20 +8,21 @@ import mods.mfr.Planter;
 furnace.setFuel(<aether:ambrosiumShard>, 800);
 
 // Oredict stuff
-<ore:stickWood>.add(<aether:skyrootStick>);
-<ore:plankWood>.add(<aether:skyrootPlank>);
-<ore:logWood>.add(<aether:aetherLog>);
+<ore:chestWood>.add(<aether:skyrootChest>);
 <ore:logWood>.add(<aether:aetherLog:1>);
 <ore:logWood>.add(<aether:aetherLog:2>);
+<ore:logWood>.add(<aether:aetherLog>);
+<ore:plankWood>.add(<aether:skyrootPlank>);
 <ore:slabWood>.add(<aether:tile.skyrootSingleSlab>);
-<ore:treeSapling>.add(<aether:blueSkyrootSapling>);
-<ore:treeSapling>.add(<aether:purpleCrystalSapling>);
-<ore:treeSapling>.add(<aether:greenSkyrootSapling>);
-<ore:treeSapling>.add(<aether:goldenOakSapling>);
-<ore:treeLeaves>.add(<aether:purpleFruitLeaves>);
-<ore:treeLeaves>.add(<aether:purpleCrystalLeaves>);
+<ore:stickWood>.add(<aether:skyrootStick>);
 <ore:treeLeaves>.add(<aether:blueSkyrootLeaves>);
 <ore:treeLeaves>.add(<aether:darkBlueSkyrootLeaves>);
+<ore:treeLeaves>.add(<aether:purpleCrystalLeaves>);
+<ore:treeLeaves>.add(<aether:purpleFruitLeaves>);
+<ore:treeSapling>.add(<aether:blueSkyrootSapling>);
+<ore:treeSapling>.add(<aether:goldenOakSapling>);
+<ore:treeSapling>.add(<aether:greenSkyrootSapling>);
+<ore:treeSapling>.add(<aether:purpleCrystalSapling>);
 
 // Simple Conversions
 recipes.addShapeless(<minecraft:cobblestone>, [<aether:holystone:1>]);
