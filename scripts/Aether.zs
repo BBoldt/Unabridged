@@ -11,6 +11,7 @@ furnace.setFuel(<aether:ambrosiumShard>, 800);
 <ore:stickWood>.add(<aether:skyrootStick>);
 <ore:plankWood>.add(<aether:skyrootPlank>);
 <ore:logWood>.add(<aether:aetherLog>);
+<ore:logWood>.add(<aether:aetherLog:1>);
 <ore:logWood>.add(<aether:aetherLog:2>);
 <ore:slabWood>.add(<aether:tile.skyrootSingleSlab>);
 <ore:treeSapling>.add(<aether:blueSkyrootSapling>);
