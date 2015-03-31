@@ -1,7 +1,7 @@
 [
   {
     "address": "irc.esper.net",
-    "nick": "bboldt",
+    "nick": "%USERNAME%",
     "bot": {
       "description": "Unabridged Player"
     },
