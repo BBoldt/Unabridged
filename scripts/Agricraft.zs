@@ -28,7 +28,3 @@ SeedMutation.add(<AgriCraft:seedTopazanthoxylum>, <AgriCraft:seedEmeryllis>, <Ag
 SeedMutation.add(<AgriCraft:seedTanzanigella>, <AgriCraft:seedEmeryllis>, <AgriCraft:seedAllium>);
 SeedMutation.add(<AgriCraft:seedMalachalidonium>, <AgriCraft:seedEmeryllis>, <AgriCraft:seedCactus>);
 SeedMutation.add(<AgriCraft:seedSapphuopsis>, <AgriCraft:seedEmeryllis>, <AgriCraft:seedOrchid>);
-
-// Osmium fix
-recipes.addShapeless(<Mekanism:Ingot:1>, [<ore:nuggetOsmium>, <ore:nuggetOsmium>, <ore:nuggetOsmium>, <ore:nuggetOsmium>, <ore:nuggetOsmium>, <ore:nuggetOsmium>, <ore:nuggetOsmium>, <ore:nuggetOsmium>, <ore:nuggetOsmium>]);
-recipes.addShapeless(<AgriCraft:nuggetOsmium> * 9, [<ore:ingotOsmium>]);
