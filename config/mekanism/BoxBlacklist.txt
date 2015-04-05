@@ -1,15 +1,28 @@
 # Use this file to tell Mekanism which blocks should not be picked up by a cardboard box.
 # Proper syntax is "ID:META". Example (for stone):
 # 1:0
-Thaumcraft:blockCosmeticSolid:8
-Thaumcraft:blockAiry
-HardcoreEnderExpansion:energy_cluster
-minecraft:mob_spawner
-ThermalExpansion:Strongbox
-ThermalExpansion:Tesseract
-ThermalExpansion:Cache
-EnderIO:blockTransceiver
-CarpentersBlocks:blockCarpentersSafe
-ExtraUtilities:generator
-ExtraUtilities:generator.8
-ExtraUtilities:generator.64
+Thaumcraft:blockWarded:0
+Thaumcraft:blockCosmeticOpaque:2
+Thaumcraft:blockArcaneDoor:0
+Thaumcraft:blockArcaneDoor:1
+Thaumcraft:blockArcaneDoor:2
+Thaumcraft:blockArcaneDoor:3
+Thaumcraft:blockArcaneDoor:4
+Thaumcraft:blockArcaneDoor:5
+Thaumcraft:blockArcaneDoor:6
+Thaumcraft:blockArcaneDoor:7
+Thaumcraft:blockArcaneDoor:8
+Thaumcraft:blockArcaneDoor:9
+Thaumcraft:blockArcaneDoor:10
+Thaumcraft:blockArcaneDoor:11
+Thaumcraft:blockArcaneDoor:12
+Thaumcraft:blockArcaneDoor:13
+Thaumcraft:blockArcaneDoor:14
+Thaumcraft:blockArcaneDoor:15
+Thaumcraft:woodenDevice:2
+Thaumcraft:woodenDevice:3
+Thaumcraft:blockAiry:0
+ThermalExpansion:StrongBox:1
+ThermalExpansion:StrongBox:2
+ThermalExpansion:StrongBox:3
+ThermalExpansion:StrongBox:4
