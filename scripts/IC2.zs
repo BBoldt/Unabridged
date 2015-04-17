@@ -13,7 +13,6 @@ furnace.addRecipe(<ztech:meltedSugar> * 2, <ztech:sugarCandy>);
 recipes.remove(<IC2:blockMachine3:7>);
 recipes.remove(<IC2:blockMachine2:2>);
 recipes.remove(<IC2:blockCrop>);
-recipes.remove(<IC2:itemGrinPowder>);
 recipes.remove(<IC2:itemWeedingTrowel>);
 recipes.remove(<IC2:itemCropnalyzer>);
 recipes.remove(<IC2:itemWeedEx>);

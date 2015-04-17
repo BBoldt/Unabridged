@@ -11,27 +11,48 @@
 #Example: claysanthemum,minecraft:clay,minecraft:sand,minecraft:hardened_clay,2,6,a crop that extracts clay from the soil to grow clay buds.
 #this will need textures cropClaysanthemum1, cropClaysanthemum2, Claysanthemum3, Claysanthemum4 in the agricraft/textures/blocks folder and seedClaysanthemum in the agricraft/textures/items folder of your resourcepack.
 #Note the capitalization, always put a capital in the texture name. Also, this crop will not grow unless it has a hardened clay block underneath the block of farmland it's on
-Airy-Infusia,Thaumcraft:ItemShard,null,Thaumcraft:blockCrystal,2,1,A magical plant that extracts primal Aer energy from the soil to grow Air shards.
-Fiery-Infusia,Thaumcraft:ItemShard:1,null,Thaumcraft:blockCrystal:1,2,1,A magical plant that extracts primal Ignis energy from the soil to grow Fire shards.
-Watery-Infusia,Thaumcraft:ItemShard:2,null,Thaumcraft:blockCrystal:2,2,1,A magical plant that extracts primal Aqua energy from the soil to grow Water shards.
-Terran-Infusia,Thaumcraft:ItemShard:3,null,Thaumcraft:blockCrystal:3,2,1,A magical plant that extracts primal Terra energy from the soil to grow Earth shards.
-Orderly-Infusia,Thaumcraft:ItemShard:4,null,Thaumcraft:blockCrystal:4,2,1,A magical plant that extracts primal Ordo energy from the soil to grow Order shards.
-Entropic-Infusia,Thaumcraft:ItemShard:5,null,Thaumcraft:blockCrystal:5,2,1,A magical plant that extracts primal Perditio energy from the soil to grow Entropy shards.
-Mithrium,ThermalFoundation:material:102,null,ThermalFoundation:Ore:6,2,4,A bit magical and shiny. Now what the hell are you going to use this for?
-Zincova,Steamcraft:steamcraftNugget:1,null,Steamcraft:steamcraftOre:1,2,4,An antique plant originally cultivated in the age of steam.
-Cockscoal,minecraft:coal,null,minecraft:coal_ore,2,4,HAHAHAHA COCKS! It's based on a real plant name I swear. This plant is coveted for its potential uses in industry.
-Apatacia,MagicBees:beeNugget:7,null,Forestry:resources,2,4,This plant provides a very useful fertilizer to agriculturists interested in forest-based technology.
-Urania,IC2:itemUran235small,null,IC2:blockOreUran,2,4,Hmmmm.... it stings a little when touched. I'm sure you'll be fine!
-Yelloria,aobd:dustTinyYellorium,null,BigReactors:YelloriteOre,2,4,Do you like dealing with things that seem like they would be dangerous but are somehow magically safe? Then you'll love this plant!
-Qwart,minecraft:quartz,soulsand,minecraft:quartz_ore,2,4,The quartz produced from this plant feels a bit... squishier... than normal. I'm sure it will be fine.
-Certophus,appliedenergistics2:item.ItemMultiMaterial,null,appliedenergistics2:tile.OreQuartz,2,4,This plant is revered for it's ability to produce crystals which can be applied in many energistic circumstances. *wink wink*
-Ambegonia,Thaumcraft:ItemResource:6,null,Thaumcraft:blockCustomOre:7,2,4,Is it magical? Or is it just decorative? This plant makes amber!
-Cinnamum,Thaumcraft:ItemNugget:5,null,Thaumcraft:blockCustomOre,2,4,This plant slowly oozes out drops of quicksilver. I think it can give you brain damage if you try to drink it so make sure not to do that.
-Biomilotus,BiomesOPlenty:biomeBlock,null,BiomesOPlenty:biomeBlock,2,4,Somehow this plant produces an entire block... Its drops are useful if you're trying to find a particular biome in the world.
-Ender-Amaranthyst,BiomesOPlenty:gems,null,BiomesOPlenty:gemOre,2,4,This plant can produce a material that may be very useful to you if you like making pink tools.
-Ruboner,BiomesOPlenty:gems:1,null,BiomesOPlenty:gemOre:2,2,4,This plant produces a gem that is usually found in very warm climates.
-Peridactyl,BiomesOPlenty:gems:2,null,BiomesOPlenty:gemOre:4,2,4,This plant produces a gem that is usually found in flat and green climates.
-Topazanthoxylum,BiomesOPlenty:gems:3,null,BiomesOPlenty:gemOre:6,2,4,This plant produces a gem that is usually found in tropical climates.
-Tanzanigella,BiomesOPlenty:gems:4,null,BiomesOPlenty:gemOre:8,2,4,This plant produces a gem that is usually found in cold and mountainous climates.
-Malachalidonium,BiomesOPlenty:gems:5,null,BiomesOPlenty:gemOre:10,2,4,This plant produces a gem that is usually found in very wet climates.
-Sapphuopsis,BiomesOPlenty:gems:6,null,BiomesOPlenty:gemOre:12,2,4,This plant produces a gem that is usually found in the ocean and watery climates.
+Airy-Infusia,Thaumcraft:ItemShard,null,Thaumcraft:blockCrystal,3,1,A magical plant that extracts primal Aer energy from the soil to grow Air shards.
+Fiery-Infusia,Thaumcraft:ItemShard:1,null,Thaumcraft:blockCrystal:1,3,1,A magical plant that extracts primal Ignis energy from the soil to grow Fire shards.
+Watery-Infusia,Thaumcraft:ItemShard:2,null,Thaumcraft:blockCrystal:2,3,1,A magical plant that extracts primal Aqua energy from the soil to grow Water shards.
+Terran-Infusia,Thaumcraft:ItemShard:3,null,Thaumcraft:blockCrystal:3,3,1,A magical plant that extracts primal Terra energy from the soil to grow Earth shards.
+Orderly-Infusia,Thaumcraft:ItemShard:4,null,Thaumcraft:blockCrystal:4,3,1,A magical plant that extracts primal Ordo energy from the soil to grow Order shards.
+Entropic-Infusia,Thaumcraft:ItemShard:5,null,Thaumcraft:blockCrystal:5,3,1,A magical plant that extracts primal Perditio energy from the soil to grow Entropy shards.
+Mithrium,ThermalFoundation:material:102,null,ThermalFoundation:Ore:6,4,6,A bit magical and shiny. Now what the hell are you going to use this for?
+Zincova,Steamcraft:steamcraftNugget:1,null,Steamcraft:steamcraftOre:1,4,6,An antique plant originally cultivated in the age of steam.
+Cockscoal,minecraft:coal,null,minecraft:coal_ore,5,6,HAHAHAHA COCKS! It's based on a real plant name I swear. This plant is coveted for its potential uses in industry.
+Apatacia,MagicBees:beeNugget:7,null,Forestry:resources,5,6,This plant provides a very useful fertilizer to agriculturists interested in forest-based technology.
+Urania,IC2:itemUran235small,null,IC2:blockOreUran,5,6,Hmmmm.... it stings a little when touched. I'm sure you'll be fine!
+Yelloria,aobd:dustTinyYellorium,null,BigReactors:YelloriteOre,5,6,Do you like dealing with things that seem like they would be dangerous but are somehow magically safe? Then you'll love this plant!
+Qwart,minecraft:quartz,soulsand,minecraft:quartz_ore,4,6,The quartz produced from this plant feels a bit... squishier... than normal. I'm sure it will be fine.
+Certophus,appliedenergistics2:item.ItemMultiMaterial,null,appliedenergistics2:tile.OreQuartz,4,6,This plant is revered for it's ability to produce crystals which can be applied in many energistic circumstances. *wink wink*
+Ambegonia,Thaumcraft:ItemResource:6,null,Thaumcraft:blockCustomOre:7,4,6,Is it magical? Or is it just decorative? This plant makes amber!
+Cinnamum,Thaumcraft:ItemNugget:5,null,Thaumcraft:blockCustomOre,4,6,This plant slowly oozes out drops of quicksilver. I think it can give you brain damage if you try to drink it so make sure not to do that.
+Biomilotus,BiomesOPlenty:biomeBlock,null,BiomesOPlenty:biomeBlock,4,6,Somehow this plant produces an entire block... Its drops are useful if you're trying to find a particular biome in the world.
+Ender-Amaranthyst,BiomesOPlenty:gems,null,BiomesOPlenty:gemOre,5,6,This plant can produce a material that may be very useful to you if you like making pink tools.
+Ruboner,BiomesOPlenty:gems:1,null,BiomesOPlenty:gemOre:2,3,6,This plant produces a gem that is usually found in very warm climates.
+Peridactyl,BiomesOPlenty:gems:2,null,BiomesOPlenty:gemOre:4,3,6,This plant produces a gem that is usually found in flat and green climates.
+Topazanthoxylum,BiomesOPlenty:gems:3,null,BiomesOPlenty:gemOre:6,3,6,This plant produces a gem that is usually found in tropical climates.
+Tanzanigella,BiomesOPlenty:gems:4,null,BiomesOPlenty:gemOre:8,3,6,This plant produces a gem that is usually found in cold and mountainous climates.
+Malachalidonium,BiomesOPlenty:gems:5,null,BiomesOPlenty:gemOre:10,3,6,This plant produces a gem that is usually found in very wet climates.
+Sapphuopsis,BiomesOPlenty:gems:6,null,BiomesOPlenty:gemOre:12,3,6,This plant produces a gem that is usually found in the ocean and watery climates.
+Weed,null,null,null,1,6,Invasive plant that randomly crashes your party. 420 blaze it!
+Cocoa,minecraft:dye:3,null,null,3,6,Good if you like to make cookies but hate jungle logs.
+Coffee,IC2:itemCofeeBeans,null,null,3,6,Stay up all night!
+Hops,IC2:itemHops,null,null,3,6,This plant is loved all over the world for its use in making beer.
+Blackthorn,minecraft:dye,null,null,3,6,This plant is squid approved.
+Terra-Wart,IC2:itemTerraWart,null,null,3,6,It tastes kinda good?
+Stickreed,IC2:itemHarz,null,null,3,6,Sticky. Gets kinda rubbery when you cook it.
+Arachnia,minecraft:spider_eye,null,null,4,6,Literally spiders.
+Oilberry,ExtraBees:propolis:1,null,null,5,6,No time for pumping oil out of the ground? This plant is for you.
+Blazereed,minecraft:blaze_rod,null,null,5,6,Pretty hot. 420 blaze it!
+Flax,minecraft:string,null,null,2,6,Good source of string.
+Carrion-Flower,minecraft:rotten_flesh,null,null,4,6,This plant smells terrible.
+Creeperweed,minecraft:gunpowder,null,null,5,6,A bit explosive.
+Enderbloom,EnderZoo:enderFragment,null,null,5,6,Uh oh. You seem to have channeled another dimension while crossbreeding. No biggie.
+Milkwart,ExtraBees:honeyDrop:6,null,null,4,6,Save those cow nipples from the constant milking. You monster!
+Pitcher-Plant,minecraft:slime_ball,null,null,4,1,Traps flies. Also produces a slimey liquid that forms into balls when you harvest it.
+Tearstalk,minecraft:ghast_tear,null,null,5,6,Such a sad plant.
+
+
+
+

@@ -21,6 +21,15 @@ if (mischidden_enabled) {
     NEI.hide("AWWayofTime:itemBloodMagicBook");
     NEI.hide("AWWayofTime:spectralBlock");
     NEI.hide("AWWayofTime:spectralContainer");
+    NEI.hide("IC2:blockCrop");
+    NEI.hide("IC2:blockMachine2:2");
+    NEI.hide("IC2:blockMachine3:7");
+    NEI.hide("IC2:itemCellHydrant");
+    NEI.hide("IC2:itemCropnalyzer");
+    NEI.hide("IC2:itemCropSeed");
+    NEI.hide("IC2:itemGrinPowder");
+    NEI.hide("IC2:itemWeedEx");
+    NEI.hide("IC2:itemWeedingTrowel");
     NEI.hide("JAKJ_RedstoneInMotion:tile.JAKJ_RedstoneInMotion_Spectre");
     NEI.hide("malisisdoors:curtain");
     NEI.hide("malisisdoors:door_acacia");
