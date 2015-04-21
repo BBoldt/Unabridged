@@ -41,3 +41,7 @@ recipes.remove(<TConstruct:heartCanister:1>);
 recipes.remove(<TConstruct:heartCanister:2>);
 recipes.remove(<TConstruct:heartCanister:4>);
 recipes.remove(<TConstruct:heartCanister:6>);
+
+// XP Berries
+mods.tconstruct.Smeltery.addMelting(<TConstruct:oreBerries:5>, <liquid:xpjuice> * 200, 200, <TConstruct:ore.berries.two:9>);
+mods.thermalexpansion.Crucible.addRecipe(500, <TConstruct:oreBerries:5>, <liquid:xpjuice> * 200);
