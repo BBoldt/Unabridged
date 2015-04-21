@@ -47,9 +47,7 @@ if (mischidden_enabled) {
     NEI.hide("malisisdoors:null");
     NEI.hide("malisisdoors:shoji_door");
     NEI.hide("malisisdoors:wood_sliding_door");
-    NEI.hide("TConstruct:GravelOre:*");
-    NEI.hide("TConstruct:ore.berries.one:*");
+    NEI.hide("TConstruct:GravelOre");
+    NEI.hide("TConstruct:ore.berries.one");
     NEI.hide("TwilightForest:tile.TFUncraftingTable");
-    NEI.override("TConstruct:ore.berries.two:*", [9]);
-    NEI.override("TConstruct:oreBerries:*", [5]);
 }
