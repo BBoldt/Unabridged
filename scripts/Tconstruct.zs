@@ -35,3 +35,9 @@ mods.tconstruct.Smeltery.addMelting(<ore:dustObsidian>, <liquid:obsidian.molten>
 <ore:nuggetTin>.remove(<TConstruct:oreBerries:3>);
 <ore:nuggetAluminum>.remove(<TConstruct:oreBerries:4>);
 <ore:nuggetAluminium>.remove(<TConstruct:oreBerries:4>);
+
+// Bye Bye Heart Canisters
+recipes.remove(<TConstruct:heartCanister:1>);
+recipes.remove(<TConstruct:heartCanister:2>);
+recipes.remove(<TConstruct:heartCanister:4>);
+recipes.remove(<TConstruct:heartCanister:6>);
