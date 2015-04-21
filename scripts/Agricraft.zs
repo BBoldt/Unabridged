@@ -53,3 +53,6 @@ SeedMutation.add(<AgriCraft:seedTearstalk>, <AgriCraft:seedCoffee>, <AgriCraft:s
 // Crop Sticks
 recipes.remove(<AgriCraft:cropsItem>);
 recipes.addShaped(<AgriCraft:cropsItem>, [[<Forestry:oakStick>, <Forestry:oakStick>], [<Forestry:oakStick>, <Forestry:oakStick>]]);
+
+// Osmium Fix
+recipes.addShaped(<Mekanism:Ingot:1>, [[<AgriCraft:nuggetOsmium>, <AgriCraft:nuggetOsmium>, <AgriCraft:nuggetOsmium>], [<AgriCraft:nuggetOsmium>, <AgriCraft:nuggetOsmium>, <AgriCraft:nuggetOsmium>], [<AgriCraft:nuggetOsmium>, <AgriCraft:nuggetOsmium>, <AgriCraft:nuggetOsmium>]]);
