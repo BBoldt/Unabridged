@@ -14,6 +14,5 @@ recipes.remove(<IC2:itemWeedingTrowel>);
 recipes.remove(<IC2:itemCropnalyzer>);
 recipes.remove(<IC2:itemWeedEx>);
 
-// Uranium
-<ore:ingotUranium>.add(<IC2:itemUran238>);
-<ore:ingotUranium>.remove(<AdvancedSolarPanel:asp_crafting_items:11>);
+// Uranium to Yellorium
+recipes.addShaped(<BigReactors:BRIngot>, [[<ore:dyeYellow>, <ore:dyeYellow>, <ore:dyeYellow>], [<ore:dyeYellow>, <ore:ingotUranium>, <ore:dyeYellow>], [<ore:dyeYellow>, <ore:dyeYellow>, <ore:dyeYellow>]]);
