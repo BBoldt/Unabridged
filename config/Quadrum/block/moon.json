@@ -23,17 +23,6 @@
         "mining-level": 2
     },
     {
-        "name": "moonIlmenite",
-        "default-texture": "moonIlmenite",
-        "material": "stone",
-        "hardness": 1.5,
-        "resistance": 10,
-        "ore-dictionary": [
-            "oreTitanium"
-        ],
-        "mining-level": 2
-    },
-    {
         "name": "moonLumium",
         "default-texture": "moonLumium",
         "material": "stone",

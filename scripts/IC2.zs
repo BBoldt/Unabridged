@@ -1,9 +1,6 @@
 /* IndustrialCraft 2 Exp
    Tweaks and Alterations */
 
-// Uranium
-recipes.addShapeless(<IC2:itemUran238>, [<ore:ingotUranium>]);
-
 // Melted Sugar
 furnace.remove(<ztech:meltedSugar>);
 furnace.addRecipe(<ztech:meltedSugar>, <minecraft:reeds>, 1.0);
@@ -16,3 +13,7 @@ recipes.remove(<IC2:blockCrop>);
 recipes.remove(<IC2:itemWeedingTrowel>);
 recipes.remove(<IC2:itemCropnalyzer>);
 recipes.remove(<IC2:itemWeedEx>);
+
+// Uranium
+<ore:ingotUranium>.add(<IC2:itemUran238>);
+<ore:ingotUranium>.remove(<AdvancedSolarPanel:asp_crafting_items:11>);
