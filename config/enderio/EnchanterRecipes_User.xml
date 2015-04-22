@@ -23,5 +23,26 @@
   </enchantment>
   
  -->
+  <enchantment name="enchantment.NaturalAbsorption.absorb" costPerLevel="15">
+    <itemStack modID="minecraft" itemName="golden_apple" itemMeta="1" number="2"/>
+  </enchantment>
+  <enchantment name="enchantment.openblocks.explosive" costPerLevel="15">
+    <itemStack modID="minecraft" itemName="tnt" number="4"/>
+  </enchantment>
+  <enchantment name="enchantment.openblocks.laststand" costPerLevel="15">
+    <itemStack modID="OpenBlocks" itemName="filledbucket"/>
+  </enchantment>
+  <enchantment name="enchantment.openblocks.flimflam" costPerLevel="15">
+    <itemStack modID="minecraft" itemName="golden_carrot" number="4"/>
+  </enchantment>
+  <enchantment name="enchantment.gravityResist" costPerLevel="1">
+    <itemStack modID="superMassiveTech" itemName="depletedNetherStar"/>
+  </enchantment>
+  <enchantment name="enchantment.xpboost" costPerLevel="15">
+    <itemStack modID="minecraft" itemName="lapis_block" number="2"/>
+  </enchantment>
+  <enchantment name="enchantment.autosmelt" costPerLevel="15">
+    <itemStack modID="TConstruct" itemName="materials" itemMeta="7"/>
+  </enchantment>
 
 </enchaterRecipes>
