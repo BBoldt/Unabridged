@@ -35,16 +35,16 @@ Hops,IC2:itemHops,null,null,3,6,This plant is loved all over the world for its u
 Blackthorn,minecraft:dye,null,null,3,6,This plant is squid approved.
 Terra-Wart,IC2:itemTerraWart,mycelium,null,3,6,It tastes kinda good?
 Stickreed,IC2:itemHarz,null,null,3,6,Sticky. Gets kinda rubbery when you cook it.
-Arachnia,minecraft:spider_eye,null,MineFactoryReloaded:mobessence.still,4,6,Literally spiders.
+Arachnia,minecraft:spider_eye,null,ForbiddenMagic:StarBlock,4,6,Literally spiders.
 Oilberry,ExtraBees:propolis:1,null,null,5,6,No time for pumping oil out of the ground? This plant is for you.
-Blazereed,minecraft:blaze_rod,null,MineFactoryReloaded:mobessence.still,5,6,Pretty hot. 420 blaze it!
+Blazereed,minecraft:blaze_rod,null,ForbiddenMagic:StarBlock,5,6,Pretty hot. 420 blaze it!
 Flax,minecraft:string,null,null,2,6,Good source of string.
-Carrion-Flower,minecraft:rotten_flesh,null,MineFactoryReloaded:mobessence.still,4,6,This plant smells terrible.
-Creeperweed,minecraft:gunpowder,null,MineFactoryReloaded:mobessence.still,5,6,A bit explosive.
-Enderbloom,EnderZoo:enderFragment,null,MineFactoryReloaded:mobessence.still,5,6,Uh oh. You seem to have channeled another dimension while crossbreeding. No biggie.
-Milkwart,ExtraBees:honeyDrop:6,mycelium,MineFactoryReloaded:mobessence.still,4,6,Save those cow nipples from the constant milking. You monster!
-Pitcher-Plant,minecraft:slime_ball,null,MineFactoryReloaded:mobessence.still,4,1,Traps flies. Also produces a slimey liquid that forms into balls when you harvest it.
-Tearstalk,minecraft:ghast_tear,null,MineFactoryReloaded:mobessence.still,5,6,Such a sad plant.
+Carrion-Flower,minecraft:rotten_flesh,null,ForbiddenMagic:StarBlock,4,6,This plant smells terrible.
+Creeperweed,minecraft:gunpowder,null,ForbiddenMagic:StarBlock,5,6,A bit explosive.
+Enderbloom,EnderZoo:enderFragment,null,ForbiddenMagic:StarBlock,5,6,Uh oh. You seem to have channeled another dimension while crossbreeding. No biggie.
+Milkwart,ExtraBees:honeyDrop:6,mycelium,ForbiddenMagic:StarBlock,4,6,Save those cow nipples from the constant milking. You monster!
+Pitcher-Plant,minecraft:slime_ball,null,ForbiddenMagic:StarBlock,4,1,Traps flies. Also produces a slimey liquid that forms into balls when you harvest it.
+Tearstalk,minecraft:ghast_tear,null,ForbiddenMagic:StarBlock,5,6,Such a sad plant.
 
 
 

@@ -392,7 +392,8 @@ addOreDictionaryTooltips=true
         <itemStack modID="minecraft" itemName="wheat" />
       </input>
       <output>
-        <itemStack modID="minecraft" itemName="wheat_seeds" number="2" />
+        <itemStack modID="EnderIO" itemName="itemPowderIngot" itemMeta="8" number="2" />
+        <itemStack modID="minecraft" itemName="wheat_seeds" chance="0.2" />
       </output>
     </recipe>
 
@@ -444,8 +445,8 @@ addOreDictionaryTooltips=true
         <itemStack oreDictionary="oreQuartz" />
       </input>
       <output>
-        <itemStack modID="minecraft" itemName="quartz" number="4" />
-        <itemStack oreDictionary="dustCertusQuartz" chance="0.05" />
+        <itemStack modID="minecraft" itemName="quartz" number="2" />
+        <itemStack oreDictionary="dustNetherQuartz" chance="0.1" />
       </output>
     </recipe>
 
@@ -589,6 +590,24 @@ addOreDictionaryTooltips=true
         <itemStack oreDictionary="dustPlatinum" chance="0.1" />
       </output>
     </recipe>
+    
+    <recipe name="AluminumOre" energyCost="2400">
+      <input>
+        <itemStack oreDictionary="oreAluminum" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustAluminum" number="2" />
+      </output>
+    </recipe>
+    
+    <recipe name="AluminumIngot" energyCost="2400">
+      <input>
+        <itemStack oreDictionary="ingotAluminum" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustAluminum" />
+      </output>
+    </recipe>
 
   </recipeGroup>
 
@@ -692,19 +711,19 @@ addOreDictionaryTooltips=true
 
     <recipe name="CertusQuartzCrystal" energyCost="2400">
       <input>
-        <itemStack oreDictionary="crystalCertusQuartz" />
+        <itemStack oreDictionary="crystalCertusQuartz" number="2" />
       </input>
       <output>
-        <itemStack oreDictionary="dustCertusQuartz" />
+        <itemStack oreDictionary="dustCertusQuartz" chance="0.1" />
       </output>
     </recipe>
     
    	<recipe name="ChargedCertusQuartzCrystal" energyCost="2400">
       <input>
-        <itemStack modID="appliedenergistics2" itemName="item.ItemMultiMaterial" itemMeta="1"/>
+        <itemStack modID="appliedenergistics2" itemName="item.ItemMultiMaterial" itemMeta="1" number="2" />
       </input>
       <output>
-        <itemStack oreDictionary="dustCertusQuartz" />
+        <itemStack oreDictionary="dustCertusQuartz" chance="0.1" />
       </output>
     </recipe>
 

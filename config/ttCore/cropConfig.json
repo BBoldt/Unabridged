@@ -127,11 +127,6 @@
 			"meta":4
         },
 		{
-            "seed":"witchery:seedswormwood",
-            "block":"witchery:wormwood",
-			"meta":4
-        },
-		{
             "seed":"witchery:seedsmindrake",
             "block":"witchery:mindrake",
 			"meta":4
