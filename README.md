@@ -10,8 +10,6 @@ If it is a technical issue, you must include a crashlog or client log, or the is
 
 Suggestions should be marked with [Suggestion].
 
-======
-
 Modlist: 
 ======
 
@@ -19,8 +17,9 @@ In this pack you will find something for everyone. Mods for those who like techn
 Truly, one of the main goals of the pack is to make sure there is considerable diversity in the mods available, catering to many different styles of play.  There will be no forced progression through any mod. The choice is yours to make on how challenging or simple your adventure will be.
 Another goal is ensuring everything is relatively balanced. No mod should have too many negative impacts on a feature in another mod. In addition, great care was taken into making sure nothing is excessively overpowered compared to similar features and items in other mods.
 
-======
+
 Features unique to this modpack:
+======
 * Many custom Minetweaker scripts that introduce extra compatibility, fixes, and enhancements.
 * Thaumcraft aspects added to the entirety of Plant Mega Pack and Biomes O' Plenty, making mostly everything that generates in the world scannable.
 * Custom mining progression that works with both Iguana Tweaks/TiC tools and vanilla-style tools.
@@ -32,8 +31,6 @@ Features unique to this modpack:
 * Unity texture pack by CyanideX is enabled by default for a more Unified experience.
 * Custom main menu!
 * Much, much more!
-
-======
 
 On Reddit: http://www.reddit.com/r/MinecraftUnabridged/
 On Github: https://github.com/BBoldt/Unabridged
