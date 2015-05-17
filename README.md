@@ -22,8 +22,8 @@ Modlist:
 ======
 https://docs.google.com/spreadsheets/d/1D9sT7SgschCji8gbFHEEKKV2CqxsAM-DxAXGDVbxx4o/
 
+Links: 
+======
 On Reddit: http://www.reddit.com/r/MinecraftUnabridged/
-
 On Github: https://github.com/BBoldt/Unabridged
-
 On Atlauncher: https://www.atlauncher.com/pack/MinecraftUnabridged
