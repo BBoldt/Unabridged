@@ -1,4 +1,4 @@
-Introducing, Minecraft Unabridged! A pack I've been working on and improving since modded minecraft was on 1.5.2.
+Introducing: Minecraft Unabridged! A pack I've been working on and improving since modded minecraft was on 1.5.2.
 ======
 
 If you have a problem, click right here and give me as much information as you can!
@@ -9,6 +9,7 @@ A quick search to make sure your issue hasn't already been reported would be hel
 If it is a technical issue, you must include a crashlog or client log, or the issue will be closed.
 
 Suggestions should be marked with [Suggestion].
+
 ======
 
 Modlist: 
@@ -33,6 +34,7 @@ Features unique to this modpack:
 * Much, much more!
 
 ======
+
 On Reddit: http://www.reddit.com/r/MinecraftUnabridged/
 On Github: https://github.com/BBoldt/Unabridged
 On Atlauncher: https://www.atlauncher.com/pack/MinecraftUnabridged
