@@ -1,16 +1,23 @@
-If you have a problem, click right here and give me as much information as you can!
-https://github.com/BBoldt/Unabridged/issues/
-A quick search to make sure your issue hasn't already been reported would be helpful, if you find you are having an issue that has already been reported, feel free to add any extra information you may have gathered.
-If it is a technical issue, you must include a crashlog or client log, or the issue will be closed.
-Suggestions should be marked with [Suggestion].
-======
 Introducing, Minecraft Unabridged! A pack I've been working on and improving since modded minecraft was on 1.5.2.
 ======
+
+If you have a problem, click right here and give me as much information as you can!
+https://github.com/BBoldt/Unabridged/issues/
+
+A quick search to make sure your issue hasn't already been reported would be helpful, if you find you are having an issue that has already been reported, feel free to add any extra information you may have gathered.
+
+If it is a technical issue, you must include a crashlog or client log, or the issue will be closed.
+
+Suggestions should be marked with [Suggestion].
+======
+
 Modlist: 
 ======
+
 In this pack you will find something for everyone. Mods for those who like technology, magic, adventure, building, exploring, and more!
 Truly, one of the main goals of the pack is to make sure there is considerable diversity in the mods available, catering to many different styles of play.  There will be no forced progression through any mod. The choice is yours to make on how challenging or simple your adventure will be.
 Another goal is ensuring everything is relatively balanced. No mod should have too many negative impacts on a feature in another mod. In addition, great care was taken into making sure nothing is excessively overpowered compared to similar features and items in other mods.
+
 ======
 Features unique to this modpack:
 * Many custom Minetweaker scripts that introduce extra compatibility, fixes, and enhancements.
@@ -24,6 +31,7 @@ Features unique to this modpack:
 * Unity texture pack by CyanideX is enabled by default for a more Unified experience.
 * Custom main menu!
 * Much, much more!
+
 ======
 On Reddit: http://www.reddit.com/r/MinecraftUnabridged/
 On Github: https://github.com/BBoldt/Unabridged
