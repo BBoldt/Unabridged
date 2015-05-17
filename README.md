@@ -9,6 +9,10 @@ Truly, one of the main goals of the pack is to make sure there is considerable d
 
 Another goal is ensuring everything is relatively balanced. No mod should have too many negative impacts on a feature in another mod. In addition, great care was taken into making sure nothing is excessively overpowered compared to similar features and items in other mods.
 
+Modlist: 
+======
+https://docs.google.com/spreadsheets/d/1D9sT7SgschCji8gbFHEEKKV2CqxsAM-DxAXGDVbxx4o/
+
 Features unique to this modpack:
 ======
 * Many custom Minetweaker scripts that introduce extra compatibility, fixes, and enhancements.
@@ -22,10 +26,6 @@ Features unique to this modpack:
 * Unity texture pack by CyanideX is enabled by default for a more Unified experience.
 * Custom main menu!
 * Much, much more!
-
-Modlist: 
-======
-https://docs.google.com/spreadsheets/d/1D9sT7SgschCji8gbFHEEKKV2CqxsAM-DxAXGDVbxx4o/
 
 Links: 
 ======
