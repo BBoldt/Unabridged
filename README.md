@@ -1,5 +1,8 @@
-Introducing: Minecraft Unabridged! A pack I've been working on and improving since modded minecraft was on 1.5.2.
+![](http://i.imgur.com/1RVg9qu.png)
+Introducing: Minecraft Unabridged!
 ======
+A pack I've been working on and improving since modded minecraft was on 1.5.2.
+
 In this pack you will find something for everyone. Mods for those who like technology, magic, adventure, building, exploring, and more!
 
 Truly, one of the main goals of the pack is to make sure there is considerable diversity in the mods available, catering to many different styles of play.  There will be no forced progression through any mod. The choice is yours to make on how challenging or simple your adventure will be.
