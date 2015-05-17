@@ -33,5 +33,7 @@ Features unique to this modpack:
 * Much, much more!
 
 On Reddit: http://www.reddit.com/r/MinecraftUnabridged/
+
 On Github: https://github.com/BBoldt/Unabridged
+
 On Atlauncher: https://www.atlauncher.com/pack/MinecraftUnabridged
