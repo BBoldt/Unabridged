@@ -1,17 +1,8 @@
 {
-    "yellorite-uranium": {
+    "yellorite": {
         "template": "uniform",
-        "block": [
-            {
-                "name": "BigReactors:YelloriteOre",
-                "weight": 35
-            },
-            {
-                "name": "IC2:blockOreUran",
-                "weight": 65
-            }
-        ],
-        "clusterSize": 10,
+        "block": "BigReactors:YelloriteOre",
+        "clusterSize": 5,
         "numClusters": 2,
         "minHeight": 0,
         "maxHeight": 50,

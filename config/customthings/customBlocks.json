@@ -1,0 +1,208 @@
+{"data":
+    [
+        {
+            "name": "ore.nether.iron",
+            "harvestLevel": 4,
+            "hardness": 3F,
+            "toolType": "pickaxe",
+            "oreDictNames":[ "oreIron" ]
+        },
+        {
+            "name": "ore.nether.gold",
+            "harvestLevel": 4,
+            "hardness": 3F,
+            "toolType": "pickaxe",
+            "oreDictNames":[ "oreGold" ]
+        },
+        {
+            "name": "ore.nether.redstone",
+            "harvestLevel": 4,
+            "hardness": 3F,
+            "toolType": "pickaxe",
+            "oreDictNames":[ "oreRedstone" ],
+            "drops":[ "minecraft:redstone;0#4-10" ]
+        },
+        {
+            "name": "ore.nether.coal",
+            "harvestLevel": 4,
+            "hardness": 3F,
+            "toolType": "pickaxe",
+            "oreDictNames":[ "oreCoal" ],
+            "drops":[ "minecraft:coal;0#4-10" ]
+        },
+        {
+            "name": "ore.nether.lapis",
+            "harvestLevel": 4,
+            "hardness": 3F,
+            "toolType": "pickaxe",
+            "oreDictNames":[ "oreLapis" ],
+            "drops":[ "minecraft:dye;4#4-10" ]
+        },
+        {
+            "name": "ore.nether.diamond",
+            "harvestLevel": 4,
+            "hardness": 3F,
+            "toolType": "pickaxe",
+            "oreDictNames":[ "oreDiamond" ],
+            "drops":[ "minecraft:diamond;0#1-2" ]
+        },
+        {
+            "name": "ore.nether.emerald",
+            "harvestLevel": 4,
+            "hardness": 3F,
+            "toolType": "pickaxe",
+            "oreDictNames":[ "oreEmerald" ],
+            "drops":[ "minecraft:emerald;0#1-2" ]
+        },
+        {
+            "name": "ore.nether.copper",
+            "harvestLevel": 4,
+            "hardness": 3F,
+            "toolType": "pickaxe",
+            "oreDictNames":[ "oreCopper" ]
+        },
+        {
+            "name": "ore.nether.tin",
+            "harvestLevel": 4,
+            "hardness": 3F,
+            "toolType": "pickaxe",
+            "oreDictNames":[ "oreTin" ]
+        },
+        {
+            "name": "ore.nether.silver",
+            "harvestLevel": 4,
+            "hardness": 3F,
+            "toolType": "pickaxe",
+            "oreDictNames":[ "oreSilver" ]
+        },
+        {
+            "name": "ore.nether.lead",
+            "harvestLevel": 4,
+            "hardness": 3F,
+            "toolType": "pickaxe",
+            "oreDictNames":[ "oreLead" ]
+        },
+        {
+            "name": "ore.nether.nickel",
+            "harvestLevel": 4,
+            "hardness": 3F,
+            "toolType": "pickaxe",
+            "oreDictNames":[ "oreNickel" ]
+        },
+        {
+            "name": "ore.nether.mithril",
+            "harvestLevel": 4,
+            "hardness": 3F,
+            "toolType": "pickaxe",
+            "oreDictNames":[ "oreMithril" ]
+        },
+        {
+            "name": "ore.nether.platinum",
+            "harvestLevel": 4,
+            "hardness": 3F,
+            "toolType": "pickaxe",
+            "oreDictNames":[ "orePlatinum" ]
+        },
+        {
+            "name": "ore.nether.aluminum",
+            "harvestLevel": 4,
+            "hardness": 3F,
+            "toolType": "pickaxe",
+            "oreDictNames":[ "oreAluminum", "oreAluminium" ]
+        },
+        {
+            "name": "ore.moon.anorthite",
+            "harvestLevel": 2,
+            "hardness": 3F,
+            "toolType": "pickaxe",
+            "oreDictNames":[ "oreAluminum", "oreAluminium" ]
+        },
+        {
+            "name": "ore.moon.cyanite",
+            "harvestLevel": 2,
+            "hardness": 3F,
+            "toolType": "pickaxe",
+            "oreDictNames":[ "oreCyanite" ]
+        },
+        {
+            "name": "ore.moon.lumium",
+            "harvestLevel": 2,
+            "hardness": 3F,
+            "toolType": "pickaxe",
+            "oreDictNames":[ "oreLumium" ]
+        },
+        {
+            "name": "ore.moon.quartzCharged",
+            "harvestLevel": 2,
+            "hardness": 3F,
+            "toolType": "pickaxe",
+            "oreDictNames":[ "oreCertusQuartz" ],
+            "drops":[ "appliedenergistics2:item.ItemMultiMaterial;1#1", "appliedenergistics2:item.ItemMultiMaterial;2#1-2" ]
+        },
+        {
+            "name": "ore.mars.blizz",
+            "harvestLevel": 3,
+            "hardness": 3F,
+            "toolType": "pickaxe",
+            "oreDictNames":[ "oreBlizz" ],
+            "drops":[ "ThermalFoundation:material;1024#1", "ThermalFoundation:material;1025#1-2" ]
+        },
+        {
+            "name": "ore.mars.fluix",
+            "harvestLevel": 3,
+            "hardness": 3F,
+            "toolType": "pickaxe",
+            "oreDictNames":[ "oreFluixCrystal" ],
+            "drops":[ "appliedenergistics2:item.ItemMultiMaterial;7#1", "appliedenergistics2:item.ItemMultiMaterial;8#1-2" ]
+        },
+        {
+            "name": "ore.mars.gold",
+            "harvestLevel": 3,
+            "hardness": 3F,
+            "toolType": "pickaxe",
+            "oreDictNames":[ "oreGold" ]
+        },
+        {
+            "name": "ore.mars.ironConductive",
+            "harvestLevel": 3,
+            "hardness": 3F,
+            "toolType": "pickaxe",
+            "oreDictNames":[ "oreConductiveIron" ]
+        },
+        {
+            "name": "ore.mars.lead",
+            "harvestLevel": 3,
+            "hardness": 3F,
+            "toolType": "pickaxe",
+            "oreDictNames":[ "oreLead" ]
+        },
+        {
+            "name": "ore.mars.nickel",
+            "harvestLevel": 3,
+            "hardness": 3F,
+            "toolType": "pickaxe",
+            "oreDictNames":[ "oreNickel" ]
+        },
+        {
+            "name": "ore.mars.signalum",
+            "harvestLevel": 3,
+            "hardness": 3F,
+            "toolType": "pickaxe",
+            "oreDictNames":[ "oreSignalum" ]
+        },
+        {
+            "name": "ore.mars.silver",
+            "harvestLevel": 3,
+            "hardness": 3F,
+            "toolType": "pickaxe",
+            "oreDictNames":[ "oreSilver" ]
+        },
+        {
+            "name": "ore.mars.zinc",
+            "harvestLevel": 3,
+            "hardness": 3F,
+            "toolType": "pickaxe",
+            "oreDictNames":[ "oreZinc" ]
+        }
+    ]
+}

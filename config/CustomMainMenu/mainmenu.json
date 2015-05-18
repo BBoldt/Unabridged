@@ -133,9 +133,9 @@
             "text" : "Issue Tracker",
 			"texture" : "custommainmenu:textures/gui/buttonMedium.png",
 			"hoverText" : "Github",
-			"alignment" : "top_right",
+			"alignment" : "bottom_right",
             "posX" : -100,
-            "posY" : 2,
+            "posY" : -23,
             "width" : 98,
             "height" : 20,
 			"action" :
@@ -149,9 +149,9 @@
         {
             "text" : "Changelog",
 			"texture" : "custommainmenu:textures/gui/buttonMedium.png",
-			"alignment" : "top_center",
+			"alignment" : "bottom_center",
             "posX" : -50,
-            "posY" : 2,
+            "posY" : -23,
             "width" : 98,
             "height" : 20,
 			"action" :
@@ -166,9 +166,9 @@
             "text" : "Subreddit",
 			"texture" : "custommainmenu:textures/gui/buttonMedium.png",
 			"hoverText" : "Discussion",
-			"alignment" : "top_left",
+			"alignment" : "bottom_left",
             "posX" : 2,
-            "posY" : 2,
+            "posY" : -23,
             "width" : 98,
             "height" : 20,
 			"action" :
@@ -181,22 +181,13 @@
     
     "texts":
     {
-        "mojang":
+        "unabridged":
         {
-            "text" : "",
-            "posX" : -197,
-            "posY" : -10,
-            "color" : -1,
-            "alignment" : "bottom_right"
-        },
-		
-        "example":
-        {
-            "text" : "§bUNABRIDGED §c3.9_RC4",
+            "text" : "§bUNABRIDGED §aRelease 1",
             "posX" : 2,
-            "posY" : -10,
+            "posY" : 5,
             "color" : -1,
-            "alignment" : "bottom_left"
+            "alignment" : "top_left"
         }
 		
     },
@@ -220,7 +211,6 @@
 					"custommainmenu:scrn/1.png",
 					"custommainmenu:scrn/2.png",
 					"custommainmenu:scrn/3.png",
-					"custommainmenu:scrn/4.png",
 					"custommainmenu:scrn/5.png",
 					"custommainmenu:scrn/6.png",
 					"custommainmenu:scrn/7.png",
@@ -228,7 +218,6 @@
 					"custommainmenu:scrn/9.png",
 					"custommainmenu:scrn/10.png",
 					"custommainmenu:scrn/11.png",
-					"custommainmenu:scrn/12.png",
 					"custommainmenu:scrn/13.png",
 					"custommainmenu:scrn/14.png",
 					"custommainmenu:scrn/15.png",

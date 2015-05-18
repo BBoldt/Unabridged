@@ -45,4 +45,7 @@ recipes.addShapeless(<PneumaticCraft:plasticPlant:14> * 2, [<ore:dyeOrange>, see
 // Flying
 recipes.addShapeless(<PneumaticCraft:plasticPlant:15> * 2, [<ore:dyeWhite>, seed, seed]);
 
+// Compressed iron fix
+recipes.addShaped(<PneumaticCraft:compressedIronBlock> * 2, [[null, <minecraft:iron_block>, null], [<minecraft:iron_block>, <minecraft:tnt>, <minecraft:iron_block>], [null, <minecraft:iron_block>, null]]);
+
 

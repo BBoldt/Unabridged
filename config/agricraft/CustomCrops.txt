@@ -15,8 +15,7 @@ Mithrium,ThermalFoundation:material:102,null,ThermalFoundation:Ore:6,4,6,A bit m
 Zincova,Steamcraft:steamcraftNugget:1,null,Steamcraft:steamcraftOre:1,4,6,An antique plant originally cultivated in the age of steam.
 Cockscoal,minecraft:coal,null,minecraft:coal_ore,5,6,HAHAHAHA COCKS! It's based on a real plant name I swear. This plant is coveted for its potential uses in industry.
 Apatacia,MagicBees:beeNugget:7,null,Forestry:resources,5,6,This plant provides a very useful fertilizer to agriculturists interested in forest-based technology.
-Urania,IC2:itemUran235small,null,IC2:blockOreUran,5,6,Hmmmm.... it stings a little when touched. I'm sure you'll be fine!
-Yelloria,aobd:dustTinyYellorium,null,BigReactors:YelloriteOre,5,6,Do you like dealing with things that seem like they would be dangerous but are somehow magically safe? Then you'll love this plant!
+Yelloria,ExtraBees:misc:27,null,BigReactors:YelloriteOre,5,6,Do you like dealing with things that seem like they would be dangerous but are somehow magically safe? Then you'll love this plant!
 Qwart,minecraft:quartz,mycelium,minecraft:quartz_ore,4,6,The quartz produced from this plant feels a bit... squishier... than normal. I'm sure it will be fine.
 Certophus,appliedenergistics2:item.ItemMultiMaterial,null,appliedenergistics2:tile.OreQuartz,4,6,This plant is revered for it's ability to produce crystals which can be applied in many energistic circumstances. *wink wink*
 Ambegonia,Thaumcraft:ItemResource:6,null,Thaumcraft:blockCustomOre:7,4,6,Is it magical? Or is it just decorative? This plant makes amber!
@@ -30,11 +29,7 @@ Tanzanigella,BiomesOPlenty:gems:4,null,BiomesOPlenty:gemOre:8,3,6,This plant pro
 Malachalidonium,BiomesOPlenty:gems:5,null,BiomesOPlenty:gemOre:10,3,6,This plant produces a gem that is usually found in very wet climates.
 Sapphuopsis,BiomesOPlenty:gems:6,null,BiomesOPlenty:gemOre:12,3,6,This plant produces a gem that is usually found in the ocean and watery climates.
 Cocoa,minecraft:dye:3,null,null,3,6,Good if you like to make cookies but hate jungle logs.
-Coffee,IC2:itemCofeeBeans,null,null,3,6,Stay up all night!
-Hops,IC2:itemHops,null,null,3,6,This plant is loved all over the world for its use in making beer.
 Blackthorn,minecraft:dye,null,null,3,6,This plant is squid approved.
-Terra-Wart,IC2:itemTerraWart,mycelium,null,3,6,It tastes kinda good?
-Stickreed,IC2:itemHarz,null,null,3,6,Sticky. Gets kinda rubbery when you cook it.
 Arachnia,minecraft:spider_eye,null,ForbiddenMagic:StarBlock,4,6,Literally spiders.
 Oilberry,ExtraBees:propolis:1,null,null,5,6,No time for pumping oil out of the ground? This plant is for you.
 Blazereed,minecraft:blaze_rod,null,ForbiddenMagic:StarBlock,5,6,Pretty hot. 420 blaze it!

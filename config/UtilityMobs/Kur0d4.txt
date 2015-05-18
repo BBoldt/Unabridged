@@ -1,0 +1,14 @@
+player_permissions
+111 Kur0d4
+
+whitelist
+Player
+UtilityMobs.GenericGolem
+Silverfish
+Skeleton
+Slime
+Spider
+Witch
+Zombie
+
+blacklist
