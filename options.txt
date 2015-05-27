@@ -99,11 +99,11 @@ key_igwmod.keys.wiki:23
 key_key.ping:34
 key_Pneumatic Helmet Options:0
 key_Pneumatic Helmet Hack:0
-key_simplyjetpacks.keybind.toggle.primary:33
+key_simplyjetpacks.keybind.toggle.primary:36
 key_simplyjetpacks.keybind.toggle.secondary:0
-key_simplyjetpacks.keybind.mode.primary:46
+key_simplyjetpacks.keybind.mode.primary:37
 key_simplyjetpacks.keybind.mode.secondary:0
-key_simplyjetpacks.keybind.openPackGUI:22
+key_simplyjetpacks.keybind.openPackGUI:0
 key_key.sapmanpack.updateKey:0
 key_Baubles Inventory:48
 key_Change Wand Focus:33
@@ -147,7 +147,7 @@ key_key.fart.desc:0
 key_key.aspectMenu:49
 key_Change Arcane Lens:0
 key_Activate Morphic Fingers:0
-key_key.craftingGrid:46
+key_key.craftingGrid:0
 key_TG.keybind.openInv:28
 key_TG.keybind.activeaAbilities:0
 key_key.zyinhud.animalinfo:0

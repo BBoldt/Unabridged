@@ -44,4 +44,5 @@ if (mischidden_enabled) {
     NEI.hide("RouterReborn:routerbarrel");
     NEI.hide("RouterReborn:pickaxe");
     NEI.hide("RouterReborn:routerbarrelupgrader");
+    NEI.override("ModPouches:ItemModPouch", [0, 1]);
 }
