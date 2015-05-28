@@ -45,4 +45,7 @@ if (mischidden_enabled) {
     NEI.hide("RouterReborn:pickaxe");
     NEI.hide("RouterReborn:routerbarrelupgrader");
     NEI.override("ModPouches:ItemModPouch", [0, 1]);
+    NEI.override("OpenBlocks:tank", [0]);
+    NEI.override("extracells:pattern.fluid", [0]);
+    NEI.override("pressure:Canister", [0]);
 }

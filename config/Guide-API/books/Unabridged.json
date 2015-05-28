@@ -1,0 +1,86 @@
+{
+  "unlocDisplayName": "Abridged guide to Unabridged",
+  "unlocWelcomeMessage": "Welcome, and thank you for playing Unabridged! In this guide you will find basic information about things in this pack that are important to know. This is not going to be a tutorial, learning about and exploring different mods on your own is part of the fun. There is no specific path you should be taking.",
+  "unlocBookTitle": "Abridged guide to Unabridged",
+  "color": {
+    "red": 0,
+    "green": 255,
+    "blue": 255,
+    "alpha": 255
+  },
+  "spawnWithBook": true,
+  "isLostBook": false,
+  "categoryList": [
+    {
+      "type": "CategoryItemStack",
+      "itemStack": {
+        "isBlock": false,
+        "name": "minecraft:paper",
+        "metadata": 0
+      },
+      "entryList": [
+        {
+          "type": "EntryUniText",
+          "unlocEntryName": "--Absorption--",
+          "pageList": [
+            {
+              "type": "PageLocText",
+              "locText": "You may have noticed strange yellow hearts sometimes appear above your health bar. Don't Panic! These are called 'absorption hearts'. These are hearts that regenerate over time. You can increase the amount you have by performing a ritual with a 'Book of Absorption' and 30 levels of experience. You may also enchant armor with absorption for increased levels!"
+            }
+          ]
+        },
+        {
+          "type": "EntryUniText",
+          "unlocEntryName": "--Hunger--",
+          "pageList": [
+            {
+              "type": "PageLocText",
+              "locText": "You may find yourself wondering what has happened to the hunger bar. Don't Panic! You haven't time traveled back to minecraft beta. This system is intended to make hunger less of a chore. Any food you eat will go directly into your health. Any potion effects which would have affected hunger will now sap your ability to sprint for the duration of the potion effect."
+            },
+            {
+              "type": "PageLocText",
+              "locText": "When you kill mobs, they will drop hearts which you may absorb like some sort of freaky heart eating vampire. Nifty."
+            }
+          ]
+        },
+        {
+          "type": "EntryUniText",
+          "unlocEntryName": "--Mining Progression--",
+          "pageList": [
+            {
+              "type": "PageLocText",
+              "locText": "This pack has custom mining level tweaks on both ores and tools that allow you to progress through the levels no matter what path you take. If you see an ore you can't mine, hold shift to display the mining level in Waila and search that level in NEI. It will show you tools which can mine that level. The following chart is how you would do it from a purely non-Tinkers' Construct standpoint."
+            },
+            {
+              "type": "PageLocText",
+              "locText": "Stone/Flint can mine:\nIron, Coal, Apatite, Zinc, Sulfur, Saltpeter\n\nIron can mine:\nOsmium, Tin, Ferrous, Lead, Lapis, Copper, Previous Tiers\n\nBronze/Osmium can mine:\nBOP gems, Certus, Gold, Redstone, Previous Tiers\n\nSteel/Manasteel/Thaumium can mine:\nDiamond, Emerald, Obsidian, Yellorite, Silver, Previous Tiers"
+            },
+            {
+              "type": "PageLocText",
+              "locText": "Shiny/Heavy Duty/Flux-Infused/Terra Shatterer can mine:\nArdite, Previous Tiers\n\nDark Steel Pickaxe/Pickaxe of Distortion can mine:\nCobalt, Previous Tiers"
+            },
+            {
+              "type": "PageLocText",
+              "locText": "This list stays true if you use Tinkers' Construct as well, but there are many more paths you can take there that are not listed here. If you do use Tinkers Construct, you should also note that your tool can level up as you use it, and can go one level beyond the mining level it began as. Also note that tool parts may be exchanged for better ones as you progress through the game. Just make sure your tool is fully repaired before you try to swap parts."
+            }
+          ]
+        },
+        {
+          "type": "EntryUniText",
+          "unlocEntryName": "--Pro Tips--",
+          "pageList": [
+            {
+              "type": "PageLocText",
+              "locText": "Is your chest storage area a mess?\nCan you not find that very specific item you're looking for?\nTry '/search ITEM'. It will display a marker above the chest containing the item you are looking for.\n'search clear' to clear your search."
+            },
+            {
+              "type": "PageLocText",
+              "locText": "Looking for a direct link to the documentation for a mod? Try '/docs mod' and it should point you in the right direction."
+            }
+          ]
+        }
+      ],
+      "unlocCategoryName": "Index"
+    }
+  ]
+}

@@ -183,7 +183,7 @@
     {
         "unabridged":
         {
-            "text" : "§bUNABRIDGED §aRelease 1",
+            "text" : "§bUNABRIDGED §aRelease 2",
             "posX" : 2,
             "posY" : 5,
             "color" : -1,
@@ -211,6 +211,7 @@
 					"custommainmenu:scrn/1.png",
 					"custommainmenu:scrn/2.png",
 					"custommainmenu:scrn/3.png",
+                    "custommainmenu:scrn/4.png",
 					"custommainmenu:scrn/5.png",
 					"custommainmenu:scrn/6.png",
 					"custommainmenu:scrn/7.png",
@@ -218,13 +219,19 @@
 					"custommainmenu:scrn/9.png",
 					"custommainmenu:scrn/10.png",
 					"custommainmenu:scrn/11.png",
+                    "custommainmenu:scrn/12.png",
 					"custommainmenu:scrn/13.png",
 					"custommainmenu:scrn/14.png",
 					"custommainmenu:scrn/15.png",
 					"custommainmenu:scrn/16.png",
 					"custommainmenu:scrn/17.png",
 					"custommainmenu:scrn/18.png",
-					"custommainmenu:scrn/19.png"
+					"custommainmenu:scrn/19.png",
+                    "custommainmenu:scrn/20.png",
+                    "custommainmenu:scrn/21.png",
+                    "custommainmenu:scrn/22.png",
+                    "custommainmenu:scrn/23.png",
+                    "custommainmenu:scrn/24.png"
 							],
 				"displayDuration" : 100,
 				"fadeDuration" : 40,
