@@ -1,0 +1,117 @@
+{
+ "bagType": "SPAWN",
+ "name": "Bag O' Books",
+ "rarityType": "Rare",
+ "stackList": [
+    {
+        "name": "BiblioCraft:Bibliotheca",
+        "metadata": 0,
+        "amount": 2
+    },
+    {
+        "name": "TConstruct:manualBook",
+        "metadata": 0,
+        "amount": 1
+    },
+    {
+        "name": "TConstruct:manualBook",
+        "metadata": 1,
+        "amount": 1
+    },
+    {
+        "name": "TConstruct:manualBook",
+        "metadata": 2,
+        "amount": 1
+    },
+    {
+        "name": "TConstruct:manualBook",
+        "metadata": 4,
+        "amount": 1
+    },
+    {
+        "name": "Botania:lexicon",
+        "metadata": 0,
+        "amount": 1
+    },
+    {
+        "name": "Steamcraft:book",
+        "metadata": 0,
+        "amount": 1
+    },
+    {
+        "name": "Thaumcraft:ItemThaumonomicon",
+        "metadata": 0,
+        "amount": 1
+    },
+    {
+        "name": "witchery:ingredient",
+        "metadata": 46,
+        "amount": 1
+    },
+    {
+        "name": "witchery:ingredient",
+        "metadata": 47,
+        "amount": 1
+    },
+    {
+        "name": "witchery:ingredient",
+        "metadata": 48,
+        "amount": 1
+    },
+    {
+        "name": "witchery:ingredient",
+        "metadata": 49,
+        "amount": 1
+    },
+    {
+        "name": "armourersWorkshop:guideBook",
+        "metadata": 0,
+        "amount": 1
+    },
+    {
+        "name": "enhancedportals:manual",
+        "metadata": 0,
+        "amount": 1
+    },
+    {
+        "name": "OpenComputers:item",
+        "metadata": 98,
+        "amount": 1
+    },
+    {
+        "name": "guideapi:ItemGuideBook",
+        "metadata": 1,
+        "amount": 1
+    },
+    {
+        "name": "OpenBlocks:infoBook",
+        "metadata": 0,
+        "amount": 1
+    },
+    {
+        "name": "Pistronics2:Book of Gears",
+        "metadata": 0,
+        "amount": 1
+    },
+    {
+        "name": "rftools:rfToolsManualDimensionItem",
+        "metadata": 0,
+        "amount": 1
+    },
+    {
+        "name": "rftools:rfToolsManualItem",
+        "metadata": 0,
+        "amount": 1
+    },
+    {
+        "name": "Agricraft:journal",
+        "metadata": 0,
+        "amount": 1
+    },
+    {
+        "name": "BiblioCraft:item.AtlasBook",
+        "metadata": 0,
+        "amount": 1
+    }  
+]
+}
