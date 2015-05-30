@@ -112,6 +112,11 @@
         "name": "BiblioCraft:item.AtlasBook",
         "metadata": 0,
         "amount": 1
-    }  
+    },
+    {
+        "name": "AWWayofTime:itemMailCatalogue",
+        "metadata": 0,
+        "amount": 1
+    }
 ]
 }
