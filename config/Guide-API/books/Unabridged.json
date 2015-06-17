@@ -9,6 +9,9 @@
     "alpha": 255
   },
   "spawnWithBook": true,
+  "lootChance": 0,
+  "chestHooks": [ "" ],
+  "author": "BBoldt",
   "isLostBook": false,
   "categoryList": [
     {

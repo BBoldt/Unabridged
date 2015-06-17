@@ -86,45 +86,22 @@
             1
         ]
     },
-    "EnderAmethyst": {
-        "template": "normal",
-        "block": {
-            "name": "BiomesOPlenty:gemOre"
-        },
-		"material": "minecraft:end_stone",
-        "clusterSize": 13,
-        "numClusters": 16,
-        "minHeight": 10,
-        "maxHeight": 118,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -30,
-			-29,
-			-28,
-			-1,
-            1
-        ]
-    },
 	"EnderAmethyst": {
-        "template": "normal",
-        "block": {
-            "name": "BiomesOPlenty:biomeBlock"
-        },
+        "template": "uniform",
+        "block": "BiomesOPlenty:gemOre",
 		"material": "minecraft:end_stone",
-        "clusterSize": 16,
-        "numClusters": 24,
-        "minHeight": 10,
-        "maxHeight": 118,
+        "clusterSize": 8,
+        "numClusters": 5,
+        "minHeight": 0,
+        "maxHeight": 64,
         "retrogen": "true",
         "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            -1,
-			0
+            1
         ]
     },
     "apatite": {
@@ -261,6 +238,66 @@
         "numClusters": 20,
         "minHeight": 0,
         "maxHeight": 12,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -30,
+			-29,
+			-28,
+			-1,
+            1
+        ]
+    },
+    "teslatite": {
+        "template": "uniform",
+        "block": "bluepower:teslatite_ore",
+		"material": "minecraft:stone",
+        "clusterSize": 7,
+        "numClusters": 6,
+        "minHeight": 0,
+        "maxHeight": 16,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -30,
+			-29,
+			-28,
+			-1,
+            1
+        ]
+    },
+    "Amethyst": {
+        "template": "uniform",
+        "block": "bluepower:amethyst_ore",
+		"material": "minecraft:stone",
+        "clusterSize": 4,
+        "numClusters": 1,
+        "minHeight": 0,
+        "maxHeight": 16,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -30,
+			-29,
+			-28,
+			-1,
+            1
+        ]
+    },
+    "Tungsten": {
+        "template": "uniform",
+        "block": "bluepower:tungsten_ore",
+		"material": "minecraft:stone",
+        "clusterSize": 2,
+        "numClusters": 1,
+        "minHeight": 0,
+        "maxHeight": 8,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],

@@ -4,18 +4,6 @@
 import mods.mfr.Harvester;
 import mods.mfr.Planter;
 
-// Aether
-Harvester.addHarvestable(<aether:aetherLog:*>,"tree");
-Harvester.addHarvestable(<aether:skyrootLogWall>,"tree");
-Harvester.addHarvestable(<aether:purpleFruitLeaves>, "treeLeaf");
-Harvester.addHarvestable(<aether:purpleCrystalLeaves>, "treeLeaf");
-Harvester.addHarvestable(<aether:blueSkyrootLeaves>, "treeLeaf");
-Harvester.addHarvestable(<aether:darkBlueSkyrootLeaves>, "treeLeaf");
-Planter.addPlantable(<aether:blueSkyrootSapling>);
-Planter.addPlantable(<aether:purpleCrystalSapling>);
-Planter.addPlantable(<aether:greenSkyrootSapling>);
-Planter.addPlantable(<aether:goldenOakSapling>);
-
 // BOP
 Harvester.addHarvestable(<BiomesOPlenty:logs1:*>,"tree");
 Harvester.addHarvestable(<BiomesOPlenty:logs2:*>,"tree");
