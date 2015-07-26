@@ -6,7 +6,7 @@
             "metadata": 0
         },
 		"material": "minecraft:netherrack",
-        "clusterSize": 14,
+        "clusterSize": 28,
         "numClusters": 8,
         "meanHeight": 48,
         "maxVariance": 13,
@@ -26,7 +26,7 @@
             "metadata": 1
         },
 		"material": "minecraft:netherrack",
-        "clusterSize": 8,
+        "clusterSize": 16,
         "numClusters": 3,
         "meanHeight": 18,
         "maxVariance": 6,
@@ -46,7 +46,7 @@
             "metadata": 2
         },
 		"material": "minecraft:netherrack",
-        "clusterSize": 4,
+        "clusterSize": 16,
         "numClusters": 16,
         "meanHeight": 13,
         "maxVariance": 6,
@@ -66,7 +66,7 @@
             "metadata": 3
         },
 		"material": "minecraft:netherrack",
-        "clusterSize": 9,
+        "clusterSize": 18,
         "numClusters": 10,
 		"meanHeight": 48,
 		"maxVariance": 13,
@@ -88,7 +88,7 @@
             "metadata": 4
         },
 		"material": "minecraft:netherrack",
-        "clusterSize": 5,
+        "clusterSize": 15,
         "numClusters": 2,
         "meanHeight": 15,
         "maxVariance": 4,
@@ -108,7 +108,7 @@
             "metadata": 5
         },
 		"material": "minecraft:netherrack",
-        "clusterSize": 6,
+        "clusterSize": 12,
         "numClusters": 2,
 		"meanHeight": 8,
 		"maxVariance": 4,
@@ -130,7 +130,7 @@
             "metadata": 6
         },
 		"material": "minecraft:netherrack",
-        "clusterSize": 6,
+        "clusterSize": 12,
         "numClusters": 2,
 		"meanHeight": 8,
 		"maxVariance": 4,
@@ -152,7 +152,7 @@
             "metadata": 7
         },
 		"material": "minecraft:netherrack",
-        "clusterSize": 11,
+        "clusterSize": 22,
         "numClusters": 6,
         "meanHeight": 58,
         "maxVariance": 7,
@@ -172,7 +172,7 @@
             "metadata": 8
         },
 		"material": "minecraft:netherrack",
-        "clusterSize": 10,
+        "clusterSize": 20,
         "numClusters": 6,
         "meanHeight": 37,
         "maxVariance": 7,
@@ -192,7 +192,7 @@
             "metadata": 9
         },
 		"material": "minecraft:netherrack",
-        "clusterSize": 9,
+        "clusterSize": 18,
         "numClusters": 5,
         "meanHeight": 24,
         "maxVariance": 6,
@@ -212,7 +212,7 @@
             "metadata": 10
         },
 		"material": "minecraft:netherrack",
-        "clusterSize": 9,
+        "clusterSize": 18,
         "numClusters": 5,
         "meanHeight": 24,
         "maxVariance": 6,
@@ -232,7 +232,7 @@
             "metadata": 11
         },
 		"material": "minecraft:netherrack",
-        "clusterSize": 6,
+        "clusterSize": 12,
         "numClusters": 3,
 		"meanHeight": 10,
 		"maxVariance": 4,
@@ -254,7 +254,7 @@
             "metadata": 13
         },
 		"material": "minecraft:netherrack",
-        "clusterSize": 2,
+        "clusterSize": 8,
         "numClusters": 1,
 		"meanHeight": 6,
 		"maxVariance": 4,
@@ -276,7 +276,7 @@
             "metadata": 12
         },
 		"material": "minecraft:netherrack",
-        "clusterSize": 3,
+        "clusterSize": 9,
         "numClusters": 2,
 		"meanHeight": 12,
 		"maxVariance": 4,
@@ -298,7 +298,7 @@
             "metadata": 12
         },
 		"material": "minecraft:netherrack",
-        "clusterSize": 4,
+        "clusterSize": 12,
         "numClusters": 11,
 		"meanHeight": 49,
 		"maxVariance": 13,

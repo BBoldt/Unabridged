@@ -36,12 +36,6 @@ mods.tconstruct.Smeltery.addMelting(<ore:dustObsidian>, <liquid:obsidian.molten>
 <ore:nuggetAluminum>.remove(<TConstruct:oreBerries:4>);
 <ore:nuggetAluminium>.remove(<TConstruct:oreBerries:4>);
 
-// Bye Bye Heart Canisters
-recipes.remove(<TConstruct:heartCanister:1>);
-recipes.remove(<TConstruct:heartCanister:2>);
-recipes.remove(<TConstruct:heartCanister:4>);
-recipes.remove(<TConstruct:heartCanister:6>);
-
 // XP Berries
 mods.tconstruct.Smeltery.addMelting(<TConstruct:oreBerries:5>, <liquid:xpjuice> * 200, 200, <TConstruct:ore.berries.two:9>);
 mods.thermalexpansion.Crucible.addRecipe(500, <TConstruct:oreBerries:5>, <liquid:xpjuice> * 200);

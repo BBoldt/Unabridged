@@ -24,30 +24,6 @@
       "entryList": [
         {
           "type": "EntryUniText",
-          "unlocEntryName": "--Absorption--",
-          "pageList": [
-            {
-              "type": "PageLocText",
-              "locText": "You may have noticed strange yellow hearts sometimes appear above your health bar. Don't Panic! These are called 'absorption hearts'. These are hearts that regenerate over time. You can increase the amount you have by performing a ritual with a 'Book of Absorption' and 30 levels of experience. You may also enchant armor with absorption for increased levels!"
-            }
-          ]
-        },
-        {
-          "type": "EntryUniText",
-          "unlocEntryName": "--Hunger--",
-          "pageList": [
-            {
-              "type": "PageLocText",
-              "locText": "You may find yourself wondering what has happened to the hunger bar. Don't Panic! You haven't time traveled back to minecraft beta. This system is intended to make hunger less of a chore. Any food you eat will go directly into your health. Any potion effects which would have affected hunger will now sap your ability to sprint for the duration of the potion effect."
-            },
-            {
-              "type": "PageLocText",
-              "locText": "When you kill mobs, they will drop hearts which you may absorb like some sort of freaky heart eating vampire. Nifty."
-            }
-          ]
-        },
-        {
-          "type": "EntryUniText",
           "unlocEntryName": "--Mining Progression--",
           "pageList": [
             {

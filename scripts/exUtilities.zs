@@ -14,3 +14,7 @@ recipes.remove(<ExtraUtilities:generator.64:5>);
 recipes.remove(<ExtraUtilities:generator:6>);
 recipes.remove(<ExtraUtilities:generator.8:6>);
 recipes.remove(<ExtraUtilities:generator.64:6>);
+
+// Dark Curtain
+recipes.remove(<ExtraUtilities:curtains>);
+recipes.addShaped(<ExtraUtilities:curtains> * 16, [[<ore:blockWool>, <ore:blockWool>], [<ore:blockWool>, <ore:blockWool>, <ore:dyeBlack>], [<ore:blockWool>, <ore:blockWool>]]);

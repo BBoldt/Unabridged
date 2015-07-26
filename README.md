@@ -20,7 +20,6 @@ Features unique to this modpack:
 * Custom mining progression that works with both Iguana Tweaks/TiC tools and vanilla-style tools.
 * Custom resource crops added to Agricraft,  including ore and mob drops.
 * Tweaks to Agricraft, making things more difficult, so that Forestry bees aren't rendered useless.
-* "Arcade style" hunger system that feels similar to the health mechanics of Minecraft beta, with the addition of heart drops from mobs that will restore your health.
 * Custom ores added to the moon and mars to entice even the most timid adventurers to fly to the stars.
 * Unity texture pack by CyanideX is enabled by default for a more Unified experience.
 * Custom main menu!

@@ -1,6 +1,6 @@
 {
  "bagType": "SPAWN",
- "name": "Bag O' Books",
+ "name": "Bag O' Books - DO NOT OPEN UNTIL YOU HAVE A BASE",
  "rarityType": "Rare",
  "stackList": [
     {
@@ -39,6 +39,11 @@
         "amount": 1
     },
     {
+        "name": "ImmersiveEngineering:tool",
+        "metadata": 3,
+        "amount": 1
+    },
+    {
         "name": "Thaumcraft:ItemThaumonomicon",
         "metadata": 0,
         "amount": 1
@@ -61,6 +66,11 @@
     {
         "name": "witchery:ingredient",
         "metadata": 49,
+        "amount": 1
+    },
+    {
+        "name": "witchery:cauldronbook",
+        "metadata": 0,
         "amount": 1
     },
     {
@@ -109,12 +119,12 @@
         "amount": 1
     },
     {
-        "name": "BiblioCraft:item.AtlasBook",
+        "name": "AWWayofTime:itemMailCatalogue",
         "metadata": 0,
         "amount": 1
     },
     {
-        "name": "AWWayofTime:itemMailCatalogue",
+        "name": "ThermalFoundation:lexicon",
         "metadata": 0,
         "amount": 1
     }

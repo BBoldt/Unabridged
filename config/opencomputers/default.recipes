@@ -144,6 +144,11 @@ hdd3 {
           ["oc:materialCircuitBoardPrinted", "oc:materialDisk", craftingPiston]
           ["oc:circuitChip3", "oc:materialDisk", diamond]]
 }
+
+dataCard {
+  input: [[nuggetIron, "oc:materialALU", "oc:circuitChip2"]
+          ["", "oc:materialCard", ""]]
+}
 graphicsCard1 {
   input: [["oc:circuitChip1", "oc:materialALU", "oc:ram1"]
           ["", "oc:materialCard", ""]]
@@ -570,6 +575,11 @@ motionSensor {
   input: [[ingotGold, daylightDetector, ingotGold]
           [daylightDetector, "oc:cpu2", daylightDetector]
           [ingotGold, "oc:materialCircuitBoardPrinted", ingotGold]]
+}
+netSplitter {
+  input: [[ingotIron, "oc:cable", ingotIron]
+          ["oc:cable", craftingPiston, "oc:cable"]
+          [ingotIron, "oc:materialCircuitBoardPrinted", ingotIron]]
 }
 printer {
   input: [[ingotIron, hopper, ingotIron]

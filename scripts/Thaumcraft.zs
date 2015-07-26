@@ -28,10 +28,3 @@ mods.thaumcraft.Research.clearPrereqs("PURECINNABAR");
 mods.thaumcraft.Research.addPrereq("PURECINNABAR", "PUREIRON", false);
 mods.thaumcraft.Research.orphanResearch("WGFAKEPUREIRON");
 mods.thaumcraft.Research.removeResearch("WGFAKEPUREIRON");
-
-// Tainted Magic
-mods.thaumcraft.Crucible.removeRecipe(<TaintedMagic:ShadowMetal>);
-mods.thaumcraft.Crucible.addRecipe("SHADOWMETAL", <TaintedMagic:ShadowMetal>, <Thaumcraft:ItemResource:16>, "alienis 6, ignis 2, metallum 4");
-mods.thaumcraft.Research.clearPages("SHADOWMETAL");
-mods.thaumcraft.Research.addPage("SHADOWMETAL", "While throwing stuff into a crucible, you come across a rather interesting substance. Physically, it is blackish purple in color, and quite heavy. Who knows what power it could posess... This metal seems promising and might prove useful for something in the future, even though the purification process is somewhat tedious.<BR>After some thought, you conclude that you will need to obtain more warp before it becomes useful. Maybe the Eldritch can give you more information, but who knows...<BR>§oA relic of the past, the sediments of creation... All that was left behind... A metal made from darkness...");
-mods.thaumcraft.Research.addCruciblePage("SHADOWMETAL", <TaintedMagic:ShadowMetal>);

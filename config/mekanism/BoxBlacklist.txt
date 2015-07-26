@@ -5,17 +5,14 @@
 # Thaumcraft
 Thaumcraft:blockWarded:0
 Thaumcraft:blockCosmeticOpaque:2
-Thaumcraft:blockArcaneDoor:*
-Thaumcraft:blockStoneDevice:*
+Thaumcraft:blockArcaneDoor:32767
+Thaumcraft:blockStoneDevice:32767
 Thaumcraft:blockAiry:0
 
 # Carpenter's Blocks
-CarpentersBlocks:blockCarpentersSafe:*
-
-# IC2
-IC2:blockPersonal:*
+CarpentersBlocks:blockCarpentersSafe:32767
 
 # Twilight Forest
-TwilightForest:tile.TFBossSpawner:*
-TwilightForest:tile.TFTowerDevice:*
-TwilightForest:tile.TFTowerTranslucent:*
+TwilightForest:tile.TFBossSpawner:32767
+TwilightForest:tile.TFTowerDevice:32767
+TwilightForest:tile.TFTowerTranslucent:32767
