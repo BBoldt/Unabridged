@@ -39,10 +39,6 @@ recipes.addShaped(<Botany:trowelIron>, [[null, null, <ore:ingotIron>], [null, <o
 recipes.remove(<Botany:trowelDiamond>);
 recipes.addShaped(<Botany:trowelDiamond>, [[null, null, <ore:gemDiamond>], [null, <ore:stickWood>, null]]);
 
-// Oak fence gate alt recipe
-recipes.remove(<minecraft:fence_gate>);
-recipes.addShapeless(<minecraft:fence_gate>, [<ExtraTrees:gate>.withTag({meta: 0})]);
-
 /* Fence Recipes NEI */
 
 /* Single Wood */

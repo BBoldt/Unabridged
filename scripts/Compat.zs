@@ -3,8 +3,7 @@
    
 // Silicon Unification -- Project Red; Galacticraft; EnderIO
 <ore:itemSilicon>.addAll(<ore:silicon>);
-<ore:silicon>.mirror(<ore:itemSilicon>); 
-furnace.addRecipe(<GalacticraftCore:item.basicItem:2> * 2, <ore:itemSilicon>);
+<ore:silicon>.mirror(<ore:itemSilicon>);
 
 // Endermen head exchange
 // recipes.addShapeless(<EnderIO:blockEndermanSkull>, [<IguanaTweaksTConstruct:skullItem>]);

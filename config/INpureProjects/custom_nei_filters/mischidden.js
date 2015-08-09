@@ -108,7 +108,6 @@ if (mischidden_enabled) {
     NEI.hide("Botania:stone10SlabFull");
     NEI.hide("Botania:stone11SlabFull"); 
     NEI.hide("Botany:flower");
-    NEI.hide("GregsLighting:floodlightBeam");
     NEI.hide("HardcoreEnderExpansion:corrupted_energy_high");
     NEI.hide("HardcoreEnderExpansion:temple_end_portal");
     NEI.hide("HardcoreEnderExpansion:laser_beam");

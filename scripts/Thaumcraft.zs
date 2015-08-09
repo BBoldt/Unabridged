@@ -28,3 +28,11 @@ mods.thaumcraft.Research.clearPrereqs("PURECINNABAR");
 mods.thaumcraft.Research.addPrereq("PURECINNABAR", "PUREIRON", false);
 mods.thaumcraft.Research.orphanResearch("WGFAKEPUREIRON");
 mods.thaumcraft.Research.removeResearch("WGFAKEPUREIRON");
+
+// Tainted Magic
+mods.thaumcraft.Infusion.removeRecipe(<TaintedMagic:SashVoid>);
+mods.thaumcraft.Research.orphanResearch("VOIDSASH");
+mods.thaumcraft.Research.removeResearch("VOIDSASH");
+
+// Thaumcraft
+recipes.addShaped(<Thaumcraft:GolemBell>, [[null, <minecraft:quartz>, <minecraft:quartz>], [null, <minecraft:quartz>, <minecraft:quartz>], [<ore:stickWood>, null, null]]);

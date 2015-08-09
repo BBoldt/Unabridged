@@ -31,3 +31,6 @@ recipes.addShapeless(<Botania:petal:12> * 2, [<tropicraft:tile.flower:10>]);
 recipes.addShapeless(<Botania:petal:13> * 2, [<tropicraft:tile.flower:8>]);
 recipes.addShapeless(<Botania:petal:14> * 2, [<tropicraft:tile.flower:14>]);
 recipes.addShaped(<Botania:petal:14> * 4, [[<tropicraft:tile.flower:6>, <tropicraft:tile.flower:6>]]);
+
+// Coconut
+recipes.addShapeless(<tropicraft:coconutChunk> * 2, [<BiomesOPlenty:colorizedLeaves1:2>]);
