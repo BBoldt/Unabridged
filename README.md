@@ -15,12 +15,11 @@ https://docs.google.com/spreadsheets/d/1D9sT7SgschCji8gbFHEEKKV2CqxsAM-DxAXGDVbx
 
 Features unique to this modpack:
 ======
+* Unique mod selection, a balanced blend of popular mods and more obscure mods that you have likely never used before.
 * Many custom Minetweaker scripts that introduce extra compatibility, fixes, and enhancements.
 * Thaumcraft aspects added to the entirety of Plant Mega Pack and Biomes O' Plenty, making mostly everything that generates in the world scannable.
 * Custom mining progression that works with both Iguana Tweaks/TiC tools and vanilla-style tools.
-* Custom resource crops added to Agricraft,  including ore and mob drops.
-* Tweaks to Agricraft, making things more difficult, so that Forestry bees aren't rendered useless.
-* Custom ores added to the moon and mars to entice even the most timid adventurers to fly to the stars.
+* Custom ore crops added to Agricraft.
 * Unity texture pack by CyanideX is enabled by default for a more Unified experience.
 * Custom main menu!
 * Much, much more!
