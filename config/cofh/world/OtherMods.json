@@ -20,10 +20,7 @@
     },
     "zinc": {
         "template": "uniform",
-        "block": {
-            "name": "Steamcraft:steamcraftOre",
-            "metadata": 1
-        },
+        "block": "bluepower:zinc_ore",
         "clusterSize": 6,
         "numClusters": 10,
         "minHeight": 40,

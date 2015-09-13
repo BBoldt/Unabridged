@@ -80,3 +80,6 @@ mods.chisel.Groups.addVariation("diorite", <Botania:stone:10>);
 mods.chisel.Groups.addVariation("granite", <Botania:stone:3>);
 mods.chisel.Groups.addVariation("granite", <Botania:stone:7>);
 mods.chisel.Groups.addVariation("granite", <Botania:stone:11>);
+
+// Uranium
+mods.chisel.Groups.addVariation("uraniumblock", <BigReactors:BRMetalBlock>);

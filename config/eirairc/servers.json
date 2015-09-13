@@ -2,15 +2,15 @@
   {
     "address": "irc.esper.net",
     "nick": "%USERNAME%",
-    "bot": {
-      "description": "Unabridged Player"
-    },
-    "settings": {
-      "autoWho": true
-    },
+    "bot": {},
+    "theme": {},
+    "settings": {},
     "channels": [
       {
-        "name": "#unabridged"
+        "name": "#unabridged",
+        "bot": {},
+        "theme": {},
+        "settings": {}
       }
     ]
   }

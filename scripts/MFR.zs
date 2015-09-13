@@ -3,6 +3,7 @@
 
 import mods.mfr.Harvester;
 import mods.mfr.Planter;
+import mods.mfr.MiningLaser;
 
 // BOP
 Harvester.addHarvestable(<BiomesOPlenty:logs1:*>,"tree");
@@ -38,3 +39,6 @@ Planter.addPlantable(<BiomesOPlenty:colorizedSaplings:4>);
 Planter.addPlantable(<BiomesOPlenty:colorizedSaplings:5>);
 Planter.addPlantable(<BiomesOPlenty:colorizedSaplings:6>);
 Planter.addPlantable(<BiomesOPlenty:colorizedSaplings:7>);
+
+// Laser
+MiningLaser.removeOre(<ore:oreSilicon>);

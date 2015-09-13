@@ -20,7 +20,3 @@ SeedMutation.add(<AgriCraft:seedTopazanthoxylum>, <AgriCraft:seedEmeryllis>, <Ag
 SeedMutation.add(<AgriCraft:seedTanzanigella>, <AgriCraft:seedEmeryllis>, <AgriCraft:seedAllium>);
 SeedMutation.add(<AgriCraft:seedMalachalidonium>, <AgriCraft:seedEmeryllis>, <AgriCraft:seedCactus>);
 SeedMutation.add(<AgriCraft:seedSapphuopsis>, <AgriCraft:seedEmeryllis>, <AgriCraft:seedOrchid>);
-
-// Crop Sticks
-recipes.remove(<AgriCraft:cropsItem>);
-recipes.addShaped(<AgriCraft:cropsItem>, [[<Forestry:oakStick>, <Forestry:oakStick>], [<Forestry:oakStick>, <Forestry:oakStick>]]);

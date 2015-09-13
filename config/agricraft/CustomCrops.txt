@@ -14,7 +14,7 @@
 #this will need textures cropClaysanthemum1, cropClaysanthemum2, Claysanthemum3, Claysanthemum4 in the agricraft/textures/blocks folder and seedClaysanthemum in the agricraft/textures/items folder of your resourcepack.
 #Note the capitalization, always put a capital in the texture name. Also, this crop will not grow unless it has a hardened clay block underneath the block of farmland it's on
 Mithrium,ThermalFoundation:material:102,null,ThermalFoundation:Ore:6,4,6,A bit magical and shiny. Can be used for things!,null
-Zincova,Steamcraft:steamcraftNugget:1,null,Steamcraft:steamcraftOre:1,4,6,An antique plant originally cultivated in the age of steam.,null
+Zincova,aobd:nuggetZinc,null,bluepower:zinc_ore,4,6,Everbody loves zinc.,null
 Cockscoal,minecraft:coal,null,minecraft:coal_ore,5,6,HAHAHAHA COCKS! It's based on a real plant name I swear. This plant is coveted for its potential uses in industry.,null
 Apatacia,MagicBees:beeNugget:7,null,Forestry:resources,5,6,This plant provides a very useful fertilizer to agriculturists interested in forest-based technology.,null
 Yelloria,ExtraBees:misc:27,null,BigReactors:YelloriteOre,5,6,Do you like dealing with things that seem like they would be dangerous but are somehow magically safe? Then you'll love this plant!,null
