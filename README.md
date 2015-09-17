@@ -13,16 +13,19 @@ Modlist:
 ======
 https://docs.google.com/spreadsheets/d/1D9sT7SgschCji8gbFHEEKKV2CqxsAM-DxAXGDVbxx4o/
 
-Features unique to this modpack:
+More info:
 ======
 * Unique mod selection, a balanced blend of popular mods and more obscure mods that you have likely never used before.
-* Many custom Minetweaker scripts that introduce extra compatibility, fixes, and enhancements.
+* Good for use on servers where players enjoy vastly different mods and  playstyles, but still want to play together.
+* Many custom Minetweaker scripts and config edits that introduce extra compatibility, fixes, and enhancements.
 * Thaumcraft aspects added to the entirety of Plant Mega Pack and Biomes O' Plenty, making mostly everything that generates in the world scannable.
+* Several different world type generators utilizing Ted's world gen mods and Biomes o' Plenty, tons of options!
 * Custom mining progression that works with both Iguana Tweaks/TiC tools and vanilla-style tools.
 * Custom ore crops added to Agricraft.
 * Unity texture pack by CyanideX is enabled by default for a more Unified experience.
 * Custom main menu!
-* Much, much more!
+* Two actual kitchen sinks courtesy of Decocraft and Crayfish Furniture!
+* Much more!
 
 Links: 
 ======
