@@ -13,5 +13,3 @@
 
 recipes.remove(<MekanismTools:SteelPaxel>);
 recipes.addShaped(<MekanismTools:SteelPaxel>, [[<ore:axeSteel>, <ore:pickSteel>, <ore:shovelSteel>], [null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]);
-
-
