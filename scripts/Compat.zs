@@ -26,3 +26,6 @@ recipes.addShapeless(<guideapi:ItemGuideBook:1>, [<minecraft:book>, <ore:crafter
 // sawdust Unification
 <ore:pulpWood>.addAll(<ore:dustWood>);
 <ore:dustWood>.mirror(<ore:pulpWood>);
+
+// Creotorches
+recipes.addShaped(<minecraft:torch> * 8, [[<ore:fuelCoke>], [<ore:stickWood>]]);

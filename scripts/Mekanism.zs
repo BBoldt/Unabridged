@@ -13,3 +13,9 @@
 
 recipes.remove(<MekanismTools:SteelPaxel>);
 recipes.addShaped(<MekanismTools:SteelPaxel>, [[<ore:axeSteel>, <ore:pickSteel>, <ore:shovelSteel>], [null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]);
+
+//Induction temp fix
+recipes.remove(<Mekanism:BasicBlock2:1>);
+recipes.remove(<Mekanism:BasicBlock2:2>);
+mods.mekanism.Infuser.addRecipe("TIN", 2, <Mekanism:BasicBlock:8>, <Mekanism:BasicBlock2:1>);
+furnace.addRecipe(<Mekanism:BasicBlock2:2>, <Mekanism:BasicBlock2:1>);
