@@ -14,9 +14,9 @@ if (FML.isModLoaded("ExtraUtilities") && ExtraUtilities_enabled) {
     NEI.override("ExtraUtilities:color_obsidian", [0]);
     NEI.override("ExtraUtilities:color_blockRedstone", [0]);
     NEI.override("ExtraUtilities:color_blockCoal", [0]);
-    NEI.override("ExtraUtilities:generator", [0, 1, 2, 3, 4, 7, 8, 9, 10, 11]);
-    NEI.override("ExtraUtilities:generator.8", [0, 1, 2, 3, 4, 7, 8, 9, 10, 11]);
-    NEI.override("ExtraUtilities:generator.64", [0, 1, 2, 3, 4, 7, 8, 9, 10, 11]);
+    NEI.override("ExtraUtilities:generator", [0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11]);
+    NEI.override("ExtraUtilities:generator.8", [0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11]);
+    NEI.override("ExtraUtilities:generator.64", [0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11]);
 
     if (FML.isModLoaded("ForgeMicroblock")) {
 

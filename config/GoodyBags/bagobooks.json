@@ -1,7 +1,7 @@
 {
  "bagType": "SPAWN",
- "name": "Bag O' Books - DO NOT OPEN UNTIL YOU HAVE A BASE",
- "rarityType": "Rare",
+ "name": "Bag O' Books",
+ "rarityType": "rare",
  "stackList": [
     {
         "name": "BiblioCraft:Bibliotheca",
@@ -30,11 +30,6 @@
     },
     {
         "name": "Botania:lexicon",
-        "metadata": 0,
-        "amount": 1
-    },
-    {
-        "name": "Steamcraft:book",
         "metadata": 0,
         "amount": 1
     },
@@ -70,61 +65,6 @@
     },
     {
         "name": "witchery:cauldronbook",
-        "metadata": 0,
-        "amount": 1
-    },
-    {
-        "name": "armourersWorkshop:guideBook",
-        "metadata": 0,
-        "amount": 1
-    },
-    {
-        "name": "enhancedportals:manual",
-        "metadata": 0,
-        "amount": 1
-    },
-    {
-        "name": "OpenComputers:item",
-        "metadata": 98,
-        "amount": 1
-    },
-    {
-        "name": "guideapi:ItemGuideBook",
-        "metadata": 1,
-        "amount": 1
-    },
-    {
-        "name": "OpenBlocks:infoBook",
-        "metadata": 0,
-        "amount": 1
-    },
-    {
-        "name": "Pistronics2:Book of Gears",
-        "metadata": 0,
-        "amount": 1
-    },
-    {
-        "name": "rftools:rfToolsManualDimensionItem",
-        "metadata": 0,
-        "amount": 1
-    },
-    {
-        "name": "rftools:rfToolsManualItem",
-        "metadata": 0,
-        "amount": 1
-    },
-    {
-        "name": "Agricraft:journal",
-        "metadata": 0,
-        "amount": 1
-    },
-    {
-        "name": "AWWayofTime:itemMailCatalogue",
-        "metadata": 0,
-        "amount": 1
-    },
-    {
-        "name": "ThermalFoundation:lexicon",
         "metadata": 0,
         "amount": 1
     }

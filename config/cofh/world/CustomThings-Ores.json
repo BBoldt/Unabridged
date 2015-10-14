@@ -303,7 +303,9 @@
         "meanHeight": 64,
         "maxVariance": 16,
         "retrogen": "true",
-        "biomeRestriction": "blacklist",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
         "dimensions": [
             0,
 			1

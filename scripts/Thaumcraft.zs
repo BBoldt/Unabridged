@@ -35,4 +35,16 @@ mods.thaumcraft.Research.orphanResearch("VOIDSASH");
 mods.thaumcraft.Research.removeResearch("VOIDSASH");
 
 // Thaumcraft
-recipes.addShaped(<Thaumcraft:GolemBell>, [[null, <minecraft:quartz>, <minecraft:quartz>], [null, <minecraft:quartz>, <minecraft:quartz>], [<ore:stickWood>, null, null]]);
+furnace.addRecipe(<Thaumcraft:GolemBell>, <appliedenergistics2:item.ToolCertusQuartzCuttingKnife>);
+
+// Knowledge Fragment Recipes
+
+/* Botania */
+mods.botania.ManaInfusion.addInfusion(<Thaumcraft:ItemResource:9>, <minecraft:book>, 5000);
+mods.botania.Lexicon.addTextPage("botania.page.tcIntegration7","botania.entry.tcIntegration",7);
+game.setLocalization("en_US", "botania.page.tcIntegration7", "It seems that if you throw books into mana pools, they come out a bit... different. This may be of use to you."); 
+mods.botania.Lexicon.addInfusionPage("botania.page.tcIntegration8","botania.entry.tcIntegration",8,[<Thaumcraft:ItemResource:9>],[<minecraft:book>],[5000]);
+game.setLocalization("en_US", "botania.page.tcIntegration8", "&o99 problems but knowledge ain't one");
+
+/* Vanilla */
+recipes.addShapeless(<Thaumcraft:ItemResource:9>, [<minecraft:book>, <Thaumcraft:ItemShard:*>, <Thaumcraft:ItemShard:*>]);

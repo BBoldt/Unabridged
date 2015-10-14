@@ -7,8 +7,7 @@ recipes.addShaped(<ExtraUtilities:generator:7>, [[<ore:gemLapis>, <ore:ingotPhas
 
 // Culinary Generator
 recipes.remove(<ExtraUtilities:generator:5>);
-recipes.remove(<ExtraUtilities:generator.8:5>);
-recipes.remove(<ExtraUtilities:generator.64:5>);
+recipes.addShaped(<ExtraUtilities:generator:5>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:ingotIron>, <Botania:specialFlower>.withTag({type: "gourmaryllis"}), <ore:ingotIron>], [<minecraft:redstone>, <Botania:rfGenerator>, <minecraft:redstone>]]);
 
 // Potion Generator
 recipes.remove(<ExtraUtilities:generator:6>);

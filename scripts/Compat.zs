@@ -13,8 +13,7 @@ recipes.addShapeless(<HardcoreEnderExpansion:enderman_head>, [<EnderIO:blockEnde
 /* Compacting fixes */
 <ore:nuggetDiamond>.addAll(<ore:diamondNugget>);
 <ore:diamondNugget>.mirror(<ore:nuggetDiamond>);
-// Ingots
-recipes.addShapeless(<Thaumcraft:ItemResource:16> * 9, [<WitchingGadgets:tile.WG_MetalDevice.name:7>]);
+
 // Nuggets
 recipes.addShapeless(<aobd:nuggetHeeEndium> * 9, [<HardcoreEnderExpansion:endium_ingot>]);
 recipes.addShapeless(<HardcoreEnderExpansion:endium_ingot>, [<aobd:nuggetHeeEndium>, <aobd:nuggetHeeEndium>, <aobd:nuggetHeeEndium>, <aobd:nuggetHeeEndium>, <aobd:nuggetHeeEndium>, <aobd:nuggetHeeEndium>, <aobd:nuggetHeeEndium>, <aobd:nuggetHeeEndium>, <aobd:nuggetHeeEndium>]);
@@ -29,3 +28,6 @@ recipes.addShapeless(<guideapi:ItemGuideBook:1>, [<minecraft:book>, <ore:crafter
 
 // Creotorches
 recipes.addShaped(<minecraft:torch> * 8, [[<ore:fuelCoke>], [<ore:stickWood>]]);
+
+// Diamond nuggets
+recipes.addShaped(<Translocator:diamondNugget>, [[<enhancedportals:nuggetDiamond>]]);
