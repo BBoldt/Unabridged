@@ -31,3 +31,7 @@ recipes.addShaped(<minecraft:torch> * 8, [[<ore:fuelCoke>], [<ore:stickWood>]]);
 
 // Diamond nuggets
 recipes.addShaped(<Translocator:diamondNugget>, [[<enhancedportals:nuggetDiamond>]]);
+
+//Poison Buckets exchange (Binnie's buckets aren't placable and BOP's buckets are unavailable)
+recipes.addShapeless(<BiomesOPlenty:bopBucket>.withTag({Fluid: {FluidName: "poison", Amount: 1000}}), [<BinnieCore:containerBucket:65>]);
+recipes.addShapeless(<BinnieCore:containerBucket:65>, [<BiomesOPlenty:bopBucket>.withTag({Fluid: {FluidName: "poison", Amount: 1000}})]);
