@@ -38,6 +38,10 @@ mods.botania.ManaInfusion.addAlchemy(<BiomesOPlenty:newBopDirt:1>, <BiomesOPlent
 mods.botania.ManaInfusion.addAlchemy(<BiomesOPlenty:newBopDirt:3>, <BiomesOPlenty:newBopDirt:2>, 120);
 mods.botania.ManaInfusion.addAlchemy(<BiomesOPlenty:newBopDirt:5>, <BiomesOPlenty:newBopDirt:4>, 120);
 
+//Crafting Mud
+recipes.addShapeless(<BiomesOPlenty:mud>, [<minecraft:water_bucket>.transformReplace(<minecraft:bucket>), <minecraft:dirt>]);
+recipes.addShapeless(<BiomesOPlenty:mudball> * 4, [<BiomesOPlenty:mud>]);
+
 //Crafting Hard Dirt, Hard Sand, Hard Stone, Ash Stone
 mods.pneumaticcraft.Pressure.addRecipe([<minecraft:dirt>], 1, [<BiomesOPlenty:hardDirt>], true);
 mods.pneumaticcraft.Pressure.addRecipe([<minecraft:sand>], 1, [<BiomesOPlenty:hardSand>], true);
