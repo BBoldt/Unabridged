@@ -7,6 +7,10 @@
         {
             "name": "fuelCokeCactus",
             "burnTime": 1600
+        },
+		{
+            "name": "sparkpowder",
         }
+		
 	]
 }
