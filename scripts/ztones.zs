@@ -100,6 +100,7 @@ mods.chisel.Groups.addVariation("azur", <Ztones:tile.azurBlock:12>);
 mods.chisel.Groups.addVariation("azur", <Ztones:tile.azurBlock:13>);
 mods.chisel.Groups.addVariation("azur", <Ztones:tile.azurBlock:14>);
 mods.chisel.Groups.addVariation("azur", <Ztones:tile.azurBlock:15>);
+mods.chisel.Groups.addVariation("azur", <Ztones:stoneTile>);
 
 // bitt
 mods.chisel.Groups.addGroup("bitt");
@@ -119,6 +120,7 @@ mods.chisel.Groups.addVariation("bitt", <Ztones:tile.bittBlock:12>);
 mods.chisel.Groups.addVariation("bitt", <Ztones:tile.bittBlock:13>);
 mods.chisel.Groups.addVariation("bitt", <Ztones:tile.bittBlock:14>);
 mods.chisel.Groups.addVariation("bitt", <Ztones:tile.bittBlock:15>);
+mods.chisel.Groups.addVariation("bitt", <Ztones:stoneTile>);
 
 // cray
 mods.chisel.Groups.addGroup("cray");
@@ -138,6 +140,7 @@ mods.chisel.Groups.addVariation("cray", <Ztones:tile.crayBlock:12>);
 mods.chisel.Groups.addVariation("cray", <Ztones:tile.crayBlock:13>);
 mods.chisel.Groups.addVariation("cray", <Ztones:tile.crayBlock:14>);
 mods.chisel.Groups.addVariation("cray", <Ztones:tile.crayBlock:15>);
+mods.chisel.Groups.addVariation("cray", <Ztones:stoneTile>);
 
 // glaxx
 mods.chisel.Groups.addGroup("glaxx");
@@ -157,6 +160,7 @@ mods.chisel.Groups.addVariation("glaxx", <Ztones:tile.glaxx:12>);
 mods.chisel.Groups.addVariation("glaxx", <Ztones:tile.glaxx:13>);
 mods.chisel.Groups.addVariation("glaxx", <Ztones:tile.glaxx:14>);
 mods.chisel.Groups.addVariation("glaxx", <Ztones:tile.glaxx:15>);
+mods.chisel.Groups.addVariation("glaxx", <Ztones:stoneTile>);
 
 // iszm
 mods.chisel.Groups.addGroup("iszm");
@@ -176,6 +180,7 @@ mods.chisel.Groups.addVariation("iszm", <Ztones:tile.iszmBlock:12>);
 mods.chisel.Groups.addVariation("iszm", <Ztones:tile.iszmBlock:13>);
 mods.chisel.Groups.addVariation("iszm", <Ztones:tile.iszmBlock:14>);
 mods.chisel.Groups.addVariation("iszm", <Ztones:tile.iszmBlock:15>);
+mods.chisel.Groups.addVariation("iszm", <Ztones:stoneTile>);
 
 // jelt
 mods.chisel.Groups.addGroup("jelt");
@@ -195,6 +200,7 @@ mods.chisel.Groups.addVariation("jelt", <Ztones:tile.jeltBlock:12>);
 mods.chisel.Groups.addVariation("jelt", <Ztones:tile.jeltBlock:13>);
 mods.chisel.Groups.addVariation("jelt", <Ztones:tile.jeltBlock:14>);
 mods.chisel.Groups.addVariation("jelt", <Ztones:tile.jeltBlock:15>);
+mods.chisel.Groups.addVariation("jelt", <Ztones:stoneTile>);
 
 // korp
 mods.chisel.Groups.addGroup("korp");
@@ -214,6 +220,7 @@ mods.chisel.Groups.addVariation("korp", <Ztones:tile.korpBlock:12>);
 mods.chisel.Groups.addVariation("korp", <Ztones:tile.korpBlock:13>);
 mods.chisel.Groups.addVariation("korp", <Ztones:tile.korpBlock:14>);
 mods.chisel.Groups.addVariation("korp", <Ztones:tile.korpBlock:15>);
+mods.chisel.Groups.addVariation("korp", <Ztones:stoneTile>);
 
 // kryp
 mods.chisel.Groups.addGroup("kryp");
@@ -233,6 +240,7 @@ mods.chisel.Groups.addVariation("kryp", <Ztones:tile.krypBlock:12>);
 mods.chisel.Groups.addVariation("kryp", <Ztones:tile.krypBlock:13>);
 mods.chisel.Groups.addVariation("kryp", <Ztones:tile.krypBlock:14>);
 mods.chisel.Groups.addVariation("kryp", <Ztones:tile.krypBlock:15>);
+mods.chisel.Groups.addVariation("kryp", <Ztones:stoneTile>);
 
 // lair
 mods.chisel.Groups.addGroup("lair");
@@ -252,6 +260,7 @@ mods.chisel.Groups.addVariation("lair", <Ztones:tile.lairBlock:12>);
 mods.chisel.Groups.addVariation("lair", <Ztones:tile.lairBlock:13>);
 mods.chisel.Groups.addVariation("lair", <Ztones:tile.lairBlock:14>);
 mods.chisel.Groups.addVariation("lair", <Ztones:tile.lairBlock:15>);
+mods.chisel.Groups.addVariation("lair", <Ztones:stoneTile>);
 
 // lave
 mods.chisel.Groups.addGroup("lave");
@@ -271,6 +280,7 @@ mods.chisel.Groups.addVariation("lave", <Ztones:tile.laveBlock:12>);
 mods.chisel.Groups.addVariation("lave", <Ztones:tile.laveBlock:13>);
 mods.chisel.Groups.addVariation("lave", <Ztones:tile.laveBlock:14>);
 mods.chisel.Groups.addVariation("lave", <Ztones:tile.laveBlock:15>);
+mods.chisel.Groups.addVariation("lave", <Ztones:stoneTile>);
 
 // mint
 mods.chisel.Groups.addGroup("mint");
@@ -290,6 +300,7 @@ mods.chisel.Groups.addVariation("mint", <Ztones:tile.mintBlock:12>);
 mods.chisel.Groups.addVariation("mint", <Ztones:tile.mintBlock:13>);
 mods.chisel.Groups.addVariation("mint", <Ztones:tile.mintBlock:14>);
 mods.chisel.Groups.addVariation("mint", <Ztones:tile.mintBlock:15>);
+mods.chisel.Groups.addVariation("mint", <Ztones:stoneTile>);
 
 // myst
 mods.chisel.Groups.addGroup("myst");
@@ -309,6 +320,7 @@ mods.chisel.Groups.addVariation("myst", <Ztones:tile.mystBlock:12>);
 mods.chisel.Groups.addVariation("myst", <Ztones:tile.mystBlock:13>);
 mods.chisel.Groups.addVariation("myst", <Ztones:tile.mystBlock:14>);
 mods.chisel.Groups.addVariation("myst", <Ztones:tile.mystBlock:15>);
+mods.chisel.Groups.addVariation("myst", <Ztones:stoneTile>);
 
 // reds
 mods.chisel.Groups.addGroup("reds");
@@ -328,6 +340,7 @@ mods.chisel.Groups.addVariation("reds", <Ztones:tile.redsBlock:12>);
 mods.chisel.Groups.addVariation("reds", <Ztones:tile.redsBlock:13>);
 mods.chisel.Groups.addVariation("reds", <Ztones:tile.redsBlock:14>);
 mods.chisel.Groups.addVariation("reds", <Ztones:tile.redsBlock:15>);
+mods.chisel.Groups.addVariation("reds", <Ztones:stoneTile>);
 
 // reed
 mods.chisel.Groups.addGroup("reed");
@@ -347,6 +360,7 @@ mods.chisel.Groups.addVariation("reed", <Ztones:tile.reedBlock:12>);
 mods.chisel.Groups.addVariation("reed", <Ztones:tile.reedBlock:13>);
 mods.chisel.Groups.addVariation("reed", <Ztones:tile.reedBlock:14>);
 mods.chisel.Groups.addVariation("reed", <Ztones:tile.reedBlock:15>);
+mods.chisel.Groups.addVariation("reed", <Ztones:stoneTile>);
 
 // roen
 mods.chisel.Groups.addGroup("roen");
@@ -366,6 +380,7 @@ mods.chisel.Groups.addVariation("roen", <Ztones:tile.roenBlock:12>);
 mods.chisel.Groups.addVariation("roen", <Ztones:tile.roenBlock:13>);
 mods.chisel.Groups.addVariation("roen", <Ztones:tile.roenBlock:14>);
 mods.chisel.Groups.addVariation("roen", <Ztones:tile.roenBlock:15>);
+mods.chisel.Groups.addVariation("roen", <Ztones:stoneTile>);
 
 // sols
 mods.chisel.Groups.addGroup("sols");
@@ -385,6 +400,7 @@ mods.chisel.Groups.addVariation("sols", <Ztones:tile.solsBlock:12>);
 mods.chisel.Groups.addVariation("sols", <Ztones:tile.solsBlock:13>);
 mods.chisel.Groups.addVariation("sols", <Ztones:tile.solsBlock:14>);
 mods.chisel.Groups.addVariation("sols", <Ztones:tile.solsBlock:15>);
+mods.chisel.Groups.addVariation("sols", <Ztones:stoneTile>);
 
 // sync
 mods.chisel.Groups.addGroup("sync");
@@ -404,6 +420,7 @@ mods.chisel.Groups.addVariation("sync", <Ztones:tile.syncBlock:12>);
 mods.chisel.Groups.addVariation("sync", <Ztones:tile.syncBlock:13>);
 mods.chisel.Groups.addVariation("sync", <Ztones:tile.syncBlock:14>);
 mods.chisel.Groups.addVariation("sync", <Ztones:tile.syncBlock:15>);
+mods.chisel.Groups.addVariation("sync", <Ztones:stoneTile>);
 
 // tank
 mods.chisel.Groups.addGroup("tank");
@@ -423,6 +440,7 @@ mods.chisel.Groups.addVariation("tank", <Ztones:tile.tankBlock:12>);
 mods.chisel.Groups.addVariation("tank", <Ztones:tile.tankBlock:13>);
 mods.chisel.Groups.addVariation("tank", <Ztones:tile.tankBlock:14>);
 mods.chisel.Groups.addVariation("tank", <Ztones:tile.tankBlock:15>);
+mods.chisel.Groups.addVariation("tank", <Ztones:stoneTile>);
 
 // vect
 mods.chisel.Groups.addGroup("vect");
@@ -442,6 +460,7 @@ mods.chisel.Groups.addVariation("vect", <Ztones:tile.vectBlock:12>);
 mods.chisel.Groups.addVariation("vect", <Ztones:tile.vectBlock:13>);
 mods.chisel.Groups.addVariation("vect", <Ztones:tile.vectBlock:14>);
 mods.chisel.Groups.addVariation("vect", <Ztones:tile.vectBlock:15>);
+mods.chisel.Groups.addVariation("vect", <Ztones:stoneTile>);
 
 // vena
 mods.chisel.Groups.addGroup("vena");
@@ -461,6 +480,7 @@ mods.chisel.Groups.addVariation("vena", <Ztones:tile.venaBlock:12>);
 mods.chisel.Groups.addVariation("vena", <Ztones:tile.venaBlock:13>);
 mods.chisel.Groups.addVariation("vena", <Ztones:tile.venaBlock:14>);
 mods.chisel.Groups.addVariation("vena", <Ztones:tile.venaBlock:15>);
+mods.chisel.Groups.addVariation("vena", <Ztones:stoneTile>);
 
 // zone
 mods.chisel.Groups.addGroup("zone");
@@ -481,6 +501,7 @@ mods.chisel.Groups.addVariation("zone", <Ztones:tile.zoneBlock:12>);
 mods.chisel.Groups.addVariation("zone", <Ztones:tile.zoneBlock:13>);
 mods.chisel.Groups.addVariation("zone", <Ztones:tile.zoneBlock:14>);
 mods.chisel.Groups.addVariation("zone", <Ztones:tile.zoneBlock:15>);
+mods.chisel.Groups.addVariation("zone", <Ztones:stoneTile>);
 
 // zech
 mods.chisel.Groups.addGroup("zech");
@@ -501,6 +522,7 @@ mods.chisel.Groups.addVariation("zech", <Ztones:tile.zechBlock:12>);
 mods.chisel.Groups.addVariation("zech", <Ztones:tile.zechBlock:13>);
 mods.chisel.Groups.addVariation("zech", <Ztones:tile.zechBlock:14>);
 mods.chisel.Groups.addVariation("zech", <Ztones:tile.zechBlock:15>);
+mods.chisel.Groups.addVariation("zech", <Ztones:stoneTile>);
 
 // zorg
 mods.chisel.Groups.addGroup("zorg");
@@ -521,6 +543,7 @@ mods.chisel.Groups.addVariation("zorg", <Ztones:tile.zorgBlock:12>);
 mods.chisel.Groups.addVariation("zorg", <Ztones:tile.zorgBlock:13>);
 mods.chisel.Groups.addVariation("zorg", <Ztones:tile.zorgBlock:14>);
 mods.chisel.Groups.addVariation("zorg", <Ztones:tile.zorgBlock:15>);
+mods.chisel.Groups.addVariation("zorg", <Ztones:stoneTile>);
 
 // zome
 mods.chisel.Groups.addGroup("zome");
@@ -541,6 +564,7 @@ mods.chisel.Groups.addVariation("zome", <Ztones:tile.zomeBlock:12>);
 mods.chisel.Groups.addVariation("zome", <Ztones:tile.zomeBlock:13>);
 mods.chisel.Groups.addVariation("zome", <Ztones:tile.zomeBlock:14>);
 mods.chisel.Groups.addVariation("zome", <Ztones:tile.zomeBlock:15>);
+mods.chisel.Groups.addVariation("zome", <Ztones:stoneTile>);
 
 // zion
 mods.chisel.Groups.addGroup("zion");
@@ -561,6 +585,7 @@ mods.chisel.Groups.addVariation("zion", <Ztones:tile.zionBlock:12>);
 mods.chisel.Groups.addVariation("zion", <Ztones:tile.zionBlock:13>);
 mods.chisel.Groups.addVariation("zion", <Ztones:tile.zionBlock:14>);
 mods.chisel.Groups.addVariation("zion", <Ztones:tile.zionBlock:15>);
+mods.chisel.Groups.addVariation("zion", <Ztones:stoneTile>);
 
 // agon
 mods.chisel.Groups.addGroup("agon");
@@ -581,6 +606,7 @@ mods.chisel.Groups.addVariation("agon", <Ztones:tile.agonBlock:12>);
 mods.chisel.Groups.addVariation("agon", <Ztones:tile.agonBlock:13>);
 mods.chisel.Groups.addVariation("agon", <Ztones:tile.agonBlock:14>);
 mods.chisel.Groups.addVariation("agon", <Ztones:tile.agonBlock:15>);
+mods.chisel.Groups.addVariation("agon", <Ztones:stoneTile>);
 
 // fort
 mods.chisel.Groups.addGroup("fort");
@@ -601,6 +627,7 @@ mods.chisel.Groups.addVariation("fort", <Ztones:tile.fortBlock:12>);
 mods.chisel.Groups.addVariation("fort", <Ztones:tile.fortBlock:13>);
 mods.chisel.Groups.addVariation("fort", <Ztones:tile.fortBlock:14>);
 mods.chisel.Groups.addVariation("fort", <Ztones:tile.fortBlock:15>);
+mods.chisel.Groups.addVariation("fort", <Ztones:stoneTile>);
 
 // zkul
 mods.chisel.Groups.addGroup("zkul");
@@ -621,6 +648,7 @@ mods.chisel.Groups.addVariation("zkul", <Ztones:tile.zkulBlock:12>);
 mods.chisel.Groups.addVariation("zkul", <Ztones:tile.zkulBlock:13>);
 mods.chisel.Groups.addVariation("zkul", <Ztones:tile.zkulBlock:14>);
 mods.chisel.Groups.addVariation("zkul", <Ztones:tile.zkulBlock:15>);
+mods.chisel.Groups.addVariation("zkul", <Ztones:stoneTile>);
 
 // zest
 mods.chisel.Groups.addGroup("zest");
@@ -641,6 +669,7 @@ mods.chisel.Groups.addVariation("zest", <Ztones:tile.zestBlock:12>);
 mods.chisel.Groups.addVariation("zest", <Ztones:tile.zestBlock:13>);
 mods.chisel.Groups.addVariation("zest", <Ztones:tile.zestBlock:14>);
 mods.chisel.Groups.addVariation("zest", <Ztones:tile.zestBlock:15>);
+mods.chisel.Groups.addVariation("zest", <Ztones:stoneTile>);
 
 // zane
 mods.chisel.Groups.addGroup("zane");
@@ -661,6 +690,7 @@ mods.chisel.Groups.addVariation("zane", <Ztones:tile.zaneBlock:12>);
 mods.chisel.Groups.addVariation("zane", <Ztones:tile.zaneBlock:13>);
 mods.chisel.Groups.addVariation("zane", <Ztones:tile.zaneBlock:14>);
 mods.chisel.Groups.addVariation("zane", <Ztones:tile.zaneBlock:15>);
+mods.chisel.Groups.addVariation("zane", <Ztones:stoneTile>);
 
 // zeta
 mods.chisel.Groups.addGroup("zeta");
@@ -681,6 +711,7 @@ mods.chisel.Groups.addVariation("zeta", <Ztones:tile.zetaBlock:12>);
 mods.chisel.Groups.addVariation("zeta", <Ztones:tile.zetaBlock:13>);
 mods.chisel.Groups.addVariation("zeta", <Ztones:tile.zetaBlock:14>);
 mods.chisel.Groups.addVariation("zeta", <Ztones:tile.zetaBlock:15>);
+mods.chisel.Groups.addVariation("zeta", <Ztones:stoneTile>);
 
 // zoea
 mods.chisel.Groups.addGroup("zoea");
@@ -701,6 +732,7 @@ mods.chisel.Groups.addVariation("zoea", <Ztones:tile.zoeaBlock:12>);
 mods.chisel.Groups.addVariation("zoea", <Ztones:tile.zoeaBlock:13>);
 mods.chisel.Groups.addVariation("zoea", <Ztones:tile.zoeaBlock:14>);
 mods.chisel.Groups.addVariation("zoea", <Ztones:tile.zoeaBlock:15>);
+mods.chisel.Groups.addVariation("zoea", <Ztones:stoneTile>);
 
 // zyth
 mods.chisel.Groups.addGroup("zyth");
@@ -721,6 +753,7 @@ mods.chisel.Groups.addVariation("zyth", <Ztones:tile.zythBlock:12>);
 mods.chisel.Groups.addVariation("zyth", <Ztones:tile.zythBlock:13>);
 mods.chisel.Groups.addVariation("zyth", <Ztones:tile.zythBlock:14>);
 mods.chisel.Groups.addVariation("zyth", <Ztones:tile.zythBlock:15>);
+mods.chisel.Groups.addVariation("zyth", <Ztones:stoneTile>);
 
 // ztyl
 mods.chisel.Groups.addGroup("ztyl");
@@ -740,3 +773,4 @@ mods.chisel.Groups.addVariation("ztyl", <Ztones:tile.ztylBlock:12>);
 mods.chisel.Groups.addVariation("ztyl", <Ztones:tile.ztylBlock:13>);
 mods.chisel.Groups.addVariation("ztyl", <Ztones:tile.ztylBlock:14>);
 mods.chisel.Groups.addVariation("ztyl", <Ztones:tile.ztylBlock:15>);
+mods.chisel.Groups.addVariation("ztyl", <Ztones:stoneTile>);

@@ -31,14 +31,6 @@ recipes.addShapeless(<Botany:flowerbed:8> * 4, [<Botany:flowerbed:5>, <Botany:fl
 recipes.removeShapeless(<Botany:misc>);
 recipes.addShapeless(<Botany:misc> * 4, [<ore:dustAsh>]);
 
-//Iron Trowel Alt recipe
-recipes.remove(<Botany:trowelIron>);
-recipes.addShaped(<Botany:trowelIron>, [[null, null, <ore:ingotIron>], [null, <ore:stickWood>, null]]);
-
-//Diamond Trowel Alt recipe
-recipes.remove(<Botany:trowelDiamond>);
-recipes.addShaped(<Botany:trowelDiamond>, [[null, null, <ore:gemDiamond>], [null, <ore:stickWood>, null]]);
-
 /* Fence Recipes NEI */
 
 /* Single Wood */

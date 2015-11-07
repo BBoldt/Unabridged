@@ -1,0 +1,1181 @@
+{
+  "itemname": "dungeonChest bag",
+  "color": [
+    252,
+    191,
+    60,
+    255
+  ],
+  "invSlotsMin": 36,
+  "invSlotsMax": 36,
+  "amountOfItemsMin": 0,
+  "amountOfItemsMax": 72,
+  "rarity": "Rare",
+  "items": [
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 10,
+      "itemstack": {
+        "item": "minecraft:saddle",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 4,
+      "weight": 10,
+      "itemstack": {
+        "item": "minecraft:iron_ingot",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 10,
+      "itemstack": {
+        "item": "minecraft:bread",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 4,
+      "weight": 10,
+      "itemstack": {
+        "item": "minecraft:wheat",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 4,
+      "weight": 10,
+      "itemstack": {
+        "item": "minecraft:gunpowder",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 4,
+      "weight": 10,
+      "itemstack": {
+        "item": "minecraft:string",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 10,
+      "itemstack": {
+        "item": "minecraft:bucket",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 1,
+      "itemstack": {
+        "item": "minecraft:golden_apple",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 4,
+      "weight": 10,
+      "itemstack": {
+        "item": "minecraft:redstone",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 10,
+      "itemstack": {
+        "item": "minecraft:record_13",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 10,
+      "itemstack": {
+        "item": "minecraft:record_cat",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 10,
+      "itemstack": {
+        "item": "minecraft:name_tag",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 2,
+      "itemstack": {
+        "item": "minecraft:golden_horse_armor",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 5,
+      "itemstack": {
+        "item": "minecraft:iron_horse_armor",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 1,
+      "itemstack": {
+        "item": "minecraft:diamond_horse_armor",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 1,
+      "itemstack": {
+        "item": "minecraft:enchanted_book",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 5,
+      "itemstack": {
+        "item": "Railcraft:tool.steel.sword",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 5,
+      "itemstack": {
+        "item": "Railcraft:armor.steel.helmet",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 5,
+      "itemstack": {
+        "item": "Railcraft:armor.steel.plate",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 5,
+      "itemstack": {
+        "item": "Railcraft:armor.steel.legs",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 5,
+      "itemstack": {
+        "item": "Railcraft:armor.steel.boots",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "weight": 1,
+      "itemstack": {
+        "item": "dendrology:sapling0",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "weight": 1,
+      "itemstack": {
+        "item": "dendrology:sapling0",
+        "stacksize": 1,
+        "damage": 1
+      }
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "weight": 1,
+      "itemstack": {
+        "item": "dendrology:sapling0",
+        "stacksize": 1,
+        "damage": 2
+      }
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "weight": 1,
+      "itemstack": {
+        "item": "dendrology:sapling0",
+        "stacksize": 1,
+        "damage": 3
+      }
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "weight": 1,
+      "itemstack": {
+        "item": "dendrology:sapling0",
+        "stacksize": 1,
+        "damage": 4
+      }
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "weight": 1,
+      "itemstack": {
+        "item": "dendrology:sapling0",
+        "stacksize": 1,
+        "damage": 5
+      }
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "weight": 1,
+      "itemstack": {
+        "item": "dendrology:sapling0",
+        "stacksize": 1,
+        "damage": 6
+      }
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "weight": 1,
+      "itemstack": {
+        "item": "dendrology:sapling0",
+        "stacksize": 1,
+        "damage": 7
+      }
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "weight": 1,
+      "itemstack": {
+        "item": "dendrology:sapling1",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "weight": 1,
+      "itemstack": {
+        "item": "dendrology:sapling1",
+        "stacksize": 1,
+        "damage": 1
+      }
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "weight": 1,
+      "itemstack": {
+        "item": "dendrology:sapling1",
+        "stacksize": 1,
+        "damage": 2
+      }
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "weight": 1,
+      "itemstack": {
+        "item": "dendrology:sapling1",
+        "stacksize": 1,
+        "damage": 3
+      }
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "weight": 1,
+      "itemstack": {
+        "item": "dendrology:sapling1",
+        "stacksize": 1,
+        "damage": 4
+      }
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "weight": 1,
+      "itemstack": {
+        "item": "dendrology:parcel",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 5,
+      "weight": 9,
+      "itemstack": {
+        "item": "Botania:manaResource",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 6,
+      "itemstack": {
+        "item": "Botania:lexicon",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 5,
+      "itemstack": {
+        "item": "Botania:manaBottle",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 6,
+      "itemstack": {
+        "item": "Botania:blackLotus",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 2,
+      "itemstack": {
+        "item": "Botania:overgrowthSeed",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "weight": 5,
+      "itemstack": {
+        "item": "etfuturum:beetroot_seeds",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 2,
+      "itemstack": {
+        "item": "OpenBlocks:technicolorGlasses",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "weight": 2,
+      "itemstack": {
+        "item": "plantmegapack:seedBeet",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "weight": 2,
+      "itemstack": {
+        "item": "plantmegapack:seedBellPepperYellow",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "weight": 2,
+      "itemstack": {
+        "item": "plantmegapack:seedCelery",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "weight": 2,
+      "itemstack": {
+        "item": "plantmegapack:seedCorn",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "weight": 2,
+      "itemstack": {
+        "item": "plantmegapack:seedCucumber",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "weight": 2,
+      "itemstack": {
+        "item": "plantmegapack:seedLettuce",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "weight": 2,
+      "itemstack": {
+        "item": "plantmegapack:seedOnion",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "weight": 2,
+      "itemstack": {
+        "item": "plantmegapack:seedSpinach",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "weight": 2,
+      "itemstack": {
+        "item": "plantmegapack:seedTomato",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "weight": 2,
+      "itemstack": {
+        "item": "plantmegapack:foodPeanuts",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 3,
+      "itemstack": {
+        "item": "RandomThings:whitestone",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 3,
+      "weight": 50,
+      "itemstack": {
+        "item": "rftools:unknownDimlet",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "weight": 1,
+      "itemstack": {
+        "item": "Ztones:diamondZane",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 3,
+      "weight": 6,
+      "itemstack": {
+        "item": "AWWayofTime:standardBindingAgent",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 4,
+      "itemstack": {
+        "item": "AWWayofTime:mundanePowerCatalyst",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 4,
+      "itemstack": {
+        "item": "AWWayofTime:mundaneLengtheningCatalyst",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 2,
+      "itemstack": {
+        "item": "AWWayofTime:averagePowerCatalyst",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 2,
+      "itemstack": {
+        "item": "AWWayofTime:averageLengtheningCatalyst",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 1,
+      "itemstack": {
+        "item": "AWWayofTime:greaterPowerCatalyst",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 1,
+      "itemstack": {
+        "item": "AWWayofTime:greaterLengtheningCatalyst",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 0,
+      "max": 1,
+      "weight": 1,
+      "itemstack": {
+        "item": "HardcoreEnderExpansion:temple_caller",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 6,
+      "itemstack": {
+        "item": "HardcoreEnderExpansion:knowledge_note",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 25,
+      "itemstack": {
+        "item": "MineFactoryReloaded:safarinet.singleuse",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 4,
+      "weight": 8,
+      "itemstack": {
+        "item": "MineFactoryReloaded:rubberwood.sapling",
+        "stacksize": 1,
+        "damage": 2
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 5,
+      "itemstack": {
+        "item": "OpenComputers:item",
+        "stacksize": 1,
+        "damage": 4
+      }
+    },
+    {
+      "min": 1,
+      "max": 3,
+      "weight": 15,
+      "itemstack": {
+        "item": "EnderIO:itemAlloy",
+        "stacksize": 1,
+        "damage": 6
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 10,
+      "itemstack": {
+        "item": "EnderIO:itemConduitProbe",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 3,
+      "max": 16,
+      "weight": 20,
+      "itemstack": {
+        "item": "minecraft:quartz",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 4,
+      "weight": 10,
+      "itemstack": {
+        "item": "minecraft:nether_wart",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "weight": 30,
+      "itemstack": {
+        "item": "minecraft:ender_pearl",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 5,
+      "itemstack": {
+        "item": "EnderIO:item.darkSteel_sword",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 5,
+      "itemstack": {
+        "item": "EnderIO:item.darkSteel_boots",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 2,
+      "itemstack": {
+        "item": "enhancedportals:portal_module",
+        "stacksize": 1,
+        "damage": 4
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 5,
+      "itemstack": {
+        "item": "TConstruct:heartCanister",
+        "stacksize": 1,
+        "damage": 1
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 1,
+      "itemstack": {
+        "item": "GardenContainers:pottery_pattern_dirty",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 4,
+      "weight": 10,
+      "itemstack": {
+        "item": "PneumaticCraft:stopWorm",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 4,
+      "weight": 10,
+      "itemstack": {
+        "item": "PneumaticCraft:nukeVirus",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 8,
+      "itemstack": {
+        "item": "TravellersGear:simpleGear",
+        "stacksize": 1,
+        "damage": 6,
+        "nbt": {
+          "title": "TG.personaltitle.titan"
+        }
+      }
+    },
+    {
+      "min": 0,
+      "max": 1,
+      "weight": 2,
+      "itemstack": {
+        "item": "TConstruct:broadsword",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 3,
+      "weight": 5,
+      "itemstack": {
+        "item": "Thaumcraft:ItemLootBag",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 3,
+      "weight": 5,
+      "itemstack": {
+        "item": "Thaumcraft:ItemResource",
+        "stacksize": 1,
+        "damage": 2
+      }
+    },
+    {
+      "min": 1,
+      "max": 3,
+      "weight": 5,
+      "itemstack": {
+        "item": "Thaumcraft:ItemResource",
+        "stacksize": 1,
+        "damage": 6
+      }
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "weight": 4,
+      "itemstack": {
+        "item": "Thaumcraft:ItemLootBag",
+        "stacksize": 1,
+        "damage": 1
+      }
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "weight": 4,
+      "itemstack": {
+        "item": "Thaumcraft:ItemBaubleBlanks",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "weight": 4,
+      "itemstack": {
+        "item": "Thaumcraft:ItemBaubleBlanks",
+        "stacksize": 1,
+        "damage": 1
+      }
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "weight": 4,
+      "itemstack": {
+        "item": "Thaumcraft:ItemBaubleBlanks",
+        "stacksize": 1,
+        "damage": 2
+      }
+    },
+    {
+      "min": 1,
+      "max": 2,
+      "weight": 4,
+      "itemstack": {
+        "item": "Thaumcraft:ItemResource",
+        "stacksize": 1,
+        "damage": 9
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 1,
+      "itemstack": {
+        "item": "Thaumcraft:ItemLootBag",
+        "stacksize": 1,
+        "damage": 2
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 1,
+      "itemstack": {
+        "item": "Thaumcraft:ItemThaumonomicon",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 1,
+      "itemstack": {
+        "item": "Thaumcraft:ItemSwordThaumium",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 1,
+      "itemstack": {
+        "item": "Thaumcraft:ItemPickThaumium",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 1,
+      "itemstack": {
+        "item": "Thaumcraft:ItemAxeThaumium",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 1,
+      "itemstack": {
+        "item": "Thaumcraft:ItemHoeThaumium",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 1,
+      "itemstack": {
+        "item": "Thaumcraft:ItemRingRunic",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 1,
+      "itemstack": {
+        "item": "Thaumcraft:ItemBaubleBlanks",
+        "stacksize": 1,
+        "damage": 3
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 1,
+      "itemstack": {
+        "item": "Thaumcraft:ItemBaubleBlanks",
+        "stacksize": 1,
+        "damage": 4
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 1,
+      "itemstack": {
+        "item": "Thaumcraft:ItemBaubleBlanks",
+        "stacksize": 1,
+        "damage": 5
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 1,
+      "itemstack": {
+        "item": "Thaumcraft:ItemBaubleBlanks",
+        "stacksize": 1,
+        "damage": 6
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 1,
+      "itemstack": {
+        "item": "Thaumcraft:ItemBaubleBlanks",
+        "stacksize": 1,
+        "damage": 7
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 1,
+      "itemstack": {
+        "item": "Thaumcraft:ItemBaubleBlanks",
+        "stacksize": 1,
+        "damage": 8
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 1,
+      "itemstack": {
+        "item": "Thaumcraft:ItemAmuletVis",
+        "stacksize": 1,
+        "damage": 0,
+        "nbt": {
+          "aqua": "100",
+          "terra": "100",
+          "ignis": "400",
+          "ordo": "200",
+          "perditio": "200",
+          "aer": "100"
+        }
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 10,
+      "itemstack": {
+        "item": "Forestry:beeDroneGE",
+        "stacksize": 1,
+        "damage": 0,
+        "nbt": {
+          "MaxH": "40",
+          "Health": "40",
+          "IsAnalyzed": "0b",
+          "Genome": {
+            "Chromosomes": [
+              {
+                "UID1": "forestry.speciesSteadfast",
+                "UID0": "forestry.speciesSteadfast",
+                "Slot": "0b"
+              },
+              {
+                "UID1": "forestry.speedSlower",
+                "UID0": "forestry.speedSlower",
+                "Slot": "1b"
+              },
+              {
+                "UID1": "forestry.lifespanNormal",
+                "UID0": "forestry.lifespanNormal",
+                "Slot": "2b"
+              },
+              {
+                "UID1": "forestry.fertilityNormal",
+                "UID0": "forestry.fertilityNormal",
+                "Slot": "3b"
+              },
+              {
+                "UID1": "forestry.toleranceNone",
+                "UID0": "forestry.toleranceNone",
+                "Slot": "4b"
+              },
+              {
+                "UID1": "forestry.boolTrue",
+                "UID0": "forestry.boolTrue",
+                "Slot": "5b"
+              },
+              {
+                "UID1": "forestry.toleranceNone",
+                "UID0": "forestry.toleranceNone",
+                "Slot": "7b"
+              },
+              {
+                "UID1": "forestry.boolFalse",
+                "UID0": "forestry.boolFalse",
+                "Slot": "8b"
+              },
+              {
+                "UID1": "forestry.boolTrue",
+                "UID0": "forestry.boolTrue",
+                "Slot": "9b"
+              },
+              {
+                "UID1": "forestry.flowersVanilla",
+                "UID0": "forestry.flowersVanilla",
+                "Slot": "10b"
+              },
+              {
+                "UID1": "forestry.floweringSlowest",
+                "UID0": "forestry.floweringSlowest",
+                "Slot": "11b"
+              },
+              {
+                "UID1": "forestry.territoryAverage",
+                "UID0": "forestry.territoryAverage",
+                "Slot": "12b"
+              },
+              {
+                "UID1": "forestry.effectNone",
+                "UID0": "forestry.effectNone",
+                "Slot": "13b"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 1,
+      "itemstack": {
+        "item": "Automagy:baubleEnderDisjunction",
+        "stacksize": 1,
+        "damage": 1
+      }
+    },
+    {
+      "min": 1,
+      "max": 3,
+      "weight": 3,
+      "itemstack": {
+        "item": "Automagy:phialExtra",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "weight": 6,
+      "itemstack": {
+        "item": "ExtraUtilities:divisionSigil",
+        "stacksize": 1,
+        "damage": 0
+      }
+    },
+    {
+      "min": 1,
+      "max": 5,
+      "weight": 17,
+      "itemstack": {
+        "item": "ExtraUtilities:plant/ender_lilly",
+        "stacksize": 1,
+        "damage": 0
+      }
+    }
+  ]
+}
