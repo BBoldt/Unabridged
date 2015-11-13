@@ -11,7 +11,7 @@ key_key.inventory:18
 key_key.chat:20
 key_key.playerlist:15
 key_key.pickItem:-98
-key_key.command:0
+key_key.command:53
 key_key.screenshot:60
 key_key.togglePerspective:63
 key_key.smoothCamera:0
@@ -78,9 +78,14 @@ key_Toggle Electromagnet:0
 key_[GC] Galaxy Map:13
 key_[GC] Open Spaceship Inventory:12
 key_[GC] Toggle Sensor Goggles Mode:0
-key_Mekanism Item Mode Switch:53
+key_Mekanism Item Mode Switch:54
 key_Mekanism Armor Mode Switch:51
 key_Mekanism Voice:52
+key_key.craftingcraft.portableCrafting:0
+key_key.craftingtweaks.rotate:0
+key_key.craftingtweaks.balance:0
+key_key.craftingtweaks.clear:0
+key_key.craftingtweaks.toggleButtons:0
 key_key.irc.screenshotShare:0
 key_key.irc.openScreenshots:0
 key_key.irc.toggleTarget:15
@@ -101,7 +106,7 @@ key_key.craftingGrid:46
 key_TG.keybind.openInv:28
 key_TG.keybind.activeaAbilities:0
 key_key.zyinhud.animalinfo:0
-key_key.zyinhud.coordinates:0
+key_key.zyinhud.coordinates:11
 key_key.zyinhud.distancemeasurer:0
 key_key.zyinhud.eatingaid:0
 key_key.zyinhud.enderpearlaid:0
@@ -126,8 +131,3 @@ key_key.journeymap.minimap_type:199
 key_key.journeymap.minimap_type:199
 key_key.journeymap.minimap_preset:45
 key_key.journeymap.create_waypoint:44
-key_key.minimap.voxelmapmenu:50
-key_key.minimap.waypointhotkey:44
-key_key.minimap.zoom:201
-key_key.minimap.togglefullscreen:45
-key_key.minimap.togglemobs:199

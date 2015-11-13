@@ -4,6 +4,7 @@ if (FML.isModLoaded("StorageDrawers") && StorageDrawers_enabled) {
     NEI.override("StorageDrawers:upgradeStatus", [1,2]);
     NEI.hide("StorageDrawersBop:*");
     NEI.hide("StorageDrawersForestry:*");
+    NEI.hide("StorageDrawersMisc:*");
     NEI.hide("dendrology:fullDrawers1");
     NEI.hide("dendrology:fullDrawers2");
     NEI.hide("dendrology:fullDrawers4");

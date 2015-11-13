@@ -9,6 +9,14 @@ recipes.addShaped(<chisel:andesite:1> * 4, [[<chisel:andesite>, <chisel:andesite
 recipes.addShaped(<chisel:diorite:1> * 4, [[<chisel:diorite>, <chisel:diorite>], [<chisel:diorite>, <chisel:diorite>]]);
 recipes.addShaped(<chisel:granite:1> * 4, [[<chisel:granite>, <chisel:granite>], [<chisel:granite>, <chisel:granite>]]);
 
+// EndStone
+mods.chisel.Groups.addVariation("end_Stone", <Botania:endStoneBrick>);
+mods.chisel.Groups.addVariation("end_Stone", <Botania:endStoneBrick:1>);
+mods.chisel.Groups.addVariation("end_Stone", <minecraft:end_stone>);
+mods.chisel.Groups.addVariation("end_Stone", <etfuturum:end_bricks>);
+mods.chisel.Groups.addVariation("end_Stone", <TConstruct:decoration.multibrick:12>);
+mods.chisel.Groups.addVariation("end_Stone", <TConstruct:decoration.multibrickfancy:12>);
+
 // Basalt
 mods.chisel.Groups.addGroup("basalt"); 
 mods.chisel.Groups.addVariation("basalt", <Botania:stone:5>);

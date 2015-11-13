@@ -1,0 +1,8 @@
+JsonLootBags:ItemLootBag,1,0,{type:"bagobooks"}
+BiomesOPlenty:bootsMud,1,0
+BiomesOPlenty:leggingsMud,1,0
+BiomesOPlenty:chestplateMud,1,0
+BiomesOPlenty:helmetMud,1,0
+chisel:chisel,1,0
+minecraft:stone_axe,1,0
+minecraft:torch,16,0
