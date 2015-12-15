@@ -34,8 +34,3 @@ recipes.addShaped(<Botania:petal:14> * 4, [[<tropicraft:tile.flower:6>, <tropicr
 
 // Coconut
 recipes.addShapeless(<tropicraft:coconutChunk> * 2, [<BiomesOPlenty:colorizedLeaves1:2>]);
-
-// Tooltips
-<tropicraft:bambooChute>.addTooltip(format.aqua("Can be crafted from Plant Mega Pack bamboo."));
-<tropicraft:coconutChunk>.addTooltip(format.aqua("Can be crafted from Biomes O' Plenty palm tree leaves."));
-<tropicraft:tile.coconut>.addTooltip(format.aqua("Whole coconut, only found in the tropics"));

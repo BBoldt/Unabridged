@@ -29,11 +29,6 @@ mods.thaumcraft.Research.addPrereq("PURECINNABAR", "PUREIRON", false);
 mods.thaumcraft.Research.orphanResearch("WGFAKEPUREIRON");
 mods.thaumcraft.Research.removeResearch("WGFAKEPUREIRON");
 
-// Tainted Magic
-mods.thaumcraft.Infusion.removeRecipe(<TaintedMagic:SashVoid>);
-mods.thaumcraft.Research.orphanResearch("VOIDSASH");
-mods.thaumcraft.Research.removeResearch("VOIDSASH");
-
 // Knowledge Fragment Recipes
 
 /* Botania */
@@ -45,8 +40,3 @@ game.setLocalization("en_US", "botania.page.tcIntegration8", "&o99 problems but 
 
 /* Vanilla */
 recipes.addShapeless(<Thaumcraft:ItemResource:9>, [<minecraft:book>, <Thaumcraft:ItemShard:*>, <Thaumcraft:ItemShard:*>]);
-
-// Bell TEMPFIX
-recipes.addShaped(<JsonLootBags:ItemLootBag>.withTag({type: "golembell"}), [[null, null, null], [null, <minecraft:quartz>, null],[<ore:stickWood>, null, null]]);
-mods.thaumcraft.Research.addPage("GOLEMBELL", "derp.research_page.GOLEMBELLEXTRA");
-game.setLocalization("en_US", "derp.research_page.GOLEMBELLEXTRA", "DO NOT CRAFT WITH THE RECIPE SHOWN IN THE THAUMONOMICON, IT WILL CAUSE A CRASH!<BR>There are currently some conflicts due to Thaumic Horizons preventing it from working correctly.<BR>Cheat in a bell using NEI if you are in single player; server OPs should give you one if you ask, just show them this page.<BR>If that is an issue, there is an extra crafting recipe added that gives you a null bell that can't be placed in crafting tables or certain GUIS without causing a crash, but it should work for most things. Search for -Gift Wrapped Golemancer's Bell- in NEI.");

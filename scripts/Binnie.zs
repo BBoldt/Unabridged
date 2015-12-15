@@ -31,7 +31,14 @@ recipes.addShapeless(<Botany:flowerbed:8> * 4, [<Botany:flowerbed:5>, <Botany:fl
 recipes.removeShapeless(<Botany:misc>);
 recipes.addShapeless(<Botany:misc> * 4, [<ore:dustAsh>]);
 
-/* Fence Recipes NEI */
+/* Fences */
+
+// Gate fix
+recipes.remove(<ExtraTrees:gate:1>.withTag({meta: 1}));
+recipes.remove(<ExtraTrees:gate:2>.withTag({meta: 2}));
+recipes.remove(<ExtraTrees:gate:3>.withTag({meta: 3}));
+recipes.remove(<ExtraTrees:gate:4>.withTag({meta: 4}));
+recipes.remove(<ExtraTrees:gate:5>.withTag({meta: 5}));
 
 /* Single Wood */
 // Regular fences
