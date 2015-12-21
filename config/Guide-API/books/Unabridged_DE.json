@@ -1,0 +1,70 @@
+{
+  "unlocDisplayName": "Gekürzter Führer zu Ungekürzt",
+  "unlocWelcomeMessage": "Willkommen, und vielen Dank das du Ungekürzt (Unabridged) spielst!\n\nIn diesem Führer wirst du einige Informationen über dieses Modpack finden die wichtig sind.\n\nDies ist keine Anleitung, neue Mods entdecken und lernen ist Teil des Spiels. Es gibt keinen EINEN Weg den du nehmen must.",
+  "unlocBookTitle": "Gekürzter Führer zu Ungekürzt",
+  "color": {
+    "red": 0,
+    "green": 255,
+    "blue": 255,
+    "alpha": 255
+  },
+  "spawnWithBook": true,
+  "lootChance": 0,
+  "chestHooks": [ "" ],
+  "author": "BBoldt und DRedhorse",
+  "isLostBook": false,
+  "categoryList": [
+    {
+      "type": "CategoryItemStack",
+      "itemStack": {
+        "isBlock": false,
+        "name": "minecraft:paper",
+        "metadata": 0
+      },
+      "entryList": [
+        {
+          "type": "EntryUniText",
+          "unlocEntryName": "--Abbau Entwicklung--",
+          "pageList": [
+            {
+              "type": "PageLocText",
+              "locText": "Dieser Pack hat angepasste Abbau Level sowohl bei den Erzen wie auch bei den Geräten, so das Ihr immer weiter kommt egal welchen Weg Ihr nehmt. \n\nFalls Ihr ein Erz findet das Ihr nicht abbauen könnt haltet Shift und WAILA zeigt euch den Abbau Level an.\n\nDanach könnt Ihr diesen Level in NEI suchen. Nun zeigt euch NEI die Geräte an die diesen Abbau Level haben."
+            },
+            {
+              "type": "PageLocText",
+              "locText": "Die folgende Erklärung zeigt wie Ihr es ohne Tinkers Construct Geräte angehen könntet.\n\nStein/Feuerstein kann abbauen:\nEisen, Kohle, Apatite, Zink, Schwefel, Salpeter\n\nEisen kann abbauen:\nOsmium, Zinn, Ferrös, Blei, Lapis, Kupfer, Vorherige Level\n\nBronze/Osmium kann abbauen:\nBOP Juwelen, Certus, Gold, Redstone, Vorherige Level"
+            },
+            {
+              "type": "PageLocText",
+              "locText": "Stahl/Manastahl/Thaumium kann abbauen:\nDiamant, Smaragd, Obsidian, Yellorite, Silber, Vorherige Level\n\nSchillernd/Robust/Fluxierend/Terra Brecher kann abbauen:\nArdite, Vorherige Level\n\nDunkel Stahl/Pickaxe of Distortion kann abbauen:\nCobalt, Vorherige Level"
+            },
+            {
+              "type": "PageLocText",
+              "locText": "Die gleichen Abbau Level gelten auch für Tinkers' Construct, aber es gibt noch viel mehr Wege die hier nicht aufgeführt sind.\n\nFalls Ihr Tinkers Construct benutzt, solltet Ihr wissen das euere Geräte einen Level aufsteigen können wenn Ihr sie benutzt, und dadurch auch einen höheren Abbau Level erreichen können."
+            },
+            {
+              "type": "PageLocText",
+              "locText": "Außerdem können auch Teile euerer Geräte gegen bessere ausgetauscht werden während Ihr weiter spielt.\n\nEuer Gerät muss nur vollständig repariert sein bevor Ihr die Teile tauschen könnt."
+            }
+
+          ]
+        },
+        {
+          "type": "EntryUniText",
+          "unlocEntryName": "--Pro Tips--",
+          "pageList": [
+            {
+              "type": "PageLocText",
+              "locText": "Ist euere Kistenablage ein Chaos?\n\nKönnt Ihr die Dinge nicht finden die Ihr sucht?\\nnVersucht '/search ITEM'.\n\nDieses zeigt euch die Dinge über den Kisten an die das gesuchte enthalten.\n\nMit '/search clear' könnt ihr die Suche löschen."
+            },
+            {
+              "type": "PageLocText",
+              "locText": "Sucht ihr nach einem direkten Link zu der Dokumentation eines Mod?\n\nVersucht '/docs mod' und es sollte euch den richtigen Weg weisen."
+            }
+          ]
+        }
+      ],
+      "unlocCategoryName": "Index"
+    }
+  ]
+}
