@@ -1,7 +1,8 @@
 {
     "images":
     {
-		"black":
+		
+		"menubar":
         {
             "image" : "custommainmenu:textures/bg_menu.png",
             "posX" : -115,
@@ -18,6 +19,15 @@
             "width" : 256,
             "height" : 256,
             "alignment" : "top_center"
+        },
+		"flare":
+        {
+            "image" : "custommainmenu:textures/gui/flare.png",
+            "posX" : -175,
+            "posY" : 32,
+            "width" : 350,
+            "height" : 350,
+            "alignment" : "top_center"
         }
 	
 	},
@@ -31,7 +41,7 @@
 			"hoverTextColor" : 3125670,
 			"texture" : "custommainmenu:textures/btn.png",
             "posX" : -113,
-            "posY" : 120,
+            "posY" : 150,
             "width" : 226,
             "height" : 20,
 			imageWidth : 100,
@@ -51,7 +61,7 @@
 			"hoverTextColor" : 3125670,
 			"texture" : "custommainmenu:textures/btn.png",
             "posX" : -113,
-            "posY" : 140,
+            "posY" : 170,
             "width" : 226,
             "height" : 20,
 			imageWidth : 100,
@@ -71,7 +81,7 @@
 			"hoverTextColor" : 3125670,
 			"texture" : "custommainmenu:textures/btn.png",
             "posX" : -113,
-            "posY" : 160,
+            "posY" : 190,
             "width" : 226,
             "height" : 20,
 			imageWidth : 100,
@@ -83,26 +93,6 @@
                 "gui" : "options"
             }
         },
-		        
-		"language":
-        {
-            "text" : "options.language",
-            "normalTextColor" : 12303291,
-			"hoverTextColor" : 3125670,
-			"texture" : "custommainmenu:textures/btn.png",
-            "posX" : -113,
-            "posY" : 180,
-            "width" : 226,
-            "height" : 20,
-			imageWidth : 100,
-			imageHeight : 50,			
-			"alignment" : "top_center",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "languages"
-            }
-        },
                     
         "quit":
         {
@@ -111,7 +101,7 @@
 			"hoverTextColor" : 14483456,
 			"texture" : "custommainmenu:textures/btn.png",
             "posX" : -113,
-            "posY" : 200,
+            "posY" : 230,
             "width" : 226,
             "height" : 20,
 			imageWidth : 100,
@@ -126,13 +116,14 @@
         
         "mods":
         {
-            "text" : "Mods (#modsloaded#/#modsactive#)",
+            "text" : "Mods (#modsactive#)",
 			"normalTextColor" : 12303291,
 			"hoverTextColor" : 3125670,
+			"tooltip" : "#modsactive#/#modsloaded# mods active!",
 			"texture" : "custommainmenu:textures/btn.png",
-            "posX" : -113,
-            "posY" : -20,
-            "width" : 113,
+            "posX" : -105,
+            "posY" : -40,
+            "width" : 65,
             "height" : 20,
 			imageWidth : 100,
 			imageHeight : 50,
@@ -146,13 +137,13 @@
         
         "Changelog":
         {
-            "text" : "Changelog...",
+            "text" : "Changelog",
 			"normalTextColor" : 12303291,
 			"hoverTextColor" : 3125670,
 			"texture" : "custommainmenu:textures/btn.png",
-            "posX" : 0,
-            "posY" : -20,
-            "width" : 113,
+            "posX" : 40,
+            "posY" : -40,
+            "width" : 65,
             "height" : 20,
 			imageWidth : 100,
 			imageHeight : 50,
@@ -163,43 +154,48 @@
 				"link" : "https://github.com/BBoldt/Unabridged/blob/master/CHANGELOG.md"
             }
         },
-        
-        "refresh":
+		
+		"reload":
         {
             "text" : "",
-			"texture" : "custommainmenu:textures/icons/refresh.png",
-            "alignment" : "top_center",
-            "posX" : -13,
-            "posY" : -1,
-            "width" : 20,
-            "height" : 20,
+            "posX" : -22,
+            "posY" : -22,
+            "width" : 11,
+            "height" : 11,
+			"alignment" : "bottom_right",
+			"tooltip" : "Refresh",
+            "texture" : "custommainmenu:textures/icons/reload.png",
             "action" : 
             {
                 "type" : "refresh"
             }
         },
-
-        "openeye":
+		
+		"language":
         {
             "text" : "",
-			"texture" : "custommainmenu:textures/icons/openeye.png",
-            "hoverText" : "OpenEye",
-            "alignment" : "bottom_left",
-            "posX" : 42,
-            "posY" : -25,
-            "width" : 20,
-            "height" : 20,
-			"wrappedButton" : 666
+            "posX" : -37,
+            "posY" : -22,
+            "width" : 11,
+            "height" : 11,
+			"alignment" : "bottom_right",
+			"tooltip" : "Language",
+			"texture" : "custommainmenu:textures/icons/globe.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
         },
 		
 		"Github":
         {
             "text" : "",
 			"texture" : "custommainmenu:textures/icons/github.png",
-			"hoverText" : "Github",
-			"alignment" : "bottom_left",
-            "posX" : 12,
-            "posY" : -25,
+			"tooltip" : "Github",
+			"alignment" : "bottom_center",
+            "posX" : -35,
+            "posY" : -40,
             "width" : 20,
             "height" : 20,
 			"action" :
@@ -213,10 +209,10 @@
         {
             "text" : "",
 			"texture" : "custommainmenu:textures/icons/reddit.png",
-			"hoverText" : "Reddit",
-			"alignment" : "bottom_right",
-            "posX" : -60,
-            "posY" : -25,
+			"tooltip" : "Reddit",
+			"alignment" : "bottom_center",
+            "posX" : -10,
+            "posY" : -40,
             "width" : 20,
             "height" : 20,
 			"action" :
@@ -230,10 +226,10 @@
         {
             "text" : "",
 			"texture" : "custommainmenu:textures/icons/twitter.png",
-			"hoverText" : "Twitter",
-			"alignment" : "bottom_right",
-            "posX" : -30,
-            "posY" : -25,
+			"tooltip" : "Twitter",
+			"alignment" : "bottom_center",
+            "posX" : 15,
+            "posY" : -40,
             "width" : 20,
             "height" : 20,
 			"action" :
@@ -246,22 +242,13 @@
     
     "texts":
     {
-        "mojang":
+        "version":
         {
-            "text" : "Minecraft #mcversion# - Forge #forgeversion#",
-            "posX" : -190,
-            "posY" : 5,
+            "text" : "R.10",
+            "posX" : -10,
+            "posY" : 115,
             "color" : -1,
-            "alignment" : "top_right"
-        },
-        
-		"packTxt":
-        {
-            "text" : "UNABRIDGED - Release 10",
-            "posX" : 5,
-            "posY" : 5,
-            "color" : -1,
-            "alignment" : "top_left"
+            "alignment" : "top_center"
         }
     },
     
@@ -273,100 +260,100 @@
             "slideshow":
             {
                 "images" : [
-					"custommainmenu:scrn/1.png",
-                    "custommainmenu:scrn/2.png",
-                    "custommainmenu:scrn/3.png",
-                    "custommainmenu:scrn/4.png",
-                    "custommainmenu:scrn/5.png",
-                    "custommainmenu:scrn/6.png",
-                    "custommainmenu:scrn/7.png",
-                    "custommainmenu:scrn/8.png",
-                    "custommainmenu:scrn/9.png",
-                    "custommainmenu:scrn/10.png",
-                    "custommainmenu:scrn/11.png",
-                    "custommainmenu:scrn/12.png",
-                    "custommainmenu:scrn/13.png",
-                    "custommainmenu:scrn/14.png",
-                    "custommainmenu:scrn/15.png",
-                    "custommainmenu:scrn/16.png",
-                    "custommainmenu:scrn/17.png",
-                    "custommainmenu:scrn/18.png",
-                    "custommainmenu:scrn/19.png",
-                    "custommainmenu:scrn/20.png",
-                    "custommainmenu:scrn/21.png",
-                    "custommainmenu:scrn/22.png",
-                    "custommainmenu:scrn/23.png",
-                    "custommainmenu:scrn/24.png",
-                    "custommainmenu:scrn/25.png",
-                    "custommainmenu:scrn/26.png",
-                    "custommainmenu:scrn/27.png",
-                    "custommainmenu:scrn/28.png",
-                    "custommainmenu:scrn/29.png",
-                    "custommainmenu:scrn/30.png",
-                    "custommainmenu:scrn/31.png",
-                    "custommainmenu:scrn/32.png",
-                    "custommainmenu:scrn/33.png",
-                    "custommainmenu:scrn/34.png",
-                    "custommainmenu:scrn/35.png",
-                    "custommainmenu:scrn/36.png",
-                    "custommainmenu:scrn/37.png",
-                    "custommainmenu:scrn/38.png",
-                    "custommainmenu:scrn/39.png",
-                    "custommainmenu:scrn/40.png",
-                    "custommainmenu:scrn/41.png",
-                    "custommainmenu:scrn/42.png",
-                    "custommainmenu:scrn/43.png",
-                    "custommainmenu:scrn/44.png",
-                    "custommainmenu:scrn/45.png",
-                    "custommainmenu:scrn/46.png",
-                    "custommainmenu:scrn/47.png",
-                    "custommainmenu:scrn/48.png",
-                    "custommainmenu:scrn/49.png",
-                    "custommainmenu:scrn/50.png",
-                    "custommainmenu:scrn/51.png",
-                    "custommainmenu:scrn/52.png",
-                    "custommainmenu:scrn/53.png",
-                    "custommainmenu:scrn/54.png",
-                    "custommainmenu:scrn/55.png",
-                    "custommainmenu:scrn/56.png",
-                    "custommainmenu:scrn/57.png",
-                    "custommainmenu:scrn/58.png",
-                    "custommainmenu:scrn/59.png",
-                    "custommainmenu:scrn/60.png",
-                    "custommainmenu:scrn/61.png",
-                    "custommainmenu:scrn/62.png",
-                    "custommainmenu:scrn/63.png",
-                    "custommainmenu:scrn/64.png",
-                    "custommainmenu:scrn/65.png",
-                    "custommainmenu:scrn/66.png",
-                    "custommainmenu:scrn/67.png",
-                    "custommainmenu:scrn/68.png",
-                    "custommainmenu:scrn/69.png",
-                    "custommainmenu:scrn/70.png",
-                    "custommainmenu:scrn/71.png",
-                    "custommainmenu:scrn/72.png",
-                    "custommainmenu:scrn/73.png",
-                    "custommainmenu:scrn/74.png",
-                    "custommainmenu:scrn/75.png",
-                    "custommainmenu:scrn/76.png",
-                    "custommainmenu:scrn/77.png",
-                    "custommainmenu:scrn/78.png",
-                    "custommainmenu:scrn/79.png",
-                    "custommainmenu:scrn/80.png",
-                    "custommainmenu:scrn/81.png",
-                    "custommainmenu:scrn/82.png",
-                    "custommainmenu:scrn/83.png",
-                    "custommainmenu:scrn/84.png",
-                    "custommainmenu:scrn/85.png",
-                    "custommainmenu:scrn/86.png",
-                    "custommainmenu:scrn/87.png",
-                    "custommainmenu:scrn/88.png",
-                    "custommainmenu:scrn/89.png",
-                    "custommainmenu:scrn/90.png",
-                    "custommainmenu:scrn/91.png",
-                    "custommainmenu:scrn/92.png",
-                    "custommainmenu:scrn/93.png",
-                    "custommainmenu:scrn/94.png"
+					"custommainmenu:scrn/bg (1).png",
+					"custommainmenu:scrn/bg (2).png",
+					"custommainmenu:scrn/bg (3).png",
+					"custommainmenu:scrn/bg (4).png",
+					"custommainmenu:scrn/bg (5).png",
+					"custommainmenu:scrn/bg (6).png",
+					"custommainmenu:scrn/bg (7).png",
+					"custommainmenu:scrn/bg (8).png",
+					"custommainmenu:scrn/bg (9).png",
+					"custommainmenu:scrn/bg (10).png",
+					"custommainmenu:scrn/bg (11).png",
+					"custommainmenu:scrn/bg (12).png",
+					"custommainmenu:scrn/bg (13).png",
+					"custommainmenu:scrn/bg (14).png",
+					"custommainmenu:scrn/bg (15).png",
+					"custommainmenu:scrn/bg (16).png",
+					"custommainmenu:scrn/bg (17).png",
+					"custommainmenu:scrn/bg (18).png",
+					"custommainmenu:scrn/bg (19).png",
+                    "custommainmenu:scrn/bg (20).png",
+                    "custommainmenu:scrn/bg (21).png",
+                    "custommainmenu:scrn/bg (22).png",
+                    "custommainmenu:scrn/bg (23).png",
+                    "custommainmenu:scrn/bg (24).png",
+                    "custommainmenu:scrn/bg (25).png",
+                    "custommainmenu:scrn/bg (26).png",
+                    "custommainmenu:scrn/bg (27).png",
+                    "custommainmenu:scrn/bg (28).png",
+                    "custommainmenu:scrn/bg (29).png",
+                    "custommainmenu:scrn/bg (30).png",
+                    "custommainmenu:scrn/bg (31).png",
+                    "custommainmenu:scrn/bg (32).png",
+                    "custommainmenu:scrn/bg (33).png",
+                    "custommainmenu:scrn/bg (34).png",
+                    "custommainmenu:scrn/bg (35).png",
+                    "custommainmenu:scrn/bg (36).png",
+                    "custommainmenu:scrn/bg (37).png",
+                    "custommainmenu:scrn/bg (38).png",
+                    "custommainmenu:scrn/bg (39).png",
+                    "custommainmenu:scrn/bg (40).png",
+                    "custommainmenu:scrn/bg (41).png",
+                    "custommainmenu:scrn/bg (42).png",
+                    "custommainmenu:scrn/bg (43).png",
+                    "custommainmenu:scrn/bg (44).png",
+                    "custommainmenu:scrn/bg (45).png",
+                    "custommainmenu:scrn/bg (46).png",
+                    "custommainmenu:scrn/bg (47).png",
+                    "custommainmenu:scrn/bg (48).png",
+                    "custommainmenu:scrn/bg (49).png",
+                    "custommainmenu:scrn/bg (50).png",
+                    "custommainmenu:scrn/bg (51).png",
+                    "custommainmenu:scrn/bg (52).png",
+                    "custommainmenu:scrn/bg (53).png",
+                    "custommainmenu:scrn/bg (54).png",
+                    "custommainmenu:scrn/bg (55).png",
+                    "custommainmenu:scrn/bg (56).png",
+                    "custommainmenu:scrn/bg (57).png",
+                    "custommainmenu:scrn/bg (58).png",
+                    "custommainmenu:scrn/bg (59).png",
+                    "custommainmenu:scrn/bg (60).png",
+                    "custommainmenu:scrn/bg (61).png",
+                    "custommainmenu:scrn/bg (62).png",
+                    "custommainmenu:scrn/bg (63).png",
+                    "custommainmenu:scrn/bg (64).png",
+                    "custommainmenu:scrn/bg (65).png",
+                    "custommainmenu:scrn/bg (66).png",
+                    "custommainmenu:scrn/bg (67).png",
+                    "custommainmenu:scrn/bg (68).png",
+                    "custommainmenu:scrn/bg (69).png",
+                    "custommainmenu:scrn/bg (70).png",
+                    "custommainmenu:scrn/bg (71).png",
+                    "custommainmenu:scrn/bg (72).png",
+                    "custommainmenu:scrn/bg (73).png",
+                    "custommainmenu:scrn/bg (74).png",
+                    "custommainmenu:scrn/bg (75).png",
+                    "custommainmenu:scrn/bg (76).png",
+                    "custommainmenu:scrn/bg (77).png",
+                    "custommainmenu:scrn/bg (78).png",
+                    "custommainmenu:scrn/bg (79).png",
+                    "custommainmenu:scrn/bg (80).png",
+                    "custommainmenu:scrn/bg (81).png",
+                    "custommainmenu:scrn/bg (82).png",
+                    "custommainmenu:scrn/bg (83).png",
+                    "custommainmenu:scrn/bg (84).png",
+                    "custommainmenu:scrn/bg (85).png",
+                    "custommainmenu:scrn/bg (86).png",
+                    "custommainmenu:scrn/bg (87).png",
+                    "custommainmenu:scrn/bg (88).png",
+                    "custommainmenu:scrn/bg (89).png",
+                    "custommainmenu:scrn/bg (90).png",
+                    "custommainmenu:scrn/bg (91).png",
+                    "custommainmenu:scrn/bg (92).png",
+                    "custommainmenu:scrn/bg (93).png",
+					"custommainmenu:scrn/bg (94).png"
 							],
 				"displayDuration" : 100,
 				"fadeDuration" : 40,

@@ -37,6 +37,9 @@ key_key.archimedes.brake:203
 key_key.archimedes.align:205
 key_key.archimedes.decompile:82
 key_key.archimedes.shipinv:83
+key_Pneumatic Helmet Options:0
+key_Pneumatic Helmet Hack:0
+key_Pneumatic Helmet Debugging Drone:0
 key_Tool Increase:0
 key_Tool Decrease:0
 key_keys.gekoslasers.laserSize:39
@@ -44,14 +47,11 @@ key_keys.gekoslasers.laserDepth:38
 key_key.open_ibench.desc:0
 key_igwmod.keys.wiki:23
 key_key.ping:34
-key_Pneumatic Helmet Options:0
-key_Pneumatic Helmet Hack:0
 key_simplyjetpacks.keybind.toggle.primary:25
 key_simplyjetpacks.keybind.toggle.secondary:0
 key_simplyjetpacks.keybind.mode.primary:26
 key_simplyjetpacks.keybind.mode.secondary:0
 key_simplyjetpacks.keybind.openPackGUI:27
-key_key.sapmanpack.updateKey:0
 key_Baubles Inventory:48
 key_Change Wand Focus:33
 key_Activate Hover Harness:0
@@ -81,7 +81,6 @@ key_[GC] Toggle Sensor Goggles Mode:0
 key_Mekanism Item Mode Switch:54
 key_Mekanism Armor Mode Switch:51
 key_Mekanism Voice:52
-key_key.craftingcraft.portableCrafting:0
 key_key.craftingtweaks.rotate:0
 key_key.craftingtweaks.balance:0
 key_key.craftingtweaks.clear:0
@@ -104,9 +103,9 @@ key_Toggle Spider Climb:0
 key_Toggle Chameleon Skin:0
 key_key.craftingGrid:46
 key_TG.keybind.openInv:28
-key_TG.keybind.activeaAbilities:0
+key_TG.keybind.activeaAbilities:43
 key_key.zyinhud.animalinfo:0
-key_key.zyinhud.coordinates:11
+key_key.zyinhud.coordinates:181
 key_key.zyinhud.distancemeasurer:0
 key_key.zyinhud.eatingaid:0
 key_key.zyinhud.enderpearlaid:0

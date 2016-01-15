@@ -31,3 +31,9 @@ mods.tconstruct.Smeltery.removeMelting(<minecraft:minecart>);
 mods.tconstruct.Smeltery.addMelting(<TConstruct:oreBerries:5>, <liquid:xpjuice> * 200, 200, <TConstruct:ore.berries.two:9>);
 mods.thermalexpansion.Crucible.addRecipe(500, <TConstruct:oreBerries:5>, <liquid:xpjuice> * 200);
 mods.forestry.Squeezer.addRecipe(4000, [<TConstruct:oreBerries:5> * 5], <liquid:xpjuice> * 1000, <Forestry:mulch>, 20); 
+
+// Yellorium fix
+mods.tconstruct.Casting.removeTableRecipe(<BigReactors:BRIngot>);
+mods.tconstruct.Casting.removeBasinRecipe(<BigReactors:BRMetalBlock>);
+mods.tconstruct.Casting.addTableRecipe(<BigReactors:BRIngot>, <liquid:yellorium> * 144, <TConstruct:metalPattern>, false, 20);
+mods.tconstruct.Casting.addBasinRecipe(<BigReactors:BRMetalBlock>, <liquid:yellorium> * 1296, null, false, 20);

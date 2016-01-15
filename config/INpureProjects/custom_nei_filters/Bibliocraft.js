@@ -25,6 +25,4 @@ if (FML.isModLoaded("BiblioCraft") && Bibliocraft_enabled) {
     NEI.override("BiblioCraft:item.seatBack3", [0, 6]);
     NEI.override("BiblioCraft:item.seatBack4", [0, 6]);
     NEI.override("BiblioCraft:item.seatBack5", [0, 6]);
-    NEI.hide("BiblioWoodsBoP:*");
-    NEI.hide("BiblioWoodsForestry:*");
 }

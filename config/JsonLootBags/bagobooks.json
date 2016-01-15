@@ -312,9 +312,9 @@
       "max": 1,
       "weight": 100,
       "itemstack": {
-        "item": "BiblioWoodsBoP:BiblioWoodBookcase",
-        "stacksize": 2,
-        "damage": 5
+        "item": "tis3d:bookManual",
+        "stacksize": 1,
+        "damage": 0
       }
     }
   ]

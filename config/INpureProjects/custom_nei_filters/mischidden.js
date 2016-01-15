@@ -154,6 +154,8 @@ if (mischidden_enabled) {
     NEI.hide("witchery:witchwooddoubleslab");
     NEI.hide("witchery:witchwooddoubleslab:1");
     NEI.hide("witchery:witchwooddoubleslab:2");
+    NEI.hide("reccomplex:*");
+    NEI.override("yegamolchattels:entity_vita", [0]);
     NEI.override("extracells:pattern.fluid", [0]);
     NEI.override("ModPouches:ItemModPouch", [0, 1]);
     NEI.override("OpenBlocks:tank", [0]);
