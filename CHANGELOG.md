@@ -71,11 +71,9 @@
 * WailaHarvestability-mc1.7.10-1.1.5.jar
 
 >###Added
-* AetherUnofficial-1.7.10-1.5.2_unofficial2.jar -- Magical floating dimension with dungeons, music, and parties. get turnt!
 * ArcaneArteries0.8.2.jar -- Stab yourself in all new ways!
 * boilerplate-1.7.10-6.1.1.52-universal.jar -- Needed for MoarCarts.
 * eiramoticons-mc1.7.10-1.2.83.jar -- Adds twitch emoticons to minecraft chat. Kappa
-* GalaxySpace-1.0.4+STABLE.jar -- RUSSIAN SPACE MOD IS BEST SPACE MOD, COMRADE. EXPLORE ALL NEW PLANETS, MOONS, AND DIMENSIONS!
 * IronBackpacks-1.7.10-1.2.15.jar -- Yet Another Backpack Mod. Funny story, the mod author made me add this at gunpoint. Be sure to bug him if things break because of it!
 * IvToolkit-1.2.jar -- Needed for Recurrent Complex & Ye Gamol Chattels.
 * moarcarts-1.7.10-1.0.2-21.jar -- Tiny potatoes in minecarts? Of course that's a thing! (also storage things in minecarts)
@@ -86,11 +84,17 @@
 * tcinventoryscan-mc1.7.10-1.0.8.jar -- Preparing to throw your entire inventory on the ground for those research points? FORGET IT! Just hover your Thaumometer over the items in your inventory! Only scrubz throw things on the floor.
 * ThaumicInfusion-4.32.jar -- WHOA, A THAUMCRAFT ADDON?! I've never seen one of those before! Wonder what unique content this one adds! Let's find out.
 * TIS-3D-MC1.7.10-0.8.1.59.jar -- WHOA, A COMPUTER MOD?! I've never seen one of those before! Wonder what unique content this one adds! Let's find out.
+
+>###Added (Optional) 
+-- Due to potentially overflowing the block IDs, the following mods are optional. You can add them fine if you are making a fresh world, but updating a former world with all three of them is actually impossible. Minecraft can have a maximum of 4096 block ids, and we are quite close to that limit. When you update an old world, these mods get tacked on the end no matter what, and they do not take the slots previously occupied by removed mods. That being said, you could probably get away with adding one of the three to an existing world.
+* AetherUnofficial-1.7.10-1.5.2_unofficial2.jar -- Magical floating dimension with dungeons, music, and parties. get turnt!
+* GalaxySpace-1.0.4+STABLE.jar -- RUSSIAN SPACE MOD IS BEST SPACE MOD, COMRADE. EXPLORE ALL NEW PLANETS, MOONS, AND DIMENSIONS!
 * YeGamolChattels-1.1.2.jar -- WHOA, A DECORATIVE MOD?!! Yeah. Gongs. Statues. Platforms. Microblock statues. LET'S DECORATE!
 
+
 >###Removed
-* BiblioWoods[BiomesOPlenty][v1.9].jar -- Takes up too many IDs. Not neccesary when we had framed versions of all bibliocraft blocks. Adding it was a mistake. 
-* BiblioWoods[Forestry][v1.7].jar -- Ditto ^^
+* BiblioWoods[BiomesOPlenty][v1.9].jar -- Takes up too many IDs. Not neccesary when we had framed versions of all bibliocraft blocks. Adding it was a mistake.
+* BiblioWoods[Forestry][v1.7].jar -- Ditto ^^; also will cause problems when we get to updating Forestry
 * ExtraCarts-1.7.10-1.0.0.jar -- Replaced with MoarCarts, a better and more up to date replacement.
 * Fun World Gen -- Buggy and the mod author is MIA; rarely used by anyone
 * Old World Gen -- Ditto ^^
@@ -118,7 +122,7 @@
 * BIBLIOWOODS ARE REMOVED! Please remove anything you have stored in BiblioWoods forestry or BiblioWoods Biomes O Plenty shelves or bookshelves. Replace them with the framed versions, which can be painted to look like anything. Do this before you update otherwise things stored in those blocks will be removed.
 * EXTRA CARTS ARE REMOVED! I don't know how many people were using Extra Carts, but same goes for that. Remove any items stored in those carts before updating.
 * Special thanks to CyanideX for the new pack image and main menu design!
-* Here is a "server download" that includes configs, scripts, and mods which have been updated. If there are any ways I could potentially make this easier let me know, but realize that everyone updates their servers a little differently. I can't cater to everyone's update workflow independently. https://mega.nz/#!CpAQWCIS!Y3fXpMF_LHcvGlOisAPZquDAdlrFzF4EkYcPgdhl-tQ
+* Here is a "server download" that includes configs, scripts, and mods which have been updated. https://mega.nz/#!G4Q1jRwY!QKUfWGT4gRQJHJ9uTIxoX6P6RPXWe1PyZd5AuVI0Fk8
 
 ## [Release.9]
 
