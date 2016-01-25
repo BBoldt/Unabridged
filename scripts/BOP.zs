@@ -70,3 +70,47 @@ mods.forestry.Squeezer.addRecipe(<liquid:poison> * 10, <Forestry:mulch> % 5,[<pl
 mods.forestry.Squeezer.addRecipe(<liquid:poison> * 10, <Forestry:mulch> % 5,[<plantmegapack:shrubDwarfElder>], 20);
 mods.forestry.Squeezer.addRecipe(<liquid:poison> * 10, <Forestry:mulch> % 5,[<plantmegapack:shrubSpicebush>], 20);
 
+//Poison extract Jar Filling
+mods.thermalexpansion.Transposer.addFillRecipe(2000, <BiomesOPlenty:jarEmpty>, <BiomesOPlenty:jarFilled:1>, <liquid:poison> * 40);
+mods.thermalexpansion.Transposer.addExtractRecipe(2000, <BiomesOPlenty:jarFilled:1>, <liquid:poison> * 40,  <BiomesOPlenty:jarEmpty>, 100);
+
+//Crafting Dart Blower with Bamboo
+recipes.addShaped(<BiomesOPlenty:dartBlower>, [[<tropicraft:bambooStick>, null, <tropicraft:bambooStick>], [<tropicraft:bambooStick>, null, <tropicraft:bambooStick>], [<tropicraft:bambooStick>, null, <tropicraft:bambooStick>]]);
+
+//Crafting Darts with Bamboo, feathers, and a knife
+recipes.addShaped(<BiomesOPlenty:dart> * 3, [[<tropicraft:bambooStick>, null], [<tropicraft:bambooStick>, <cfm:ItemKnife>.anyDamage().transformDamage(6)], [<minecraft:feather>, null]]);
+
+//Adding Berries to oredict
+<ore:foodBerries>.add(<BiomesOPlenty:food:0>);
+
+//Fruit Salad can be crafted with any Berry
+recipes.remove(<BiomesOPlenty:food:4>);
+recipes.addShapeless(<BiomesOPlenty:food:4>, [<minecraft:bowl>, <ore:foodBerries>, <minecraft:apple>, <minecraft:melon>]);
+
+//Amber Recipe removed (added to Chisel category, can be chiseled from TC Amber)
+recipes.remove(<BiomesOPlenty:gemOre:15>);
+
+//Leaf Pile Crafting
+recipes.addShaped(<BiomesOPlenty:foliage:14> * 3, [[<ore:treeLeaves>, <ore:treeLeaves>]]);
+//dead Leaf Pile Drying
+mods.tconstruct.Drying.addRecipe(<BiomesOPlenty:foliage:14>, <BiomesOPlenty:foliage:15>, 1000);
+
+//Lilly Varieties Crafting
+recipes.addShapeless(<BiomesOPlenty:lilyBop:1>, [<gendustry:MutagenBucket>, <ore:fertilizerRich>, <BiomesOPlenty:lilyBop:2>]);
+recipes.addShapeless(<BiomesOPlenty:lilyBop:0>, [<gendustry:MutagenBucket>, <ore:fertilizerRich>, <BiomesOPlenty:lilyBop:1>]);
+recipes.addShapeless(<minecraft:waterlily>, [<gendustry:MutagenBucket>, <ore:fertilizerRich>, <BiomesOPlenty:lilyBop:0>]);
+
+recipes.addShapeless(<BiomesOPlenty:lilyBop:2>, [<gendustry:MutagenBucket>, <Botany:misc:7>, <BiomesOPlenty:lilyBop:1>]);
+recipes.addShapeless(<BiomesOPlenty:lilyBop:1>, [<gendustry:MutagenBucket>, <Botany:misc:7>, <BiomesOPlenty:lilyBop>]);
+recipes.addShapeless(<BiomesOPlenty:lilyBop>, [<gendustry:MutagenBucket>, <Botany:misc:7>, <minecraft:waterlily>]);
+//Lilly production with photogenic insolator
+mods.thermalexpansion.Insolator.addRecipe(7200, <ThermalExpansion:material:516>, <BiomesOPlenty:lilyBop:1>, <BiomesOPlenty:lilyBop:0> * 2);
+mods.thermalexpansion.Insolator.addRecipe(9600, <ThermalExpansion:material:517>, <BiomesOPlenty:lilyBop:1>, <BiomesOPlenty:lilyBop:0> * 6);
+
+mods.thermalexpansion.Insolator.addRecipe(7200, <ThermalExpansion:material:516>, <BiomesOPlenty:lilyBop:1>, <BiomesOPlenty:lilyBop:1> * 2);
+mods.thermalexpansion.Insolator.addRecipe(9600, <ThermalExpansion:material:517>, <BiomesOPlenty:lilyBop:1>, <BiomesOPlenty:lilyBop:1> * 6);
+
+mods.thermalexpansion.Insolator.addRecipe(7200, <ThermalExpansion:material:516>, <BiomesOPlenty:lilyBop:1>, <BiomesOPlenty:lilyBop:2> * 2);
+mods.thermalexpansion.Insolator.addRecipe(9600, <ThermalExpansion:material:517>, <BiomesOPlenty:lilyBop:1>, <BiomesOPlenty:lilyBop:2> * 6);
+
+

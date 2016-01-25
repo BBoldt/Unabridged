@@ -1,6 +1,15 @@
 /* Binnie's Mods
    Tweaks and Alterations */
 
+//Adding Berries to oredict
+<ore:foodBerries>.add(<ExtraTrees:food:34>);
+<ore:foodBerries>.add(<ExtraTrees:food:43>);
+<ore:foodBerries>.add(<ExtraTrees:food:44>);
+<ore:foodBerries>.add(<ExtraTrees:food:45>);
+<ore:foodBerries>.add(<ExtraTrees:food:46>);
+<ore:foodBerries>.add(<ExtraTrees:food:48>);
+<ore:foodBerries>.add(<ExtraTrees:food:49>);
+
 //Soil recipies
 
 recipes.addShapeless(<Botany:soil:3> * 4, [<Botany:soil:0>, <Botany:soil:0>, <Botany:soil:0>, <Botany:soil:0>, <BiomesOPlenty:misc:1>]);
@@ -30,6 +39,10 @@ recipes.addShapeless(<Botany:flowerbed:8> * 4, [<Botany:flowerbed:5>, <Botany:fl
 //Adding ash powder
 recipes.removeShapeless(<Botany:misc>);
 recipes.addShapeless(<Botany:misc> * 4, [<ore:dustAsh>]);
+
+//Adding wood pulp powder
+recipes.remove(<Botany:misc:1>);
+recipes.addShapeless(<Botany:misc:1> * 4, [<ore:pulpWood>]);
 
 /* Fences */
 

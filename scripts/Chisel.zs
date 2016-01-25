@@ -83,3 +83,82 @@ mods.chisel.Groups.addVariation("granite", <Botania:stone:11>);
 
 // Uranium
 mods.chisel.Groups.addVariation("uraniumblock", <BigReactors:BRMetalBlock>);
+
+//Ice Stairs
+mods.chisel.Groups.addVariation("ice_stairs", <Railcraft:stair:4>);
+mods.chisel.Groups.addVariation("ice_stairs", <witchery:icestairs>);
+
+//Ruby Blocks
+mods.chisel.Groups.addGroup("ruby_block"); 
+mods.chisel.Groups.addVariation("ruby_block", <BiomesOPlenty:gemOre:3>);
+mods.chisel.Groups.addVariation("ruby_block", <bluepower:ruby_block>);
+
+//Sapphire Blocks
+mods.chisel.Groups.addGroup("sapphire_block"); 
+mods.chisel.Groups.addVariation("sapphire_block", <BiomesOPlenty:gemOre:13>);
+mods.chisel.Groups.addVariation("sapphire_block", <bluepower:sapphire_block>);
+
+//Amber
+mods.chisel.Groups.addVariation("amber", <BiomesOPlenty:gemOre:15>);
+
+//TinCo
+//Seared Stone
+mods.chisel.Groups.addGroup("seared_stone"); 
+mods.chisel.Groups.addVariation("seared_stone", <TConstruct:Smeltery:2>);
+mods.chisel.Groups.addVariation("seared_stone", <TConstruct:Smeltery:4>);
+mods.chisel.Groups.addVariation("seared_stone", <TConstruct:Smeltery:5>);
+mods.chisel.Groups.addVariation("seared_stone", <TConstruct:Smeltery:6>);
+mods.chisel.Groups.addVariation("seared_stone", <TConstruct:Smeltery:7>);
+mods.chisel.Groups.addVariation("seared_stone", <TConstruct:Smeltery:8>);
+mods.chisel.Groups.addVariation("seared_stone", <TConstruct:Smeltery:9>);
+mods.chisel.Groups.addVariation("seared_stone", <TConstruct:Smeltery:10>);
+mods.chisel.Groups.addVariation("seared_stone", <TConstruct:Smeltery:11>);
+
+//Seared Slab
+mods.chisel.Groups.addGroup("seared_slab"); 
+mods.chisel.Groups.addVariation("seared_slab", <TConstruct:SearedSlab:0>);
+mods.chisel.Groups.addVariation("seared_slab", <TConstruct:SearedSlab:1>);
+mods.chisel.Groups.addVariation("seared_slab", <TConstruct:SearedSlab:2>);
+mods.chisel.Groups.addVariation("seared_slab", <TConstruct:SearedSlab:3>);
+mods.chisel.Groups.addVariation("seared_slab", <TConstruct:SearedSlab:4>);
+mods.chisel.Groups.addVariation("seared_slab", <TConstruct:SearedSlab:5>);
+mods.chisel.Groups.addVariation("seared_slab", <TConstruct:SearedSlab:6>);
+mods.chisel.Groups.addVariation("seared_slab", <TConstruct:SearedSlab:7>);
+
+//Nether Seared Stone
+mods.chisel.Groups.addGroup("nether_seared_stone"); 
+mods.chisel.Groups.addVariation("nether_seared_stone", <TConstruct:SmelteryNether:2>);
+mods.chisel.Groups.addVariation("nether_seared_stone", <TConstruct:SmelteryNether:4>);
+mods.chisel.Groups.addVariation("nether_seared_stone", <TConstruct:SmelteryNether:5>);
+mods.chisel.Groups.addVariation("nether_seared_stone", <TConstruct:SmelteryNether:6>);
+mods.chisel.Groups.addVariation("nether_seared_stone", <TConstruct:SmelteryNether:7>);
+mods.chisel.Groups.addVariation("nether_seared_stone", <TConstruct:SmelteryNether:8>);
+mods.chisel.Groups.addVariation("nether_seared_stone", <TConstruct:SmelteryNether:9>);
+mods.chisel.Groups.addVariation("nether_seared_stone", <TConstruct:SmelteryNether:10>);
+mods.chisel.Groups.addVariation("nether_seared_stone", <TConstruct:SmelteryNether:11>);
+
+//Rough Brownstone
+mods.chisel.Groups.addGroup("rough_brownstone"); 
+mods.chisel.Groups.addVariation("rough_brownstone", <TConstruct:SpeedBlock:0>);
+mods.chisel.Groups.addVariation("rough_brownstone", <TConstruct:SpeedBlock:1>);
+
+//Rough Brownstone Slab
+mods.chisel.Groups.addGroup("rough_brownstone_slab"); 
+mods.chisel.Groups.addVariation("rough_brownstone_slab", <TConstruct:SpeedSlab:0>);
+mods.chisel.Groups.addVariation("rough_brownstone_slab", <TConstruct:SpeedSlab:1>);
+
+//Brownstone
+mods.chisel.Groups.addGroup("brownstone");
+mods.chisel.Groups.addVariation("brownstone", <TConstruct:SpeedBlock:2>);
+mods.chisel.Groups.addVariation("brownstone", <TConstruct:SpeedBlock:3>);
+mods.chisel.Groups.addVariation("brownstone", <TConstruct:SpeedBlock:4>);
+mods.chisel.Groups.addVariation("brownstone", <TConstruct:SpeedBlock:5>);
+mods.chisel.Groups.addVariation("brownstone", <TConstruct:SpeedBlock:6>);
+
+//Brownstone Slab
+mods.chisel.Groups.addGroup("brownstone_slab");
+mods.chisel.Groups.addVariation("brownstone_slab", <TConstruct:SpeedSlab:2>);
+mods.chisel.Groups.addVariation("brownstone_slab", <TConstruct:SpeedSlab:3>);
+mods.chisel.Groups.addVariation("brownstone_slab", <TConstruct:SpeedSlab:4>);
+mods.chisel.Groups.addVariation("brownstone_slab", <TConstruct:SpeedSlab:5>);
+mods.chisel.Groups.addVariation("brownstone_slab", <TConstruct:SpeedSlab:6>);
