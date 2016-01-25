@@ -40,3 +40,8 @@ game.setLocalization("en_US", "botania.page.tcIntegration8", "&o99 problems but 
 
 /* Vanilla */
 recipes.addShapeless(<Thaumcraft:ItemResource:9>, [<minecraft:book>, <Thaumcraft:ItemShard:*>, <Thaumcraft:ItemShard:*>]);
+
+//Abmber Oredict Crafting
+recipes.remove(<Thaumcraft:blockCosmeticOpaque:0>);
+recipes.addShaped(<Thaumcraft:blockCosmeticOpaque:0>, [[<ore:gemAmber>, <ore:gemAmber>], [<ore:gemAmber>, <ore:gemAmber>]]);
+

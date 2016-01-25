@@ -16,6 +16,10 @@ recipes.addShaped(<TConstruct:knapsack>, [[<minecraft:leather>, <minecraft:leath
 recipes.remove(<minecraft:light_weighted_pressure_plate>);
 recipes.addShaped(<minecraft:light_weighted_pressure_plate>, [[<ore:ingotGold>, <ore:ingotGold>, null], [null, null, null], [null, null, null]]);
 
+//Adv. Drawbridge crafting with oredict
+recipes.removeShapeless(<TMechworks:RedstoneMachine:3>);
+recipes.addShapeless(<TMechworks:RedstoneMachine:3>, [<ore:ingotCobalt>, <ore:ingotCobalt>, <ore:ingotCobalt>,  <ore:ingotArdite>, <ore:ingotArdite>, <ore:ingotArdite>, <ore:blockRedstone>, <TMechworks:RedstoneMachine>]); 
+
 // Smeltery removals
 mods.tconstruct.Smeltery.removeMelting(<minecraft:minecart>);
 
