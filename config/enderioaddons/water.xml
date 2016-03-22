@@ -1,0 +1,99 @@
+<water>
+  <contents>
+    <component name="Thallium" ppm="0.0"/>
+    <component name="Gallium" ppm="3.0E-5"/>
+    <component name="Fluorine" ppm="13.0"/>
+    <component name="Vanadium" ppm="0.0019"/>
+    <component name="Cerium" ppm="1.2E-6"/>
+    <component name="Gadolinium" ppm="7.0E-7"/>
+    <component name="Cobalt" ppm="3.9E-4"/>
+    <component name="Tellurium" ppm="0.0"/>
+    <component name="Niobium" ppm="4.0E-7"/>
+    <component name="Ferrum" ppm="0.0034"/>
+    <component name="Thulium" ppm="1.7E-7"/>
+    <component name="Strontium" ppm="8.1"/>
+    <component name="Boron" ppm="4.45"/>
+    <component name="Holmium" ppm="2.2E-7"/>
+    <component name="Hafnium" ppm="8.0E-6"/>
+    <component name="Titanium" ppm="0.001"/>
+    <component name="Bismuth" ppm="2.0E-5"/>
+    <component name="Magnesium" ppm="1290.0"/>
+    <component name="Selenium" ppm="9.0E-4"/>
+    <component name="Rhenium" ppm="8.4E-6"/>
+    <component name="Copper" ppm="9.0E-4"/>
+    <component name="Europium" ppm="1.3E-6"/>
+    <component name="Iodine" ppm="0.064"/>
+    <component name="Cadmium" ppm="1.1E-4"/>
+    <component name="Ruthenium" ppm="7.0E-7"/>
+    <component name="Xenon" ppm="4.7E-5"/>
+    <component name="Palladium" ppm="0.0"/>
+    <component name="Aluminium" ppm="0.001"/>
+    <component name="Molybdenum" ppm="0.01"/>
+    <component name="Sodium" ppm="10800.0"/>
+    <component name="Rhodium" ppm="0.0"/>
+    <component name="Beryllium" ppm="6.0E-7"/>
+    <component name="Scandium" ppm="4.0E-6"/>
+    <component name="Germanium" ppm="6.0E-5"/>
+    <component name="Iridium" ppm="0.0"/>
+    <component name="Yttrium" ppm="1.3E-5"/>
+    <component name="Thorium" ppm="1.5E-5"/>
+    <component name="Praesodymium" ppm="6.4E-7"/>
+    <component name="Barium" ppm="0.021"/>
+    <component name="Calcium" ppm="411.0"/>
+    <component name="Neodymium" ppm="2.8E-6"/>
+    <component name="Arsenic" ppm="0.0026"/>
+    <component name="Hydrogen" ppm="110000.0"/>
+    <component name="Lithium" ppm="0.17"/>
+    <component name="Rubidium" ppm="0.12"/>
+    <component name="Neon" ppm="1.2E-4"/>
+    <component name="Uranium" ppm="0.0033"/>
+    <component name="Platinum" ppm="0.0"/>
+    <component name="Ytterbium" ppm="8.2E-7"/>
+    <component name="Tungsten" ppm="1.0E-6"/>
+    <component name="Lead" ppm="3.0E-5"/>
+    <component name="Silicon" ppm="2.9"/>
+    <component name="Lanthanum" ppm="2.9E-6"/>
+    <component name="Samarium" ppm="4.5E-7"/>
+    <component name="Sulfur" ppm="904.0"/>
+    <component name="Argon" ppm="0.45"/>
+    <component name="Erbium" ppm="8.7E-7"/>
+    <component name="Bromine" ppm="67.3"/>
+    <component name="Oxygen" ppm="883000.0"/>
+    <component name="Chlorine" ppm="19400.0"/>
+    <component name="Antimony" ppm="0.0"/>
+    <component name="Phosphorus" ppm="0.088"/>
+    <component name="Cesium" ppm="3.0E-4"/>
+    <component name="Dysprosium" ppm="9.1E-7"/>
+    <component name="Indium" ppm="0.0"/>
+    <component name="Helium" ppm="7.2E-6"/>
+    <component name="Nitrogen" ppm="15.5"/>
+    <component name="Krypton" ppm="2.1E-4"/>
+    <component name="Carbon" ppm="28.0"/>
+    <component name="Lutetium" ppm="1.5E-7"/>
+    <component name="Zinc" ppm="0.005"/>
+    <component name="Osmium" ppm="0.0"/>
+    <component name="Zirconium" ppm="2.6E-5"/>
+    <component name="Tantalum" ppm="2.5E-6"/>
+    <component name="Argentum" ppm="2.8E-4"/>
+    <component name="Chromium" ppm="2.0E-4"/>
+    <component name="Stannum" ppm="8.1E-4"/>
+    <component name="Terbium" ppm="1.4E-7"/>
+    <component name="Nickel" ppm="0.0066"/>
+    <component name="Plutonium" ppm="0.0"/>
+    <component name="Aurum" ppm="1.1E-5"/>
+    <component name="Potassium" ppm="392.0"/>
+    <component name="Mercury" ppm="1.5E-4"/>
+    <component name="Manganese" ppm="4.0E-4"/>
+  </contents>
+  <materials>
+    <material name="Aluminium" prio="1" volume="1000000.0" density="2.7">
+      <item class="OreDictionaryItem" oreDictionary="sand"/>
+      <component name="Aluminium" granularity="1.0" factor="1.0" count="1"/>
+    </material>
+    <material name="Salt" prio="1" volume="1000000.0" density="2.165">
+      <item class="MinecraftItem" modID="EnderIO" itemName="itemMaterial" itemMeta="0"/>
+      <component name="Chlorine" granularity="1000.0" factor="0.01" count="1"/>
+      <component name="Sodium" granularity="1000.0" factor="0.01" count="1"/>
+    </material>
+  </materials>
+</water>

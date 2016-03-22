@@ -15,7 +15,7 @@
         {
             "image" : "custommainmenu:textures/gui/minecraft.png",
             "posX" : -128,
-            "posY" : 50,
+            "posY" : 10,
             "width" : 256,
             "height" : 256,
             "alignment" : "top_center"
@@ -24,7 +24,7 @@
         {
             "image" : "custommainmenu:textures/gui/flare.png",
             "posX" : -175,
-            "posY" : 32,
+            "posY" : -8,
             "width" : 350,
             "height" : 350,
             "alignment" : "top_center"
@@ -41,7 +41,7 @@
 			"hoverTextColor" : 3125670,
 			"texture" : "custommainmenu:textures/btn.png",
             "posX" : -113,
-            "posY" : 150,
+            "posY" : 100,
             "width" : 226,
             "height" : 20,
 			imageWidth : 100,
@@ -61,7 +61,7 @@
 			"hoverTextColor" : 3125670,
 			"texture" : "custommainmenu:textures/btn.png",
             "posX" : -113,
-            "posY" : 170,
+            "posY" : 120,
             "width" : 226,
             "height" : 20,
 			imageWidth : 100,
@@ -81,7 +81,7 @@
 			"hoverTextColor" : 3125670,
 			"texture" : "custommainmenu:textures/btn.png",
             "posX" : -113,
-            "posY" : 190,
+            "posY" : 140,
             "width" : 226,
             "height" : 20,
 			imageWidth : 100,
@@ -101,7 +101,7 @@
 			"hoverTextColor" : 14483456,
 			"texture" : "custommainmenu:textures/btn.png",
             "posX" : -113,
-            "posY" : 230,
+            "posY" : 175,
             "width" : 226,
             "height" : 20,
 			imageWidth : 100,
@@ -122,7 +122,7 @@
 			"tooltip" : "#modsactive#/#modsloaded# mods active!",
 			"texture" : "custommainmenu:textures/btn.png",
             "posX" : -105,
-            "posY" : -40,
+            "posY" : -30,
             "width" : 65,
             "height" : 20,
 			imageWidth : 100,
@@ -142,7 +142,7 @@
 			"hoverTextColor" : 3125670,
 			"texture" : "custommainmenu:textures/btn.png",
             "posX" : 40,
-            "posY" : -40,
+            "posY" : -30,
             "width" : 65,
             "height" : 20,
 			imageWidth : 100,
@@ -195,7 +195,7 @@
 			"tooltip" : "Github",
 			"alignment" : "bottom_center",
             "posX" : -35,
-            "posY" : -40,
+            "posY" : -30,
             "width" : 20,
             "height" : 20,
 			"action" :
@@ -212,7 +212,7 @@
 			"tooltip" : "Reddit",
 			"alignment" : "bottom_center",
             "posX" : -10,
-            "posY" : -40,
+            "posY" : -30,
             "width" : 20,
             "height" : 20,
 			"action" :
@@ -229,7 +229,7 @@
 			"tooltip" : "Twitter",
 			"alignment" : "bottom_center",
             "posX" : 15,
-            "posY" : -40,
+            "posY" : -30,
             "width" : 20,
             "height" : 20,
 			"action" :
@@ -244,9 +244,9 @@
     {
         "version":
         {
-            "text" : "R.10",
+            "text" : "R.11",
             "posX" : -10,
-            "posY" : 115,
+            "posY" : 75,
             "color" : -1,
             "alignment" : "top_center"
         }
