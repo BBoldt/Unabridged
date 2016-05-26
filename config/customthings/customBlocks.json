@@ -36,7 +36,7 @@
             "hardness": 0.3f,
             "toolType": "pickaxe",
             "oreDictNames":[ "oreLapis" ],
-            "drops":[ "minecraft:dye;3#3-10" ]
+            "drops":[ "minecraft:dye;4#3-10" ]
         },
         {
             "name": "ore.nether.diamond",
