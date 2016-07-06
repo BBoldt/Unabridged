@@ -6,6 +6,8 @@
 <ore:silicon>.mirror(<ore:itemSilicon>);
 
 // Endermen head exchange
+recipes.addShapeless(<EnderIO:blockEndermanSkull>, [<IguanaTweaksTConstruct:skullItem>.noReturn()]);
+recipes.addShapeless(<IguanaTweaksTConstruct:skullItem>, [<HardcoreEnderExpansion:enderman_head>]);
 recipes.addShapeless(<HardcoreEnderExpansion:enderman_head>, [<EnderIO:blockEndermanSkull>]);
 
 /* Compacting fixes */
