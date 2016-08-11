@@ -1,6 +1,10 @@
 /* Tropicraft
    Tweaks and Alterations */
 
+//Oredicting Oranges
+<ore:cropOrange>.add(<tropicraft:orange>);
+
+//Oredicting Bamboo from other mods
 <ore:bamboo>.add(<plantmegapack:bambooAsper>);
 <ore:bamboo>.add(<plantmegapack:bambooFargesiaRobusta>);
 <ore:bamboo>.add(<plantmegapack:bambooGiantTimber>);
