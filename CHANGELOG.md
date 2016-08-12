@@ -1,3 +1,74 @@
+## [Release.13]
+
+>###Updated
+* AOBD-2.9.2.jar
+* AppleCore-mc1.7.10-1.3.2.jar
+* boilerplate-1.7.10-6.3.0.81-universal.jar
+* buildcraft-7.1.17.jar
+* CoFHCore-[1.7.10]3.1.3-327.jar
+* CustomThings-MC1.7.10-0.0.3-52.jar
+* Decocraft-2.3.3_1.7.10.jar
+* EnderCore-1.7.10-0.2.0.36_beta.jar
+* EnderIO-1.7.10-2.3.0.429_beta.jar
+* EnderIOAddons-1.7.10-2.3.0.427_beta-0.10.11.54_beta.jar
+* Ewy's Workshop-1.1.2.jar
+* ExtraCells-1.7.10-2.3.14b197.jar
+* Forbidden Magic-1.7.10-0.575.jar
+* forestry_1.7.10-4.2.15.63.jar
+* gadomancy-1.7.10-1.0.7.2.jar
+* Galacticraft-Planets-1.7-3.0.12.463.jar
+* GalacticraftCore-1.7-3.0.12.463.jar
+* GalaxySpace-1.1.0 STABLE.jar - massive internal changes, blocks from previous version may disappear
+* HardcoreEnderExpansion  MC-1.7.10  v1.8.6.jar
+* logisticspipes-0.9.3.126.jar
+* Mekanism-1.7.10-9.1.0.281.jar -- most instability is gone now, everything should work fine
+* MekanismGenerators-1.7.10-9.1.0.281.jar
+* MekanismTools-1.7.10-9.1.0.281.jar
+* MicdoodleCore-1.7-3.0.12.463.jar
+* MineFactoryReloaded-[1.7.10]2.8.2B1-200.jar
+* moarcarts-1.7.10-1.2.3-8.jar
+* OpenComputers-MC1.7.10-1.6.0.7-rc.1-universal.jar
+* OpenFM-1.7.10-0.1.0-39.jar
+* OpenModularTurrets-1.7.10-2.2.4-225.jar
+* PlanetguyLib-1.9.2.jar
+* RedstoneArsenal-[1.7.10]1.1.3B1-94.jar
+* SimpleLabels-1.7.10-1.0-9.jar
+* StorageDrawers-1.7.10-1.10.1.jar
+* ThermalExpansion-[1.7.10]4.1.4-247.jar
+* ThermalFoundation-[1.7.10]1.2.5-115.jar
+
+>###Added
+* FTBLib-1.7.10-1.0.18.3.jar
+* FTBUtilities-1.7.10-1.0.18.3.jar
+
+>###Config Changes
+* Wolfranium and Cobaltium unified with Tungsten and Cobalt. - okyriosy
+* Fixed sparkpowder's localization - okyriosy
+* Various ordict enhancements for Binnie's mods - okyriosy
+* Crafting recipes added for Biomes O' Plenty poison jar, dart blower, darts, fruit salad, lillies. - okyriosy
+* Chisel categories for ruby, saphire, and tinkers' blocks. - okyriosy
+* Enderman head exchange recipe fixed. - okyriosy
+* Amber blocks oredicted. - okyriosy
+* Advanced drawbridge recipe uses oredict. - okyriosy
+* Various oredict fixes across the board. - okyriosy
+* Enhanced Aether compatibility with other mods. - okyriosy
+* Galaxy Space NASA Schematics have recipes. - okyriosy
+* Plant Mega Pack foods can be crafted using other mods. - okyriosy
+* Witchery ice decoration blocks now craftable. - okyriosy
+* Fertilized dirt added to agricraft soil list. - TDarkShadow
+* Fixed nether quartz not spawning in BOP hell biomes. - TDarkShadow
+* Fixed server chat being hidden between dimensions. - TDarkShadow
+* Fixed Galacticraft biomes spawning in the overworld - TDarkShadow
+* fixed wormwood mutation, but wheat can't be right click harvested anymore, oh well
+* Fixed Extra Utils psuedo inversion sigil ritual by disabling Et Futurum colored beacons. All beacons in the world will probably disappear, sorry.
+* Disabled Et Futurum inverted daylight sensor to fix some vampire thing.
+* Removed my email from reauth config, lmao
+* Default FTBUtils configs have /back and /home commands disabled. Too cheaty.
+* Fixed galaxyspace minetweaker script to work with Galaxy Space 10
+
+>###Notes
+* As usual, backup your world before attempting to update. You never know what could happen. This update is mostly a maintainence update, fixing a few bugs and updating all the mods that need updates. Big thanks to okyriosy and TDarkShadow for helping out with some fixes! Enjoy!
+
 ## [Release.10]
 
 >###Updated
