@@ -69,6 +69,194 @@
 >###Notes
 * As usual, backup your world before attempting to update. You never know what could happen. This update is mostly a maintainence update, fixing a few bugs and updating all the mods that need updates. Big thanks to okyriosy and TDarkShadow for helping out with some fixes! Enjoy!
 
+##[Release.12]
+
+>###Added(1)
+* ExtendedPotions-MC1.7.10-1.2.jar -- needed to fix an aether potion crash, turns out I accidentally used all the potion ids...
+
+>###Updated(52)
+* AppleCore-mc1.7.10-1.3.1.jar
+* appliedenergistics2-rv3-beta-6.jar
+* arcane_engineering-0.2.7.jar
+* Armourers-Workshop-1.7.10-0.39.0.jar
+* Back In Slime-1.7.10-3.1.6.jar
+* BiblioCraft[v1.11.5][MC1.7.10].jar
+* buildcraft-7.1.16.jar
+* buildcraft-compat-7.1.5.jar
+* catwalks-2.0.4.jar
+* craftingtweaks-mc1.7.10-1.0.82.jar
+* CustomThings-MC1.7.10-0.0.3-50.jar
+* Decocraft-2.3.2_1.7.10.jar
+* EnderCore-1.7.10-0.2.0.34_beta.jar
+* EnderIO-1.7.10-2.3.0.425_beta.jar
+* EnderIOAddons-1.7.10-2.3.0.425_beta-0.10.9.52_beta.jar
+* ExtraCells-1.7.10-2.3.10b190.jar
+* ExtraTiC-1.7.10-1.4.6.jar -- fixes ender amethyst issue, almost a year after I reported it! 10/10
+* fastcraft-1.23.jar -- things actually feel a little bit faster
+* Forbidden Magic-1.7.10-0.574.jar
+* forestry_1.7.10-4.2.12.60.jar
+* gendustry-1.6.4.135-mc1.7.10.jar
+* generators-0.9.20.123-mc1.7.10.jar
+* ImmersiveEngineering-0.7.7.jar
+* immersiveintegration-0.6.8.jar
+* IvToolkit-1.2.1.jar
+* Jabba-1.2.2_1.7.10.jar
+* journeymap-1.7.10-5.1.4p1-unlimited.jar
+* logisticspipes-0.9.3.122.jar
+* Mekanism-1.7.10-9.0.0.269.jar -- V9!!! All new textures and mechanics!
+* MekanismGenerators-1.7.10-9.0.0.269.jar
+* MekanismTools-1.7.10-9.0.0.269.jar
+* MineFactoryReloaded-[1.7.10]2.8.2B1-186.jar
+* NotEnoughItems-1.7.10-1.0.5.120-universal.jar
+* OpenComputers-MC1.7.10-1.6.0.3-rc.1-universal.jar
+* OpenFM-1.7.10-0.1.0-34.jar
+* OpenModularTurrets-1.7.10-2.2.2-217.jar
+* plantmegapack-4.33-1.7.10-1492.jar
+* Railcraft_1.7.10-9.12.2.0.jar -- RF cart! pretty neat
+* RefinedRelocation-mc1.7.10-1.1.28.jar
+* ResourceLoader-MC1.7.10-1.3.jar
+* roguelike-1.7.10-1.5.0b.jar
+* Sanguimancy-1.7.10-1.1.9-35.jar
+* SimpleLabels-1.7.10-1.0-8.jar
+* Starminer1710-0.9.9.jar
+* StorageDrawers-1.7.10-1.9.8.jar
+* thaumicenergistics-1.0.0.5.jar
+* ThermalDynamics-[1.7.10]1.2.0-171.jar
+* ThermalFoundation-[1.7.10]1.2.4-114.jar
+* TIS-3D-MC1.7.10-0.9.0.66.jar
+* Translocator-1.7.10-1.1.2.16-universal.jar
+* waterhooks-1.2.1.jar
+
+>###Notes
+
+* Enabled all tinkers' materials for all parts. Iguana Tweaks is kinda annoying in a pack like this. 
+* Fixed recipe for EnderIO weather crystal
+* Fixed recipe conflict between greg's lighting and imersive engineering
+
+## [Release.11]
+
+>###Added (7)
+* aether-1.7.10-1.6 -- official aether
+* AetherFixes-0.1 
+* Binnie Patcher 1.4 -- we can update to forestry 4!
+* gilded-games-util-1.7.10-1.9
+* IDCleaner-1.7.10-1.0 -- fixes block corruption when updating an old world, should fix the ol' ID scramble issue
+* netherportalfix-mc1.7.10-1.1.0 -- makes nether portals not link all weirdly
+* waterhooks-1.2.0
+
+>###Updated (87)
+* ae2stuff-0.5.1.61-mc1.7.10
+* AgriCraft-1.7.10-1.5.0
+* AOBD-2.9.1
+* AppleCore-mc1.7.10-1.3.0
+* appliedenergistics2-rv3-beta-5 -- AE2 RV3!
+* Aquaculture-1.7.10-1.2.6.21
+* arcane_engineering-0.2.6
+* archimedesshipsplus-1.7.10-1.8.1 -- SUBMARINES!
+* Armourers-Workshop-1.7.10-0.38.1.98
+* AsieLib-1.7.10-0.4.5
+* Automagy-1.7.10-0.28.2
+* Back in Slime-1.7.10-3.1.5
+* bdlib-1.9.4.109-mc1.7.10
+* BiomesOPlenty-1.7.10-2.1.0.1889-universal
+* boilerplate-1.7.10-6.2.1.68-universal
+* Botania r1.8-249 
+* buildcraft-7.1.15
+* Chisel-2.9.5.11 -- DUPE FIXES!
+* CoFHCore-[1.7.10]3.1.2-325
+* Computronics-1.7.10-1.6.0
+* coroutil-1.7.10-1.1.5
+* craftingtweaks-mc1.7.10-1.0.79
+* CustomThings-MC1.7.10-0.0.3-43
+* defaultkeys-mc1.7.10-1.0.28
+* eirairc-mc1.7.10-2.9.402
+* eiramoticons-mc1.7.10-1.2.84
+* EnderIO-1.7.10-2.3.0.424_beta
+* EnderIOAddons-1.7.10-2.3.0.424_beta-0.10.6.049_beta
+* Et Futurum-1.5.5
+* Ewy's Workshop-1.1.1
+* ExtraCells-1.7.10-2.3.9b188
+* Fancy Fluid Storage-1.7.10-1.3.7
+* forestry_1.7.10-4.2.10.58 -- FORESTRY 4!
+* gadomancy-1.7.10-1.0.6.3
+* Galacticraft-Planets-1.7-3.0.12.446
+* GalacticraftCore-1.7-3.0.12.446
+* GalaxySpace-1.0.8+STABLE -- New planets and shit!
+* gendustry-1.6.4.134-mc1.7.10
+* generators-0.9.19.122-mc1.7.10
+* Guide-API-1.7.10-1.0.1-29
+* IguanaTinkerTweaks-1.7.10-2.1.6
+* IGW-Mod-1.7.10-1.1.12-34-universal
+* ImmersiveEngineering-0.7.4 -- Less OP!
+* immersiveintegration-0.6.7
+* journeymap-1.7.10-5.1.4-unlimited
+* logisticspipes-0.9.3.100
+* magicbees-1.7.10-2.4.3 -- now with more magic!
+* malisiscore-1.7.10-0.14.3
+* malisisdoors-1.7.10-1.13.2
+* Mekanism-1.7.10-8.1.8.261
+* MekanismGenerators-1.7.10-8.1.8.261
+* MekanismTools-1.7.10-8.1.8.261
+* MicdoodleCore-1.7-3.0.12.446
+* MineFactoryReloaded-[1.7.10]2.8.2B1-178
+* moarcarts-1.7.10-1.1.1-48
+* ModTweaker2-0.9.5
+* movingworld-1.7.10-1.8.1
+* neiaddons-1.12.15.41-mc1.7.10
+* NEIIntegration-MC1.7.10-1.1.2
+* OpenBlocks-1.7.10-1.5.1
+* OpenComputers-MC1.7.10-1.6.0.1-beta.1-universal -- OC 6!
+* OpenFM-1.7.10-0.1.0-33
+* OpenModsLib-1.7.10-0.9.1
+* OpenModularTurrets-1.7.10-2.1.9-211
+* Ping-1.7.X-1.0.3.B7-universal
+* PneumaticCraft-1.7.10-1.12.7-150-universal
+* pressure-1.3.0.131-mc1.7.10
+* Railcraft_1.7.10-9.9.0.0
+* ReAuth-2.1-1.7.10
+* RedstoneArsenal-[1.7.10]1.1.3B1-93
+* RefinedRelocation-mc1.7.10-1.1.25
+* RemainInMotion-2.8.9
+* rftools-4.23
+* roguelike-1.7.10-1.4.4
+* RopeBridge-v1.3-mc1.7.10
+* StorageDrawers-1.7.10-1.9.4
+* tcinventoryscan-mc1.7.10-1.0.11
+* TConstruct-1.7.10-1.8.8.build991
+* thaumicenergistics-1.0.0.1
+* ThermalDynamics-[1.7.10]1.2.0B2-169 -- PLAYER DUCTS!
+* ThermalExpansion-[1.7.10]4.1.2-240
+* ThermalFoundation-[1.7.10]1.2.3-112
+* tinker_io-1.7.10-release 1.5.0
+* TIS-3D-MC1.7.10-0.8.2.62
+* WailaHarvestability-mc1.7.10-1.1.6
+* WAILAPlugins-MC1.7.10-0.2.0-23
+* zettaindustries-1.1-OC1.5.jar
+ 
+>###Removed (10)
+* Aether Unofficial -- replaced with aether official
+* IGD -- unused
+* Json Loot Bags -- farewell bag o books
+* Old World Gen -- broke
+* Recurrent Complex -- unused
+* Sprinkles for Vanilla -- unused
+* STFU -- unused
+* Storage Drawers - Biomes O Plenty Pack -- replaced with framed drawers
+* Storage Drawers - Forestry Pack -- replaced with framed drawers
+* Storage Drawers - Misc Pack -- replaced with framed drawers
+
+>###Notes
+This release should fix the majority of issues people have been having. Harvesting issues, etc. Been a long time coming. Part of that was because this has been an extremely difficult update, another part was because I am rapidly losing interest in minecraft. I apologize for leaving R10 for so long with so many issues. Hopefully this one does better. I'll still do small mod updates here and there but this is probably going to be the last major update for Unabridged. If you run into any issues, I suggest trying to figure them out yourself. If it's something as simple as a config change or recipe conflict, fix it with a pull request on github, and I will accept as long as you can prove it works. From now on I am unable to dedicate time to fixing crashes or issues by myself. 
+
+It's really tearing me down. I would like to do some non-minecraft related things for a while. A lot of people don't realize how much time and energy it takes to maintain a modpack, especially a massive one like this. I'm only one person. :P
+
+By the way, Unabridged is ending with 1.7.10. I have no plans to bring it into 1.8 or 1.9. 
+
+Anyways, as usual, backup before updating. If you have trouble (world corruption) when updating an old world, try using the optional mod "ID Cleaner".
+
+Thanks for playing!
+- BBoldt
+
 ## [Release.10]
 
 >###Updated
