@@ -1,0 +1,92 @@
+[
+  {
+    "pos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "block": {
+      "name": "minecraft:glowstone"
+    }
+  },
+  {
+    "pos": {
+      "x": 1,
+      "y": 0,
+      "z": 0
+    },
+    "block": {
+      "name": "minecraft:quartz_block"
+    }
+  },
+  {
+    "pos": {
+      "x": -1,
+      "y": 0,
+      "z": 0
+    },
+    "block": {
+      "name": "minecraft:quartz_block"
+    }
+  },
+  {
+    "pos": {
+      "x": 0,
+      "y": 0,
+      "z": 1
+    },
+    "block": {
+      "name": "minecraft:quartz_block"
+    }
+  },
+  {
+    "pos": {
+      "x": 0,
+      "y": 0,
+      "z": -1
+    },
+    "block": {
+      "name": "minecraft:quartz_block"
+    }
+  },
+  {
+    "pos": {
+      "x": 1,
+      "y": 0,
+      "z": 1
+    },
+    "block": {
+      "name": "minecraft:obsidian"
+    }
+  },
+  {
+    "pos": {
+      "x": 1,
+      "y": 0,
+      "z": -1
+    },
+    "block": {
+      "name": "minecraft:obsidian"
+    }
+  },
+  {
+    "pos": {
+      "x": -1,
+      "y": 0,
+      "z": 1
+    },
+    "block": {
+      "name": "minecraft:obsidian"
+    }
+  },
+  {
+    "pos": {
+      "x": -1,
+      "y": 0,
+      "z": -1
+    },
+    "block": {
+      "name": "minecraft:obsidian"
+    }
+  }
+]

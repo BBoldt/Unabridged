@@ -38,7 +38,7 @@
 <VatRecipes>
 
   <recipeGroup name="EnderIO" > <!-- Required for EnderIO to function correctly. -->
-    <recipe name="Nutrient Distilation" energyCost="10000" allowMissing="true" >
+    <recipe name="Nutrient Distilation" energyCost="10000" allowMissing="true">
       <input>
         <itemStack modID="Thaumcraft" itemName="ItemZombieBrain" slot="0" multiplier="2" />
         <itemStack oreDictionary="itemSkull" slot="0" multiplier="2" />
@@ -56,7 +56,17 @@
       <output>
         <fluidStack name="nutrient_distillation" />
       </output>
-    </recipe>
+    </recipe>        
+    <recipe name="EnderDistillation" energyCost="10000" >
+      <input>
+        <itemStack modID="EnderIO" itemName="itemMaterial" number="1" itemMeta="12" slot="0" multiplier="2"/>
+        <itemStack modID="EnderIO" itemName="itemMaterial" number="1" itemMeta="13" slot="1" multiplier="2"/>
+        <fluidStack name="nutrient_distillation" multiplier="0.25" />
+      </input>
+      <output>
+        <fluidStack name="ender_distillation" />
+      </output>
+    </recipe>    
     <recipe name="Hootch" energyCost="10000" >
       <input>
         <itemStack modID="minecraft" itemName="poisonous_potato" slot="0" multiplier="8" />

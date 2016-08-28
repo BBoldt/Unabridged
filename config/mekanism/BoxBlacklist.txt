@@ -1,18 +1,3 @@
 # Use this file to tell Mekanism which blocks should not be picked up by a cardboard box.
-# Proper syntax is "ID:META". Example (for stone):
-# 1:0
-
-# Thaumcraft
-Thaumcraft:blockWarded:0
-Thaumcraft:blockCosmeticOpaque:2
-Thaumcraft:blockArcaneDoor:32767
-Thaumcraft:blockStoneDevice:32767
-Thaumcraft:blockAiry:0
-
-# Carpenter's Blocks
-CarpentersBlocks:blockCarpentersSafe:32767
-
-# Twilight Forest
-TwilightForest:tile.TFBossSpawner:32767
-TwilightForest:tile.TFTowerDevice:32767
-TwilightForest:tile.TFTowerTranslucent:32767
+# Proper syntax is "NAME META". Example (for stone):
+# minecraft:stone 0

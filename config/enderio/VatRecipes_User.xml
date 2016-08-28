@@ -1,34 +1,3 @@
 <VatRecipes>
- 
-  <recipeGroup name="essence xp conversion">
-     
-    <recipe name="XP Juice" energyCost="20">
-      <input>
-        <itemStack modID="minecraft" itemName="sand" slot="0" multiplier="1.0"/>
-        <itemStack modID="minecraft" itemName="sand" slot="1" multiplier="1.0"/>
-        <fluidStack name="mobessence" multiplier="0.30"/>
-      </input>      
-      <output>
-        <fluidStack name="xpjuice"/>        
-      </output>
-     
-    </recipe>
-     
-      <recipe name="Mob Essence" energyCost="20">
-      <input>
-		<itemStack modID="minecraft" itemName="sand" slot="0" multiplier="1.0"/>
-		<itemStack modID="minecraft" itemName="sand" slot="1" multiplier="1.0"/>
-        <fluidStack name="xpjuice" multiplier="3.32"/>
-      </input>      
-      <output>
-        <fluidStack name="mobessence"/>        
-      </output>
-     
-    </recipe>
-       
- 
-   
-  </recipeGroup>
- 
- 
+
 </VatRecipes>

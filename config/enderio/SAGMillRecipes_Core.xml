@@ -234,9 +234,34 @@
         <itemStack modID="minecraft" itemName="ender_pearl" />
       </input>
       <output>
-        <itemStack oreDictionary="dustEnderPearl" number="1" />
+        <itemStack oreDictionary="nuggetEnderpearl" number="9" />
+      </output>
+    </recipe>        
+    <recipe name="VibrantPowder" energyCost="1600" >
+      <input>
+        <itemStack modID="EnderIO" itemName="itemMaterial" number="1" itemMeta="6"/>
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="itemMaterial" number="1" itemMeta="11"/>
       </output>
     </recipe>
+    <recipe name="PulsatingPowder" energyCost="1600" >
+      <input>
+        <itemStack modID="EnderIO" itemName="itemMaterial" number="1" itemMeta="5"/>
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="itemMaterial" number="1" itemMeta="12"/>
+      </output>
+    </recipe>
+    <recipe name="EnderCrystalPowder" energyCost="1600" >
+      <input>
+        <itemStack modID="EnderIO" itemName="itemMaterial" number="1" itemMeta="8"/>
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="itemMaterial" number="1" itemMeta="13"/>
+      </output>
+    </recipe>
+    
   </recipeGroup>
 
   <recipeGroup name="Vanilla" >
@@ -277,8 +302,10 @@
         <itemStack modID="minecraft" itemName="cobblestone" />
       </input>
       <output>
-        <itemStack oreDictionary="sand" />
-        <itemStack oreDictionary="gravel" chance="0.1" />
+        <itemStack oreDictionary="gravel" chance="0.7" />
+        <itemStack oreDictionary="gravel" chance="0.3" />
+        <itemStack oreDictionary="sand" chance="0.1" />
+        <itemStack oreDictionary="itemFlint" chance="0.05" />
       </output>
     </recipe>
     <recipe name="Sandstone" energyCost="2400" >
@@ -293,7 +320,7 @@
     </recipe>
     <recipe name="Glass" energyCost="1200" >
       <input>
-        <itemStack oreDictionary="glass" />
+        <itemStack oreDictionary="blockGlass" />
       </input>
       <output>
         <itemStack oreDictionary="sand" />
@@ -304,9 +331,9 @@
         <itemStack oreDictionary="gravel" />
       </input>
       <output>
-        <itemStack oreDictionary="itemFlint" />
-        <itemStack oreDictionary="itemFlint" chance="0.1" />
-        <itemStack oreDictionary="sand" chance="0.1" />
+        <itemStack oreDictionary="sand" chance="0.7" />
+        <itemStack oreDictionary="sand" chance="0.3" />
+        <itemStack oreDictionary="itemFlint" chance="0.3" />
       </output>
     </recipe>
     <recipe name="Netherrack" energyCost="2400" >
@@ -390,6 +417,7 @@
       <output>
         <itemStack modID="minecraft" itemName="diamond" number="1" />
         <itemStack modID="minecraft" itemName="diamond" number="1" chance="0.25" />
+        <itemStack oreDictionary="dustCoal" number="1" chance="0.05" />
       </output>
     </recipe>
     <recipe name="EmeraldOre" energyCost="3000" >
@@ -2973,9 +3001,11 @@
       <itemStack modID="minecraft" itemName="quartz_stairs" />
       <itemStack modID="minecraft" itemName="stone_slab" itemMeta="7" />
       <itemStack modID="minecraft" itemName="quartz" />
+      <itemStack modID="minecraft" itemName="ender_pearl" />
       <itemStack oreDictionary="sandstone" />
       <itemStack oreDictionary="crystalCertusQuartz" />
       <itemStack oreDictionary="crystalFluix" />
+      <itemStack oreDictionary="enderpearl" />
     </excludes>
   </grindingBalls>
 
