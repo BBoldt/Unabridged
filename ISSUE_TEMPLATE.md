@@ -7,6 +7,9 @@ Before you write anything:
 
 Thanks again for taking the time to submit a bug report!
 -->
+**Minecraft version:**
+
+**Unabridged version:**
 
 **Issue Description:**
 
