@@ -16,7 +16,7 @@ Introducing: Minecraft Unabridged!
 ======
 The definition of the word "Unabridged" is: not cut or shortened; complete
  
-The idea of this pack is to have a complete experience. This pack will only contain what mods that I believe create a complete experience. If you're looking to have all the mods that exist for a version, I suggest looking somewhere else. ;)
+The idea of this pack is to have a complete experience. This pack will only contain what mods that *I believe* create a complete experience. If you're looking to have *all the mods* that exist for a version, I suggest looking somewhere else. ;)
  
 In this pack you will find something for everyone. Whether you be a magician, machinist, explorer, or architect, there is always something new to discover!
  
