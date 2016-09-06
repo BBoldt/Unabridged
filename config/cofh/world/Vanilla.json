@@ -162,17 +162,17 @@
     "quartz": {
         "template": "uniform",
         "block": "quartz_ore",
-		"material": "minecraft:netherrack",
+        "material": "minecraft:netherrack",
         "clusterSize": 13,
         "numClusters": 16,
         "minHeight": 10,
         "maxHeight": 118,
         "retrogen": "true",
         "biomeRestriction": "whitelist",
-        "biomes": "none",
-        "dimensionRestriction": "whitelist",
-        "dimensions": [
-            -1
-        ]
+        "biomes": [
+            {"type": "dictionary", "entry": "NETHER"}
+        ],
+        "dimensionRestriction": "none",
+        "dimensions": []
     }
 }
