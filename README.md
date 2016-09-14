@@ -1,5 +1,5 @@
 ### What's This?
-This repository serves as a config repository and issue tracker for my modpack, Unabridged and its Abridged variant. There are different branches for the different versions of the pack and the different versions of minecraft, if you wish to contribute make sure you have the right branch selected. If submitting an issue, make sure you fill out the issue template fully so I know which version of the pack you're using.
+This repository serves as a config repository and issue tracker for my modpack, Unabridged, and its Abridged variant. There are different branches for the different versions of the pack and the different versions of minecraft, if you wish to contribute make sure you have the right branch selected. If submitting an issue, make sure you fill out the issue template fully so I know which version of the pack you're using.
 
 ---
 ``` 
