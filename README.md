@@ -21,10 +21,10 @@ This is a trimmed down version of my other modpack, Unabridged. This is meant to
  
 I usually prefer to spotlight and promote unique mods that are not what everyone normally uses, while still offering some of the "basics". There will be no forced progression through any mod. The choice is yours to make on how challenging or simple your adventure will be. 
 
-# Links: 
-On Reddit: http://www.reddit.com/r/MinecraftUnabridged/
-On CurseForge: https://minecraft.curseforge.com/projects/abridged
-On Discord: https://discord.gg/0nT14JSy1JpYPOQy
+Links: 
+* Reddit: http://www.reddit.com/r/MinecraftUnabridged/
+* CurseForge: https://minecraft.curseforge.com/projects/abridged
+* Discord: https://discord.gg/0nT14JSy1JpYPOQy
 
 ```
                        ___       ___                         
@@ -45,7 +45,7 @@ In this pack you will find something for everyone. Whether you be a magician, ma
  
 One of the main goals of the pack is to make sure there is considerable diversity in the mods available, catering to many different styles of play. I usually prefer to spotlight and promote unique mods that are not what everyone normally uses, while still offering a majority of the "basics". There will be no forced progression through any mod. The choice is yours to make on how challenging or simple your adventure will be. 
 
-# Links: 
-On Reddit: http://www.reddit.com/r/MinecraftUnabridged/
-On Atlauncher: https://www.atlauncher.com/pack/Unabridged
-On Discord: https://discord.gg/0nT14JSy1JpYPOQy
+Links: 
+* Reddit: http://www.reddit.com/r/MinecraftUnabridged/
+* Atlauncher: https://www.atlauncher.com/pack/Unabridged
+* Discord: https://discord.gg/0nT14JSy1JpYPOQy
