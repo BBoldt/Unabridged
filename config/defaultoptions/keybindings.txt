@@ -31,12 +31,22 @@ key_key.hotbar.9:10:NONE
 key_key.ftbu.guide:0:NONE
 key_key.ftbu.light_values:65:NONE
 key_key.ftbu.chunk_border:67:NONE
-key_BloodMagic.keybind.openSigilHolding:35:NONE
-key_chiselsbytes.keybind:201:NONE
-key_enchiridion.key.library:38:NONE
-key_enderio.keybind.glidertoggle:34:NONE
+key_psimisc.keybind:25:ALT
+key_quark.keybind.toggleAutojump:36:NONE
+key_quark.emote.wave:0:NONE
+key_quark.emote.salute:0:NONE
+key_quark.emote.yes:0:NONE
+key_quark.emote.no:0:NONE
+key_quark.emote.cheer:0:NONE
+key_quark.emote.clap:0:NONE
+key_quark.emote.point:0:NONE
+key_quark.emote.shrug:0:NONE
+key_quark.emote.facepalm:0:NONE
+key_quark.emote.headbang:0:NONE
+key_chiselsbytes.keybind:74:NONE
+key_enderio.keybind.glidertoggle:23:NONE
 key_enderio.keybind.soundlocator:38:NONE
-key_enderio.keybind.nightvision:25:NONE
+key_enderio.keybind.nightvision:37:NONE
 key_enderio.keybind.stepassist:0:NONE
 key_enderio.keybind.speed:0:NONE
 key_enderio.keybind.jump:0:NONE
@@ -48,26 +58,15 @@ key_enderio.keybind.fovminus:0:NONE
 key_enderio.keybind.fovplusfast:0:NONE
 key_enderio.keybind.fovminusfast:0:NONE
 key_enderio.keybind.fovreset:0:NONE
-key_key.ping:47:NONE
-key_psimisc.keybind:46:NONE
-key_quark.keybind.toggleAutojump:48:NONE
-key_quark.emote.wave:0:NONE
-key_quark.emote.salute:0:NONE
-key_quark.emote.yes:0:NONE
-key_quark.emote.no:0:NONE
-key_quark.emote.cheer:0:NONE
-key_quark.emote.clap:0:NONE
-key_quark.emote.point:0:NONE
-key_quark.emote.shrug:0:NONE
-key_quark.emote.facepalm:0:NONE
-key_quark.emote.headbang:0:NONE
+key_enchiridion.key.library:0:NONE
+key_key.ping:34:NONE
+key_Baubles Inventory:48:NONE
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.showRecipe:19:NONE
 key_key.jei.showUses:22:NONE
 key_key.jei.recipeBack:14:NONE
-key_Baubles Inventory:48:NONE
-key_key.charset.backpackOpen:46:NONE
+key_key.charset.backpackOpen:0:NONE
 key_mod.chiselsandbits.chiselmode.single:0:NONE
 key_mod.chiselsandbits.chiselmode.snap2:0:NONE
 key_mod.chiselsandbits.chiselmode.snap4:0:NONE
@@ -93,39 +92,42 @@ key_mod.chiselsandbits.other.pickbit:0:NONE
 key_mod.chiselsandbits.other.undo:0:NONE
 key_mod.chiselsandbits.other.redo:0:NONE
 key_mod.chiselsandbits.other.add_to_clipboard:0:NONE
-key_key.craftingcraft.portableCrafting:46:NONE
-key_key.craftingtweaks.rotate:19:NONE
-key_key.craftingtweaks.balance:48:NONE
-key_key.craftingtweaks.clear:46:NONE
+key_key.materialCosts:207:NONE
+key_key.clipboardPaste:210:NONE
+key_key.toggleLiquids:0:NONE
+key_key.toggleVisible:0:NONE
+key_Mekanism Item Mode Switch:51:NONE
+key_Mekanism Armor Mode Switch:39:NONE
+key_Mekanism Voice:52:NONE
+key_key.craftingcraft.portableCrafting:0:NONE
+key_key.craftingtweaks.rotate:0:NONE
+key_key.craftingtweaks.balance:0:NONE
+key_key.craftingtweaks.clear:0:NONE
 key_key.craftingtweaks.toggleButtons:0:NONE
-key_key.craftingtweaks.compressOne:37:CONTROL
-key_key.craftingtweaks.compressStack:37:NONE
-key_key.craftingtweaks.compressAll:37:SHIFT
+key_key.craftingtweaks.compressOne:0:NONE
+key_key.craftingtweaks.compressStack:0:NONE
+key_key.craftingtweaks.compressAll:0:NONE
 key_key.craftingtweaks.decompressOne:0:NONE
 key_key.craftingtweaks.decompressStack:0:NONE
 key_key.craftingtweaks.decompressAll:0:NONE
-key_cyberware.keybinds.zoom:44:NONE
-key_cyberware.keybinds.menu:19:NONE
-key_key.materialCosts:56:NONE
-key_key.clipboardPaste:210:NONE
-key_waila.keybind.wailaconfig:82:NONE
-key_waila.keybind.wailadisplay:79:NONE
-key_waila.keybind.liquid:80:NONE
-key_waila.keybind.recipe:81:NONE
-key_waila.keybind.usage:75:NONE
+key_cyberware.keybinds.zoom:0:NONE
+key_cyberware.keybinds.menu:49:NONE
+key_Toggle Farting:0:NONE
+key_Open Exalted Crafter:46:NONE
 key_key.integrateddynamics.logicProgrammerFocusSearch:33:ALT
-key_key.integrateddynamics.logicProgrammerOpenRename:19:ALT
-key_invtweaks.key.sort:19:NONE
-key_Mekanism Item Mode Switch:50:NONE
-key_Mekanism Armor Mode Switch:33:NONE
-key_Mekanism Voice:22:NONE
+key_key.integrateddynamics.logicProgrammerOpenRename:47:ALT
+key_invtweaks.key.sort:40:NONE
+key_key.modifier:0:NONE
 key_key.porterNextDestination:27:NONE
 key_key.porterPrevDestination:26:NONE
 key_key.trashslot.delete:211:NONE
-key_key.journeymap.map_toggle:36:NONE
-key_key.journeymap.zoom_in:13:NONE
-key_key.journeymap.zoom_out:12:NONE
-key_key.journeymap.minimap_type:27:NONE
-key_key.journeymap.minimap_type:27:NONE
-key_key.journeymap.minimap_preset:43:NONE
-key_key.journeymap.create_waypoint:48:NONE
+key_key.journeymap.map_toggle:50:NONE
+key_key.journeymap.zoom_in:201:NONE
+key_key.journeymap.zoom_out:209:NONE
+key_key.journeymap.minimap_type:43:NONE
+key_key.journeymap.minimap_type:0:NONE
+key_key.journeymap.minimap_preset:45:NONE
+key_key.journeymap.create_waypoint:44:NONE
+key_BloodMagic.keybind.open_holding:35:NONE
+key_BloodMagic.keybind.cycle_holding_pos:13:SHIFT
+key_BloodMagic.keybind.cycle_holding_neg:12:SHIFT

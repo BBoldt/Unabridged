@@ -121,7 +121,7 @@
 			"hoverTextColor" : 3125670,
 			"tooltip" : "#modsactive#/#modsloaded# mods active!",
 			"texture" : "custommainmenu:textures/btn.png",
-            "posX" : -105,
+            "posX" : -33,
             "posY" : -30,
             "width" : 65,
             "height" : 20,
@@ -132,26 +132,6 @@
             {
                 "type" : "openGui",
                 "gui" : "mods"
-            }
-        },
-        
-        "Changelog":
-        {
-            "text" : "Changelog",
-			"normalTextColor" : 12303291,
-			"hoverTextColor" : 3125670,
-			"texture" : "custommainmenu:textures/btn.png",
-            "posX" : 40,
-            "posY" : -30,
-            "width" : 65,
-            "height" : 20,
-			imageWidth : 100,
-			imageHeight : 50,
-			"alignment" : "bottom_center",
-            "action" : 
-            {
-                "type" : "openLink",
-				"link" : "https://github.com/BBoldt/Unabridged/blob/master/CHANGELOG.md"
             }
         },
 		
@@ -194,7 +174,7 @@
 			"texture" : "custommainmenu:textures/icons/github.png",
 			"tooltip" : "Github",
 			"alignment" : "bottom_center",
-            "posX" : -35,
+            "posX" : -105,
             "posY" : -30,
             "width" : 20,
             "height" : 20,
@@ -211,7 +191,7 @@
 			"texture" : "custommainmenu:textures/icons/reddit.png",
 			"tooltip" : "Reddit",
 			"alignment" : "bottom_center",
-            "posX" : -10,
+            "posX" : -80,
             "posY" : -30,
             "width" : 20,
             "height" : 20,
@@ -228,7 +208,7 @@
 			"texture" : "custommainmenu:textures/icons/twitter.png",
 			"tooltip" : "Twitter",
 			"alignment" : "bottom_center",
-            "posX" : 15,
+            "posX" : 60,
             "posY" : -30,
             "width" : 20,
             "height" : 20,
@@ -237,6 +217,23 @@
                 "type" : "openLink",
 				"link" : "http://www.twitter.com/BBoldt92"
             }	
+        },
+		
+		"Patreon":
+        {
+            "text" : "",
+			"texture" : "custommainmenu:textures/icons/patreon.png",
+			"tooltip" : "Patreon",
+			"alignment" : "bottom_center",
+            "posX" : 85,
+            "posY" : -30,
+            "width" : 20,
+            "height" : 20,
+			"action" :
+			{
+                "type" : "openLink",
+				"link" : "https://www.patreon.com/BBoldt_"
+            }	
         }
 	},
     
@@ -244,8 +241,8 @@
     {
         "version":
         {
-            "text" : "a.3",
-            "posX" : -10,
+            "text" : "B.1",
+            "posX" : -7,
             "posY" : 75,
             "color" : -1,
             "alignment" : "top_center"
