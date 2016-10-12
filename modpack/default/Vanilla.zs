@@ -13,3 +13,18 @@ recipes.addShapeless(<minecraft:hardened_clay> * 8, [<minecraft:water_bucket>.tr
 
 // Gray
 recipes.addShapeless(<minecraft:dye:8>, [<ore:dyeBlack>, <ore:dyeWhite>]);
+
+// Unify Diamond Nuggets
+
+val diamondNugget = <ore:nuggetDiamond>;
+val shard1 = <ExtraBees:misc:1>;
+val shard2 = <MagicBees:beeNugget:5>;
+val shard3 = <enhancedportals:nuggetDiamond>;
+val shard4 = <Translocator:diamondNugget>;
+
+diamond.add(shard1);
+diamond.add(shard2);
+
+// Add Ore Dictionary Recipe to craft Diamonds using Diamond Nuggets.
+
+recipes.addShapeless(<minecraft:diamond>, [diamondNugget, diamondNugget, diamondNugget, diamondNugget, diamondNugget, diamondNugget, diamondNugget, diamondNugget, diamondNugget]);
