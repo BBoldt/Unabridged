@@ -22,8 +22,8 @@ val shard2 = <MagicBees:beeNugget:5>;
 val shard3 = <enhancedportals:nuggetDiamond>;
 val shard4 = <Translocator:diamondNugget>;
 
-diamond.add(shard1);
-diamond.add(shard2);
+diamondNugget.add(shard1);
+diamondNugget.add(shard2);
 
 // Add Ore Dictionary Recipe to craft Diamonds using Diamond Nuggets.
 
