@@ -32,7 +32,7 @@
   },
   "login": {
     "motd": [
-      "Welcome, let's get Unabridged!"
+      "Welcome, let\u0027s get Unabridged!"
     ],
     "starting_items": [
       "minecraft:apple 16 0"

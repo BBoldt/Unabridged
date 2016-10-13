@@ -350,6 +350,13 @@ mods.thaumcraft.Aspects.set(<chisel:limestone>, "terra 2");
 mods.thaumcraft.Aspects.set(<chisel:marble>, "terra 2");
 mods.thaumcraft.Aspects.set(<chisel:cloud>, "tempestas 2");
 
+// Malisis Doors
+mods.thaumcraft.Aspects.set(<malisisdoors:trapdoor_acacia>, "arbor 2, motus 1");
+mods.thaumcraft.Aspects.set(<malisisdoors:trapdoor_birch>, "arbor 2, motus 1");
+mods.thaumcraft.Aspects.set(<malisisdoors:trapdoor_dark_oak>, "arbor 2, motus 1");
+mods.thaumcraft.Aspects.set(<malisisdoors:trapdoor_jungle>, "arbor 2, motus 1");
+mods.thaumcraft.Aspects.set(<malisisdoors:trapdoor_spruce>, "arbor 2, motus 1");
+
 // Plant Mega Pack
 mods.thaumcraft.Aspects.set(<plantmegapack:bambooAsper>, "aer 1, aqua 1, herba 1");
 mods.thaumcraft.Aspects.set(<plantmegapack:bambooAsperBlock>, "herba 1");

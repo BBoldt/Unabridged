@@ -1,7 +1,7 @@
 // Make Diamond Chips craftable using diamond nuggets instead of full diamonds, conflicting recipe fix.
 
 val diamondChip = <OpenComputers:item:111>;
-val diamondNugget = <Ore:nuggetDiamond>;
+val diamondNugget = <ore:nuggetDiamond>;
 
 recipes.remove(diamondChip);
 
