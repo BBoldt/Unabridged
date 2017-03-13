@@ -49,4 +49,5 @@ One of the main goals of the pack is to make sure there is considerable diversit
 Links: 
 * Reddit: http://www.reddit.com/r/MinecraftUnabridged/
 * Atlauncher: https://www.atlauncher.com/pack/Unabridged
+* CurseForge: https://minecraft.curseforge.com/projects/Unabridged
 * Discord: https://discord.gg/0nT14JSy1JpYPOQy
