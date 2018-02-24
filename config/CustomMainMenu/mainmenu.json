@@ -121,9 +121,9 @@
 			"hoverTextColor" : 3125670,
 			"tooltip" : "#modsactive#/#modsloaded# mods active!",
 			"texture" : "custommainmenu:textures/btn.png",
-            "posX" : -33,
+            "posX" : -47,
             "posY" : -30,
-            "width" : 65,
+            "width" : 95,
             "height" : 20,
 			imageWidth : 100,
 			imageHeight : 50,
@@ -135,21 +135,22 @@
             }
         },
 		
-		"reload":
+		"changelog":
         {
             "text" : "",
-            "posX" : -22,
-            "posY" : -22,
+            "posX" : -37,
+            "posY" : -37,
             "width" : 11,
             "height" : 11,
 			"alignment" : "bottom_right",
-			"tooltip" : "Refresh",
-            "texture" : "custommainmenu:textures/icons/reload.png",
-            "action" : 
-            {
-                "type" : "refresh"
+			"tooltip" : "Changelog",
+			"texture" : "custommainmenu:textures/icons/changelog.png",
+            "action" : {
+                "type" : "openLink",
+				        "link" : "https://www.reddit.com/r/MinecraftUnabridged/comments/5tnm8q/unabridged_r14_the_getting_things_dialed_in/"
             }
         },
+		
 		
 		"language":
         {
@@ -174,14 +175,14 @@
 			"texture" : "custommainmenu:textures/icons/github.png",
 			"tooltip" : "Github",
 			"alignment" : "bottom_center",
-            "posX" : -105,
+            "posX" : -110,
             "posY" : -30,
-            "width" : 20,
+            "width" : 30,
             "height" : 20,
 			"action" :
 			{
                 "type" : "openLink",
-				"link" : "https://github.com/BBoldt/Unabridged/issues"
+				"link" : "https://www.github.com/elytra/Unabridged/issues"
             }
         },
 
@@ -191,57 +192,23 @@
 			"texture" : "custommainmenu:textures/icons/reddit.png",
 			"tooltip" : "Reddit",
 			"alignment" : "bottom_center",
-            "posX" : -80,
+            "posX" : 85,
             "posY" : -30,
-            "width" : 20,
+            "width" : 30,
             "height" : 20,
 			"action" :
 			{
                 "type" : "openLink",
 				"link" : "http://www.reddit.com/r/MinecraftUnabridged/"
             }	
-        },
-        
-        "Twitter":
-        {
-            "text" : "",
-			"texture" : "custommainmenu:textures/icons/twitter.png",
-			"tooltip" : "Twitter",
-			"alignment" : "bottom_center",
-            "posX" : 60,
-            "posY" : -30,
-            "width" : 20,
-            "height" : 20,
-			"action" :
-			{
-                "type" : "openLink",
-				"link" : "http://www.twitter.com/BBoldt92"
-            }	
-        },
-		
-		"Patreon":
-        {
-            "text" : "",
-			"texture" : "custommainmenu:textures/icons/patreon.png",
-			"tooltip" : "Patreon",
-			"alignment" : "bottom_center",
-            "posX" : 85,
-            "posY" : -30,
-            "width" : 20,
-            "height" : 20,
-			"action" :
-			{
-                "type" : "openLink",
-				"link" : "https://www.patreon.com/BBoldt_"
-            }	
         }
-	},
-    
+    },
+	
     "texts":
     {
         "version":
         {
-            "text" : "R.13b",
+            "text" : "R.16",
             "posX" : -10,
             "posY" : 75,
             "color" : -1,

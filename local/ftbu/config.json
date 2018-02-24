@@ -34,9 +34,7 @@
     "motd": [
       "Welcome, let\u0027s get Unabridged!"
     ],
-    "starting_items": [
-      "minecraft:apple 16 0"
-    ]
+    "starting_items": []
   },
   "permissions_admin": {
     "allow_creative_interact_secure": true,
@@ -44,7 +42,7 @@
     "break_whitelist": [
       "OpenBlocks:grave"
     ],
-    "cross_dim_homes": true,
+    "cross_dim_homes": false,
     "custom_config": {},
     "dimension_blacklist": [],
     "forced_chunk_security": "-",
