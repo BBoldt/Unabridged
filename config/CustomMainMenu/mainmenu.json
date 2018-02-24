@@ -1,0 +1,244 @@
+{
+    "images":
+    {
+		
+		"menubar":
+        {
+            "image" : "custommainmenu:textures/bg_menu.png",
+            "posX" : -115,
+            "posY" : 0,
+            "width" : 230,
+            "height" : 1500,
+            "alignment" : "top_center"
+        },
+		"logo":
+        {
+            "image" : "custommainmenu:textures/gui/minecraft.png",
+            "posX" : -128,
+            "posY" : 10,
+            "width" : 256,
+            "height" : 256,
+            "alignment" : "top_center"
+        },
+		"flare":
+        {
+            "image" : "custommainmenu:textures/gui/flare.png",
+            "posX" : -175,
+            "posY" : -8,
+            "width" : 350,
+            "height" : 350,
+            "alignment" : "top_center"
+        }
+	
+	},
+    
+    "buttons":
+    {     
+		"singleplayer":
+        {
+            "text" : "menu.singleplayer",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "custommainmenu:textures/btn.png",
+            "posX" : -113,
+            "posY" : 100,
+            "width" : 226,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "top_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },		
+
+		"multiplayer":
+        {
+            "text" : "menu.multiplayer",			
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "custommainmenu:textures/btn.png",
+            "posX" : -113,
+            "posY" : 120,
+            "width" : 226,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "top_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+               
+		"options":
+        {
+            "text" : "menu.options",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "custommainmenu:textures/btn.png",
+            "posX" : -113,
+            "posY" : 140,
+            "width" : 226,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "top_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+                    
+        "quit":
+        {
+            "text" : "menu.quit",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 14483456,
+			"texture" : "custommainmenu:textures/btn.png",
+            "posX" : -113,
+            "posY" : 175,
+            "width" : 226,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "top_center",
+			"hoverText" : "Don't you dare!",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "Mods (#modsactive#)",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"tooltip" : "#modsactive#/#modsloaded# mods active!",
+			"texture" : "custommainmenu:textures/btn.png",
+            "posX" : -47,
+            "posY" : -30,
+            "width" : 95,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "bottom_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+		
+		"changelog":
+        {
+            "text" : "",
+            "posX" : -37,
+            "posY" : -37,
+            "width" : 11,
+            "height" : 11,
+			"alignment" : "bottom_right",
+			"tooltip" : "Changelog",
+			"texture" : "custommainmenu:textures/icons/changelog.png",
+            "action" : {
+                "type" : "openLink",
+				        "link" : "https://www.reddit.com/r/MinecraftUnabridged/comments/5tnm8q/unabridged_r14_the_getting_things_dialed_in/"
+            }
+        },
+		
+		
+		"language":
+        {
+            "text" : "",
+            "posX" : -37,
+            "posY" : -22,
+            "width" : 11,
+            "height" : 11,
+			"alignment" : "bottom_right",
+			"tooltip" : "Language",
+			"texture" : "custommainmenu:textures/icons/globe.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+		
+		"Github":
+        {
+            "text" : "",
+			"texture" : "custommainmenu:textures/icons/github.png",
+			"tooltip" : "Github",
+			"alignment" : "bottom_center",
+            "posX" : -110,
+            "posY" : -30,
+            "width" : 30,
+            "height" : 20,
+			"action" :
+			{
+                "type" : "openLink",
+				"link" : "https://www.github.com/elytra/Unabridged/issues"
+            }
+        },
+
+		"Reddit":
+        {
+            "text" : "",
+			"texture" : "custommainmenu:textures/icons/reddit.png",
+			"tooltip" : "Reddit",
+			"alignment" : "bottom_center",
+            "posX" : 85,
+            "posY" : -30,
+            "width" : 30,
+            "height" : 20,
+			"action" :
+			{
+                "type" : "openLink",
+				"link" : "http://www.reddit.com/r/MinecraftUnabridged/"
+            }	
+        }
+    },
+	
+    "texts":
+    {
+        "version":
+        {
+            "text" : "R.15",
+            "posX" : -10,
+            "posY" : 75,
+            "color" : -1,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "other":
+    {
+		"background":
+        {
+            "image" : "",
+            "slideshow":
+            {
+                "images" : [
+					"custommainmenu:scrn/bg (1).png",
+					"custommainmenu:scrn/bg (2).png",
+					"custommainmenu:scrn/bg (3).png",
+					"custommainmenu:scrn/bg (4).png",
+					"custommainmenu:scrn/bg (5).png",
+					"custommainmenu:scrn/bg (6).png",
+					"custommainmenu:scrn/bg (7).png",
+					"custommainmenu:scrn/bg (8).png",
+					"custommainmenu:scrn/bg (9).png",
+					"custommainmenu:scrn/bg (10).png"
+							],
+				"displayDuration" : 100,
+				"fadeDuration" : 40,
+				"shuffle" : true
+            }
+        }
+    }
+}
