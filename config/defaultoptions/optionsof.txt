@@ -1,0 +1,8 @@
+ofRenderDistanceChunks:8
+ofFogType:1
+ofFogStart:0.8
+ofMipmapType:0
+ofClouds:0
+ofVoidParticles:false
+ofClearWater:true
+ofBetterSnow:true

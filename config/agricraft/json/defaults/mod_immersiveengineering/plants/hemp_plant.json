@@ -1,0 +1,72 @@
+{
+  "path": "mod_immersiveengineering/plants/hemp_plant.json",
+  "enabled": true,
+  "id": "industrialhemp_crop",
+  "plant_name": "Industrial Hemp",
+  "seed_name": "Industrial Hemp Seeds",
+  "seed_items": [
+    {
+      "item": "immersiveengineering:seed",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": false,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": false
+    }
+  ],
+  "description": {
+    "translations": {},
+    "default": "Industrial Hemp Seeds."
+  },
+  "growth_chance": 0.9,
+  "growth_bonus": 0.025,
+  "bonemeal": true,
+  "tier": 1,
+  "weedable": false,
+  "aggressive": false,
+  "spread_chance": 0.1,
+  "spawn_chance": 0.0,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 5,
+        "chance": 0.9,
+        "required": true,
+        "item": "betterwithmods:material",
+        "meta": 2,
+        "tags": "",
+        "ignoreMeta": false,
+        "ignoreTags": [],
+        "useOreDict": false
+      }
+    ]
+  },
+  "requirement": {
+    "min_light": 10,
+    "max_light": 16,
+    "soils": [
+      "farmland_soil"
+    ],
+    "conditions": []
+  },
+  "texture": {
+    "render_type": "hash",
+    "seed_texture": "immersiveengineering:items/seed_hemp",
+    "plant_textures": [
+      "unabridged:blocks/crops/industrialhemp/0",
+      "unabridged:blocks/crops/industrialhemp/1",
+      "unabridged:blocks/crops/industrialhemp/2",
+      "unabridged:blocks/crops/industrialhemp/3",
+      "unabridged:blocks/crops/industrialhemp/4",
+      "unabridged:blocks/crops/industrialhemp/5",
+      "unabridged:blocks/crops/industrialhemp/6",
+      "unabridged:blocks/crops/industrialhemp/7"
+    ]
+  }
+}

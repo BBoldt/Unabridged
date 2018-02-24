@@ -1,0 +1,111 @@
+{
+  "images":
+  {
+    "changelogbar":
+    {
+      "image" : "custommainmenu:textures/bg_menu.png",
+      "posX" : -200,
+      "posY" : 100,
+      "width" : 400,
+      "height" : 170,
+      "alignment" : "top_center"
+    },
+    "logo":
+    {
+      "image" : "custommainmenu:textures/gui/minecraft.png",
+      "posX" : -128,
+      "posY" : 10,
+      "width" : 256,
+      "height" : 256,
+      "alignment" : "top_center"
+    },
+    "flare":
+    {
+      "image" : "custommainmenu:textures/gui/flare.png",
+      "posX" : -175,
+      "posY" : -8,
+      "width" : 350,
+      "height" : 350,
+      "alignment" : "top_center"
+    }
+	},
+  "buttons":
+  { 
+    "back":
+    {
+      "text" : "<-",
+      "normalTextColor" : 12303291,
+      "hoverTextColor" : 3125670,
+      "texture" : "custommainmenu:textures/btn.png",
+      "posX" : -198,
+      "posY" : 248,
+      "width" : 20,
+      "height" : 20,
+      imageWidth : 100,
+      imageHeight : 50,
+      "alignment" : "top_center",
+      "action" : 
+      {
+        "type" : "openGui",
+        "gui" : "custom.changelog2"
+      }
+    },
+    "next":
+    {
+      "text" : "->",
+      "normalTextColor" : 12303291,
+      "hoverTextColor" : 3125670,
+      "texture" : "custommainmenu:textures/btn.png",
+      "posX" : +178,
+      "posY" : 248,
+      "width" : 20,
+      "height" : 20,
+      imageWidth : 100,
+      imageHeight : 50,
+      "alignment" : "top_center",
+      "action" : 
+      {
+        "type" : "openGui",
+        "gui" : "custom.changelog4"
+      }
+    }
+	},
+  "texts":
+  {
+    "changelogtitle":
+    {
+      "text" : "Changelog",
+      "posX" : -195,
+      "posY" : 105,
+      fontSize : 2,
+      "color" : -1,
+      "alignment" : "top_center"
+    },
+    "changelog":
+    {
+      "text" : "file:custommainmenu:texts/changelog3.txt",
+      "posX" : -195,
+      "posY" : 125,
+      fontSize : 1,
+      "color" : -1,
+      "alignment" : "top_center"
+    }
+  },
+  "other":
+  {
+		"background":
+    {
+      "image" : "",
+      "slideshow":
+      {
+        "images" :
+        [
+					"custommainmenu:scrn/bg.png"
+				],
+				"displayDuration" : 100,
+				"fadeDuration" : 40,
+				"shuffle" : true
+      }
+    }
+  }
+}

@@ -68,7 +68,6 @@ XML editor will display that as tooltips when editing this file.
   </recipe>
 
   <recipe name="Staff Of Travelling" required="true">
-    <config section="Staff Settings" name="travelStaffEnabled" value="true" />
     <crafting>
       <grid size="3x3">
         <item /><item /><item name="ENDER_CRYSTAL" />
@@ -80,7 +79,6 @@ XML editor will display that as tooltips when editing this file.
   </recipe>
   
   <recipe name="Rod of Return" required="true">
-    <config section="Rod of Return Settings" name="rodOfReturnEnabled" value="true" />
     <crafting>
       <grid size="3x3">
         <item /><item name="PULSATING_CRYSTAL"/><item name="ENDER_CRYSTAL" />
@@ -91,22 +89,7 @@ XML editor will display that as tooltips when editing this file.
     </crafting>
   </recipe>
 
-  <recipe name="Coordinate Selector (endercore)" required="true">
-    <config section="Item Enabling" name="travelAnchorEnabled" value="true" />
-    <config section="Staff Settings" name="travelStaffEnabled" value="true" />
-    <crafting>
-      <grid size="3x3">
-        <item name="ELECTRICAL_STEEL" /><item name="enderpearl" /><item name="ELECTRICAL_STEEL" />
-        <item /><item name="minecraft:compass" /><item name="ELECTRICAL_STEEL" />
-        <item /><item  /><item name="ELECTRICAL_STEEL" />
-      </grid>
-      <output name="enderio:itemCoordSelector" />
-    </crafting>
-  </recipe>
-
-  <recipe name="Coordinate Selector (Forge)" required="true">
-    <config section="Item Enabling" name="travelAnchorEnabled" value="true" />
-    <config section="Staff Settings" name="travelStaffEnabled" value="true" />
+  <recipe name="Coordinate Selector" required="true">
     <crafting>
       <grid size="3x3">
         <item name="ELECTRICAL_STEEL" /><item name="enderpearl" /><item name="ELECTRICAL_STEEL" />
@@ -212,6 +195,16 @@ XML editor will display that as tooltips when editing this file.
     </crafting>
   </recipe>
 
+  <recipe name="Cold Fire Igniter" required="true">
+    <crafting>
+      <shapeless>
+        <item name="DARK_STEEL" />
+        <item name="itemFlint" />
+      </shapeless>
+      <output name="enderio:itemColdFireIgniter" />
+    </crafting>
+  </recipe>
+
   <recipe name="Soul Vial" required="true">
     <crafting>
       <grid size="3x3">
@@ -267,6 +260,17 @@ XML editor will display that as tooltips when editing this file.
     </crafting>
   </recipe>
   
+  <recipe name="Dark Bow" required="true">
+    <crafting>
+      <grid size="3x3">
+        <item /><item name="NUTRITIOUS_STICK" /><item name="string"/>
+        <item name="SKELETAL_CONTRACTOR"/><item/><item name="string"/>
+        <item /><item name="NUTRITIOUS_STICK"/><item name="string"/>
+      </grid>
+      <output name="enderio:darkSteelBow" />
+    </crafting>
+  </recipe>
+  
   <recipe name="Conduit Facade" required="true">
     <crafting>
       <grid>
@@ -274,7 +278,7 @@ XML editor will display that as tooltips when editing this file.
         <item name="CONDUIT_BINDER" /><item /><item name="CONDUIT_BINDER" />
         <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
       </grid>
-      <output name="enderio:blockConduitFacade:0" />
+      <output name="enderio:itemConduitFacade:0" />
     </crafting>
   </recipe>
 
@@ -282,10 +286,10 @@ XML editor will display that as tooltips when editing this file.
     <crafting>
       <grid>
         <item /><item name="dustObsidian" /><item />
-        <item name="dustObsidian" /><item name="enderio:blockConduitFacade:0" /><item name="dustObsidian" />
+        <item name="dustObsidian" /><item name="enderio:itemConduitFacade:0" /><item name="dustObsidian" />
         <item /><item name="dustObsidian" /><item />
       </grid>
-      <output name="enderio:blockConduitFacade:1" />
+      <output name="enderio:itemConduitFacade:1" />
     </crafting>
   </recipe>
 
@@ -296,16 +300,16 @@ XML editor will display that as tooltips when editing this file.
         <item name="CONDUIT_BINDER" /><item name="FUSED_GLASS" /><item name="CONDUIT_BINDER" />
         <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
       </grid>
-      <output name="enderio:blockConduitFacade:2" />
+      <output name="enderio:itemConduitFacade:2" />
     </crafting>
   </recipe>
 
   <recipe name="Conduit Facade, transparent, upgrade" required="true">
     <crafting>
       <shapeless>
-        <item name="enderio:blockConduitFacade:0"/><item name="FUSED_GLASS" />
+        <item name="enderio:itemConduitFacade:0"/><item name="FUSED_GLASS" />
       </shapeless>
-      <output name="enderio:blockConduitFacade:2" />
+      <output name="enderio:itemConduitFacade:2" />
     </crafting>
   </recipe>
 
@@ -313,19 +317,19 @@ XML editor will display that as tooltips when editing this file.
     <crafting>
       <grid>
         <item /><item name="dustObsidian" /><item />
-        <item name="dustObsidian" /><item name="enderio:blockConduitFacade:2" /><item name="dustObsidian" />
+        <item name="dustObsidian" /><item name="enderio:itemConduitFacade:2" /><item name="dustObsidian" />
         <item /><item name="dustObsidian" /><item />
       </grid>
-      <output name="enderio:blockConduitFacade:3" />
+      <output name="enderio:itemConduitFacade:3" />
     </crafting>
   </recipe>
 
   <recipe name="Conduit Facade, transparent, hardened, upgrade" required="true">
     <crafting>
       <shapeless>
-        <item name="enderio:blockConduitFacade:1"/><item name="FUSED_GLASS" />
+        <item name="enderio:itemConduitFacade:1"/><item name="FUSED_GLASS" />
       </shapeless>
-      <output name="enderio:blockConduitFacade:3" />
+      <output name="enderio:itemConduitFacade:3" />
     </crafting>
   </recipe>
 
@@ -538,32 +542,6 @@ XML editor will display that as tooltips when editing this file.
     </crafting>
   </recipe>
 
-  <alias name="GAS_CONDUIT" item="minecraft:stone:0">
-    <!-- prevent log messages from the output tags using this -->
-    <dependency item="enderio:itemGasConduit:0" reverse="true"/>
-  </alias>
-
-  <recipe name="Conduit, Gas" required="true">
-    <config name="gasConduitEnabled" section="Item Enabling" value="true"/>
-    <dependency item="enderio:itemGasConduit:0" />
-    <crafting>
-      <grid>
-        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
-        <item name="ELECTRICAL_STEEL" /><item name="FUSED_QUARTZ" /><item name="ELECTRICAL_STEEL" />
-        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
-      </grid>
-      <output name="GAS_CONDUIT" amount="12">
-        <level maxlevel="1"/>
-      </output>
-      <output name="GAS_CONDUIT" amount="8">
-        <level minlevel="2" maxlevel="2"/>
-      </output>
-      <output name="GAS_CONDUIT" amount="2">
-        <level minlevel="3"/>
-      </output>
-    </crafting>
-  </recipe>
-
   <alias name="OC_CONDUIT" item="enderio:itemOCConduit:0">
     <dependency item="enderio:itemOCConduit:0" reverse="false"/>
   </alias>
@@ -593,6 +571,9 @@ XML editor will display that as tooltips when editing this file.
     </crafting>
   </recipe>
 
+  <alias name="ME_CONDUIT" item="enderio:itemMEConduit:0">
+    <dependency item="enderio:itemMEConduit:0" reverse="false"/>
+  </alias>
   <alias name="ME_CONDUIT" item="minecraft:stone:0">
     <!-- prevent log messages from the output tags using this -->
     <dependency item="enderio:itemMEConduit:0" reverse="true"/>
@@ -604,7 +585,7 @@ XML editor will display that as tooltips when editing this file.
     <crafting>
       <grid>
         <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
-        <item name="crystalFluix" /><item name="AEApi.instance().parts().partQuartzFiber.stack(1).copy() ???" /><item name="crystalFluix" />
+        <item name="crystalFluix" /><item name="appliedenergistics2:part:140" /><item name="crystalFluix" />
         <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
       </grid>
       <output name="ME_CONDUIT" amount="12">
@@ -625,21 +606,24 @@ XML editor will display that as tooltips when editing this file.
     <crafting>
       <grid>
         <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
-        <item name="crystalPureFluix" /><item name="AEApi.instance().parts().partQuartzFiber.stack(1).copy() ???" /><item name="crystalPureFluix" />
+        <item name="crystalPureFluix" /><item name="appliedenergistics2:part:140" /><item name="crystalPureFluix" />
         <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
       </grid>
-      <output name="ME_CONDUIT" amount="12">
+      <output name="ME_CONDUIT" amount="6">
         <level maxlevel="1"/>
       </output>
-      <output name="ME_CONDUIT" amount="8">
+      <output name="ME_CONDUIT" amount="4">
         <level minlevel="2" maxlevel="2"/>
       </output>
-      <output name="ME_CONDUIT" amount="2">
+      <output name="ME_CONDUIT" amount="1">
         <level minlevel="3"/>
       </output>
     </crafting>
   </recipe>
 
+  <alias name="ME_CONDUIT_DENSE" item="enderio:itemMEConduit:1">
+    <dependency item="enderio:itemMEConduit:1" reverse="false"/>
+  </alias>
   <alias name="ME_CONDUIT_DENSE" item="minecraft:stone:0">
     <!-- prevent log messages from the output tags using this -->
     <dependency item="enderio:itemMEConduit:1" reverse="true"/>
@@ -654,15 +638,7 @@ XML editor will display that as tooltips when editing this file.
         <item name="ME_CONDUIT" /><item name="CONDUIT_BINDER" /><item name="ME_CONDUIT" />
         <item name="CONDUIT_BINDER" /><item name="ME_CONDUIT" /><item name="CONDUIT_BINDER" />
       </grid>
-      <output name="ME_CONDUIT_DENSE" amount="12">
-        <level maxlevel="1"/>
-      </output>
-      <output name="ME_CONDUIT_DENSE" amount="8">
-        <level minlevel="2" maxlevel="2"/>
-      </output>
-      <output name="ME_CONDUIT_DENSE" amount="2">
-        <level minlevel="3"/>
-      </output>
+      <output name="ME_CONDUIT_DENSE" amount="1" />
     </crafting>
   </recipe>
 
@@ -703,7 +679,16 @@ XML editor will display that as tooltips when editing this file.
         <item name="oredict:paper" /><item name="ZOMBIE_CONTROLLER" /><item name="oredict:paper" />
         <item name="dustRedstone" /><item name="oredict:paper" /><item name="dustRedstone" />
       </grid>
-      <output name="enderio:itemBasicFilterUpgrade:1" />
+      <output name="ADVANCED_FILTER" />
+    </crafting>
+  </recipe>
+
+  <recipe name="Filter, Counting" required="true">
+    <crafting>
+      <grid size="3x1">
+        <item name="minecraft:comparator" /><item name="ADVANCED_FILTER" /><item name="minecraft:comparator" />
+      </grid>
+      <output name="COUNTING_FILTER" />
     </crafting>
   </recipe>
 
@@ -740,6 +725,15 @@ XML editor will display that as tooltips when editing this file.
     </crafting>
   </recipe>
 
+  <recipe name="Filter, Species" required="false">
+    <crafting>
+      <grid size="3x1">
+        <item name="forestry:propolis" /><item name="ADVANCED_FILTER" /><item name="forestry:propolis" />
+      </grid>
+      <output name="enderio:itemSpeciesItemFilter:0" />
+    </crafting>
+  </recipe>
+
   <recipe name="Upgrade, Speed" required="true">
     <crafting>
       <grid>
@@ -763,7 +757,48 @@ XML editor will display that as tooltips when editing this file.
   </recipe>
 
 
+  <recipe name="Inventory Panel Remote" required="true">
+    <crafting>
+      <grid size="3x3">
+        <item/><item/><item name="minecraft:heavy_weighted_pressure_plate" />
+        <item name="minecraft:heavy_weighted_pressure_plate" /><item name="enderio:blockInventoryPanel" /><item name="minecraft:heavy_weighted_pressure_plate" />
+        <item name="minecraft:heavy_weighted_pressure_plate" /><item name="enderio:blockTravelAnchor" /><item name="minecraft:heavy_weighted_pressure_plate" />
+      </grid>
+      <output name="enderio:itemRemoteInvAccess:0" />
+    </crafting>
+  </recipe>
 
+  <recipe name="Inventory Panel Remote, variant" required="true">
+    <crafting>
+      <grid size="3x3">
+        <item/><item/><item name="PPP_IRON" />
+        <item name="PPP_IRON" /><item name="enderio:blockInventoryPanel" /><item name="PPP_IRON" />
+        <item name="PPP_IRON" /><item name="enderio:blockTravelAnchor" /><item name="PPP_IRON" />
+      </grid>
+      <output name="enderio:itemRemoteInvAccess:0" />
+    </crafting>
+  </recipe>
 
+  <recipe name="Advanced Inventory Panel Remote" required="true">
+    <crafting>
+      <grid size="3x3">
+        <item/><item/><item name="PPP_DARK_STEEL" />
+        <item name="PPP_DARK_STEEL" /><item name="enderio:itemRemoteInvAccess:0" /><item name="PPP_DARK_STEEL" />
+        <item name="PPP_DARK_STEEL" /><item name="enderio:itemTravelStaff" /><item name="PPP_DARK_STEEL" />
+      </grid>
+      <output name="enderio:itemRemoteInvAccess:1" />
+    </crafting>
+  </recipe>
+
+  <recipe name="Ender Inventory Panel Remote" required="true">
+    <crafting>
+      <grid size="3x3">
+        <item/><item/><item name="PPP_SOULARIUM" />
+        <item name="PPP_SOULARIUM" /><item name="enderio:itemRemoteInvAccess:1" /><item name="PPP_SOULARIUM" />
+        <item name="PPP_SOULARIUM" /><item name="enderio:blockTransceiver" /><item name="PPP_SOULARIUM" />
+      </grid>
+      <output name="enderio:itemRemoteInvAccess:2" />
+    </crafting>
+  </recipe>
 
 </enderio:recipes>

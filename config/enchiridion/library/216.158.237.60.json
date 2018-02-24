@@ -1,0 +1,161 @@
+{
+  "books": [
+    {
+      "item": "enchiridion:book",
+      "handlerType": "enchiridion",
+      "matchDamage": true,
+      "matchNBT": false
+    },
+    {
+      "item": "minecraft:writable_book",
+      "handlerType": "writeable",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
+      "item": "minecraft:written_book",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
+      "item": "Thaumcraft:thaumonomicon",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
+      "item": "Botania:lexicon",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
+      "item": "aura:lexicon",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
+      "item": "totemic:totempedia",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
+      "item": "openblocks:infoBook",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
+      "item": "opencomputers:tool 4",
+      "handlerType": "rightclick",
+      "matchDamage": true,
+      "matchNBT": false
+    },
+    {
+      "item": "rftools:rfToolsManualItem",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
+      "item": "deepresonance:dr_manual",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
+      "item": "tconstruct:book",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
+      "item": "computercraft:printout",
+      "handlerType": "computercraft",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
+      "item": "ImmersiveEngineering:tool 3",
+      "handlerType": "switchclick",
+      "matchDamage": true,
+      "matchNBT": false
+    },
+    {
+      "item": "warpbook:warpbook",
+      "handlerType": "warpbook",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
+      "item": "minecraft:planks 1",
+      "handlerType": "customwood",
+      "matchDamage": true,
+      "matchNBT": false
+    },
+    {
+      "item": "minecraft:planks 5",
+      "handlerType": "customwood",
+      "matchDamage": true,
+      "matchNBT": false
+    },
+    {
+      "item": "thaumcraft:plank 0",
+      "handlerType": "customwood",
+      "matchDamage": true,
+      "matchNBT": false
+    },
+    {
+      "item": "chisel:planks-dark-oak",
+      "handlerType": "customwood",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
+      "item": "chisel:planks-spruce",
+      "handlerType": "customwood",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
+      "item": "chisel:livingwood-planks",
+      "handlerType": "customwood",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
+      "item": "chisel:livingwood-raw",
+      "handlerType": "customwood",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
+      "item": "chisel:thinWood-dark",
+      "handlerType": "customwood",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
+      "item": "chisel:thinWood-spruce",
+      "handlerType": "customwood",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
+      "item": "biomesoplenty:planks_0 14",
+      "handlerType": "customwood",
+      "matchDamage": true,
+      "matchNBT": false
+    },
+    {
+      "item": "Botania:livingwood",
+      "handlerType": "customwood",
+      "matchDamage": false,
+      "matchNBT": false
+    }
+  ],
+  "freeBooks": []
+}

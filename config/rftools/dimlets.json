@@ -258,7 +258,6 @@
         "planks_0",
         "stone",
         "log_0",
-        "sand",
         "log_2",
         "log_1",
         "ash_block",
@@ -276,6 +275,21 @@
       "ticks": 10,
       "worldgen": true,
       "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "mod": "biomesoplenty",
+      "name": "sand",
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 2,
+      "create": 100,
+      "maintain": 30,
+      "ticks": 10,
+      "worldgen": false,
+      "dimlet": false
     }
   },
   {
@@ -777,6 +791,20 @@
   },
   {
     "filter": {
+      "name": "default",
+      "type": "mob"
+    },
+    "settings": {
+      "rarity": 0,
+      "create": 100,
+      "maintain": 1,
+      "ticks": 100,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
       "mod": "biomesoplenty",
       "type": "mob"
     },
@@ -1077,6 +1105,20 @@
       "maintain": 1000,
       "ticks": 1000,
       "worldgen": false,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "name": "oresaplenty",
+      "type": "feature"
+    },
+    "settings": {
+      "rarity": 5,
+      "create": 10000,
+      "maintain": 20000,
+      "ticks": 1000,
+      "worldgen": true,
       "dimlet": true
     }
   },

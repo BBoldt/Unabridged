@@ -1,0 +1,266 @@
+<!-- =================================================================
+     Custom Ore Generation "Immersive Engineering" Module: This
+     configuration covers copper, mountain copper, bauxite, mountain
+     bauxite, lead, mountain lead, silver, mountain silver, Uranuim,
+     and mountain Uranuim.
+     ================================================================= -->
+
+
+<!-- Configuration by Reteo. -->
+
+
+
+
+<!-- Is the "Immersive Engineering" mod on the system?  Let's find
+     out! -->
+<IfModInstalled name="immersiveengineering">
+
+  <!-- Starting Configuration for Custom Ore Generation. -->
+  <ConfigSection>
+
+
+
+
+
+    <!-- Setup Screen Configuration -->
+    <ConfigSection>
+      <OptionDisplayGroup name='groupImmersiveEngineering' displayName='Immersive Engineering' displayState='shown'>
+        <Description>
+          Distribution options for Immersive Engineering Ores.
+        </Description>
+      </OptionDisplayGroup>
+      <OptionChoice name='enableImmersiveEngineering' displayName='Handle Immersive Engineering Setup?' default='true' displayState='shown_dynamic' displayGroup='groupImmersiveEngineering'>
+        <Description> Should Custom Ore Generation handle Immersive Engineering ore generation? </Description>
+        <Choice value=':= ?true' displayValue='Yes' description='Use Custom Ore Generation to handle Immersive Engineering ores.'/>
+        <Choice value=':= ?false' displayValue='No' description='Immersive Engineering ores will be handled by the mod itself.'/>
+      </OptionChoice>
+      <OptionChoice name='cleanUpImmersiveEngineering' displayName='Use Immersive Engineering Cleanup?' default='true' displayState='shown_dynamic' displayGroup='groupImmersiveEngineering'>
+        <Description> Should Custom Ore Generation use the Substitution Pass to remove all instances of Immersive Engineering ore from the world?  If the mod's oregen can be turned off in its configuration, then it's recommended to do so, as the substitution pass can slow the game significantly.  If this option is disabled without disabling the mod's own ore generation, you'll end up with two oregens working at once, flooding the world with ore.  Enabled by default to ensure the ores are completely removed. </Description>
+        <Choice value=':= ?true' displayValue='Yes' description='Use the substitution pass to clean up Immersive Engineering ores.'/>
+        <Choice value=':= ?false' displayValue='No' description='Immersive Engineering ores do not need to be cleaned up by a substitution pass.'/>
+      </OptionChoice>
+      
+      <!-- Uranuim Configuration UI Starting -->
+      
+      <ConfigSection>
+        <OptionChoice name='iengUranuimDist'  displayState=':= if(?enableImmersiveEngineering, "shown", "hidden")' displayGroup='groupImmersiveEngineering'>
+          <Description> Controls how Uranuim is generated </Description>
+          <DisplayName>Immersive Engineering Uranuim</DisplayName>
+          <IfCondition condition=':= (?blockExists("immersiveengineering:ore:5")) '>
+
+          <Choice value='StrategicClouds' displayValue='Strategic Clouds'>
+            <Description>
+              Large irregular clouds filled lightly with ore.
+            </Description>
+          </Choice>
+          </IfCondition>
+
+          <IfCondition condition=':= (?blockExists("immersiveengineering:ore:5")) '>
+
+          <Choice value='LayeredVeins' displayValue='Layered Veins'>
+            <Description>
+              Small, fairly rare motherlodes with 2-4 horizontal veins each.
+            </Description>
+          </Choice>
+          </IfCondition>
+
+          <IfCondition condition=':= (?blockExists("immersiveengineering:ore:5")) '>
+
+          <Choice value='Vanilla' displayValue='Vanilla'>
+            <Description>
+              Simulates Vanilla Minecraft.
+            </Description>
+          </Choice>
+          </IfCondition>
+
+          <Choice value='none' displayValue='None' description='Uranuim is not generated in the world.'/>
+        </OptionChoice>
+        <OptionNumeric name='iengUranuimFreq' default='1'  min='0' max='5' displayState=':= if(?enableImmersiveEngineering, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupImmersiveEngineering'>
+          <Description> Frequency multiplier for Immersive Engineering Uranuim distributions </Description>
+          <DisplayName>Immersive Engineering Uranuim Freq.</DisplayName>
+        </OptionNumeric>
+        <OptionNumeric name='iengUranuimSize' default='1'  min='0' max='5' displayState=':= if(?enableImmersiveEngineering, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupImmersiveEngineering'>
+          <Description> Size multiplier for Immersive Engineering Uranuim distributions </Description>
+          <DisplayName>Immersive Engineering Uranuim Size</DisplayName>
+        </OptionNumeric>
+      </ConfigSection>
+      
+      <!-- Uranuim Configuration UI Complete -->
+      
+    </ConfigSection>
+    <!-- Setup Screen Complete -->
+
+    <IfCondition condition=':= ?enableImmersiveEngineering'>
+
+
+
+
+      <!-- Overworld Setup Beginning -->
+
+      <IfCondition condition=':= ?COGActive'>
+
+        <!-- Starting Original "Overworld" Block Removal -->
+
+        <IfCondition condition=':= ?cleanUpImmersiveEngineering'>
+          <IfCondition condition=':= ?blockExists("minecraft:stone")'>
+            <Substitute name='iengOverworldBlockSubstitute0' block='minecraft:stone'>
+              <Description>
+                Replace vanilla-generated ore clusters.
+              </Description>
+              <Comment>
+                The global option  deferredPopulationRange must be
+                large enough to catch all ore  clusters (>= 32).
+              </Comment>
+              <Replaces block='immersiveengineering:ore:5' weight='1.0' />
+            </Substitute>
+          </IfCondition>
+        </IfCondition>
+
+        <!-- Original "Overworld" Block Removal Complete -->
+
+        <!-- Adding blocks -->
+
+        <!-- Begin Uranuim Generation -->
+
+        <!-- Starting StrategicClouds Preset for Uranuim. -->
+        <ConfigSection>
+          <IfCondition condition=':= iengUranuimDist = "StrategicClouds"'>
+            <Cloud name='iengUranuimCloud'  inherits='PresetStrategicCloud' drawWireframe='true' wireframeColor='0x60449900' drawBoundBox='false' boundBoxColor='0x60449900'>
+              <Description>
+                Large irregular clouds filled  lightly with ore.
+                These are  huge, spanning several adjacent  chunks,
+                and consequently rather  rare.  They contain a
+                sizeable  amount of ore, but it takes some  time and
+                effort to mine due to  low density. The intent for
+                strategic clouds is that the  player will need to
+                actively  search for one and then set up a  semi-
+                permanent mining base and  spend some time actually
+                mining  the ore.
+              </Description>
+              <OreBlock block='immersiveengineering:ore:5' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <Biome name='.*'  />
+              <Setting name='CloudRadius' avg=':= 3 * _default_ * iengUranuimSize ' range=':= 0.837 * _default_ * iengUranuimSize ' type='normal' />
+              <Setting name='CloudThickness' avg=':= 0.2 * _default_ * iengUranuimSize ' range=':= 0.837 * _default_ * iengUranuimSize ' type='normal' scaleTo='base' />
+              <Setting name='DistributionFrequency' avg=':= 3 * _default_ * iengUranuimFreq ' range=':= 0.700 * _default_ * iengUranuimFreq ' type='normal' scaleTo='base' />
+              <Setting name='CloudHeight' avg=':= 32 ' range=':= 16 ' type='normal' scaleTo='base' />
+              <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='CloudSizeNoise' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='CloudInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+              <Setting name='OreVolumeNoiseCutoff' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Veins name='iengUranuimHintVeins' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='true' wireframeColor='0x60D3D9C8' drawBoundBox='false' boundBoxColor='0x60D3D9C8'>
+                <Description>
+                  Single blocks, generously  scattered through all
+                  heights  (density is about that of  vanilla iron
+                  ore). They will  replace dirt and sandstone  (but
+                  not grass or sand), so  they can be found nearer to
+                  the surface than most ores.  Intened to be used as a
+                  child  distribution for large, rare  strategic
+                  deposits that would  otherwise be very difficult  to
+                  find.  Note that the  frequency is multiplied by
+                  ground level to maintain a  constant density, but
+                  not by  ore frequency because it is  assumed that
+                  the frequency of  the parent distribution will
+                  already be scaled by that.
+                </Description>
+                <OreBlock block='immersiveengineering:ore:5' weight='1.0' />
+                <Replaces block='minecraft:dirt' weight='1.0' />
+                <Replaces block='chisel:*' weight='1.0' />
+                <Replaces block='minecraft:sandstone' weight='1.0' />
+                <ReplacesOre block='cobblestone' weight='1.0' />
+                <ReplacesOre block='stone' weight='1.0' />
+                <ReplacesOre block='stoneGranite' weight='1.0' />
+                <ReplacesOre block='stoneDiorite' weight='1.0' />
+                <ReplacesOre block='stoneAndesite' weight='1.0' />
+                <Replaces block='minecraft:gravel' weight='1.0' />
+                <Setting name='MotherlodeFrequency' avg=':= 5 * _default_ * iengUranuimFreq  * 0.1 ' range=':= 1 * _default_ * iengUranuimFreq ' type='normal' scaleTo='base' />
+              </Veins>
+            </Cloud>
+          </IfCondition>
+        </ConfigSection>
+        <!-- StrategicClouds Preset for Uranuim is complete. -->
+
+
+        <!-- Starting LayeredVeins Preset for Uranuim. -->
+        <ConfigSection>
+          <IfCondition condition=':= iengUranuimDist = "LayeredVeins"'>
+            <Veins name='iengUranuimVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x60449900' drawBoundBox='false' boundBoxColor='0x60449900'>
+              <Description>
+                Small, fairly rare motherlodes  with 2-4 horizontal
+                veins each.
+              </Description>
+              <OreBlock block='immersiveengineering:ore:5' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <Biome name='.*'  />
+              <Setting name='MotherlodeFrequency' avg=':= 0.613 * _default_ * iengUranuimFreq ' range=':= 0.613 * _default_ * iengUranuimFreq ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeSize' avg=':= 0.922 * _default_ * iengUranuimSize ' range=':= 0.922 * _default_ * iengUranuimSize ' type='normal' />
+              <Setting name='MotherlodeHeight' avg=':= 16 ' range=':= 8 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchLength' avg=':= 0.783 * _default_ ' range=':= 0.783 * _default_ ' type='normal' />
+              <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+              <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentLength' avg=':= _default_ * iengUranuimSize ' range=':= _default_ * iengUranuimSize ' type='normal' />
+              <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentPitch' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentRadius' avg=':= 0.885 * _default_ * iengUranuimSize ' range=':= 0.885 * _default_ * iengUranuimSize ' type='normal' />
+              <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            </Veins>
+          </IfCondition>
+        </ConfigSection>
+        <!-- LayeredVeins Preset for Uranuim is complete. -->
+
+
+        <!-- Starting Vanilla Preset for Uranuim. -->
+        <ConfigSection>
+          <IfCondition condition=':= iengUranuimDist = "Vanilla"'>
+            <StandardGen name='iengUranuimStandard'  inherits='PresetStandardGen' drawWireframe='true' wireframeColor='0x60449900' drawBoundBox='false' boundBoxColor='0x60449900'>
+              <Description>
+                A master preset for standardgen  ore distributions.
+              </Description>
+              <OreBlock block='immersiveengineering:ore:5' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <Biome name='.*'  />
+              <Setting name='Size' avg=':= 4.0 * iengUranuimSize ' range=':= 2.0 * iengUranuimSize ' type='normal' />
+              <Setting name='Frequency' avg=':= 1.333 * iengUranuimFreq ' range=':= 0.67 * iengUranuimFreq ' type='normal' scaleTo='base' />
+              <Setting name='Height' avg=':= 16 ' range=':= 8 ' type='normal' scaleTo='base' />
+              <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            </StandardGen>
+          </IfCondition>
+        </ConfigSection>
+        <!-- Vanilla Preset for Uranuim is complete. -->
+
+        <!-- End Uranuim Generation -->
+
+
+        
+
+        <!-- Finished adding blocks -->
+
+      </IfCondition>
+      <!-- Overworld Setup Complete -->
+
+    </IfCondition>
+
+  </ConfigSection>
+  <!-- Configuration for Custom Ore Generation Complete! -->
+
+</IfModInstalled>
+<!-- The "Immersive Engineering" mod is now configured. -->
+
+
+
+
+
+<!-- =================================================================
+     This file was made using the Sprocket Advanced Configuration
+     Generator.  If you wish to make your own configurations for a mod
+     not currently supported by Custom Ore Generation, and you don't
+     want the hassle of writing XML, you can find the generator script
+     at its GitHub page: http://https://github.com/reteo/Sprocket
+     ================================================================= -->

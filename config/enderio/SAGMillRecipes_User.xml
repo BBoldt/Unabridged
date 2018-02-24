@@ -97,5 +97,14 @@
 -->
 
 <SAGMillRecipes>
-
+  <recipeGroup name="BetterWithMods" >
+    <recipe name="Hemp Fiber" energyCost="1200" >
+        <input>
+          <itemStack modID="betterwithmods" itemName="material" itemMeta="2" />
+        </input>
+        <output>
+          <itemStack modID="immersiveengineering" itemName="material" itemMeta="4" number="4" />
+        </output>
+      </recipe>
+    </recipeGroup>
 </SAGMillRecipes>

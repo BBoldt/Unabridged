@@ -1,0 +1,29 @@
+{
+  "uniqueName": "Abridged_Guide_to_Unabridged",
+  "saveName": "Abridged_Guide_to_Unabridged",
+  "displayName": "Abridged Guide to Unabridged",
+  "displayInfo": "",
+  "colorHex": "FFFFFFFF",
+  "language": "en_US",
+  "hasCustomIcon": true,
+  "showBackground": true,
+  "legacyTexture": false,
+  "backgroundResource": "enchiridion:textures/books/rustic2.png",
+  "backgroundStartX": -10,
+  "backgroundStartY": -10,
+  "backgroundEndX": 440,
+  "backgroundEndY": 240,
+  "defaultPage": 0,
+  "isLocked": false,
+  "forgetPageOnClose": false,
+  "book": [
+    {
+      "features": [],
+      "pageNumber": 0,
+      "isScrollable": false
+    }
+  ],
+  "defaultIDs": [
+    "enchiridion_default_buttons"
+  ]
+}
