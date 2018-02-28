@@ -1,0 +1,21 @@
+[
+  {
+	"input_fluid": { "name": "bcop-gaseous_lava-searing", "quantity": 1000 },
+	"ticks": 40,
+	"output_stack": { "name": "stone" },
+	"variants": [
+	  { "temperature": "hot" },
+	  { "temperature": "cool" }
+	]
+  },
+  {
+    "input_fluid": { "name": "bcop-iron-searing", "quantity": 1000 },
+    "ticks": 40,
+    "output_stack": { "ore": "ingotIron", "quantity": 1 },
+    "residue": { "name": "bcop-gaseous_lava-searing", "quantity": 50 },
+    "variants": [
+      { "temperature": "hot", "items": 2, "residue": 25 },
+      { "temperature": "cool", "items": 3, "residue": 10 }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+    <lines at="topleft">
+        <line>
+            <str>$e{mctime24}$f [{xi}, {yi}, {zi}] [$c{abrfinedirection}$f] {biome}</str>
+        </line>
+    </lines>
+</config>

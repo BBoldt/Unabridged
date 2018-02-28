@@ -1,4 +1,4 @@
-VERSION = 408;
+VERSION = 409;
 {
 	circuit_ticks = [20, 5, 1]#; !min operation delay in ticks for each tier of circuit casing
 	Loc range = 20; !maximum range for sensor modules in blocks
@@ -6,6 +6,7 @@ VERSION = 408;
 	fluidSensor_range = range;
 	energySensor_range = range;
 	timeSensor_range = range;
+	remoteComp_range = range;
 	circuit_speed = 20 / circuit_ticks; !(just for tooltip)
 }
 
@@ -49,6 +50,7 @@ INIT() {
 	add("shapeless", it("item.fluid_sensor"), it("m.empty_sensor"), it("minecraft:bucket"));
 	add("shapeless", it("item.time_sensor"), it("m.empty_sensor"), it("minecraft:clock"));
 	add("shapeless", it("item.energy_sensor"), it("m.empty_sensor"), it("minecraft:piston"));
+	add("shapeless", it("item.remote_comp"), it("m.empty_sensor"), "gemQuartz");
 	add("shaped", it("m.io_relay", 16), "021", it("rsp1bitI"), it("rsp1bitO"), it("minecraft:lever"));
 	add("shaped", it("m.ram_plate", 4), " 1 /000", slab, it("tile.rsp_32bit"));
 	add("shaped", it("m.logic_prc", 8), "010/121/010", "dustRedstone", it("minecraft:redstone_torch"), "ingotIron");
