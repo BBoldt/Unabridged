@@ -5,7 +5,6 @@
 import mods.agricraft.SeedMutation;
 
 SeedMutation.add(<AgriCraft:seedMithrium>, <AgriCraft:seedPlatiolus>, <AgriCraft:seedBotaniaCyan>);
-SeedMutation.add(<AgriCraft:seedZincova>, <AgriCraft:seedFerranium>, <AgriCraft:seedJaslumine>);
 SeedMutation.add(<AgriCraft:seedCockscoal>, <AgriCraft:seedPlombean>, <AgriCraft:seedCactus>);
 SeedMutation.add(<AgriCraft:seedApatacia>, <AgriCraft:seedCockscoal>, <AgriCraft:seedLapender>);
 SeedMutation.add(<AgriCraft:seedYelloria>, <AgriCraft:seedCockscoal>, <AgriCraft:seedAurigold>);

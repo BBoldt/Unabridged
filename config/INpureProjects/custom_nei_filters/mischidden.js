@@ -119,15 +119,6 @@ if (mischidden_enabled) {
     NEI.hide("malisisdoors:null");
     NEI.hide("malisisdoors:shoji_door");
     NEI.hide("malisisdoors:wood_sliding_door");
-    NEI.hide("plantmegapack:bambooAsperSlabDouble");
-    NEI.hide("plantmegapack:bambooFargesiaRobustaSlabDouble");
-    NEI.hide("plantmegapack:bambooGiantTimberSlabDouble");
-    NEI.hide("plantmegapack:bambooGoldenSlabDouble");
-    NEI.hide("plantmegapack:bambooMosoSlabDouble");
-    NEI.hide("plantmegapack:bambooShortTassledSlabDouble");
-    NEI.hide("plantmegapack:bambooTimorBlackSlabDouble");
-    NEI.hide("plantmegapack:bambooTropicalBlueSlabDouble");
-    NEI.hide("plantmegapack:bambooWetForestSlabDouble");
     NEI.hide("PneumaticCraft:droneRedstoneEmitter");
     NEI.hide("qmunitylib:qmunitylib.blocks.multipart");
     NEI.hide("RArm:BlockInvisible.Light");
@@ -154,9 +145,6 @@ if (mischidden_enabled) {
     NEI.hide("witchery:witchwooddoubleslab");
     NEI.hide("witchery:witchwooddoubleslab:1");
     NEI.hide("witchery:witchwooddoubleslab:2");
-    NEI.hide("reccomplex:*");
-    NEI.override("yegamolchattels:entity_vita", [0]);
     NEI.override("extracells:pattern.fluid", [0]);
-    NEI.override("ModPouches:ItemModPouch", [0, 1]);
     NEI.override("OpenBlocks:tank", [0]);
     NEI.override("pressure:Canister", [0]);}

@@ -44,3 +44,8 @@ recipes.addShapeless(<Thaumcraft:ItemResource:9>, [<minecraft:book>, <Thaumcraft
 //Amber Oredict Crafting
 recipes.remove(<Thaumcraft:blockCosmeticOpaque:0>);
 recipes.addShaped(<Thaumcraft:blockCosmeticOpaque:0>, [[<ore:gemAmber>, <ore:gemAmber>], [<ore:gemAmber>, <ore:gemAmber>]]);
+
+/* Voidstone */
+recipes.addShapeless(<WitchingGadgets:WG_MetalDevice:7>, [<thaumicbases:voidBlock>]);
+recipes.addShapeless(<thaumicbases:voidBlock>, [<WitchingGadgets:WG_MetalDevice:7>]);
+recipes.addShaped(<chisel:voidstone> * 8, [[<minecraft:stone>, <Thaumcraft:ItemResource:16>, <minecraft:stone>], [<minecraft:stone>, <minecraft:stone>, <minecraft:stone>], [<minecraft:stone>, <Thaumcraft:ItemResource:16>, <minecraft:stone>]]);

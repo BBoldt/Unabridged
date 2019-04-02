@@ -1,0 +1,25 @@
+{
+	"general": {
+		// Shhhhh!
+		"Secret Pumpkin": true
+	},
+	"client": {
+		// Collapses the vanilla multiple rows of hearts into a colour coded single layer
+		"Coloured Hearts": true,
+		// The colors of the hearts. The quantity of colors here represents the tiers of hearts.(quantity * 20 + 20 = total max health accounted for)
+		"Heart Colours": [
+			"#ff1313",
+			"#f26c00",
+			"#eabd00",
+			"#00ce00",
+			"#0097ed",
+			"#aa7eff",
+			"#ea77fb",
+			"#fb77a0",
+			"#fbd177",
+			"#fbd177",
+			"#fbd177",
+			"#fbd177"
+		]
+	}
+}

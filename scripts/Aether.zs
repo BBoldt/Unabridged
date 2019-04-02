@@ -1,25 +1,28 @@
 /* Aether
    Tweaks and Alterations */
+   
+// Oredict
+<ore:stickWood>.add(<aether_legacy:skyroot_stick>);
 
-//Adding Berries to oredict
-<ore:foodBerries>.add(<aether:blueBerry>);
-<ore:foodBerries>.add(<aether:enchantedBerry>);
-<ore:foodBerries>.add(<aether:rainbowStrawberry>);
-<ore:foodBerries>.add(<aether:wyndberry>);
+recipes.addShaped(<aether_legacy:carved_stone> * 4, [[<aether_legacy:holystone_brick>, <aether_legacy:holystone_brick>, null], [<aether_legacy:holystone_brick>, <aether_legacy:holystone_brick>, null], [null, null, null]]);
+recipes.addShaped(<aether_legacy:sentry_stone> * 8, [[<aether_legacy:carved_stone>, <aether_legacy:carved_stone>, <aether_legacy:carved_stone>], [<aether_legacy:carved_stone>, <aether_legacy:ambrosium_shard>, <aether_legacy:carved_stone>], [<aether_legacy:carved_stone>, <aether_legacy:carved_stone>, <aether_legacy:carved_stone>]]);
+recipes.addShaped(<aether_legacy:angelic_stone> * 8, [[<aether_legacy:carved_stone>, <aether_legacy:carved_stone>, <aether_legacy:carved_stone>], [<aether_legacy:carved_stone>, <aether_legacy:golden_amber>, <aether_legacy:carved_stone>], [<aether_legacy:carved_stone>, <aether_legacy:carved_stone>, <aether_legacy:carved_stone>]]);
+recipes.addShaped(<aether_legacy:light_angelic_stone> * 8, [[<aether_legacy:angelic_stone>, <aether_legacy:angelic_stone>, <aether_legacy:angelic_stone>], [<aether_legacy:angelic_stone>, <aether_legacy:ambrosium_shard>, <aether_legacy:angelic_stone>], [<aether_legacy:angelic_stone>, <aether_legacy:angelic_stone>, <aether_legacy:angelic_stone>]]);
+recipes.addShaped(<aether_legacy:hellfire_stone> * 8, [[<aether_legacy:carved_stone>, <aether_legacy:carved_stone>, <aether_legacy:carved_stone>], [<aether_legacy:carved_stone>, <aether_legacy:aechor_petal>, <aether_legacy:carved_stone>], [<aether_legacy:carved_stone>, <aether_legacy:carved_stone>, <aether_legacy:carved_stone>]]);
+recipes.addShaped(<aether_legacy:light_hellfire_stone> * 8, [[<aether_legacy:hellfire_stone>, <aether_legacy:hellfire_stone>, <aether_legacy:hellfire_stone>], [<aether_legacy:hellfire_stone>, <aether_legacy:ambrosium_shard>, <aether_legacy:hellfire_stone>], [<aether_legacy:hellfire_stone>, <aether_legacy:hellfire_stone>, <aether_legacy:hellfire_stone>]]);
 
-//Adding Oranges to oredict
-<ore:cropOrange>.add(<aether:orange>);
+recipes.addShaped(<aether_legacy:pillar_top> * 8, [[<aether_legacy:angelic_stone>, <aether_legacy:angelic_stone>, <aether_legacy:angelic_stone>], [<aether_legacy:angelic_stone>, <aether_legacy:aercloud>, <aether_legacy:angelic_stone>], [<aether_legacy:angelic_stone>, <aether_legacy:angelic_stone>, <aether_legacy:angelic_stone>]]);
+recipes.addShaped(<aether_legacy:pillar> * 2, [[null, <aether_legacy:pillar_top>, null], [null, <aether_legacy:pillar_top>, null], [null, null, null]]); 
 
-//Adding Jelly to oredict
-<ore:foodJelly>.add(<aether:swetJelly:0>);
-<ore:foodJelly>.add(<aether:swetJelly:1>);
-<ore:foodJelly>.add(<aether:swetJelly:2>);
+// Chisel Compat
+mods.chisel.Groups.addVariation("holystone", <aether_legacy:holystone>);
+mods.chisel.Groups.addVariation("holystone", <aether_legacy:mossy_holystone>);
+mods.chisel.Groups.addVariation("holystone", <aether_legacy:holystone_brick>);
+mods.chisel.Groups.addVariation("holystone", <aether_legacy:carved_stone>);
+mods.chisel.Groups.addVariation("cloud", <aether_legacy:aercloud>);
+mods.chisel.Groups.addGroup("aetherpillar");
+mods.chisel.Groups.addVariation("aetherpillar", <aether_legacy:pillar>);
+mods.chisel.Groups.addVariation("aetherpillar", <aether_legacy:pillar_top>);
 
-//Crafting Aether food with other mods
-//Orange Lollipop
-recipes.removeShapeless(<aether:orangeLollipop>);
-recipes.addShapeless(<aether:orangeLollipop>, [<ore:cropOrange>, <minecraft:sugar>, <aether:skyrootStick>]);
-recipes.addShapeless(<aether:orangeLollipop>, [<ore:cropOrange>, <minecraft:sugar>, <ore:stickWood>]);
-//Jelly Pumpkin
-recipes.removeShapeless(<aether:jellyPumpkin>);
-recipes.addShapeless(<aether:jellyPumpkin>, [<ore:cropOrange>, <ore:foodJelly>, <minecraft:sugar>]);
+// Burn
+furnace.setFuel(<aether_legacy:ambrosium_shard>, 800);

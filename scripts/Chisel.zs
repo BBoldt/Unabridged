@@ -14,21 +14,8 @@ mods.chisel.Groups.addGroup("basalt");
 mods.chisel.Groups.addVariation("basalt", <Botania:stone:5>);
 mods.chisel.Groups.addVariation("basalt", <Botania:stone:9>);
 mods.chisel.Groups.addVariation("basalt", <Botania:stone:13>);
-mods.chisel.Groups.addVariation("basalt", <bluepower:basalt>);
-mods.chisel.Groups.addVariation("basalt", <bluepower:basalt_cobble>);
-mods.chisel.Groups.addVariation("basalt", <bluepower:basalt_brick>);
-mods.chisel.Groups.addVariation("basalt", <bluepower:basaltbrick_cracked>);
-mods.chisel.Groups.addVariation("basalt", <bluepower:fancy_basalt>);
-mods.chisel.Groups.addVariation("basalt", <bluepower:basalt_brick_small>);
-mods.chisel.Groups.addVariation("basalt", <bluepower:basalt_tile>);
-mods.chisel.Groups.addVariation("basalt", <bluepower:basalt_paver>);
 
 // Marble
-mods.chisel.Groups.addVariation("marble", <bluepower:marble_brick>);
-mods.chisel.Groups.addVariation("marble", <bluepower:fancy_marble>);
-mods.chisel.Groups.addVariation("marble", <bluepower:marble_brick_small>);
-mods.chisel.Groups.addVariation("marble", <bluepower:marble_tile>);
-mods.chisel.Groups.addVariation("marble", <bluepower:marble_paver>);
 
 // Livingrock
 mods.chisel.Groups.addGroup("livingrock");
@@ -91,12 +78,10 @@ mods.chisel.Groups.addVariation("ice_stairs", <witchery:icestairs>);
 //Ruby Blocks
 mods.chisel.Groups.addGroup("ruby_block"); 
 mods.chisel.Groups.addVariation("ruby_block", <BiomesOPlenty:gemOre:3>);
-mods.chisel.Groups.addVariation("ruby_block", <bluepower:ruby_block>);
 
 //Sapphire Blocks
 mods.chisel.Groups.addGroup("sapphire_block"); 
 mods.chisel.Groups.addVariation("sapphire_block", <BiomesOPlenty:gemOre:13>);
-mods.chisel.Groups.addVariation("sapphire_block", <bluepower:sapphire_block>);
 
 //Amber
 mods.chisel.Groups.addVariation("amber", <BiomesOPlenty:gemOre:15>);
