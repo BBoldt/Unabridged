@@ -61,12 +61,6 @@ mods.forestry.Squeezer.addRecipe(<liquid:poison> * 50, <Forestry:mulch> % 5,[<Bi
 mods.thermalexpansion.Transposer.addFillRecipe(2000, <BiomesOPlenty:jarEmpty>, <BiomesOPlenty:jarFilled:1>, <liquid:poison> * 40);
 mods.thermalexpansion.Transposer.addExtractRecipe(2000, <BiomesOPlenty:jarFilled:1>, <liquid:poison> * 40,  <BiomesOPlenty:jarEmpty>, 100);
 
-//Crafting Dart Blower with Bamboo
-recipes.addShaped(<BiomesOPlenty:dartBlower>, [[<tropicraft:bambooStick>, null, <tropicraft:bambooStick>], [<tropicraft:bambooStick>, null, <tropicraft:bambooStick>], [<tropicraft:bambooStick>, null, <tropicraft:bambooStick>]]);
-
-//Crafting Darts with Bamboo, feathers, and a knife
-recipes.addShaped(<BiomesOPlenty:dart> * 3, [[<tropicraft:bambooStick>, null], [<tropicraft:bambooStick>, <cfm:ItemKnife>.anyDamage().transformDamage(6)], [<minecraft:feather>, null]]);
-
 //Adding Berries to oredict
 <ore:foodBerries>.add(<BiomesOPlenty:food:0>);
 

@@ -14,8 +14,9 @@ mods.chisel.Groups.addGroup("basalt");
 mods.chisel.Groups.addVariation("basalt", <Botania:stone:5>);
 mods.chisel.Groups.addVariation("basalt", <Botania:stone:9>);
 mods.chisel.Groups.addVariation("basalt", <Botania:stone:13>);
-
-// Marble
+mods.chisel.Groups.addVariation("basalt", <ProjRed|Exploration:projectred.exploration.stone:2>);
+mods.chisel.Groups.addVariation("basalt", <ProjRed|Exploration:projectred.exploration.stone:3>);
+mods.chisel.Groups.addVariation("basalt", <ProjRed|Exploration:projectred.exploration.stone:4>);
 
 // Livingrock
 mods.chisel.Groups.addGroup("livingrock");

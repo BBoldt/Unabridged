@@ -72,6 +72,7 @@ Found creative tab: Nether Ores
 Found creative tab: tabOpenBlocks
 Found creative tab: OpenComputers
 Found creative tab: tabOpenPeripheralAddons
+Found creative tab: Pistronics2
 Found creative tab: tabPneumaticCraft
 Found creative tab: TConstructBlocks
 Found creative tab: core
@@ -132,7 +133,6 @@ Found creative tab: aobd
 Found creative tab: appliedenergistics2
 Found creative tab: appliedenergistics2.facades
 Found creative tab: appliedintegrations
-Found creative tab: aquaticabyss
 Found creative tab: arcaneengineering
 Found creative tab: JordTab
 Found creative tab: armourersworkshop
@@ -156,8 +156,6 @@ Found creative tab: enhancedportals
 Found creative tab: etfuturum
 Found creative tab: Ewy's Workshop
 Found creative tab: Extra_Cells
-Found creative tab: Fantastic Fish Mod
-Found creative tab: Captured Critters
 Found creative tab: gadomancy
 Found creative tab: bdew.gendustry
 Found creative tab: bdew.samples
@@ -169,6 +167,12 @@ Found creative tab: tabHarvestCraft
 Found creative tab: immersiveintegration
 Found creative tab: ironbackpacks
 Found creative tab: malisisdoors
+Found creative tab: netherliciousFood
+Found creative tab: netherliciousItems
+Found creative tab: netherliciousBlocks
+Found creative tab: netherliciousDecoration
+Found creative tab: netherliciousArmorTools
+Found creative tab: netherliciousTechnical
 Found creative tab: tabOpenFM
 Found creative tab: openmodularturrets
 Found creative tab: physicaCore
@@ -188,7 +192,6 @@ Found creative tab: ThaumicEnergistics
 Found creative tab: thaumicinfusion
 Found creative tab: TinkerIO_Tabs
 Found creative tab: tis3d
-Found creative tab: music
 Found creative tab: tabWitchery
 Found creative tab: xreliquary
 Found creative tab: zettaindustries
@@ -201,8 +204,8 @@ Bootstrap setting found. Loading: Bootstrap.js
 Loading: AppliedEnergistics2.js
 getFacadeItem called. Returned: appliedenergistics2:item.ItemFacade
 getSubTypes called.
-getNumberOfTypes called. Returned: 3504
-override called. Params: appliedenergistics2, item.ItemFacade, 1453
+getNumberOfTypes called. Returned: 3687
+override called. Params: appliedenergistics2, item.ItemFacade, 780
 Regex match found! appliedenergistics2:item.ItemFacade matches appliedenergistics2:item.ItemFacade.
 Found ItemStack appliedenergistics2:item.ItemFacade. 64xitem.appliedenergistics2.ItemFacade@0
 Loading: AgriCraft.js
@@ -430,8 +433,8 @@ override called. Params: BiblioCraft, item.seatBack5, 0,6
 Regex match found! BiblioCraft:item.seatBack5 matches BiblioCraft:item.seatBack5.
 Found ItemStack BiblioCraft:item.seatBack5. 64xitem.seatBack@0
 Loading: BuildCraft.js
-getFacadesSize called. Returned: 4787
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 1041
+getFacadesSize called. Returned: 5108
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 2869
 Loading: cfm.js
 hide called. Params: cfm, barstool
 Regex match found! cfm:barstool matches cfm:barstool.
@@ -634,7 +637,6 @@ Found ItemStack cfm:whiteGlass. 64xtile.whiteGlass@0
 hide called. Params: cfm, yellowGlow
 Regex match found! cfm:yellowGlow matches cfm:yellowGlow.
 Found ItemStack cfm:yellowGlow. 64xtile.yellowGlow@0
-Loading: Decocraft.js
 Loading: ExtraUtilities.js
 override called. Params: ExtraUtilities, drum, 0,1
 Regex match found! ExtraUtilities:drum matches ExtraUtilities:drum.
@@ -687,15 +689,15 @@ Found ItemStack ExtraUtilities:generator.8. 64xtile.extrautils:generator.8@0
 override called. Params: ExtraUtilities, generator.64, 0,1,2,3,4,5,7,8,9,10,11
 Regex match found! ExtraUtilities:generator.64 matches ExtraUtilities:generator.64.
 Found ItemStack ExtraUtilities:generator.64. 64xtile.extrautils:generator.64@0
-getRandomMaterial called. Returned: BiomesOPlenty:colorizedLeaves1
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, BiomesOPlenty:colorizedLeaves1
+getRandomMaterial called. Returned: BiomesOPlenty:flesh
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, BiomesOPlenty:flesh
 Loading: ForbiddenMagic.js
 override called. Params: ForbiddenMagic, MobCrystal, 0
 Regex match found! ForbiddenMagic:MobCrystal matches ForbiddenMagic:MobCrystal.
 Found ItemStack ForbiddenMagic:MobCrystal. 1xitem.MobCrystal@0
 Loading: ForgeMicroblock.js
-getRandomMaterial called. Returned: BiomesOPlenty:colorizedLeaves2_1
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, BiomesOPlenty:colorizedLeaves2_1
+getRandomMaterial called. Returned: BiomesOPlenty:driedDirt
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, BiomesOPlenty:driedDirt
 Loading: Gendustry.js
 override called. Params: gendustry, GeneSample, 0
 Regex match found! gendustry:GeneSample matches gendustry:GeneSample.
@@ -707,7 +709,6 @@ Found ItemStack Genetics:serumArray. 1xitem.serumArray@0
 override called. Params: Genetics, serum, 0
 Regex match found! Genetics:serum matches Genetics:serum.
 Found ItemStack Genetics:serum. 1xitem.serum@0
-Loading: GraveStone.js
 Loading: Mekanism.js
 override called. Params: Mekanism, MachineBlock2, 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
 Regex match found! Mekanism:MachineBlock2 matches Mekanism:MachineBlock2.
@@ -1100,14 +1101,8 @@ hide called. Params: Thaumcraft, blockCosmeticDoubleSlabWood
 Regex match found! Thaumcraft:blockCosmeticDoubleSlabWood matches Thaumcraft:blockCosmeticDoubleSlabWood.
 Found ItemStack Thaumcraft:blockCosmeticDoubleSlabWood. 64xtile.blockCosmeticDoubleSlabWood@0
 hide called. Params: tropicraft, tile.bambooDoor
-Regex match found! tropicraft:tile.bambooDoor matches tropicraft:tile.bambooDoor.
-Found ItemStack tropicraft:tile.bambooDoor. 64xtile.bambooDoor@0
 hide called. Params: tropicraft, tile.bambooMug
-Regex match found! tropicraft:tile.bambooMug matches tropicraft:tile.bambooMug.
-Found ItemStack tropicraft:tile.bambooMug. 64xtile.bambooMug@0
 hide called. Params: tropicraft, tile.doubleSlabs
-Regex match found! tropicraft:tile.doubleSlabs matches tropicraft:tile.doubleSlabs.
-Found ItemStack tropicraft:tile.doubleSlabs. 64xtile.tropicraft:doubleSlabs@0
 tropicraft:tile.doubleSlabs:1 has a bad registry name! Attempting to parse and reassemble correctly...
 Parsed bad name into: modid: tropicraft, name: tile.doubleSlabs:1. If this is not correct please report it as a bug!
 hide called. Params: tropicraft, tile.doubleSlabs:1
@@ -1127,11 +1122,7 @@ tropicraft:tile.doubleSlabs:9 has a bad registry name! Attempting to parse and r
 Parsed bad name into: modid: tropicraft, name: tile.doubleSlabs:9. If this is not correct please report it as a bug!
 hide called. Params: tropicraft, tile.doubleSlabs:9
 hide called. Params: tropicraft, tile.rainStopper
-Regex match found! tropicraft:tile.rainStopper matches tropicraft:tile.rainStopper.
-Found ItemStack tropicraft:tile.rainStopper. 64xtile.tropicraft:rainStopper@0
 hide called. Params: tropicraft, tile.tropicsWater
-Regex match found! tropicraft:tile.tropicsWater matches tropicraft:tile.tropicsWater.
-Found ItemStack tropicraft:tile.tropicsWater. 64xtile.tropicsWater@0
 hide called. Params: TwilightForest, tile.AuroraDoubleSlab
 Regex match found! TwilightForest:tile.AuroraDoubleSlab matches TwilightForest:tile.AuroraDoubleSlab.
 Found ItemStack TwilightForest:tile.AuroraDoubleSlab. 64xtile.AuroraDoubleSlab@0

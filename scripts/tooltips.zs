@@ -28,9 +28,3 @@
 
 // Remain In Motion
 <JAKJ_RedstoneInMotion:tile.JAKJ_RedstoneInMotion_CarriageDrive>.addTooltip(format.aqua("Made by toggling stationary mode in Carriage Motor GUI."));
-
-// Tropicraft
-<tropicraft:bambooChute>.addTooltip(format.aqua("Can be crafted from Biomes O' Plenty bamboo."));
-<tropicraft:coconutChunk>.addTooltip(format.aqua("Can be crafted from Biomes O' Plenty palm tree leaves."));
-<tropicraft:tile.coconut>.addTooltip(format.aqua("Whole coconut, only found in the tropics."));
-<tropicraft:cocktail>.addTooltip(format.aqua("Can be made using Drink Mixer."));

@@ -147,7 +147,7 @@
 			"texture" : "custommainmenu:textures/icons/changelog.png",
             "action" : {
                 "type" : "openLink",
-				        "link" : "https://www.reddit.com/r/MinecraftUnabridged/comments/5tnm8q/unabridged_r14_the_getting_things_dialed_in/"
+				        "link" : "https://www.reddit.com/r/MinecraftUnabridged/"
             }
         },
 		
@@ -216,15 +216,15 @@
 			"action" :
 			{
                 "type" : "openLink",
-				"link" : "http://www.twitter.com/BBoldt92"
+				"link" : "http://www.twitter.com/unabridgedbboldt"
             }	
         },
 		
-		"Patreon":
+		"Discord":
         {
             "text" : "",
-			"texture" : "custommainmenu:textures/icons/patreon.png",
-			"tooltip" : "Patreon",
+			"texture" : "custommainmenu:textures/icons/discord.png",
+			"tooltip" : "Discord",
 			"alignment" : "bottom_center",
             "posX" : 80,
             "posY" : -30,
@@ -233,7 +233,7 @@
 			"action" :
 			{
                 "type" : "openLink",
-				"link" : "https://www.patreon.com/BBoldt_"
+				"link" : "https://discord.gg/wV3jFx7F2e"
             }	
         }
 	},
@@ -242,7 +242,7 @@
     {
         "version":
         {
-            "text" : "B.17",
+            "text" : "B.18",
             "posX" : -10,
             "posY" : 75,
             "color" : -1,

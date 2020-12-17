@@ -1,0 +1,256 @@
+0 is Occupied by: enchantment.protect.all (net.minecraft.enchantment.EnchantmentProtection)
+1 is Occupied by: enchantment.protect.fire (net.minecraft.enchantment.EnchantmentProtection)
+2 is Occupied by: enchantment.protect.fall (net.minecraft.enchantment.EnchantmentProtection)
+3 is Occupied by: enchantment.protect.explosion (net.minecraft.enchantment.EnchantmentProtection)
+4 is Occupied by: enchantment.protect.projectile (net.minecraft.enchantment.EnchantmentProtection)
+5 is Occupied by: enchantment.oxygen (net.minecraft.enchantment.EnchantmentOxygen)
+6 is Occupied by: enchantment.waterWorker (net.minecraft.enchantment.EnchantmentWaterWorker)
+7 is Occupied by: enchantment.thorns (net.minecraft.enchantment.EnchantmentThorns)
+8 is Occupied by: gadomancy.enchantment.revealer (makeo.gadomancy.common.enchantments.EnchantmentRevealer)
+9 is Avaible
+10 is Avaible
+11 is Avaible
+12 is Avaible
+13 is Avaible
+14 is Avaible
+15 is Avaible
+16 is Occupied by: enchantment.damage.all (net.minecraft.enchantment.EnchantmentDamage)
+17 is Occupied by: enchantment.damage.undead (net.minecraft.enchantment.EnchantmentDamage)
+18 is Occupied by: enchantment.damage.arthropods (net.minecraft.enchantment.EnchantmentDamage)
+19 is Occupied by: enchantment.knockback (net.minecraft.enchantment.EnchantmentKnockback)
+20 is Occupied by: enchantment.fire (net.minecraft.enchantment.EnchantmentFireAspect)
+21 is Occupied by: enchantment.lootBonus (net.minecraft.enchantment.EnchantmentLootBonus)
+22 is Avaible
+23 is Avaible
+24 is Avaible
+25 is Avaible
+26 is Avaible
+27 is Avaible
+28 is Avaible
+29 is Avaible
+30 is Avaible
+31 is Avaible
+32 is Occupied by: enchantment.digging (net.minecraft.enchantment.EnchantmentDigging)
+33 is Occupied by: enchantment.untouching (net.minecraft.enchantment.EnchantmentUntouching)
+34 is Occupied by: enchantment.durability (net.minecraft.enchantment.EnchantmentDurability)
+35 is Occupied by: enchantment.lootBonusDigger (net.minecraft.enchantment.EnchantmentLootBonus)
+36 is Occupied by: enchantment.frost_walker (ganymedes01.etfuturum.enchantment.FrostWalker)
+37 is Occupied by: enchantment.mending (ganymedes01.etfuturum.enchantment.Mending)
+38 is Avaible
+39 is Avaible
+40 is Avaible
+41 is Avaible
+42 is Avaible
+43 is Avaible
+44 is Avaible
+45 is Occupied by: enchantment.xpboost (com.enderio.core.common.enchant.EnchantXPBoost)
+46 is Occupied by: enchantment.autosmelt (com.enderio.core.common.enchant.EnchantAutoSmelt)
+47 is Avaible
+48 is Occupied by: enchantment.arrowDamage (net.minecraft.enchantment.EnchantmentArrowDamage)
+49 is Occupied by: enchantment.arrowKnockback (net.minecraft.enchantment.EnchantmentArrowKnockback)
+50 is Occupied by: enchantment.arrowFire (net.minecraft.enchantment.EnchantmentArrowFire)
+51 is Occupied by: enchantment.arrowInfinite (net.minecraft.enchantment.EnchantmentArrowInfinite)
+52 is Occupied by: enchantment.soul_stealer (com.whammich.sstow.enchantment.EnchantmentSoulStealer)
+53 is Avaible
+54 is Avaible
+55 is Avaible
+56 is Avaible
+57 is Avaible
+58 is Avaible
+59 is Avaible
+60 is Avaible
+61 is Occupied by: enchantment.lootBonusFishing (net.minecraft.enchantment.EnchantmentLootBonus)
+62 is Occupied by: enchantment.fishingSpeed (net.minecraft.enchantment.EnchantmentFishingSpeed)
+63 is Avaible
+64 is Occupied by: enchantment.wg.gemstonePotency (witchinggadgets.common.magic.WGEnchantGemPotency)
+65 is Occupied by: enchantment.wg.gemstoneBrittle (witchinggadgets.common.magic.WGEnchantGemBrittle)
+66 is Occupied by: enchantment.cluster (fox.spiteful.forbidden.enchantments.EnchantmentCluster)
+67 is Occupied by: enchantment.wrath (fox.spiteful.forbidden.enchantments.EnchantmentWrath)
+68 is Occupied by: enchantment.greedy (fox.spiteful.forbidden.enchantments.EnchantmentGreedy)
+69 is Occupied by: enchantment.consuming (fox.spiteful.forbidden.enchantments.EnchantmentConsuming)
+70 is Occupied by: enchantment.educational (fox.spiteful.forbidden.enchantments.EnchantmentEducational)
+71 is Occupied by: enchantment.corrupting (fox.spiteful.forbidden.enchantments.EnchantmentCorrupting)
+72 is Occupied by: enchantment.voidtouched (fox.spiteful.forbidden.enchantments.EnchantmentVoid)
+73 is Occupied by: enchantment.impact (fox.spiteful.forbidden.enchantments.EnchantmentImpact)
+74 is Occupied by: enchantment.wg.invisibleGear (witchinggadgets.common.magic.WGEnchantInvisibleGear)
+75 is Occupied by: enchantment.wg.unveiling (witchinggadgets.common.magic.WGEnchantUnveiling)
+76 is Occupied by: enchantment.wg.stealth (witchinggadgets.common.magic.WGEnchantStealth)
+77 is Occupied by: enchantment.wg.backstab (witchinggadgets.common.magic.WGEnchantBackstab)
+78 is Occupied by: enchantment.wg.rideProtect (witchinggadgets.common.magic.WGEnchantRideProtect)
+79 is Avaible
+80 is Occupied by: enchantment.projectred.expansion.fuel_efficiency (mrtjp.projectred.expansion.EnchantmentFuelEfficiency)
+81 is Avaible
+82 is Avaible
+83 is Avaible
+84 is Avaible
+85 is Avaible
+86 is Avaible
+87 is Avaible
+88 is Avaible
+89 is Avaible
+90 is Avaible
+91 is Avaible
+92 is Avaible
+93 is Avaible
+94 is Avaible
+95 is Avaible
+96 is Avaible
+97 is Avaible
+98 is Avaible
+99 is Avaible
+100 is Occupied by: enchantment.magicresist (am2.enchantments.EnchantMagicResist)
+101 is Occupied by: enchantment.soulbound (am2.enchantments.EnchantmentSoulbound)
+102 is Occupied by: enchant.cofh.holding (cofh.core.enchantment.EnchantmentHolding)
+103 is Occupied by: enchant.cofh.multishot (cofh.core.enchantment.EnchantmentMultishot)
+104 is Avaible
+105 is Avaible
+106 is Avaible
+107 is Avaible
+108 is Avaible
+109 is Avaible
+110 is Occupied by: simplyjetpacks.enchantment.fuelEfficiency (tonius.simplyjetpacks.enchantment.EnchantmentFuelEfficiency)
+111 is Avaible
+112 is Avaible
+113 is Avaible
+114 is Avaible
+115 is Avaible
+116 is Avaible
+117 is Avaible
+118 is Avaible
+119 is Avaible
+120 is Avaible
+121 is Avaible
+122 is Avaible
+123 is Avaible
+124 is Avaible
+125 is Avaible
+126 is Avaible
+127 is Avaible
+128 is Avaible
+129 is Avaible
+130 is Avaible
+131 is Avaible
+132 is Avaible
+133 is Avaible
+134 is Avaible
+135 is Avaible
+136 is Avaible
+137 is Avaible
+138 is Avaible
+139 is Avaible
+140 is Avaible
+141 is Avaible
+142 is Avaible
+143 is Avaible
+144 is Avaible
+145 is Avaible
+146 is Avaible
+147 is Avaible
+148 is Avaible
+149 is Avaible
+150 is Avaible
+151 is Avaible
+152 is Avaible
+153 is Occupied by: enchantment.haste (thaumcraft.common.lib.enchantment.EnchantmentHaste)
+154 is Occupied by: enchantment.repair (thaumcraft.common.lib.enchantment.EnchantmentRepair)
+155 is Avaible
+156 is Avaible
+157 is Avaible
+158 is Avaible
+159 is Avaible
+160 is Avaible
+161 is Avaible
+162 is Avaible
+163 is Avaible
+164 is Avaible
+165 is Avaible
+166 is Occupied by: enchantment.ttinkerer:dispersedStrike (thaumic.tinkerer.common.enchantment.EnchantmentDispersedStrikes)
+167 is Occupied by: enchantment.ttinkerer:shatter (thaumic.tinkerer.common.enchantment.EnchantmentShatter)
+168 is Occupied by: enchantment.ttinkerer:finalStrike (thaumic.tinkerer.common.enchantment.EnchantmentFinalStrike)
+169 is Occupied by: enchantment.ttinkerer:focusedStrike (thaumic.tinkerer.common.enchantment.EnchantmentFocusedStrikes)
+170 is Occupied by: enchantment.ttinkerer:pounce (thaumic.tinkerer.common.enchantment.EnchantmentPounce)
+171 is Occupied by: enchantment.ttinkerer:shockwave (thaumic.tinkerer.common.enchantment.EnchantmentShockwave)
+172 is Occupied by: enchantment.ttinkerer:tunnel (thaumic.tinkerer.common.enchantment.EnchantmentTunnel)
+173 is Occupied by: enchantment.ttinkerer:valiance (thaumic.tinkerer.common.enchantment.EnchantmentValiance)
+174 is Avaible
+175 is Avaible
+176 is Avaible
+177 is Avaible
+178 is Avaible
+179 is Avaible
+180 is Avaible
+181 is Avaible
+182 is Avaible
+183 is Avaible
+184 is Avaible
+185 is Avaible
+186 is Avaible
+187 is Avaible
+188 is Avaible
+189 is Avaible
+190 is Occupied by: enchantment.railcraft.crowbar.wrecking (mods.railcraft.common.items.enchantment.EnchantmentDamageRailcraft)
+191 is Occupied by: enchantment.railcraft.crowbar.implosion (mods.railcraft.common.items.enchantment.EnchantmentDamageRailcraft)
+192 is Occupied by: enchantment.railcraft.crowbar.destruction (mods.railcraft.common.items.enchantment.EnchantmentDestruction)
+193 is Avaible
+194 is Avaible
+195 is Avaible
+196 is Occupied by: Reading (jds.bibliocraft.EnchantmentReading)
+197 is Occupied by: Eternal Compass (jds.bibliocraft.EnchantmentDeathCompass)
+198 is Avaible
+199 is Avaible
+200 is Avaible
+201 is Avaible
+202 is Avaible
+203 is Avaible
+204 is Avaible
+205 is Avaible
+206 is Avaible
+207 is Avaible
+208 is Avaible
+209 is Avaible
+210 is Avaible
+211 is Occupied by: enchantment.openblocks.explosive (openblocks.enchantments.EnchantmentExplosive)
+212 is Occupied by: enchantment.openblocks.laststand (openblocks.enchantments.EnchantmentLastStand)
+213 is Occupied by: enchantment.openblocks.flimflam (openblocks.enchantments.EnchantmentFlimFlam)
+214 is Avaible
+215 is Avaible
+216 is Avaible
+217 is Avaible
+218 is Avaible
+219 is Avaible
+220 is Occupied by: enchantment.ttinkerer:ascentBoost (thaumic.tinkerer.common.enchantment.EnchantmentAscentBoost)
+221 is Occupied by: enchantment.ttinkerer:slowFall (thaumic.tinkerer.common.enchantment.EnchantmentSlowFall)
+222 is Occupied by: enchantment.ttinkerer:autoSmelt (thaumic.tinkerer.common.enchantment.EnchantmentAutoSmelt)
+223 is Occupied by: enchantment.ttinkerer:desintegrate (thaumic.tinkerer.common.enchantment.EnchantmentDesintegrate)
+224 is Occupied by: enchantment.ttinkerer:quickDraw (thaumic.tinkerer.common.enchantment.EnchantmentQuickDraw)
+225 is Occupied by: enchantment.ttinkerer:vampirism (thaumic.tinkerer.common.enchantment.EnchantmentVampirism)
+226 is Avaible
+227 is Avaible
+228 is Avaible
+229 is Avaible
+230 is Avaible
+231 is Avaible
+232 is Avaible
+233 is Avaible
+234 is Avaible
+235 is Avaible
+236 is Avaible
+237 is Avaible
+238 is Avaible
+239 is Avaible
+240 is Occupied by: enchantment.elderKnowledge (tb.common.enchantment.EnchantmentElderKnowledge)
+241 is Occupied by: enchantment.eldritchBane (tb.common.enchantment.EnchantmentEldritchBane)
+242 is Occupied by: enchantment.magicTouch (tb.common.enchantment.EnchantmentMagicTouch)
+243 is Occupied by: enchantment.tainted (tb.common.enchantment.EnchantmentTainted)
+244 is Occupied by: enchantment.vaporising (tb.common.enchantment.EnchantmentVaporising)
+245 is Avaible
+246 is Avaible
+247 is Avaible
+248 is Avaible
+249 is Avaible
+250 is Avaible
+251 is Avaible
+252 is Avaible
+253 is Avaible
+254 is Avaible
+255 is Avaible
