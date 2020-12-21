@@ -15,13 +15,13 @@ This repository serves as a config repository and issue tracker for my modpack, 
 |  |  | | | |     | __ -|    -|-   -|  |  |  |  |   __|  |  |
 |_____|_|___|__|__|_____|__|__|_____|____/|_____|_____|____/ 
 ```
-The definition of the word "Unabridged" is: not cut or shortened; complete
- 
-In this pack you will find something for everyone. Whether you be a magician, machinist, explorer, or architect, there is always something new to discover!
- 
-One of the main goals of the pack is to make sure there is considerable diversity in the mods available, catering to many different styles of play. I usually prefer to spotlight and promote unique mods that are not what everyone normally uses, while still offering a majority of the "basics". There will be no forced progression through any mod. The choice is yours to make on how challenging or simple your adventure will be. 
+### The definition of the word "Unabridged" is: not cut or shortened; complete. 
+In this pack you will find something for everyone. Mods for those who like technology, magic, adventure, building, exploration, and more! There is considerable diversity in the mods available, catering to many different styles of play. There will be no forced progression through any mod, the choice is yours to make on how easy or difficult your journey will be. No mod should have too many negative impacts on a feature in another mod. Great care was taken into making sure nothing is excessively overpowered compared to similar features and items in other mods.
 
-Links: 
+### Contact/Support/Discussion:
+* Twitter: https://twitter.com/bboldtabridged
+* Discord: https://discord.com/invite/wV3jFx7F2e
 * Reddit: http://www.reddit.com/r/MinecraftUnabridged/
+* Github: https://github.com/elytra/Unabridged
 * Atlauncher: https://www.atlauncher.com/pack/Unabridged
-* CurseForge: https://minecraft.curseforge.com/projects/Unabridged
+* CurseForge: https://www.curseforge.com/minecraft/modpacks/unabridged-iii
