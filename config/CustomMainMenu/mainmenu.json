@@ -44,8 +44,8 @@
             "posY" : 100,
             "width" : 226,
             "height" : 20,
-			imageWidth : 100,
-			imageHeight : 50,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
 			"alignment" : "top_center",
             "action" : 
             {
@@ -64,8 +64,8 @@
             "posY" : 120,
             "width" : 226,
             "height" : 20,
-			imageWidth : 100,
-			imageHeight : 50,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
 			"alignment" : "top_center",
             "action" : 
             {
@@ -84,8 +84,8 @@
             "posY" : 140,
             "width" : 226,
             "height" : 20,
-			imageWidth : 100,
-			imageHeight : 50,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
 			"alignment" : "top_center",
             "action" : 
             {
@@ -104,8 +104,8 @@
             "posY" : 175,
             "width" : 226,
             "height" : 20,
-			imageWidth : 100,
-			imageHeight : 50,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
 			"alignment" : "top_center",
 			"hoverText" : "Don't you dare!",
             "action" : 
@@ -125,8 +125,8 @@
             "posY" : -30,
             "width" : 95,
             "height" : 20,
-			imageWidth : 100,
-			imageHeight : 50,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
 			"alignment" : "bottom_center",
             "action" : 
             {
@@ -216,7 +216,7 @@
 			"action" :
 			{
                 "type" : "openLink",
-				"link" : "http://www.twitter.com/unabridgedbboldt"
+				"link" : "http://www.twitter.com/bboldtabridged"
             }	
         },
 		
@@ -242,7 +242,7 @@
     {
         "version":
         {
-            "text" : "B.18",
+            "text" : "3.18.3",
             "posX" : -10,
             "posY" : 75,
             "color" : -1,
