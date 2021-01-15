@@ -1,0 +1,15 @@
+{
+	"expansions" : [
+		{
+			"uniquename" : "makamys.zen.atmospheres",
+			"friendlyname" : "Zen 2020: Atmospheres",
+			"pointer" : "expansions/atmospheres_database.json",
+			"volumemodifier" : 0.3
+		},
+    {
+      "uniquename" : "makamys.zen.sfx",
+      "friendlyname" : "Zen 2020: Sound effects",
+      "pointer" : "expansions/sfx_database.json"
+    }
+	]
+}

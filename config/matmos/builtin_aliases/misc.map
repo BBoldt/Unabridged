@@ -1,0 +1,18 @@
+# Adventure Backpack
+iron_sword=adventurebackpack:machete
+
+# Blood Magic
+iron_sword=AWWayofTime:daggerOfSacrifice
+
+# IC2
+iron_axe=IC2:itemToolWrench,IC2:itemToolCutter
+
+# Witchery
+iron_axe=witchery:huntsmanspear
+
+# Railcraft
+iron_axe=Railcraft:tool.crowbar,Railcraft:tool.crowbar.reinforced
+
+# Thermal Foundation
+iron_axe=ThermalFoundation:tool.sickle*
+fishing_rod=ThermalFoundation:tool.fishingRod*

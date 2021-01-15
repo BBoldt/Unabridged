@@ -1,0 +1,9 @@
+# Forbidden Magic
+iron_axe=ForbiddenMagic:SkullAxe,ForbiddenMagic:DiabolistFork
+
+# Tainted Magic
+iron_axe=TaintedMagic:ItemThaumicDisassembler
+iron_sword=TaintedMagic:ItemKatana
+
+# Witching Gadgets
+iron_axe=WitchingGadgets:item.WG_PrimordialGlove

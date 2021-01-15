@@ -1,0 +1,24 @@
+{
+  "soundeffects": {
+    "blockchange": {
+      "Placing torch": {
+        "when": ["onplace"],
+        "blocks": ["torch", "redstone_torch"],
+        "sound": "matmos.zen.sfx.torchlit",
+        "pitch_min": 1.1,
+        "pitch_max": 0.9,
+        "vol_max": 1.0,
+        "vol_min": 0.7
+      },
+      "Breaking torch": {
+        "when": ["onbreak"],
+        "blocks": ["torch", "redstone_torch"],
+        "sound": "matmos.zen.sfx.torchlit",
+        "pitch_min": 1.1,
+        "pitch_max": 0.8,
+        "vol_max": 0.3,
+        "vol_min": 0.6
+      }
+    }
+  }
+}

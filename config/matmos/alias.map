@@ -1,0 +1,29 @@
+# This file contains comma-separated alias mappings like:
+#
+# torch=SomeCoolMod:cool_torch,SomeOtherMod:other_torch
+# sword=SomeCoolMod:cool_sword,SomeOtherMod:other_sword
+#
+# Block/item names on the right side of the mapping will be counted as if they
+# were blocks/items on the left side, with the exception of blocks/items that
+# are mentioned in an expansion.
+# (So if an expansion had a different sound for the cool_torch, it wouldn't get
+# dealiased as the torch.)
+#
+# Additional features:
+#
+#   1. You can import other alias files like this:
+#      :import some_other_file.map
+#
+#   2. This will map all blocks/items matching the oredict entry "blockDirt" to
+#      dirt
+#      dirt=:blockDirt
+#
+#   3. There's glob-style matching too: * is a wildcard for zero or more chars
+#      dirt=somemod:dirt*
+#
+#   4. You can disable warnings originating from this file or an imported file:
+#      :disableWarnings
+#
+# Tip: restart MAtmos to reload the aliases without having to restart Minecraft
+
+:import builtin_aliases/builtins.map

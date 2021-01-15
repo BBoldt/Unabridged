@@ -1,0 +1,29 @@
+# TFC blocks
+stone=terrafirmacraft:StoneIgIn,terrafirmacraft:StoneIgEx,terrafirmacraft:StoneSed,terrafirmacraft:StoneMM
+dirt=terrafirmacraft:Dirt,terrafirmacraft:Dirt2
+grass=terrafirmacraft:Grass,terrafirmacraft:Grass2,terrafirmacraft:ClayGrass,terrafirmacraft:ClayGrass2,terrafirmacraft:PeatGrass,terrafirmacraft:DryGrass,terrafirmacraft:DryGrass2
+leaves=terrafirmacraft:leaves,terrafirmacraft:leaves
+water=terrafirmacraft:SaltWater,terrafirmacraft:SaltWaterStationary,terrafirmacraft:FreshWater,terrafirmacraft:FreshWaterStationary,terrafirmacraft:HotWater,terrafirmacraft:HotWaterStationary
+sand=terrafirmacraft:Sand,terrafirmacraft:Sand2
+torch=terrafirmacraft:Torch
+snow_layer=terrafirmacraft:Snow
+ice=terrafirmacraft:Ice
+
+# TFC+ blocks
+stone=terrafirmacraftplus:StoneIgIn,terrafirmacraftplus:StoneIgEx,terrafirmacraftplus:StoneSed,terrafirmacraftplus:StoneMM
+dirt=terrafirmacraftplus:Dirt,terrafirmacraftplus:Dirt2
+grass=terrafirmacraftplus:Grass,terrafirmacraftplus:Grass2,terrafirmacraftplus:ClayGrass,terrafirmacraftplus:ClayGrass2,terrafirmacraftplus:PeatGrass,terrafirmacraftplus:DryGrass,terrafirmacraftplus:DryGrass2
+leaves=terrafirmacraftplus:leaves,terrafirmacraftplus:leaves2,terrafirmacraftplus:Branch
+water=terrafirmacraftplus:SaltWater,terrafirmacraftplus:SaltWaterStationary,terrafirmacraftplus:FreshWater,terrafirmacraftplus:FreshWaterStationary,terrafirmacraftplus:HotWater,terrafirmacraftplus:HotWaterStationary
+sand=terrafirmacraftplus:Sand,terrafirmacraftplus:Sand2
+torch=terrafirmacraftplus:Torch
+snow_layer=terrafirmacraftplus:Snow
+ice=terrafirmacraftplus:Ice
+
+# Items
+iron_sword=:itemSword
+iron_axe=:itemMace,:itemHammer,:itemShovel,:itemSaw,:itemAxe,:itemPick,:itemTrowel
+iron_pickaxe=:itemProPick
+iron_hoe=:itemHoe,:itemScythe
+wooden_sword=:itemKnife,:itemJavelin,:itemChisel,terrafirmacraftplus:item.Wooden Staff,terrafirmacraftplus:item.Wooden Spear
+bow=terrafirmacraft:item.bow,terrafirmacraftplus:item.bow,terrafirmacraftplus:item.composite_bow

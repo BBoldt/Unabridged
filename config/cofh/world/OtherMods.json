@@ -1,35 +1,23 @@
 {
     "yellorite": {
         "template": "uniform",
-        "block": "BigReactors:YelloriteOre",
-        "clusterSize": 5,
+                "block": [
+            {
+                "name": "BigReactors:YelloriteOre",
+                "weight": 35
+            },
+            {
+                "name": "physicanuclearphysics:uraniumOre",
+                "weight": 65
+            }
+        ],
+        "clusterSize": 8,
         "numClusters": 2,
         "minHeight": 0,
         "maxHeight": 50,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -30,
-			-29,
-			-28,
-			-1,
-            1
-        ]
-    },
-    "zinc": {
-        "template": "uniform",
-        "block": "bluepower:zinc_ore",
-        "clusterSize": 6,
-        "numClusters": 10,
-        "minHeight": 40,
-        "maxHeight": 75,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [
-            "all"
-        ],
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -30,
@@ -124,7 +112,16 @@
     },
     "limestone": {
         "template": "uniform",
-        "block": "chisel:limestone",
+        "block": [
+            {
+                "name": "harvestcraft:salt",
+                "weight": 20
+            },
+            {
+                "name": "chisel:limestone",
+                "weight": 80
+            }
+        ],
         "clusterSize": 45,
         "numClusters": 1,
         "minHeight": 32,
@@ -164,66 +161,6 @@
             1
         ]
     },
-    "andesite": {
-        "template": "uniform",
-        "block": "chisel:andesite",
-		"material": "minecraft:stone",
-        "clusterSize": 32,
-        "numClusters": 10,
-        "minHeight": 0,
-        "maxHeight": 128,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -30,
-			-29,
-			-28,
-			-1,
-            1
-        ]
-    },
-    "diorite": {
-        "template": "uniform",
-        "block": "chisel:diorite",
-		"material": "stone",
-        "clusterSize": 32,
-        "numClusters": 10,
-        "minHeight": 0,
-        "maxHeight": 128,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -30,
-			-29,
-			-28,
-			-1,
-            1
-        ]
-    },
-	"granite": {
-        "template": "uniform",
-        "block": "chisel:granite",
-		"material": "minecraft:stone",
-        "clusterSize": 32,
-        "numClusters": 10,
-        "minHeight": 0,
-        "maxHeight": 128,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -30,
-			-29,
-			-28,
-			-1,
-            1
-        ]
-    },
     "essenceberries": {
         "template": "uniform",
         "block": {
@@ -235,66 +172,6 @@
         "numClusters": 20,
         "minHeight": 0,
         "maxHeight": 12,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -30,
-			-29,
-			-28,
-			-1,
-            1
-        ]
-    },
-    "teslatite": {
-        "template": "uniform",
-        "block": "bluepower:teslatite_ore",
-		"material": "minecraft:stone",
-        "clusterSize": 7,
-        "numClusters": 6,
-        "minHeight": 0,
-        "maxHeight": 16,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -30,
-			-29,
-			-28,
-			-1,
-            1
-        ]
-    },
-    "Amethyst": {
-        "template": "uniform",
-        "block": "bluepower:amethyst_ore",
-		"material": "minecraft:stone",
-        "clusterSize": 4,
-        "numClusters": 1,
-        "minHeight": 0,
-        "maxHeight": 16,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -30,
-			-29,
-			-28,
-			-1,
-            1
-        ]
-    },
-    "Tungsten": {
-        "template": "uniform",
-        "block": "bluepower:tungsten_ore",
-		"material": "minecraft:stone",
-        "clusterSize": 2,
-        "numClusters": 1,
-        "minHeight": 0,
-        "maxHeight": 8,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],

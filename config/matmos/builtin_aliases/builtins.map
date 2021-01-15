@@ -1,0 +1,7 @@
+:disableWarnings
+
+:import tconstruct.map
+:import battlegear2.map
+:import thaumcraft4.map
+:import tfc.map
+:import misc.map

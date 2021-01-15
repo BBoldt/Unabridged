@@ -1,0 +1,2 @@
+Do not edit any files in this folder! Any changes will get overwritten the next time MAtmos is run.
+If you want to edit the included alias maps, make a copy of them to another folder and work from there.

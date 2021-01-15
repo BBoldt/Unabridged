@@ -1,5 +1,5 @@
-Total amount of free potion ids: 4045
-Total amount of occupied potion ids: 151
+Total amount of free potion ids: 4044
+Total amount of occupied potion ids: 152
 Total amount of conflicted potion ids: 0
 All ids and their position:
 0 is Avaible
@@ -33,14 +33,14 @@ All ids and their position:
 28 is Occupied by potion.visexhaust (thaumcraft.api.potions.PotionVisExhaust)
 29 is Occupied by potion.radiation (galaxyspace.core.prefab.potions.Radiation)
 30 is Occupied by potion.antiradiation (galaxyspace.core.prefab.potions.AntiRadiation)
-31 is Occupied by potion.infvisexhaust (thaumcraft.common.lib.potions.PotionInfectiousVisExhaust)
-32 is Occupied by potion.unhunger (thaumcraft.common.lib.potions.PotionUnnaturalHunger)
-33 is Occupied by potion.warpward (thaumcraft.common.lib.potions.PotionWarpWard)
-34 is Occupied by potion.deathgaze (thaumcraft.common.lib.potions.PotionDeathGaze)
-35 is Occupied by potion.blurred (thaumcraft.common.lib.potions.PotionBlurredVision)
-36 is Occupied by potion.sunscorned (thaumcraft.common.lib.potions.PotionSunScorned)
-37 is Occupied by potion.thaumarhia (thaumcraft.common.lib.potions.PotionThaumarhia)
-38 is Avaible
+31 is Occupied by effect.aether.inebriation (com.gildedgames.the_aether.entities.effects.PotionInebriation)
+32 is Occupied by potion.infvisexhaust (thaumcraft.common.lib.potions.PotionInfectiousVisExhaust)
+33 is Occupied by potion.unhunger (thaumcraft.common.lib.potions.PotionUnnaturalHunger)
+34 is Occupied by potion.warpward (thaumcraft.common.lib.potions.PotionWarpWard)
+35 is Occupied by potion.deathgaze (thaumcraft.common.lib.potions.PotionDeathGaze)
+36 is Occupied by potion.blurred (thaumcraft.common.lib.potions.PotionBlurredVision)
+37 is Occupied by potion.sunscorned (thaumcraft.common.lib.potions.PotionSunScorned)
+38 is Occupied by potion.thaumarhia (thaumcraft.common.lib.potions.PotionThaumarhia)
 39 is Avaible
 40 is Occupied by potion.featherfall (enhancedportals.item.PotionFeatherfall)
 41 is Avaible

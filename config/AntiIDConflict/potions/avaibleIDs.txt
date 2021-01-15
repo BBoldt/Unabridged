@@ -1,7 +1,6 @@
-Total amount of free potion ids: C:\TwitchPacks\Instances\UNB 3 GOLD\config\AntiIDConflict\potions\avaibleIDs.txt
+Total amount of free potion ids: C:\TwitchPacks\Instances\Unabridged III (1)\config\AntiIDConflict\potions\avaibleIDs.txt
 List of free potion ids:
 0
-38
 39
 41
 42

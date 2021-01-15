@@ -1,0 +1,116 @@
+{
+    "VinteumBlueTopaz": {
+        "template": "uniform",
+                "block": [
+            {
+                "name": "arsmagica2:vinteumOre",
+                "weight": 65
+            },
+            {
+                "name": "arsmagica2:vinteumOre",
+				"metadata": 2,
+                "weight": 35
+            }
+        ],
+        "clusterSize": 5,
+        "numClusters": 2,
+        "minHeight": 0,
+        "maxHeight": 24,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+			-1,
+            1
+        ]
+    },
+	"Chimerite": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "arsmagica2:vinteumOre",
+				"metadata": 1,
+                "weight": 65
+            }
+		],
+        "clusterSize": 7,
+        "numClusters": 7,
+        "minHeight": 48,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+			-1,
+            1
+        ]
+    },
+	"ceruBlossom": {
+		"template": {"type": "decoration", "generator": "decoration", "genSurface": "minecraft:grass", "genSky": "true", "checkStay": "false", "stackHeight": 1, "xVariance": 8, "yVariance": 4, "zVariance": 8},
+		"block": "arsmagica2:blueOrchid",
+		"material": [],
+        "clusterSize": 8,
+        "numClusters": 8,
+        "chunkChance": 32,
+		"biomeRestriction": "whitelist",
+		"biomes": [{"type": "name", "entry": ["WitchwoodForest", "Magical Forest", "Mountain", "Cold Taiga", "Taiga", "Fen", "Extreme Hills", "Extreme Hills+", "Moor", "Grove", "Lavender Fields", "Ominous Woods", "Rainforest", "Snowy Coniferous Forest", "Thicket", "Temperate Rainforest", "Maple Woods"]}]
+    },
+	"desertNova": {
+		"template": {"type": "decoration", "generator": "decoration", "genSurface": "minecraft:sand", "genSky": "true", "checkStay": "false", "stackHeight": 1, "xVariance": 8, "yVariance": 4, "zVariance": 8},
+		"block": "arsmagica2:desertNova",
+		"material": [],
+        "clusterSize": 5,
+        "numClusters": 7,
+        "chunkChance": 32,
+		"biomeRestriction": "whitelist",
+		"biomes": [{"type": "name", "entry": ["Desert", "DesertHills", "Lush Desert", "Oasis", "Desert M", "Tundra", "Volcano", "Tropics", "Magical Forest"]}]
+    },
+	"liquidEtheriumlakes": {
+		"template": {"type": "surface", "generator": "lake", "useMaterial": "true", "outlineWithStone": "true"},
+		"block": "arsmagica2:liquidEssence",
+		"material": [
+            "minecraft:stone",
+			"minecraft:dirt",
+            "minecraft:sand",
+			"minecraft:sandstone",
+			"uptodate:stone"
+        ],
+		"numClusters": 3,
+		"minHeight": 48,
+		"chunkChance": 128,
+		"maxHeight": 70,
+		"retrogen": "true",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [
+			0
+		]
+	},
+    "tree": {
+        "template": {"type": "surface", "generator": "small-tree", "genMaterial": "air", "leaves": "arsmagica2:WitchwoodLeaves", "minHeight": 5, "heightVariance": 2, "treeChecks": "true", "relaxedGrowth": "false", "waterLoving": "false", "leafVariance": "true"},
+        "block": [
+            {"name": "arsmagica2:WitchwoodLog"}
+        ],
+        "material": [
+            "minecraft:grass",
+            "minecraft:dirt",
+            "minecraft:air"
+        ],
+        "clusterSize": 3,
+        "numClusters": 2,
+        "minHeight": 64,
+        "chunkChance": 100,
+        "maxHeight": 80,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

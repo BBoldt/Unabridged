@@ -1,0 +1,289 @@
+{
+  "matmos_hl.loop.wind_novege": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "loop/wind_novege",
+      "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.wind_novege_night": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "loop/wind_novege_night",
+      "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.cricketz_night": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "loop/cricketz_night",
+      "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.mountain_wind": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "loop/mountain_wind",
+      "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.wind_winter": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "loop/wind_winter",
+      "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.wind_novege_indoors": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "loop/wind_novege_indoors",
+      "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.wind_forest": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "loop/wind_forest",
+      "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.wind_forest_night": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "loop/wind_forest_night",
+      "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.wind_forest_indoors": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "loop/wind_forest_indoors",
+      "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.torch": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "loop/torch",
+      "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.ice": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "loop/ice",
+      "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.sand": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "loop/sand",
+      "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.cave_a": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "loop/cave_a",
+      "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.cave_b": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "loop/cave_b",
+      "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.water_medium": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "loop/water_medium",
+      "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.water_large": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "loop/water_large",
+      "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.waves_medium": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "loop/waves_medium",
+      "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.underwater_direct": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "loop/underwater_direct",
+      "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.underwater_indirect": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "loop/underwater_indirect",
+      "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.rain": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "loop/rain",
+      "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.rain_indoors": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "loop/rain_indoors",
+      "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.rain_lake": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "loop/rain_lake",
+      "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.rain_window": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "loop/rain_window",
+      "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.rain_thunder": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "loop/rain_thunder",
+      "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.rain_thunder_indoors": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "loop/rain_thunder_indoors",
+      "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.snow": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "loop/snow",
+      "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.nether": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "loop/nether",
+      "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.nether_indoors": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "loop/nether_indoors",
+      "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.raw_wind": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "loop/raw_wind",
+      "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.end_wind": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "loop/end_wind",
+      "stream": true
+      }
+    ]
+  },
+  "matmos_hl.loop.end_wind_indoors": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "loop/end_wind_indoors",
+      "stream": true
+      }
+    ]
+  },
+  "matmos.zen.sfx.torchlit": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "sfx/torchlit"
+      }
+    ]
+  }
+}

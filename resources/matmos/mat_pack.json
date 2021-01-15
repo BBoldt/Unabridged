@@ -1,0 +1,12 @@
+{
+	"type"	: "pack_matmos",
+	"engineversion"	: 35,
+	"metadata"	: {
+		"name"	     : "MAtmos 2020 Zen",
+		"author"	   : "makamys",
+		"website"	   : "https://github.com/makamys/MAtmos"
+	},
+  "uniquename" : "makamys.zen",
+  "version"    : "1.2.1",
+  "updatejson": "https://raw.githubusercontent.com/makamys/MAtmos/master/updatejson/update-mat_zen.json"
+}

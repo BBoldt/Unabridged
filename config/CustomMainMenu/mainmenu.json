@@ -182,7 +182,7 @@
 			"action" :
 			{
                 "type" : "openLink",
-				"link" : "https://www.github.com/elytra/Unabridged/issues"
+				"link" : "https://www.github.com/BBoldt/Unabridged/issues"
             }
         },
 
@@ -242,7 +242,7 @@
     {
         "version":
         {
-            "text" : "3.18.3",
+            "text" : "3.19",
             "posX" : -10,
             "posY" : 75,
             "color" : -1,

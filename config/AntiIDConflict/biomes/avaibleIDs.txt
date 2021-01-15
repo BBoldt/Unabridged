@@ -1,4 +1,4 @@
-Total amount of free biome ids: C:\TwitchPacks\Instances\UNB 3 GOLD\config\AntiIDConflict\biomes\avaibleIDs.txt
+Total amount of free biome ids: C:\TwitchPacks\Instances\Unabridged III (1)\config\AntiIDConflict\biomes\avaibleIDs.txt
 List of free biome ids:
 69
 104
@@ -8,7 +8,6 @@ List of free biome ids:
 143
 145
 146
-147
 148
 150
 152
@@ -55,6 +54,7 @@ List of free biome ids:
 230
 231
 232
+234
 235
 236
 237

@@ -69,9 +69,6 @@ mods.chisel.Groups.addVariation("granite", <Botania:stone:3>);
 mods.chisel.Groups.addVariation("granite", <Botania:stone:7>);
 mods.chisel.Groups.addVariation("granite", <Botania:stone:11>);
 
-// Uranium
-mods.chisel.Groups.addVariation("uraniumblock", <BigReactors:BRMetalBlock>);
-
 //Ice Stairs
 mods.chisel.Groups.addVariation("ice_stairs", <Railcraft:stair:4>);
 mods.chisel.Groups.addVariation("ice_stairs", <witchery:icestairs>);

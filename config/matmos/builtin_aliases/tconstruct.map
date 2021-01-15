@@ -1,0 +1,6 @@
+torch=TConstruct:decoration.stonetorch
+grass=TConstruct:slime.grass
+
+iron_axe=TConstruct:frypan,TConstruct:battlesign,TConstruct:chisel,TConstruct:scythe,TConstruct:Javelin,TConstruct:Crossbow
+iron_sword=TConstruct:broadsword,TConstruct:longsword,TConstruct:rapier,TConstruct:dagger,TConstruct:cutlass,TConstruct:cleaver
+bow=TConstruct:ShortBow,TConstruct:LongBow
