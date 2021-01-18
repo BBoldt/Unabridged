@@ -30,5 +30,6 @@ recipes.remove(<physica:item.metaPlate:2>);
 furnace.remove(<ProjRed|Core:projectred.core.part>);
 furnace.addRecipe(<ProjRed|Core:projectred.core.part> * 8, <uptodate:smooth_stone>, 0.5);
 
-// Display Names
+// Display Names and Tooltips
 <GalaxySpace:ores:2>.displayName = "Sapphire Ore";
+<JAKJ_RedstoneInMotion:tile.JAKJ_RedstoneInMotion_CarriageDrive>.addTooltip(format.aqua("Made by toggling stationary mode in Carriage Motor GUI."));
