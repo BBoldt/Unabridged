@@ -1,0 +1,16 @@
+
+#lots of cosmetic stuff in here
+[visuals]
+	#How much the dummy swings in degrees with respect to the damage dealt. default=0.75
+	#Range: 0.0 ~ 2.0
+	animationIntensity = 0.75
+	#Show hearths instead of damage dealt? (1 hearth = two damage)
+	showHearths = false
+	#Does dps message update dynamically or will it only appear after each parse? 
+	dynamicDPS = true
+
+	[visuals.skins]
+		#possible skins: 0 = default, 1 = original, 2 = my attempt
+		#Range: 0 ~ 2
+		texture = 0
+

@@ -1,0 +1,6 @@
+
+#Common configurations for Enhanced Mushrooms
+[common]
+	"Whether mushroom blocks should be strippable with an axe" = true
+	"Whether the mod's food items are obtainable in survival" = true
+

@@ -1,0 +1,116 @@
+
+[VanillaTweaks]
+
+	#New items, blocks VanillaTweaks adds.
+	[VanillaTweaks.content]
+		#Want to showcase your treasure but item frame doesn't satisfy you?
+		enablePedestal = true
+		#Want block forms of flint, charcoal and sugar?
+		enableStorageBlocks = true
+		#Do you want a portable crafting table?
+		enablePad = true
+		#Want to identity slime chunks in-game?
+		enableSlimeBucket = true
+		#Want a less effective but throwable TNT?
+		enableDynamite = true
+		#Cooldown for the dynamite in ticks
+		#Range: > 0
+		dynamiteCooldown = 20
+		#Explosion power for dynamite. TNT has 4, Ender Crystal has 6
+		#Range: 0 ~ 10
+		dynamiteExplosionPower = 3
+		#Want a food which can be obtained with eggs and heals 2.5 hunger?
+		enableFriedEgg = true
+		#How much do you want the binoculars to zoom? ( 0 = disabled)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		binocularZoomAmount = 4.0
+
+	#Do you want enchantments?
+	[VanillaTweaks.enchanting]
+		#Want to smelt things when you mine them?
+		enableBlazing = true
+		#Want to jump more than a block high with an enchantment?
+		enableHops = true
+		#Want more speed with an enchantment?
+		enableNimble = true
+		#Don't want the zombies stealing your items when you are mining?
+		enableSiphon = true
+		#Want all the experience in the nearby area?
+		enableVeteran = true
+		#Want more health with an enchant?
+		enableVigor = true
+		#Don't want to aim but love shooting arrows?
+		enableHoming = true
+
+	#Mob Drops
+	[VanillaTweaks.loot]
+		#Range: 0.0 ~ 10.0
+		batLeatherDropChance = 1.0
+		#Does a nametag drop when named mob dies?
+		namedMobsDropNameTag = true
+
+	#Modification of vanilla_recipes recipes and addition of new recipes regarding vanilla_recipes
+	[VanillaTweaks.crafting]
+		#Want 8 stairs rather than 4 in stairs recipe?
+		betterStairs = true
+		#Cobblestone used in stone tools doesn't make sense?
+		betterStoneTools = true
+		#Wanna craft multiple chests at one go?
+		betterChest = true
+		#Tired of not having a nametag?
+		nametag = true
+		#Have wool but need string?
+		string = true
+		#Want an easier way to craft repeater?
+		betterRepeater = true
+		#Wanna easier recipe for trapped chest?
+		betterTrappedChestRecipe = true
+
+	#Tweaks
+	[VanillaTweaks.tweaks]
+		#Want a way to clear text in signs?
+		enableSignEditing = true
+		#Want the fire arrows to set fire on block it landed?
+		arrowsSetBlockOnFire = true
+		#Want hoe to act like a sickle?
+		hoeActsAsSickle = true
+		#Want the ability to move spawners with silk touch?
+		enableSilkSpawner = true
+		#Do you want to neglect fall damage and get water spilled when you fall on a wet sponge?
+		squishySponge = true
+		#Want to see the no of bees or the honey level of an beehive?
+		enableBeehiveTooltips = true
+		#Want to shift click item frame to rotate in the reverse direction?
+		itemFrameRotateBackwards = true
+		#Want to shear nametag of named entities?
+		shearOffNameTag = true
+		#Want baby zombies to burn by the light of the day?
+		babyZombieBurnInDaylight = true
+		#Want creeper's to burn in daylight?
+		creeperBurnInDaylight = true
+		#Want TNT to ignite when next to lava or magma block?
+		tntIgnition = true
+		#Want an way to swap armor with armor stand?
+		enableArmorStandSwapping = true
+		#Want command block to appear in redstone tab?
+		commandBlockInRedstone = true
+		#Want dragon egg to appear in decorations tab?
+		dragonEggInDecorations = true
+		#Want to disable shift in GUI due to potions?
+		disablePotionShift = true
+
+	#Dynamic changes in the world
+	[VanillaTweaks.world]
+		#Don't want that that pesky lava pockets in nether to kill you?
+		disableLavaPocketGen = true
+		#Is realistic predator/prey relationships activated?
+		realisticRelationship = true
+		#Want seeds to auto-plant themselves when broken?
+		selfPlanting = true
+		#How long a plant should take to despawn (and attempt to plant) Default Minecraft is 6000.
+		#Range: > 0
+		despawnTime = 6000
+		#Percentage chance to plant
+		#Range: 0 ~ 100
+		chanceToPlant = 100
+

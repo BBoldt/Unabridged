@@ -1,0 +1,8 @@
+
+#Client side changes.
+[client]
+	#Allows Steve mobs to be animated.
+	stevesAnimated = true
+	#Enables a custom panorama of the Sky Dimension on the main menu. (This can cause incompatibilities when enabled with other menu mods, enable at your own risk.)
+	skyPanorama = false
+

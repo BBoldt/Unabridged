@@ -1,0 +1,205 @@
+
+#Crop Hunger and Saturation Values
+[Crops]
+
+	#Crops
+	[Crops.CornSoybeanQuinoaLentil]
+		#Hunger value:
+		#Range: 0 ~ 30
+		crop_hunger = 4
+		#Saturation value:
+		#Range: 0.0 ~ 10.0
+		crop_saturation = 0.2
+
+#Cooked Carrot & Beetroot Hunger and Saturation Values
+[Cooked]
+
+	#Cooked
+	[Cooked."Cooked Carrot & Beetroot"]
+		#Hunger value:
+		#Range: 0 ~ 30
+		cooked_carrot_hunger = 4
+		#Saturation value:
+		#Range: 0.0 ~ 10.0
+		cooked_carrot_saturation = 0.8
+		#Hunger value:
+		#Range: 0 ~ 30
+		cooked_beetroot_hunger = 2
+		#Saturation value:
+		#Range: 0.0 ~ 10.0
+		cooked_beetroot_saturation = 0.8
+
+#Chunk Hunger and Saturation Values
+[Chunks]
+
+	#Chunks
+	[Chunks."Melon Chunk"]
+		#Hunger value:
+		#Range: 0 ~ 30
+		melon_chunk_hunger = 2
+		#Saturation value:
+		#Range: 0.0 ~ 10.0
+		melon_chunk_saturation = 0.2
+
+	#Chunks
+	[Chunks."Cactus Chunk"]
+		#Hunger value:
+		#Range: 0 ~ 30
+		cactus_chunk_hunger = 2
+		#Saturation value:
+		#Range: 0.0 ~ 10.0
+		cactus_chunk_saturation = 0.2
+
+	#Chunks
+	[Chunks."Pumpkin Chunk"]
+		#Hunger value:
+		#Range: 0 ~ 30
+		pumpkin_chunk_hunger = 2
+		#Saturation value:
+		#Range: 0.0 ~ 10.0
+		pumpkin_chunk_saturation = 0.2
+
+#Pie Hunger and Saturation Values
+[Pie]
+
+	#Pie
+	[Pie."Apple Pie"]
+		#Hunger value:
+		#Range: 0 ~ 30
+		apple_pie_hunger = 7
+		#Saturation value:
+		#Range: 0.0 ~ 10.0
+		apple_pie_saturation = 0.2
+
+	#Pie
+	[Pie."Melon Pie"]
+		#Hunger value:
+		#Range: 0 ~ 30
+		melon_pie_hunger = 7
+		#Saturation value:
+		#Range: 0.0 ~ 10.0
+		melon_pie_saturation = 0.2
+
+	#Pie
+	[Pie."Berry Pie"]
+		#Hunger value:
+		#Range: 0 ~ 30
+		berry_pie_hunger = 7
+		#Saturation value:
+		#Range: 0.0 ~ 10.0
+		berry_pie_saturation = 0.2
+
+#Soup Hunger and Saturation Values
+[Soup]
+
+	#Soup
+	[Soup."Pumpkin Soup"]
+		#Hunger value:
+		#Range: 0 ~ 30
+		pumpkin_soup_hunger = 6
+		#Saturation value:
+		#Range: 0.0 ~ 10.0
+		pumpkin_soup_saturation = 0.2
+
+	#Soup
+	[Soup."Melon Soup"]
+		#Hunger value:
+		#Range: 0 ~ 30
+		melon_soup_hunger = 6
+		#Saturation value:
+		#Range: 0.0 ~ 10.0
+		melon_soup_saturation = 0.2
+
+	#Soup
+	[Soup."Cactus Soup"]
+		#Hunger value:
+		#Range: 0 ~ 30
+		cactus_soup_hunger = 6
+		#Saturation value:
+		#Range: 0.0 ~ 10.0
+		cactus_soup_saturation = 0.2
+
+	#Soup
+	[Soup."Carrot Soup"]
+		#Hunger value:
+		#Range: 0 ~ 30
+		carrot_soup_hunger = 6
+		#Saturation value:
+		#Range: 0.0 ~ 10.0
+		carrot_soup_saturation = 0.2
+
+#Super Food Hunger and Saturation Values
+["Super Foods"]
+
+	#Super Foods
+	["Super Foods"."Super Petals"]
+		#Hunger value:
+		#Range: 0 ~ 30
+		super_petals_hunger = 6
+		#Saturation value:
+		#Range: 0.0 ~ 10.0
+		super_petals_saturation = 0.8
+
+	#Super Foods
+	["Super Foods"."Energy Drink"]
+		#Hunger value:
+		#Range: 0 ~ 30
+		energy_drink_hunger = 9
+		#Saturation value:
+		#Range: 0.0 ~ 10.0
+		energy_drink_saturation = 0.2
+
+	#Super Foods
+	["Super Foods".Shake]
+		#Hunger value:
+		#Range: 0 ~ 30
+		shake_hunger = 10
+		#Saturation value:
+		#Range: 0.0 ~ 10.0
+		shake_saturation = 0.3
+
+	#Super Foods
+	["Super Foods".Smoothie]
+		#Hunger value:
+		#Range: 0 ~ 30
+		smoothie_hunger = 10
+		#Saturation value:
+		#Range: 0.0 ~ 10.0
+		smoothie_saturation = 0.3
+
+	#Super Foods
+	["Super Foods".Bar]
+		#Hunger value:
+		#Range: 0 ~ 30
+		energyBar_hunger = 13
+		#Saturation value:
+		#Range: 0.0 ~ 10.0
+		energyBar_saturation = 0.4
+		#Hunger value:
+		#Range: 0 ~ 30
+		superFoodBar_hunger = 13
+		#Saturation value:
+		#Range: 0.0 ~ 10.0
+		superFoodBar_saturation = 0.4
+
+#Misc Hunger and Saturation Values
+[Misc]
+
+	#Misc
+	[Misc."Chocolate Bar"]
+		#Hunger value:
+		#Range: 0 ~ 30
+		chocolate_bar_hunger = 7
+		#Saturation value:
+		#Range: 0.0 ~ 10.0
+		chocolate_bar_saturation = 0.2
+
+	#Misc
+	[Misc."Fried Egg"]
+		#Hunger value:
+		#Range: 0 ~ 30
+		fried_egg_hunger = 7
+		#Saturation value:
+		#Range: 0.0 ~ 10.0
+		fried_egg_saturation = 0.2
+

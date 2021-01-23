@@ -1,0 +1,14 @@
+#Range: 0 ~ 100
+growingSpeed = 5
+#Allowed Values: NO_DROP, INDEPENDENT, ONE_BY_ONE
+fruitDropModeSingleplayer = "INDEPENDENT"
+#Allowed Values: NO_DROP, INDEPENDENT, ONE_BY_ONE
+fruitDropModeMultiplayer = "ONE_BY_ONE"
+#Range: 0.0 ~ 1.0
+oakLeavesDropsAppleSapling = 0.2
+worldGen = true
+
+[modules]
+	cherry = true
+	hybridization = true
+

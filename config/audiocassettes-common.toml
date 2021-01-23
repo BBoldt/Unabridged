@@ -1,0 +1,15 @@
+
+[general]
+	#
+	#Announce the name of the song currently playing to everyone?
+	NowPlayingAnnounce = true
+	#
+	#If enabled, Walkman and Boombox will ignore empty slots of audio cassettes
+	SkipEmptySlots = true
+	#
+	#Max distance for a BoomBox where you can hear music (works only with stereo music)
+	BoomBoxMaxDistance = 64
+	#
+	#Max distance for a Walkman where you can hear music (works only with stereo music)
+	WalkmanMaxDistance = 28
+

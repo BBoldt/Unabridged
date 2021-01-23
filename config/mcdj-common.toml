@@ -1,0 +1,27 @@
+
+[general]
+	#
+	#MCDJ will create its root folder with that name.
+	RootFolderName = ".mcdj"
+	#
+	#Let MCDJ create shortcut called "Music" to streaming folder in .minecraft
+	Shortcut = true
+	#
+	#Draws album art on top of the disc if possible
+	AlbumArt = false
+	#
+	#Enables high resolution disc texture (recommended for use with album arts)
+	HiresDiscTextures = false
+	#
+	#In headless mode MCDJ will only add sounds to the game, but not create music discs.
+	HeadlessMode = false
+	#
+	#Returns an old Music Generator, that give you the random music disc 
+	#when you use the blank disc on it.
+	LegacyMusicGenerator = false
+	#
+	#Path to mcdj root folder.
+	#examples: 'mods' = /.minecraft/mods/; 'misc/mcdj' = /.minecraft/misc/mcdj
+	#leave blank for choise .minecraft folder.
+	MCDJPath = ""
+

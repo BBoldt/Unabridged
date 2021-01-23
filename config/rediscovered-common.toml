@@ -1,0 +1,30 @@
+
+#Server and Client side changes.
+[common]
+	#Allow the use of the Dream Pillow during the daytime.
+	daytimeDreamPillow = false
+	#Allow taming of Red Dragons.
+	tameableRedDragon = true
+	#Allow the Red Dragon to noclip, similarly to the Ender Dragon.
+	redDragonNoClip = false
+	#If enabled, hostiles will attack scarecrows, if disabled, they will run from them.
+	mobsAttackScarecrow = true
+	#Allows Steve to be hostile.
+	steveHostile = true
+	#Allows Black Steve to be hostile.
+	blackSteveHostile = true
+	#Allows Beast Boy to be hostile.
+	beastBoyHostile = true
+	#Disables randomly teleporting to the Sky Dimension when sleeping.
+	disableBedTeleportation = false
+	#Disables Giants dropping Golden Apples.
+	disableGiantAppleDrops = false
+	#Allows pigs and cows to spawn in the sky dimension, this is not how it used to be originally, but it's here for a bit more atmosphere.
+	cowsAndPigsInSky = false
+	#Chance Zombies, and Skeletons will spawn with plate armor (default 1/20, set to 0 for none.)
+	chanceHostilesSpawnWithPlateArmor = 20
+	#Allows Zombies in village sieges to spawn mounting a tamed Zombie Horse.
+	zombieHorsesInSieges = true
+	#Allows Zombified Piglins to be converted into Pigmen,
+	allowPiglinConversion = false
+

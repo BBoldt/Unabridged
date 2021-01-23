@@ -1,0 +1,13 @@
+
+[General]
+	#Should the scarecrows keep spawners in range activated?
+	loadSpawners = true
+	#In what range will the scarecrows load spawners?
+	#Range: 1.0 ~ 25.0
+	loadSpawnerRange = 8.0
+	#Should mobs passively spawn within the scarecrows' range
+	passiveMobSpawning = true
+	#In what range will mobs passively spawn?
+	#Range: 1.0 ~ 25.0
+	passiveMobRange = 8.0
+

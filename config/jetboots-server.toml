@@ -1,0 +1,21 @@
+
+#General settings
+[general]
+	#Default maximum power for jetboots
+	#Range: > 0
+	defaultMaxPower = 1000000
+	#Cost per tick to use jetboots
+	#Range: > 0
+	powerCost = 50
+
+[leveling]
+	#The base xp required to level up a levelable items
+	#Range: > 100
+	baseLevelXp = 500
+	#The xp multiplier added ot the base xp required for each level
+	#Range: 1.0 ~ 1.7976931348623157E308
+	levelXpMultiplier = 1.1
+	#How often in ticks the player can earn xp by flying with jetboots (Only for jetboots)
+	#Range: 20 ~ 1200
+	ticksBetweenFlightXp = 80
+

@@ -1,0 +1,61 @@
+{
+  "minecraft": {
+    "crop_progress": true,
+    "comparator": true,
+    "hide_infestations": true,
+    "display_furnace_contents": true,
+    "jukebox": true,
+    "lever": true,
+    "spawner_type": true,
+    "redstone": true,
+    "repeater": true
+  },
+  "botanypots": {
+    "show_progress": true,
+    "show_time": true,
+    "show_crop": true,
+    "show_soil": true,
+    "show_debug": false
+  },
+  "jade": {
+    "horse_inventory": true,
+    "total_ench_power": true,
+    "chicken_egg": true,
+    "horse_stat": true,
+    "misc_entity": true,
+    "brewing_stand": true,
+    "note_block": true,
+    "inventory": true,
+    "beehive": true,
+    "player_head": true,
+    "harvest_tool": true,
+    "hide_mod_name": false,
+    "armor_stand": true,
+    "profession": true,
+    "hide_item_mod_name": false,
+    "breaking_progress": true,
+    "tnt_stability": true,
+    "ench_power": true,
+    "mob_breeding": true,
+    "item_frame": true,
+    "effects": true,
+    "command_block": true,
+    "mob_growth": true,
+    "painting": true,
+    "trapped_chest": true
+  },
+  "waila": {
+    "show_registry": false,
+    "show_entity_hp": true,
+    "show_states": false,
+    "show_entities": true
+  },
+  "fruittrees": {
+    "bee": true
+  },
+  "storagedrawers": {
+    "display.stacklimit": true,
+    "display.content": true,
+    "display.status": true
+  }
+}

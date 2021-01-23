@@ -1,0 +1,5 @@
+#If true, creepies grow significantly larger when they explode
+"Creepies grow larger on explosion" = false
+#If true, creepies have a sprout on their head
+"Creepie sprout" = true
+
