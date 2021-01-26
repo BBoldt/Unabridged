@@ -1,4 +1,4 @@
-import mods.nei.NEI;
+/* import mods.nei.NEI;
 
 // hide
 NEI.hide(<appliedenergistics2:tile.BlockCableBus:*>);
@@ -296,3 +296,9 @@ NEI.addEntry(<extracells:pattern.fluid>.withTag({fluidID: "molten.bedrockiumingo
 NEI.addEntry(<ForbiddenMagic:MobCrystal>.withTag({display: {Name: "Blank Imprinting Crystal", Lore: ["Imprint me"]}}));
 NEI.addEntry(<ThermalExpansion:florb>.withTag({display: {Name: "Florb", Lore: ["Holds 1000mb of most fluids."]}}));
 NEI.addEntry(<WitchingGadgets:item.WG_CrystalFlask>.withTag({display: {Name: "Crystal Flask", Lore: ["gimme dat mob"]}}));
+*/
+import mods.nei.NEI;
+
+// Unhide
+NEI.addEntry(<minecraft:bedrock>.withTag({display: {Name: "not real", Lore: ["This is not part of the recipe."]}}));
+recipes.addShaped(<claysoldiers:horsemount_doll>, [[<Botania:buriedPetals>.withTag({display: {Name: ":) hi", Lore: ["This is not part of the recipe."]}}), null, null], [<minecraft:dirt>, <minecraft:soul_sand>, <minecraft:dirt>], [<minecraft:dirt>, null, <minecraft:dirt>]]);

@@ -12,6 +12,16 @@
 <ore:oreUraniumPhysica>.mirror(<ore:oreUranium>);
 <ore:foodSalt>.addAll(<ore:dustSalt>);
 
+/* logWood */
+<ore:logWood>.add(<TwilightForest:tile.GiantLog>);
+<ore:logWood>.add(<aether_legacy:skyroot_log>);
+<ore:logWood>.add(<aether_legacy:golden_oak_log>);
+<ore:logWood>.add(<ForbiddenMagic:TaintLog>);
+<ore:logWood>.add(<MineFactoryReloaded:rubberwood.log>);
+<ore:logWood>.add(<IC2:rubberWood>);
+
+
+
 // Recipes
 recipes.addShapeless(<EnderIO:blockEndermanSkull>, [<HardcoreEnderExpansion:enderman_head>]);
 recipes.addShapeless(<HardcoreEnderExpansion:enderman_head>, [<EnderIO:blockEndermanSkull>]);
@@ -25,10 +35,14 @@ recipes.addShapeless(<BinnieCore:containerBucket:65>, [<BiomesOPlenty:bopBucket>
 recipes.remove(<physica:item.metaPlate>);
 recipes.remove(<physica:item.metaPlate:1>);
 recipes.remove(<physica:item.metaPlate:2>);
+recipes.addShaped(<uptodate:barrel:1>, [[<ore:plankWood>, <ore:slabWood>, <ore:plankWood>], [<ore:plankWood>, null, <ore:plankWood>], [<ore:plankWood>, <ore:slabWood>, <ore:plankWood>]]);
+recipes.addShaped(<IC2:item.itemBarrel>,  [[<ore:plankWood>], [<ore:logWood>], [<ore:plankWood>]]);
 
 // Furnace
 furnace.remove(<ProjRed|Core:projectred.core.part>);
 furnace.addRecipe(<ProjRed|Core:projectred.core.part> * 8, <uptodate:smooth_stone>, 0.5);
+furnace.remove(<ExtraUtilities:decorativeBlock1:2>);
+furnace.addRecipe(<ExtraUtilities:decorativeBlock1:2>, <uptodate:smooth_quartz>, 0.5);
 
 // Display Names and Tooltips
 <GalaxySpace:ores:2>.displayName = "Sapphire Ore";

@@ -17,20 +17,6 @@ recipes.addShaped(<GalacticraftMars:item.schematic>, [[<GalacticraftCore:item.me
 recipes.addShaped(<GalacticraftMars:item.schematic:1>, [[<GalacticraftCore:item.meteoricIronIngot:1>, <GalacticraftMars:item.null:5>, <GalacticraftCore:item.meteoricIronIngot:1>], [<GalacticraftCore:item.meteoricIronIngot:1>, <GalacticraftMars:item.null:5>, <GalacticraftCore:item.meteoricIronIngot:1>], [<GalacticraftMars:item.null:5>, <GalacticraftMars:item.null:5>, <GalacticraftMars:item.null:5>]]);
 recipes.addShaped(<GalacticraftMars:item.schematic:2>, [[<GalacticraftCore:item.meteoricIronIngot:1>, <GalacticraftCore:item.meteoricIronIngot:1>, <GalacticraftCore:item.meteoricIronIngot:1>], [<GalacticraftMars:item.null:5>, <GalacticraftMars:item.null:5>, <GalacticraftMars:item.null:5>], [<GalacticraftMars:item.null:5>, <GalacticraftMars:item.null:5>, <GalacticraftMars:item.null:5>]]);
 
-// Remove plate oredict
-<ore:plateIron>.remove(<GalacticraftCore:item.basicItem:11>);
-<ore:plateCopper>.remove(<GalacticraftCore:item.basicItem:6>);
-<ore:plateTin>.remove(<GalacticraftCore:item.basicItem:7>);
-<ore:plateAluminum>.remove(<GalacticraftCore:item.basicItem:8>);
-<ore:plateSteel>.remove(<GalacticraftCore:item.basicItem:9>);
-<ore:plateBronze>.remove(<GalacticraftCore:item.basicItem:10>);
-<ore:plateTitanium>.remove(<GalacticraftMars:item.itemBasicAsteroids:6>);
-<ore:plateDesh>.remove(<GalacticraftMars:item.null:5>);
-<ore:plateCobalt>.remove(<GalaxySpace:item.CompressedPlates>);
-<ore:plateMagnesium>.remove(<GalaxySpace:item.CompressedPlates:1>);
-<ore:plateNickel>.remove(<GalaxySpace:item.CompressedPlates:2>);
-<ore:plateCoal>.remove(<GalaxySpace:item.CompressedPlates:3>);
-
 /* GalaxySpace */
    
 // Unify Sapphire

@@ -145,3 +145,18 @@ mods.chisel.Groups.addVariation("brownstone_slab", <TConstruct:SpeedSlab:3>);
 mods.chisel.Groups.addVariation("brownstone_slab", <TConstruct:SpeedSlab:4>);
 mods.chisel.Groups.addVariation("brownstone_slab", <TConstruct:SpeedSlab:5>);
 mods.chisel.Groups.addVariation("brownstone_slab", <TConstruct:SpeedSlab:6>);
+
+//Void Quartz
+mods.chisel.Groups.addGroup("void_quartz");
+mods.chisel.Groups.addVariation("void_quartz", <netherlicious:QuartzBricks:2>);
+mods.chisel.Groups.addVariation("void_quartz", <netherlicious:QuartzBricks:3>);
+mods.chisel.Groups.addVariation("void_quartz", <netherlicious:QuartzBricks:4>);
+mods.chisel.Groups.addVariation("void_quartz", <netherlicious:QuartzBricks:5>);
+mods.chisel.Groups.addVariation("void_quartz", <netherlicious:QuartzPillar:1>);
+mods.chisel.Groups.addVariation("void_quartz", <netherlicious:QuartzPillar:2>);
+
+//Quartz
+mods.chisel.Groups.addVariation("quartz", <netherlicious:QuartzBricks>);
+mods.chisel.Groups.addVariation("quartz", <netherlicious:QuartzBricks:1>);
+mods.chisel.Groups.addVariation("quartz", <netherlicious:QuartzPillar>);
+mods.chisel.Groups.addVariation("quartz", <uptodate:smooth_quartz>);
