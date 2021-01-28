@@ -73,18 +73,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 0.5,
-      "enable": true
-    },
-    "shrubs": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "shrub"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.5,
+      "amountPerChunk": 0.25,
       "enable": true
     },
     "grass": {
@@ -107,21 +96,6 @@
           "snowy": "false"
         }
       }
-    },
-    "stone_formations": {
-      "minHeight": 1,
-      "with": {
-        "block": "biomesoplenty:stone_formations",
-        "properties": {
-          "position": "stalagmite_small",
-          "variant": "stone_formation"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 30.0,
-      "maxHeight": 5,
-      "enable": true,
-      "randomDirection": true
     },
     "roots": {
       "with": {

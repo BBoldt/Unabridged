@@ -4,7 +4,7 @@
   "fogDensity": 1.0,
   "hasBiomeEssence": true,
   "variationBelow": 5.0,
-  "variationAbove": 2.0,
+  "variationAbove": 3.0,
   "seaFloorBlock": {
     "block": "biomesoplenty:mud",
     "properties": {
@@ -68,21 +68,6 @@
       "enable": true,
       "generators": {}
     },
-    "stone_formations": {
-      "minHeight": 1,
-      "with": {
-        "block": "biomesoplenty:stone_formations",
-        "properties": {
-          "position": "stalagmite_small",
-          "variant": "stone_formation"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 30.0,
-      "maxHeight": 5,
-      "enable": true,
-      "randomDirection": true
-    },
     "algae": {
       "with": {
         "block": "biomesoplenty:coral",
@@ -113,7 +98,7 @@
           "level": "0"
         }
       },
-      "amountPerChunk": 4.0,
+      "amountPerChunk": 0.5,
       "enable": true,
       "frozenLiquid": {
         "block": "minecraft:ice",
@@ -139,17 +124,6 @@
       "maxHeight": 32,
       "enable": true
     },
-    "mud": {
-      "with": {
-        "block": "biomesoplenty:mud",
-        "properties": {
-          "variant": "mud"
-        }
-      },
-      "maxRadius": 7,
-      "amountPerChunk": 1.0,
-      "enable": true
-    },
     "water_reeds": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -158,7 +132,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 6.0,
+      "amountPerChunk": 0.1,
       "enable": true
     }
   },

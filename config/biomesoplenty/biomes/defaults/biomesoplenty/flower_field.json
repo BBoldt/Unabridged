@@ -4,8 +4,8 @@
   "skyColor": -1,
   "fogDensity": 1.0,
   "hasBiomeEssence": true,
-  "variationBelow": 4.0,
-  "variationAbove": 12.0,
+  "variationBelow": 5.0,
+  "variationAbove": 5.0,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -43,7 +43,7 @@
       "enable": true
     },
     "flowers": {
-      "amountPerChunk": 50.0,
+      "amountPerChunk": 17.5,
       "enable": true,
       "generators": {}
     },
@@ -59,7 +59,7 @@
       "enable": true
     },
     "grass": {
-      "amountPerChunk": 15.0,
+      "amountPerChunk": 20.0,
       "enable": true,
       "generators": {}
     },
@@ -75,21 +75,6 @@
       "maxHeight": 32,
       "enable": true
     },
-    "stone_formations": {
-      "minHeight": 1,
-      "with": {
-        "block": "biomesoplenty:stone_formations",
-        "properties": {
-          "position": "stalagmite_small",
-          "variant": "stone_formation"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 30.0,
-      "maxHeight": 5,
-      "enable": true,
-      "randomDirection": true
-    },
     "roots": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -100,6 +85,11 @@
       "generationAttempts": 32,
       "amountPerChunk": 4.0,
       "enable": true
+    },
+    "trees": {
+      "amountPerChunk": 3.0,
+      "enable": true,
+      "generators": {}
     }
   },
   "weights": {

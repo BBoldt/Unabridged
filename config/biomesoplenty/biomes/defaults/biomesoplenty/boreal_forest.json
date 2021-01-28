@@ -42,8 +42,17 @@
       "amountPerChunk": 1.5,
       "enable": true
     },
+    "gravel": {
+      "with": {
+        "block": "minecraft:gravel",
+        "properties": {}
+      },
+      "maxRadius": 7,
+      "amountPerChunk": 6.0,
+      "enable": true
+    },
     "flowers": {
-      "amountPerChunk": 0.5,
+      "amountPerChunk": 0.2,
       "enable": true,
       "generators": {}
     },
@@ -69,31 +78,21 @@
       "amountPerChunk": 1.0,
       "enable": true
     },
-    "shrubs": {
+    "grass": {
+      "amountPerChunk": 1.75,
+      "enable": true,
+      "generators": {}
+    },
+    "bushes": {
       "with": {
         "block": "biomesoplenty:plant_0",
         "properties": {
-          "variant": "shrub"
+          "variant": "bush"
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 0.5,
+      "amountPerChunk": 0.75,
       "enable": true
-    },
-    "stone_formations": {
-      "minHeight": 1,
-      "with": {
-        "block": "biomesoplenty:stone_formations",
-        "properties": {
-          "position": "stalagmite_small",
-          "variant": "stone_formation"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 30.0,
-      "maxHeight": 5,
-      "enable": true,
-      "randomDirection": true
     },
     "amber": {
       "minHeight": 4,
@@ -119,7 +118,7 @@
       "enable": true
     },
     "trees": {
-      "amountPerChunk": 20.0,
+      "amountPerChunk": 8.0,
       "enable": true,
       "generators": {}
     },
@@ -131,7 +130,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 2.0,
+      "amountPerChunk": 0.25,
       "enable": true
     },
     "poison_ivy": {
@@ -144,50 +143,6 @@
       "generationAttempts": 16,
       "amountPerChunk": 0.1,
       "enable": true
-    },
-    "gravel": {
-      "with": {
-        "block": "minecraft:gravel",
-        "properties": {}
-      },
-      "maxRadius": 7,
-      "amountPerChunk": 6.0,
-      "enable": true
-    },
-    "sand": {
-      "with": {
-        "block": "minecraft:sand",
-        "properties": {
-          "variant": "sand"
-        }
-      },
-      "maxRadius": 7,
-      "amountPerChunk": 3.0,
-      "enable": true
-    },
-    "flax": {
-      "with": {
-        "block": "biomesoplenty:double_plant",
-        "properties": {
-          "half": "lower",
-          "variant": "flax"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.2,
-      "enable": true,
-      "withTop": {
-        "block": "biomesoplenty:double_plant",
-        "properties": {
-          "half": "upper",
-          "variant": "flax"
-        }
-      }
-    },
-    "grass": {
-      "amountPerChunk": 1.2,
-      "enable": true,
-      "generators": {}
     }
   },
   "weights": {
