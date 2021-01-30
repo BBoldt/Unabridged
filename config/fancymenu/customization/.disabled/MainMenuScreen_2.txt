@@ -1,0 +1,81 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  renderorder = foreground
+}
+
+customization {
+  orientation = bottom-right
+  buttonaction = openlink
+  x = -200
+  width = 100
+  action = addbutton
+  y = -69
+  label = Bisect Hosting
+  value = https://www.bisecthosting.com/unabridged
+  height = 20
+}
+
+customization {
+  orientation = bottom-left
+  x = 0
+  width = 300
+  action = addwebtexture
+  y = -48
+  url = https://discordapp.com/api/guilds/693955914012688394/widget.png?style=banner2
+  height = 48
+}
+
+customization {
+  orientation = top-left
+  name = slideshow_unabridged
+  x = 0
+  width = 177
+  action = addslideshow
+  y = 0
+  height = 100
+}
+
+customization {
+  orientation = top-left
+  name = slideshow_unabridged
+  x = 0
+  width = 177
+  action = addslideshow
+  y = 0
+  height = 100
+}
+
+customization {
+  orientation = bottom-left
+  buttonaction = openlink
+  x = 85
+  width = 100
+  action = addbutton
+  y = -72
+  label = DISCORD
+  value = https://discord.com/invite/wV3jFx7F2e
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  name = slideshow_unabridged
+  x = 0
+  width = 177
+  action = addslideshow
+  y = 0
+  height = 100
+}
+
+customization {
+  orientation = bottom-right
+  x = -300
+  width = 299
+  action = addwebtexture
+  y = -48
+  url = https://i.imgur.com/gUZV6sQ.png
+  height = 47
+}
+

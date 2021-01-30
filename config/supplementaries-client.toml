@@ -96,3 +96,8 @@
 		#Range: 0.0 ~ 10.0
 		exponent = 0.5
 
+#general settings
+[general]
+	#show some tooltip hints to guide player through the mod
+	tooltip_hints = true
+

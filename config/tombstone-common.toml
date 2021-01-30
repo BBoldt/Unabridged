@@ -154,6 +154,8 @@
 	#Duration of voodoo poppet's effects in seconds when preventing death [5..60000|default:60]
 	#Range: 5 ~ 60000
 	duration_voodoo_poppet_effects = 60
+	#Allows to replace a grave plate already set on a grave [false/true|default:true]
+	can_replace_grave_plate = true
 
 #Allows to customize or disable the enchantments
 [enchantments]

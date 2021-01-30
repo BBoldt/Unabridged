@@ -1,0 +1,308 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  renderorder = background
+}
+
+customization {
+  path = resources/fancymenu/scrn/bg.png
+  action = texturizebackground
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = bottom-centered
+  x = -45
+  action = movebutton
+  y = -28
+}
+
+customization {
+  identifier = %id=400346%
+  width = 90
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttontexture
+  backgroundhovered = resources/fancymenu/textures/icons/butt_hover.png
+  backgroundnormal = resources/fancymenu/textures/icons/butt_dark.png
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = top-centered
+  x = -100
+  action = movebutton
+  y = 165
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttontexture
+  backgroundhovered = resources/fancymenu/textures/icons/butt_hover.png
+  backgroundnormal = resources/fancymenu/textures/icons/butt_dark.png
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = top-centered
+  x = -100
+  action = movebutton
+  y = 140
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttontexture
+  backgroundhovered = resources/fancymenu/textures/icons/butt_hover.png
+  backgroundnormal = resources/fancymenu/textures/icons/butt_dark.png
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=604382%
+  orientation = top-left
+  x = 5
+  action = movebutton
+  y = 25
+}
+
+customization {
+  identifier = %id=604382%
+  width = 15
+  action = resizebutton
+  height = 15
+}
+
+customization {
+  identifier = %id=604382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=604382%
+  action = setbuttontexture
+  backgroundhovered = resources/fancymenu/textures/icons/acc_hover.png
+  backgroundnormal = resources/fancymenu/textures/icons/acc_dark.png
+}
+
+customization {
+  identifier = %id=604382%
+  action = sethoverlabel
+  label = Accessibility
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = top-centered
+  x = -100
+  action = movebutton
+  y = 190
+}
+
+customization {
+  identifier = %id=400382%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttontexture
+  backgroundhovered = resources/fancymenu/textures/icons/butt_hover.png
+  backgroundnormal = resources/fancymenu/textures/icons/butt_dark.png
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = top-centered
+  x = -100
+  action = movebutton
+  y = 225
+}
+
+customization {
+  identifier = %id=502382%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttontexture
+  backgroundhovered = resources/fancymenu/textures/icons/butt_hover.png
+  backgroundnormal = resources/fancymenu/textures/icons/butt_dark.png
+}
+
+customization {
+  identifier = %id=502382%
+  action = sethoverlabel
+  label = Don't you dare!
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = top-left
+  x = 5
+  action = movebutton
+  y = 5
+}
+
+customization {
+  identifier = %id=376382%
+  width = 15
+  action = resizebutton
+  height = 15
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttontexture
+  backgroundhovered = resources/fancymenu/textures/icons/lang_hover.png
+  backgroundnormal = resources/fancymenu/textures/icons/lang_dark.png
+}
+
+customization {
+  identifier = %id=376382%
+  action = sethoverlabel
+  label = Language
+}
+
+customization {
+  orientation = bottom-right
+  buttonaction = openlink
+  x = -115
+  width = 100
+  action = addbutton
+  y = -113
+  backgroundhovered = resources/fancymenu/textures/horizontal_dark_text.png
+  description = Use code 'unabridged' for 25% off!
+  label = 
+  backgroundnormal = resources/fancymenu/textures/horizontal_light_text.png
+  value = https://www.bisecthosting.com/unabridged
+  height = 100
+}
+
+customization {
+  path = resources/fancymenu/textures/gui/bg_menu.png
+  orientation = top-centered
+  x = -111
+  width = 223
+  action = addtexture
+  y = 0
+  height = %guiheight%
+}
+
+customization {
+  orientation = bottom-centered
+  hoverlabel = Discord
+  buttonaction = openlink
+  x = 80
+  width = 25
+  action = addbutton
+  y = -32
+  backgroundhovered = resources/fancymenu/textures/icons/discord_hover.png
+  label = 
+  backgroundnormal = resources/fancymenu/textures/icons/discord_dark.png
+  value = https://discord.com/invite/wV3jFx7F2e
+  height = 25
+}
+
+customization {
+  path = resources/fancymenu/textures/gui/unabridged_flare.png
+  orientation = top-centered
+  x = -240
+  width = 483
+  action = addtexture
+  y = 17
+  height = 232
+}
+
+customization {
+  orientation = top-centered
+  shadow = false
+  centered = false
+  x = -6
+  action = addtext
+  y = 114
+  scale = 1.0
+  value = 6.0
+}
+
+customization {
+  orientation = bottom-centered
+  hoverlabel = Twitter
+  buttonaction = openlink
+  x = 50
+  width = 25
+  action = addbutton
+  y = -32
+  backgroundhovered = resources/fancymenu/textures/icons/twitter_hover.png
+  label = 
+  backgroundnormal = resources/fancymenu/textures/icons/twitter_dark.png
+  value = https://twitter.com/bboldtabridged
+  height = 25
+}
+
+customization {
+  orientation = bottom-centered
+  hoverlabel = Github/Issues
+  buttonaction = openlink
+  x = -105
+  width = 25
+  action = addbutton
+  y = -32
+  backgroundhovered = resources/fancymenu/textures/icons/github_hover.png
+  label = 
+  backgroundnormal = resources/fancymenu/textures/icons/github_dark.png
+  value = https://github.com/BBoldt/Unabridged/issues
+  height = 25
+}
+
+customization {
+  orientation = top-left
+  hoverlabel = Reddit
+  buttonaction = openlink
+  x = 565
+  width = 25
+  action = addbutton
+  y = 662
+  backgroundhovered = resources/fancymenu/textures/icons/reddit_hover.png
+  label = 
+  backgroundnormal = resources/fancymenu/textures/icons/reddit_dark.png
+  value = 
+  height = 25
+}
+
+customization {
+  path = resources/fancymenu/textures/gui/unabridged_title.png
+  orientation = top-centered
+  x = -184
+  width = 368
+  action = addtexture
+  y = 20
+  height = 100
+}
+

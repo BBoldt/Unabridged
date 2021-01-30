@@ -5,13 +5,13 @@
 	#Blocks that a dragon can break, but won't spawn drops for. Use the format like "minecraft:stone" or "rats:block_of_cheese" 
 	noDropBreakBlocks = ["minecraft:stone", "minecraft:dirt", "minecraft:grass_block"]
 	#Whether to generate silver ore or not
-	"Generate Silver Ore" = true
+	"Generate Silver Ore" = false
 	#True if using blacklists, false if using whitelists for dragons and structure gen.
 	"Use Dimension Blacklist" = false
 	#Whitelist mob spawn (troll, hippogryph, etc) dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
 	blacklistDimensions = ["minecraft:overworld"]
 	#Whether to generate copper ore or not
-	"Generate Copper Ore" = true
+	"Generate Copper Ore" = false
 	#Whether to generate sapphire ore or not
 	"Generate Sapphire Ore" = true
 	#Whether to generate amethyst ore or not
@@ -20,17 +20,17 @@
 	"Generate Dragon Skeletons" = true
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Generate Dragon Skeleton Chance" = 300
+	"Generate Dragon Skeleton Chance" = 720
 	#Whether to generate dragon caves or not
 	"Generate Dragon Caves" = true
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Generate Dragon Cave Chance" = 180
+	"Generate Dragon Cave Chance" = 360
 	#Whether to generate dragon roosts or not
 	"Generate Dragon Roosts" = true
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Generate Dragon Roost Chance" = 360
+	"Generate Dragon Roost Chance" = 720
 	#1 out of this number chance per block that gold will generate in dragon lairs.
 	#Range: 1 ~ 10000
 	"Dragon Den Gold Amount" = 4

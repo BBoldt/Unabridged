@@ -1,6 +1,7 @@
 {
-  "version": "1.0.1",
-  "initPopup": true,
+  "version": "1.0.4",
+  "prevVersion": "1.0.3",
+  "initPopup": false,
   "exportMode": false,
   "generatedBy": "\u003cdefault\u003e",
   "activeConfigs": [

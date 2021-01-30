@@ -140,12 +140,6 @@
 			#Power per tick while in use
 			#Range: 0 ~ 64000
 			structure = 10
-			#Power per tick while in use
-			#Range: 0 ~ 64000
-			placer = 0
-			#Power per tick while in use
-			#Range: 0 ~ 64000
-			breaker = 0
 
 	#####################################################################################
 	# Item specific configs

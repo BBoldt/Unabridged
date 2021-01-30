@@ -1,0 +1,21 @@
+
+[Client]
+	#Should the magnet play a ding sound when turned on or off?
+	playToggleSound = true
+	#Should the magnet display a message on screen when turned on or off?
+	showToggleMessage = false
+
+[General]
+	#In what range should the Basic Magnet pickup items and xp?
+	#Range: 1 ~ 20
+	basicMagnetRange = 5
+	#In what range should the Basic Magnet pickup items and xp by default?
+	#Range: 1 ~ 10
+	advancedMagnetRange = 8
+	#What is the minimum range of the Advanced Magnet?
+	#Range: 1 ~ 20
+	advancedMagnetMinRange = 3
+	#What is the maximum range of the Advanced Magnet?
+	#Range: 1 ~ 20
+	advancedMagnetMaxRange = 11
+

@@ -29,3 +29,11 @@
 		#Range: 1 ~ 1000
 		power_karate_damage = 18
 
+	[General.Biome]
+		#Enable Flower Clouds?
+		flower_clouds = true
+
+	[General.Optimization]
+		#With this enabled, right clicking will produce a few of the jellyfish's jelly item and destroy the jellyfish item
+		no_place_jellyfish = false
+

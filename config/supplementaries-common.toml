@@ -3,8 +3,6 @@
 [blocks]
 
 	[blocks.speaker_block]
-		#additional blocks besides fences that can accept a sign post
-		whitelist = ["quark:oak_post", "quark:birch_post", "quark:spruce_post", "quark:acacia_post", "quark:dark_oak_post", "quark:jungle_post", "quark:warped_post", "quark:crimson_post"]
 		#maximum range
 		#Range: 0 ~ 256
 		range = 64
@@ -29,6 +27,8 @@
 		#note that it will still only keep alive the two fire blocks closer to it
 		#Range: 0 ~ 16
 		range = 5
+		#additional blocks that will be ticked by bellows
+		whitelist = []
 
 	[blocks.spring_launcher]
 		#spring launcher launch speed
@@ -56,6 +56,8 @@
 		mobs = ["minecraft:slime", "minecraft:bee", "minecraft:magma_cube", "iceandfire:pixie", "alexsmobs:crimson_mosquito", "mysticalworld:frog", "mysticalworld:beetle", "mysticalworld:silkworm", "druidcraft:lunar_moth", "druidcraft:dreadfish", "swampexpansion:slabfish", "savageandravage:creepie", "betteranimalsplus:butterfly", "whisperwoods:moth"]
 		#tinted jar catchable mobs
 		tinted_jar_mobs = ["minecraft:endermite", "minecraft:slime", "minecraft:bee", "minecraft:magma_cube", "minecraft:vex", "iceandfire:pixie", "alexsmobs:crimson_mosquito", "alexsmobs:mimicube", "mysticalworld:frog", "mysticalworld:beetle", "mysticalworld:silkworm", "druidcraft:lunar_moth", "druidcraft:dreadfish", "swampexpansion:slabfish", "savageandravage:creepie", "betteranimalsplus:butterfly", "whisperwoods:moth"]
+		#any item can work here, ideally you should only put cookies and alike
+		cookies = ["minecraft:cookie", "farmersdelight:honey_cookie", "farmersdelight:sweet_berry_cookie", "farmersdelight:peanut_butter_cookie", "pamhc2crops:beanitem", "pamhc2crops:chickpeaitem", "cookielicious:strawberry_cookie", "cookielicious:vanilla_cookie", "cookielicious:sandwich_cookie", "pamhc2crops:garlicitem", "pamhc2crops:jicamaitem", "pamhc2crops:roastedmushroomitem", "pamhc2crops:bakedwaterchestnutitem", "pamhc2crops:waterchestnutitem", "pamhc2crops:chocolatemuffinitem", "pamhc2crops:donutitem", "pamhc2crops:chocolatedonutitem", "pamhc2crops:jellydonutitem", "pamhc2crops:crackeritem", "pamhc2crops:pretzelitem", "pamhc2crops:chocolatebaritem", "pamhc2crops:chocolaterollitem", "pamhc2crops:chocolatecaramelfudgeitem", "pamhc2crops:smoresitem", "pamhc2crops:trailmixitem", "pamhc2crops:candiedpecansitem", "pamhc2crops:candiedsweetpotatoesitem", "pamhc2crops:candiedwalnutsitem", "pamhc2crops:chocolateorangeitem", "pamhc2crops:chocolatepeanutbaritem", "pamhc2crops:chocolatestrawberryitem", "pamhc2crops:peanutbuttercupitem", "pamhc2crops:pralinesitem", "pamhc2crops:pinenutitem", "pamhc2crops:roastedalmonditem", "pamhc2crops:roastedpinenutitem"]
 
 	#I haven't tested most of the mods included here. let me know if they work
 	[blocks.cage]
@@ -79,10 +81,24 @@
 		#additional sack slots divided by 2. Number of slots will be 5 + additional_slots*2
 		#Range: 0 ~ 2
 		additional_slots = 0
+		#additional blocks that can support a sack
+		whitelist = []
 
 	[blocks.safe]
 		#makes safes only breakable by their owner or by a player in creative
 		prevent_breaking = false
+
+	[blocks.sign_post]
+		#additional blocks besides fences that can accept a sign post
+		whitelist = ["quark:oak_post", "quark:birch_post", "quark:spruce_post", "quark:acacia_post", "quark:dark_oak_post", "quark:jungle_post", "quark:warped_post", "quark:crimson_post"]
+
+	[blocks.globe]
+		#how many gobe trades to give to the wandering trader. If you have mods that add more trades to him you might want to increase this so it's not as rare
+		#Range: 0 ~ 50
+		trades = 2
+		#chanche of finding a globe in a shipwreck treasure chest. default is 20%
+		#Range: 0 ~ 100
+		treasure_chance = 20
 
 #Configure spawning conditions
 [spawns]
@@ -140,6 +156,16 @@
 		#max chain length that allows a bell to ring
 		#Range: 0 ~ 1024
 		chain_length = 16
+
+	[tweaks.cake_tweaks]
+		#allows you to place a cake ontop of another
+		double_cake = true
+		#replaces normal cake placement with a directional one
+		directional_cake = true
+
+	[tweaks.hanging_flower_pots]
+		#allows you to place hanging flower pots. Works with any modded pot too
+		enabled = true
 
 [items]
 
