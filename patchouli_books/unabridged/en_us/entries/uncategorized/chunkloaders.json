@@ -1,0 +1,12 @@
+{
+    "name": "Chunk Loaders",
+    "icon": "minecraft:paper",
+    "category": "gadgets",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Chunk Loaders allows you keep chunks loaded with different tiers of chunk loaders! Individual chunks can be loaded though a map and the chunk loaders can load chunks in up to a 7 by 7 area. Chunks loaded by the chunk loaders will also receive random ticks.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/chunk-loaders",
+			"link_text": "Chunk Loaders CF"
+        }]
+}

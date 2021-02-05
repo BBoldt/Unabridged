@@ -1,0 +1,12 @@
+{
+    "name": "Cherished Worlds",
+    "icon": "minecraft:paper",
+    "category": "tweaks",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Adds the ability to bookmark certain worlds. Favoriting worlds will force them to always show up at the top of the world selection list and removes the ability to delete them until they are unfavorited.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/cherished-worlds",
+			"link_text": "CW CF"
+        }]
+}

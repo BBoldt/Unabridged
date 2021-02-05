@@ -1,0 +1,53 @@
+{
+	"components": [
+		{
+			"type": "entity",
+			"entity": "#entity",
+			"scale": "#scale",
+			"x": 60,
+			"y": 60
+		},
+		{
+			"type": "item",
+			"item": "#itema",
+			"framed": "true",
+			"x": 0,
+			"y": 120
+		},
+		{
+			"type": "item",
+			"item": "#itemb",
+			"framed": "true",
+			"x": 20,
+			"y": 120
+		},
+		{
+			"type": "item",
+			"item": "#itemc",
+			"framed": "true",
+			"x": 40,
+			"y": 120
+		},
+		{
+			"type": "item",
+			"item": "#itemd",
+			"framed": "true",
+			"x": 60,
+			"y": 120
+		},
+		{
+			"type": "item",
+			"item": "#iteme",
+			"framed": "true",
+			"x": 80,
+			"y": 120
+		},
+		{
+			"type": "item",
+			"item": "#itemf",
+			"framed": "true",
+			"x": 100,
+			"y": 120
+		}
+	]
+}

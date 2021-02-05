@@ -57,7 +57,7 @@
 
 [teleport]
 	#Teleport type, Acceptable entries: RANDOM_PLACE, DONT, STRUCTURES
-	teleportType = "RANDOM_PLACE"
+	teleportType = "STRUCTURES"
 	#Note: This a list of dimensions that angels should NOT teleport you to.
 	notAllowedDimensions = ["minecraft:the_end"]
 	#just teleport. no damage.
@@ -66,5 +66,5 @@
 	#Range: > 1
 	teleportRange = 450
 	#If this is enabled, angel teleporting can also tp the player to other dimensions
-	angelDimTeleport = true
+	angelDimTeleport = false
 

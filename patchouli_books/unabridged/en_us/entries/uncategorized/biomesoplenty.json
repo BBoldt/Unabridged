@@ -1,0 +1,44 @@
+{
+    "name": "Biomes O' Plenty",
+    "icon": "biomesoplenty:bop_icon",
+    "category": "exploration",
+    "pages": [
+        {
+            "type": "link",
+            "text": "A plethora of places to explore. Plants, flowers, trees, building blocks, and much more!",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty",
+			"link_text": "BOP CF"
+        },
+		{
+            "type": "spots",
+			"itema": "biomesoplenty:jacaranda_sapling",
+			"itema2": "biomesoplenty:origin_sapling",
+			"itema3": "biomesoplenty:flowering_oak_sapling",
+			"itema4": "biomesoplenty:rainbow_birch_sapling",
+			"itema5": "biomesoplenty:yellow_autumn_sapling",
+			"itema6": "biomesoplenty:orange_autumn_sapling",
+			"itema7": "biomesoplenty:maple_sapling",
+			"itemb2": "biomesoplenty:wildflower",
+			"itemb6": "biomesoplenty:lavender",
+			"itemb7": "biomesoplenty:willow_sapling",
+			"itemc": "biomesoplenty:glowshroom",
+			"itemc4": "biomesoplenty:mud_brick",
+			"itemc6": "biomesoplenty:violet",
+			"itemc7": "biomesoplenty:palm_sapling",
+			"itemd": "biomesoplenty:toadstool",
+			"itemd4": "biomesoplenty:music_disc_wanderer",
+			"itemd6": "biomesoplenty:pink_hibiscus",
+			"itemd7": "biomesoplenty:redwood_sapling",
+			"iteme2": "biomesoplenty:orange_cosmos",
+			"iteme6": "biomesoplenty:rose",
+			"iteme7": "biomesoplenty:fir_sapling",
+			"itemf": "biomesoplenty:hellbark_sapling",
+			"itemf2": "biomesoplenty:umbran_sapling",
+			"itemf3": "biomesoplenty:magic_sapling",
+			"itemf4": "biomesoplenty:dead_sapling",
+			"itemf5": "biomesoplenty:pink_cherry_sapling",
+			"itemf6": "biomesoplenty:white_cherry_sapling",
+			"itemf7": "biomesoplenty:mahogany_sapling"
+        }
+    ]
+}

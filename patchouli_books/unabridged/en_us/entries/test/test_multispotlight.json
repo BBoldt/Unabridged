@@ -1,0 +1,46 @@
+{ "name": "multispotlight",
+    "icon": "xercamusic:banjo",
+    "category": "test_category",
+    "pages": [
+        {
+            "type": "spotsandtextleft",
+			"item": "xercamusic:banjo",
+			"item2": "comforts:sleeping_bag_cyan",
+			"item3": "comforts:sleeping_bag_cyan",
+			"item4": "comforts:sleeping_bag_cyan",
+			"item5": "comforts:sleeping_bag_cyan",
+			"item6": "comforts:sleeping_bag_cyan",
+			"item7": "comforts:sleeping_bag_cyan",
+			"text": "blah blah blah blah this is an entry about this mod and all these items please look at them bruh"
+        },
+        {
+            "type": "spotsandtextright",
+			"item": "xercamusic:banjo",
+			"item2": "xercamusic:banjo",
+			"item3": "xercamusic:banjo",
+			"item5": "xercamusic:banjo",
+			"item6": "xercamusic:banjo",
+			"item7": "xercamusic:banjo",
+			"text": "these are also words please read them all, reading is good for your brain jelly"
+        },
+		{
+            "type": "spots",
+			"itema": "xercamusic:banjo",
+			"itema2": "comforts:sleeping_bag_cyan",
+			"itemb3": "xercamusic:banjo",
+			"itemc5": "xercamusic:banjo",
+			"iteme6": "xercamusic:banjo",
+			"itemf7": "xercamusic:banjo"
+        },
+		{
+            "type": "spotsandentity",
+			"entity": "autumnity:snail",
+			"itema": "minecraft:egg",
+			"itemb": "xercamusic:banjo",
+			"itemc": "xercamusic:banjo",
+			"itemd": "xercamusic:banjo",
+			"iteme": "xercamusic:banjo",
+			"itemf": "xercamusic:banjo"
+        }
+			]
+}

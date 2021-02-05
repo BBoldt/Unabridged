@@ -1,0 +1,24 @@
+{
+    "name": "Autumnity",
+    "icon": "autumnity:orange_maple_sapling",
+    "category": "exploration",
+    "pages": [
+        {
+            "type": "link",
+            "text": "The maple forest biome. A colorful forest stuck in perpetual autumn. Keep an eye out for the snails, friendly creatures that are quite useful.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/autumnity",
+			"link_text": "Autumnity CF"
+        },
+		{
+            "type": "spotsandentity",
+			"entity": "autumnity:snail",
+			"scale": "0.6",
+			"itema": "autumnity:maple_log",
+			"itemb": "autumnity:maple_sapling",
+			"itemc": "autumnity:yellow_maple_sapling",
+			"itemd": "autumnity:orange_maple_sapling",
+			"iteme": "autumnity:red_maple_sapling",
+			"itemf": "autumnity:snail_slime_block"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Applied Energistics 2",
+    "icon": "appliedenergistics2:controller",
+    "category": "tech",
+    "pages": [
+        {
+            "type": "link",
+            "text": "A storage mod that contains a large amount of new content, mostly centered around the concept of using energy, and the transformation of energy in a unique way. Most features relate, or are a part of the core mechanic: the ME Network",
+			"url": "https://ae-mod.info/",
+			"link_text": "AE2"
+        }]
+}

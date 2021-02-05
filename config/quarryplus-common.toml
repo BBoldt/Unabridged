@@ -25,6 +25,9 @@
 	QuarryRangeLimit = -1
 	#Spawner Controller Blacklist
 	spawnerBlacklist = ["minecraft:ender_dragon", "minecraft:wither", "minecraft:area_effect_cloud", "minecraft:item", "minecraft:player"]
+	#The amount of energy(FE) workbench receives in a tick.
+	#Range: > 0
+	WorkbenchTickBonus = 5
 
 	#Quarry PowerSetting [MJ] (min = 0, Max = 2,000,000,000 = 2 billion)
 	[common.PowerSetting]

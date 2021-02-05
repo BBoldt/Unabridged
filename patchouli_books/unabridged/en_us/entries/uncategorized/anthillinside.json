@@ -1,0 +1,12 @@
+{
+    "name": "Anthill Inside",
+    "icon": "minecraft:end_portal_frame",
+    "category": "gadgets",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Item transport and processing with the power of ANTS.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/anthill-inside",
+			"link_text": "Anthill Inside CF"
+        }]
+}

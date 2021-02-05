@@ -1,0 +1,12 @@
+{
+    "name": "ComputerCraft AP",
+    "icon": "minecraft:end_portal_frame",
+    "category": "tech",
+    "pages": [
+        {
+            "type": "link",
+            "text": "A mod that adds many useful extensions for ComputerCraft. With Advanced Peripherals you can control your base in Minecraft only with messages in the chat, you can develop an AI that controls your farms you have no limits what you can create!",
+			"url": "https://docs.srendi.de/",
+			"link_text": "Adv Peripherals Docs"
+        }]
+}

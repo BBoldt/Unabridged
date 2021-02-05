@@ -1,0 +1,12 @@
+{
+    "name": "Beacons For All",
+    "icon": "minecraft:end_portal_frame",
+    "category": "tweaks",
+    "pages": [
+        {
+            "type": "link",
+            "text": "A mod that allows beacons to affect more than just players.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/beacons-for-all",
+			"link_text": "Beacons CF"
+        }]
+}

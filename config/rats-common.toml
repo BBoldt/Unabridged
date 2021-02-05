@@ -146,4 +146,10 @@
 	#Flying Dutchrat Attack Damage
 	#Range: 0.0 ~ 3.4028234663852886E38
 	"Flying Dutchrat Automaton Attack Damage" = 10.0
+	#Every time this number of ticks passes, a plague doctor may spawn.
+	#Range: > 1
+	"Plague Doctor Spawn Delay" = 24000
+	#Random number roll for plague doctor spawning, increase to make them rarer.
+	#Range: > 1
+	"Plague Doctor Spawn Chance" = 10
 

@@ -1,0 +1,12 @@
+{
+    "name": "Can't Sleep",
+    "icon": "minecraft:paper",
+    "category": "tweaks",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Clowns Will Eat Me. Causes monsters that are preventing a player from being able to use a bed to be highlighted for several seconds when the player attempts to use a bed and fails due to the presence of those monsters.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/cant-sleep-clowns-will-eat-me",
+			"link_text": "Can't Sleep CF"
+        }]
+}

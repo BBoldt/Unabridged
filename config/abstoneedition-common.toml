@@ -1,0 +1,75 @@
+
+[blocks]
+	#if true, Marble Blocks are enabled
+	#Requires a world reload
+	#Allowed Values: true, false  Default: true
+	enableMarble = true
+	#if true, Black Marble Blocks are enabled
+	#Requires a world reload
+	#Allowed Values: true, false  Default: true
+	enableBlackMarble = true
+	#if true, Bloodstone Blocks are enabled
+	#Requires a world reload
+	#Allowed Values: true, false  Default: true
+	enableBloodstone = true
+	#if true, Stone Brick Block is enabled
+	#Requires a world reload
+	#Allowed Values: true, false  Default: true
+	enableStoneBrickBlock = true
+	#if true, Andesite Brick Blocks are enabled
+	#Requires a world reload
+	#Allowed Values: true, false  Default: true
+	enableAndesiteBricks = true
+	#if true, Diorite Brick Blocks are enabled
+	#Requires a world reload
+	#Allowed Values: true, false  Default: true
+	enableDioriteBricks = true
+	#if true, Granite Brick Blocks are enabled
+	#Requires a world reload
+	#Allowed Values: true, false  Default: true
+	enableGraniteBricks = true
+	#if true, Water Stone is enabled
+	#Requires a world reload
+	#Allowed Values: true, false  Default: true
+	enableWaterStone = true
+	#if true, Mud is enabled
+	#Requires a world reload
+	#Allowed Values: true, false  Default: true
+	enableMud = true
+	#if true, Brown Brick Blocks are enabled
+	#Requires a world reload
+	#Allowed Values: true, false  Default: true
+	enableBrownBricks = true
+	#if true, Volcanic Stone Blocks are enabled
+	#Requires a world reload
+	#Allowed Values: true, false  Default: true
+	enableVolcanicStone = true
+	#if true, Stone Path Blocks are enabled
+	#Requires a world reload
+	#Allowed Values: true, false  Default: true
+	enableStonePath = true
+	#if true, Stone Pattern is enabled
+	#Requires a world reload
+	#Allowed Values: true, false  Default: true
+	enableStonePattern = true
+	#if true, Limestone Blocks are enabled
+	#Requires a world reload
+	#Allowed Values: true, false  Default: true
+	enableLimestone = true
+	#if true, Asphalt is enabled
+	#Requires a world reload
+	#Allowed Values: true, false  Default: true
+	enableAsphalt = true
+	#if true, Pebble Blocks are enabled
+	#Requires a world reload
+	#Allowed Values: true, false  Default: true
+	enablePebbles = true
+	#if true, Charred Blocks are enabled
+	#Requires a world reload
+	#Allowed Values: true, false  Default: true
+	enableCharredBlocks = true
+	#if true, Gray Brick Blocks are enabled
+	#Requires a world reload
+	#Allowed Values: true, false  Default: true
+	enableGrayBricks = true
+

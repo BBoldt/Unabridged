@@ -1,0 +1,12 @@
+{
+    "name": "Citadel",
+    "icon": "minecraft:paper",
+    "category": "library",
+    "pages": [
+        {
+            "type": "link",
+            "text": "A Library mod required for advanced animations and entity properties",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/citadel",
+			"link_text": "Citadel CF"
+        }]
+}

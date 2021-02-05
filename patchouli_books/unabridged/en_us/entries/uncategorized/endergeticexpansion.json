@@ -1,0 +1,12 @@
+{
+    "name": "The Endergetic Expansion",
+    "icon": "minecraft:end_portal_frame",
+    "category": "exploration",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Improves on end content with new biomes with unique visuals and mechanics.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/endergetic",
+			"link_text": "Endergetic Expansion CF"
+        }]
+}

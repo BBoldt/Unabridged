@@ -1,0 +1,298 @@
+{
+	"components": [
+		{
+			"type": "item",
+			"item": "#itema",
+			"framed": "true",
+			"x": 0,
+			"y": 0
+		},
+		{
+			"type": "item",
+			"item": "#itema2",
+			"framed": "true",
+			"x": 0,
+			"y": 20
+		},
+		{
+			"type": "item",
+			"item": "#itema3",
+			"framed": "true",
+			"x": 0,
+			"y": 40
+		},
+		{
+			"type": "item",
+			"item": "#itema4",
+			"framed": "true",
+			"x": 0,
+			"y": 60
+		},
+		{
+			"type": "item",
+			"item": "#itema5",
+			"framed": "true",
+			"x": 0,
+			"y": 80
+		},
+		{
+			"type": "item",
+			"item": "#itema6",
+			"framed": "true",
+			"x": 0,
+			"y": 100
+		},
+		{
+			"type": "item",
+			"item": "#itema7",
+			"framed": "true",
+			"x": 0,
+			"y": 120
+		},
+		{
+			"type": "item",
+			"item": "#itemb",
+			"framed": "true",
+			"x": 20,
+			"y": 0
+		},
+		{
+			"type": "item",
+			"item": "#itemb2",
+			"framed": "true",
+			"x": 20,
+			"y": 20
+		},
+		{
+			"type": "item",
+			"item": "#itemb3",
+			"framed": "true",
+			"x": 20,
+			"y": 40
+		},
+		{
+			"type": "item",
+			"item": "#itemb4",
+			"framed": "true",
+			"x": 20,
+			"y": 60
+		},
+		{
+			"type": "item",
+			"item": "#itemb5",
+			"framed": "true",
+			"x": 20,
+			"y": 80
+		},
+		{
+			"type": "item",
+			"item": "#itemb6",
+			"framed": "true",
+			"x": 20,
+			"y": 100
+		},
+		{
+			"type": "item",
+			"item": "#itemb7",
+			"framed": "true",
+			"x": 20,
+			"y": 120
+		},
+		{
+			"type": "item",
+			"item": "#itemc",
+			"framed": "true",
+			"x": 40,
+			"y": 0
+		},
+		{
+			"type": "item",
+			"item": "#itemc2",
+			"framed": "true",
+			"x": 40,
+			"y": 20
+		},
+		{
+			"type": "item",
+			"item": "#itemc3",
+			"framed": "true",
+			"x": 40,
+			"y": 40
+		},
+		{
+			"type": "item",
+			"item": "#itemc4",
+			"framed": "true",
+			"x": 40,
+			"y": 60
+		},
+		{
+			"type": "item",
+			"item": "#itemc5",
+			"framed": "true",
+			"x": 40,
+			"y": 80
+		},
+		{
+			"type": "item",
+			"item": "#itemc6",
+			"framed": "true",
+			"x": 40,
+			"y": 100
+		},
+		{
+			"type": "item",
+			"item": "#itemc7",
+			"framed": "true",
+			"x": 40,
+			"y": 120
+		},
+		{
+			"type": "item",
+			"item": "#itemd",
+			"framed": "true",
+			"x": 60,
+			"y": 0
+		},
+		{
+			"type": "item",
+			"item": "#itemd2",
+			"framed": "true",
+			"x": 60,
+			"y": 20
+		},
+		{
+			"type": "item",
+			"item": "#itemd3",
+			"framed": "true",
+			"x": 60,
+			"y": 40
+		},
+		{
+			"type": "item",
+			"item": "#itemd4",
+			"framed": "true",
+			"x": 60,
+			"y": 60
+		},
+		{
+			"type": "item",
+			"item": "#itemd5",
+			"framed": "true",
+			"x": 60,
+			"y": 80
+		},
+		{
+			"type": "item",
+			"item": "#itemd6",
+			"framed": "true",
+			"x": 60,
+			"y": 100
+		},
+		{
+			"type": "item",
+			"item": "#itemd7",
+			"framed": "true",
+			"x": 60,
+			"y": 120
+		},
+		{
+			"type": "item",
+			"item": "#iteme",
+			"framed": "true",
+			"x": 80,
+			"y": 0
+		},
+		{
+			"type": "item",
+			"item": "#iteme2",
+			"framed": "true",
+			"x": 80,
+			"y": 20
+		},
+		{
+			"type": "item",
+			"item": "#iteme3",
+			"framed": "true",
+			"x": 80,
+			"y": 40
+		},
+		{
+			"type": "item",
+			"item": "#iteme4",
+			"framed": "true",
+			"x": 80,
+			"y": 60
+		},
+		{
+			"type": "item",
+			"item": "#iteme5",
+			"framed": "true",
+			"x": 80,
+			"y": 80
+		},
+		{
+			"type": "item",
+			"item": "#iteme6",
+			"framed": "true",
+			"x": 80,
+			"y": 100
+		},
+		{
+			"type": "item",
+			"item": "#iteme7",
+			"framed": "true",
+			"x": 80,
+			"y": 120
+		},
+		{
+			"type": "item",
+			"item": "#itemf",
+			"framed": "true",
+			"x": 100,
+			"y": 0
+		},
+		{
+			"type": "item",
+			"item": "#itemf2",
+			"framed": "true",
+			"x": 100,
+			"y": 20
+		},
+		{
+			"type": "item",
+			"item": "#itemf3",
+			"framed": "true",
+			"x": 100,
+			"y": 40
+		},
+		{
+			"type": "item",
+			"item": "#itemf4",
+			"framed": "true",
+			"x": 100,
+			"y": 60
+		},
+		{
+			"type": "item",
+			"item": "#itemf5",
+			"framed": "true",
+			"x": 100,
+			"y": 80
+		},
+		{
+			"type": "item",
+			"item": "#itemf6",
+			"framed": "true",
+			"x": 100,
+			"y": 100
+		},
+		{
+			"type": "item",
+			"item": "#itemf7",
+			"framed": "true",
+			"x": 100,
+			"y": 120
+		}
+	]
+}

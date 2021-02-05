@@ -1,0 +1,12 @@
+{
+    "name": "Additional Blocks: Stone",
+    "icon": "abstoneedition:bloodstone",
+    "category": "decoration",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Additional Blocks - Stone Edition adds new stone-themed blocks to your Minecraft world, as well as adding variants of already existing blocks, such as diorite bricks, granite bricks and andesite bricks. This mod is great for those who would like to add more detail to their stone castles, buildings and houses. The mod also contains industrial blocks such as asphalt and stone floor patterns.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/additional-blocks-stone-edition",
+			"link_text": "Additional Blocks CF"
+        }]
+}

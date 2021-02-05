@@ -1,0 +1,12 @@
+{
+    "name": "Bookshelf",
+    "icon": "minecraft:paper",
+    "category": "library",
+    "pages": [
+        {
+            "type": "link",
+            "text": "DarkhaxDev's Modding Library",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/bookshelf",
+			"link_text": "Bookshelf CF"
+        }]
+}

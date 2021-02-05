@@ -1,0 +1,12 @@
+{
+    "name": "Extended Lights",
+    "icon": "minecraft:end_portal_frame",
+    "category": "decoration",
+    "pages": [
+        {
+            "type": "link",
+            "text": "All sorts of new lamps bro!",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/extended-lights-mod",
+			"link_text": "Extended Lights CF"
+        }]
+}

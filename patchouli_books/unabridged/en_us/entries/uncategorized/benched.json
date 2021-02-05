@@ -1,0 +1,12 @@
+{
+    "name": "Benched",
+    "icon": "minecraft:end_portal_frame",
+    "category": "decoration",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Benched adds unique Picnic Benches! The picnic benches are 2x2 in size and you can sit on them simply by right-clicking them!",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/benched",
+			"link_text": "Benched CF"
+        }]
+}

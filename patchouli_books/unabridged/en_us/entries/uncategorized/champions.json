@@ -1,0 +1,12 @@
+{
+    "name": "Champions",
+    "icon": "minecraft:paper",
+    "category": "mobs",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Adds elite mobs of different rarities, with enhanced stats, extra abilities, and extra loot.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/champions",
+			"link_text": "Champions CF"
+        }]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Alex's Mobs",
+    "icon": "minecraft:end_portal_frame",
+    "category": "mobs",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Apply potions to weaponry!",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/alexs-mobs",
+			"link_text": "Alex's Mobs CF"
+        }]
+}

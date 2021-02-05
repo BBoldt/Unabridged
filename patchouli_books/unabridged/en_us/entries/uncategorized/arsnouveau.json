@@ -1,0 +1,12 @@
+{
+    "name": "Ars Nouveau",
+    "icon": "minecraft:end_portal_frame",
+    "category": "magic",
+    "pages": [
+        {
+            "type": "link",
+            "text": "A magic mod that allows players to craft their own spells, create magical artifacts and machine, and much more. This mod is a modern take on Ars Magicka.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/ars-nouveau",
+			"link_text": "Ars Nouveau CF"
+        }]
+}

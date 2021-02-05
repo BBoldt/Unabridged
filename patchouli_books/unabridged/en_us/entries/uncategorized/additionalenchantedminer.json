@@ -1,0 +1,12 @@
+{
+    "name": "Additional Enchanted Miner",
+    "icon": "quarryplus:quarry",
+    "category": "tech",
+    "pages": [
+        {
+            "type": "link",
+            "text": "This mod adds buildcraft quarries, advanced silk touch miners, pumps, and more.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/additional-enchanted-miner",
+			"link_text": "Quarry+ CF"
+        }]
+}

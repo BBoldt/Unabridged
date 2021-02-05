@@ -1,0 +1,12 @@
+{
+    "name": "Building Gadgets",
+    "icon": "minecraft:paper",
+    "category": "gadgets",
+    "pages": [
+        {
+            "type": "link",
+            "text": "For making 9x9 bases.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/building-gadgets",
+			"link_text": "Building Gadgets CF"
+        }]
+}

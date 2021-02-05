@@ -1,0 +1,12 @@
+{
+    "name": "Bedspreads",
+    "icon": "minecraft:end_portal_frame",
+    "category": "decoration",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Allows players to add banner patterns to their beds, kind of like what they can already do with shields. This is done simply by crafting a bed with the desired banner.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/bedspreads",
+			"link_text": "Bedspreads CF"
+        }]
+}

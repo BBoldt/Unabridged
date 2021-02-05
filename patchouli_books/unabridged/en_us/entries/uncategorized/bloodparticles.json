@@ -1,0 +1,12 @@
+{
+    "name": "Blood Particles",
+    "icon": "minecraft:end_portal_frame",
+    "category": "tweaks",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Adds mortal kombat style blood particles to mobs and players when hit. FATALITY",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/blood-particles",
+			"link_text": "Blood Particles CF"
+        }]
+}

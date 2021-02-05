@@ -1,0 +1,12 @@
+{
+    "name": "Attribute Fix",
+    "icon": "minecraft:end_portal_frame",
+    "category": "tweaks",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Increases cap on armor, health, and attack damage.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/attributefix",
+			"link_text": "Attribute Fix CF"
+        }]
+}

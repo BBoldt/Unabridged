@@ -1,0 +1,12 @@
+{
+    "name": "CraftTweaker",
+    "icon": "minecraft:paper",
+    "category": "tweaks",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Change recipes, script events, add new commands and even change item properties!",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/corpse-complex",
+			"link_text": "CraftTweaker CF"
+        }]
+}

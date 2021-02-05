@@ -1,0 +1,12 @@
+{
+    "name": "Artifacts",
+    "icon": "minecraft:end_portal_frame",
+    "category": "exploration",
+    "pages": [
+        {
+            "type": "link",
+            "text": "A mod which aims to make exploration more rewarding by adding various powerful items that cannot be crafted. The items added by this mod can be found in chests in vanilla structures. Additionally, a new underground campsite structure has been added. Mimics occasionally spawn in these campsites instead of a chests, which are dangerous enemies that attack players that get too close. Mimics always drop a random artifact when killed.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/artifacts",
+			"link_text": "Artifacts CF"
+        }]
+}

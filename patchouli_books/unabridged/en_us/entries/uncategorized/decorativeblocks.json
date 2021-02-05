@@ -1,0 +1,12 @@
+{
+    "name": "Decorative Blocks",
+    "icon": "minecraft:end_portal_frame",
+    "category": "decoration",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Medieval themed blocks and decorations.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/decorative-blocks",
+			"link_text": "Decorative Blocks CF"
+        }]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "AI Improvements",
+    "icon": "minecraft:zombie_head",
+    "category": "tweaks",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Simplified AI modification mod focused on performance and low-level modifications to AIs in the game. Picking up the slack for the base game and improving it for a modded ecosystem. Handling common problems such as too many animals, performance hits from swarms of zombies, and simple remove tasks skipped by larger AI improvement mods.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/ai-improvements",
+			"link_text": "AI Improvements CF"
+        }]
+}

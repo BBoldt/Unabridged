@@ -1,0 +1,12 @@
+{
+    "name": "Create",
+    "icon": "minecraft:paper",
+    "category": "tech",
+    "pages": [
+        {
+            "type": "link",
+            "text": " A variety of tools and blocks for Building, Decoration and Aesthetic Automation. Designed to leave as many design choices to the player as possible, where item processing doesn't happen inside a single block with funny textures, it requires a set of actors working together in many possible arrangements.",
+			"url": "https://github.com/Creators-of-Create/Create/wiki",
+			"link_text": "Create Wiki"
+        }]
+}

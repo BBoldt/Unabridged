@@ -1,0 +1,12 @@
+{
+    "name": "Better Mineshafts",
+    "icon": "minecraft:end_portal_frame",
+    "category": "exploration",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Completely revamps vanilla abandoned mineshafts, changing them from boring straight lines into dynamic, varied webs of tunnels. Find loot tucked away in the corners of abandoned workstations, or out in the open in a chest on a minecart.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/better-default-biomes",
+			"link_text": "Mineshafts CF"
+        }]
+}

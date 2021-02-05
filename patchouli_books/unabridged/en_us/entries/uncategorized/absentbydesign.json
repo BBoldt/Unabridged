@@ -1,0 +1,12 @@
+{
+    "name": "Absent by Design",
+    "icon": "absentbydesign:stairs_red_mushroom",
+    "category": "decoration",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Missing fences, walls, stairs, and slabs.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/absent-by-design",
+			"link_text": "Absent by Design CF"
+        }]
+}

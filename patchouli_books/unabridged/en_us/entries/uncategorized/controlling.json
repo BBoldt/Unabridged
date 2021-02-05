@@ -1,0 +1,12 @@
+{
+    "name": "Controlling",
+    "icon": "minecraft:glass",
+    "category": "tweaks",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Adds the ability to search for keybinds using their name in the KeyBinding menu, this allows players to easily find a key binding in the menu.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/controlling",
+			"link_text": "Controlling CF"
+        }]
+}

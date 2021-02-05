@@ -14,6 +14,7 @@ importantInfo = true
 [compat]
 	computercraft = true
 	crafttweaker = true
+	theoneprobe = true
 
 [debug]
 	#A config setting to enable debug features. These features may vary between releases, may cause crashes, and are unsupported. Do not enable unless asked to by a developer of IE.

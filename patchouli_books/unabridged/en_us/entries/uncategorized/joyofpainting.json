@@ -1,0 +1,12 @@
+{
+    "name": "Joy of Painting",
+    "icon": "minecraft:end_portal_frame",
+    "category": "decoration",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Canvases that you can hang up and paint. Afro not included.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/joy-of-painting",
+			"link_text": "Joy of Painting CF"
+        }]
+}

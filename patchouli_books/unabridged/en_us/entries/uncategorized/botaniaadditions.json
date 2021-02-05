@@ -1,0 +1,12 @@
+{
+    "name": "Botania Additions",
+    "icon": "minecraft:paper",
+    "category": "magic",
+    "pages": [
+        {
+            "type": "link",
+            "text": "This mod currently adds three items: the Terra Harvester, the Timeless Ivy and the Terra Bow.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/botania",
+			"link_text": "Botania Add CF"
+        }]
+}

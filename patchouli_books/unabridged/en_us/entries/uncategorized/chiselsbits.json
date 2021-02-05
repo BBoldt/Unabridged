@@ -1,0 +1,12 @@
+{
+    "name": "Chisels & Bits",
+    "icon": "minecraft:paper",
+    "category": "decoration",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Adds several chisels, a wrench and ways to copy designs and store bits. These tools enable you to create new custom decorative blocks and designs to decorate your bases and improve the flexibility of your building style.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/chisels-bits",
+			"link_text": "C&B CF"
+        }]
+}

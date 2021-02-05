@@ -14,7 +14,8 @@
 		#
 		# Spawn Resourceful Bees's various honeycomb variants in The Bumblezone
 		# at all kinds of heights and height bands. Start exploring to find 
-		# where they spawn! 
+		# where they spawn!
+		# 
 		# NOTE: Will require a restart of the world to take effect. 
 		#
 		spawnResourcefulBeesHoneycombVariants = true
@@ -58,6 +59,25 @@
 		#
 		#Range: 1 ~ 1001
 		RBGreatHoneycombRaritySpiderBeeDungeon = 2
+		# 
+		#-----------------------------------------------------
+		#
+		# Use Resourceful Bees's canSpawnInWorld config on their bee data
+		# to know what bees to spawn in Bumblezone. This will stack with
+		# RBBlacklistedBees config entry that Bumblezone uses.
+		# Bees blacklisted from either will not spawn and their combs will not spawn either.
+		# 
+		# NOTE: Will require a restart of the world to take effect. 
+		#
+		useSpawnInWorldConfigFromRB = false
+		# 
+		#-----------------------------------------------------
+		#
+		# Blacklist what Resourceful Bees bees should not spawn in Bumblezone. 
+		# Separate each entry with a comma. Example: "resourcefulbees:iron,resourcefulbees:coal"
+		# 
+		# Note: Blacklisted bees will automatically blacklist their respective combs from worldgen too.
+		RBBlacklistedBees = ""
 
 	["Mod Compatibility Options"."Productive Bees Options"]
 		# 
@@ -116,6 +136,17 @@
 		#
 		#Range: 1 ~ 1001
 		PBGreatHoneycombRaritySpiderBeeDungeon = 2
+		# 
+		#-----------------------------------------------------
+		#
+		# Blacklist what Productive Bees bees should not spawn in Bumblezone. 
+		# Separate each entry with a comma. Example: "productivebees:iron,productivebees:coal"
+		# 
+		# Note: this is only for the entities. To blacklist blocks as well,
+		# use a datapack to add blacklisted blocks to this tag:
+		# data/the_bumblezone/tags/blocks/blacklisted_productive_bees_combs.json
+		#
+		PBBlacklistedBees = ""
 
 	["Mod Compatibility Options"."Potion of Bees Options"]
 		# 

@@ -1,0 +1,12 @@
+{
+    "name": "AutoRegLib",
+    "icon": "minecraft:book",
+    "category": "library",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Used for Vazkii's mods.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/autoreglib",
+			"link_text": "AutoRegLib CF"
+        }]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Astral Sorcery",
+    "icon": "minecraft:end_portal_frame",
+    "category": "magic",
+    "pages": [
+        {
+            "type": "link",
+            "text": "A magic mod focused around harnessing the powers of starlight and the constellations. Explore and discover the world and the sky above you; focus starlight to your will, strengthening yourself or enhancing the world around you.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/astral-sorcery",
+			"link_text": "Astral Sorcery CF"
+        }]
+}

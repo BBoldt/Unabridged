@@ -4,3 +4,8 @@
 	#Disables the headache- and possibly seizure-inducing visual effects of Demon's Dream.
 	disableDemonsDreamShaders = false
 
+#Misc Settings
+[misc]
+	#Sync JEI search in storage actuator.
+	syncJeiSearch = false
+

@@ -1,0 +1,12 @@
+{
+    "name": "Bloom and Gloom",
+    "icon": "minecraft:end_portal_frame",
+    "category": "exploration",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Adds more flora to the overworld to make it feel lush.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/bloom-and-gloom",
+			"link_text": "Bloom and Gloom CF"
+        }]
+}

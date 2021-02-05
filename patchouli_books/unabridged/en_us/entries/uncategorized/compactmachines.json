@@ -1,0 +1,12 @@
+{
+    "name": "Compact Machines",
+    "icon": "minecraft:paper",
+    "category": "tech",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Allows you to build complicated machine contraptions and hide them within a single Compact Machine block.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/compact-machines",
+			"link_text": "Compact CF"
+        }]
+}

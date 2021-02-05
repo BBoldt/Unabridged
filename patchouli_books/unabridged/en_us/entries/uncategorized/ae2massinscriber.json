@@ -1,0 +1,12 @@
+{
+    "name": "Applied Energistics 2 MI",
+    "icon": "appliedenergistics2:inscriber",
+    "category": "tech",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Addon for AE2 that enables usage of a Capacity Card in the Inscriber, allowing the input slots to hold entire stacks rather than just one item at a time.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/mass-inscriber",
+			"link_text": "Mass Inscriber CF"
+        }]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Architect's Palette",
+    "icon": "minecraft:end_portal_frame",
+    "category": "decoration",
+    "pages": [
+        {
+            "type": "link",
+            "text": "A collection of blocks designed to bring new colors and textures to your builds. Aims to cover all sorts of uses and environments. Giant castle walls, a frozen wizard's tower, ruins in the end, a busy workshop, or even just a basement made of meat. Uses resources from all sorts of places; be sure to check with your local villagers!",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/architects-palette",
+			"link_text": "Architect's Palette CF"
+        }]
+}

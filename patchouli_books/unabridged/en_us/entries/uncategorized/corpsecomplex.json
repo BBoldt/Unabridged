@@ -1,0 +1,12 @@
+{
+    "name": "Corpse Complex",
+    "icon": "minecraft:glass",
+    "category": "tweaks",
+    "pages": [
+        {
+            "type": "link",
+            "text": "A variety of configuration options for the Minecraft death system. Options to control inventory loss, experience loss, hunger values, and respawn potion effects.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/corpse-complex",
+			"link_text": "Corpse Complex CF"
+        }]
+}

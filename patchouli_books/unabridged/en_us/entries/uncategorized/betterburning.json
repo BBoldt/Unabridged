@@ -1,0 +1,12 @@
+{
+    "name": "Better Burning",
+    "icon": "minecraft:end_portal_frame",
+    "category": "tweaks",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Tweaks the burning and fire mechanics of Minecraft in ways that improve the balance and immersion of the game.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/better-burning",
+			"link_text": "Burning CF"
+        }]
+}

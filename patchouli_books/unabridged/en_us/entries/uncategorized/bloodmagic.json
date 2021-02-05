@@ -1,0 +1,12 @@
+{
+    "name": "Blood Magic",
+    "icon": "minecraft:end_portal_frame",
+    "category": "magic",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Blood Magic is an arcane art that is practiced by mages who attempt to gather a vast amount of power through utilizing a forbidden material: blood. Even though it does grant a huge amount of power, every single action that is performed with this volatile magic can prove deadly. You have been warned.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/blood-magic",
+			"link_text": "Blood Magic CF"
+        }]
+}

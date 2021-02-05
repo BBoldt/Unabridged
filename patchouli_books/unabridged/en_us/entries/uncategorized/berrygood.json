@@ -1,0 +1,12 @@
+{
+    "name": "Berry Good",
+    "icon": "minecraft:end_portal_frame",
+    "category": "food_plants",
+    "pages": [
+        {
+            "type": "link",
+            "text": "New mechanics and recipes for minecraft berries.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/berry-good",
+			"link_text": "Berry Good CF"
+        }]
+}

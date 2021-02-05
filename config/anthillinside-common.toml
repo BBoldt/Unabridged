@@ -1,0 +1,36 @@
+
+#Settings affecting the logical server side.
+[server]
+
+	#Opt-out settings
+	[server.optout]
+		#Opt-out any block by its registry name ('*' wildcard matching, comma separated list, whitespaces ignored. You must match the whole name, means maybe add '*' also at the begin and end. Example: '*wood*,*steel*' excludes everything that has 'wood' or 'steel' in the registry name. The matching result is also traced in the log file. 
+		pattern_excludes = ""
+		#Prevent blocks from being opt'ed by registry name ('*' wildcard matching, comma separated list, whitespaces ignored. Evaluated before all other opt-out checks. You must match the whole name, means maybe add '*' also at the begin and end. Example: '*wood*,*steel*' includes everything that has 'wood' or 'steel' in the registry name.The matching result is also traced in the log file.
+		pattern_includes = ""
+
+	#Miscellaneous settings
+	[server.miscellaneous]
+		#Enables experimental features. Use at own risk.
+		with_experimental = false
+		#Enable detailed logging of the config values and resulting calculations in each mod feature config.
+		with_config_logging = false
+
+	#Tweak settings
+	[server.tweaks]
+		#Sets how fast the Red Ant Trail conveys items.
+		#Range: 50 ~ 125
+		trail_speed_percent = 100
+		#Sets how probable it is that a Red Ant Hive drops when manually mining Redstone Ore.
+		#Range: 1 ~ 20
+		hive_drop_chance_percent = 2
+		#Sets how fast the ant processing part of work process is (in percent).
+		#Range: 50 ~ 150
+		hive_processing_speed_percent = 100
+		#Sets how long the Red Sugar boost lasts (in seconds).
+		#Range: 1 ~ 60
+		hive_sugar_boost_time_s = 5
+		#Sets how long it takes (seconds, in average) to generate one new ant in a hive.
+		#Range: 60 ~ 600
+		hive_growth_period_s = 120
+

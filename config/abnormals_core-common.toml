@@ -4,7 +4,7 @@
 	#If Quark Sign Editing should be enabled; Default: True
 	quarkSignEditing = true
 	#If Quark Sign Editing requires an empty hand to edit; Default: False
-	signEditingRequiresEmptyHand = false
+	signEditingRequiresEmptyHand = true
 
 	#Compatibility with Quark's poisonous potatoes feature
 	[common.poisonousPotatoCompat]

@@ -1,0 +1,12 @@
+{
+    "name": "Comforts",
+    "icon": "minecraft:paper",
+    "category": "gadgets",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Adds sleeping bags and hammocks to Minecraft. These items can be used just like beds except they do not set a player's spawn point on use, safely preserving a player's spawn point at their home base.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/comforts",
+			"link_text": "Comforts CF"
+        }]
+}

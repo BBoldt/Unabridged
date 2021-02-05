@@ -1,0 +1,12 @@
+{
+    "name": "Botany Pots",
+    "icon": "minecraft:paper",
+    "category": "decoration",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Adds the Botany Pot which is a block that can grow all kinds of crops. The Botany Pot can be used for decoration, and to also make farming certain types of crops much easier.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/botany-pots",
+			"link_text": "Botany Pots CF"
+        }]
+}

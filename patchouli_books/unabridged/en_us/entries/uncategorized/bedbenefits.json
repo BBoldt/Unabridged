@@ -1,0 +1,12 @@
+{
+    "name": "Bed Benefits",
+    "icon": "minecraft:end_portal_frame",
+    "category": "tweaks",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Provides some additional benefits to sleeping.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/bed-benefits",
+			"link_text": "Bed Benefits CF"
+        }]
+}

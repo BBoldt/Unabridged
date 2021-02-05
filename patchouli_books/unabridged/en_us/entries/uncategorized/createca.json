@@ -1,0 +1,12 @@
+{
+    "name": "Create C&A",
+    "icon": "minecraft:paper",
+    "category": "tech",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Acts as a bridge between electricity and kinetic energy from Create by adding an Electric Motor which generates kinetic energy from Forge energy and an Alternator which does the opposite at 75% efficiency.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/createaddition",
+			"link_text": "CreateCA CF"
+        }]
+}

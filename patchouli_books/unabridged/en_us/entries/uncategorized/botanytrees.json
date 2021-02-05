@@ -1,0 +1,12 @@
+{
+    "name": "Botany Trees",
+    "icon": "minecraft:paper",
+    "category": "decoration",
+    "pages": [
+        {
+            "type": "link",
+            "text": "With this addon you will be able to grow trees from Vanilla and several other mods inside of the Botany Pot. This can be done for decoration or as a mini wood farm.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/botany-trees",
+			"link_text": "Botany Pots CF"
+        }]
+}

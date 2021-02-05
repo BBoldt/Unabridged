@@ -1,0 +1,12 @@
+{
+    "name": "Abnormals Core",
+    "icon": "minecraft:paper",
+    "category": "library",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Mod Library for Minecraft Abnormals mods.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/abnormals-core",
+			"link_text": "Abnormals Core CF"
+        }]
+}

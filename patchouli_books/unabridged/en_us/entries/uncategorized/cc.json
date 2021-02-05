@@ -1,0 +1,12 @@
+{
+    "name": "ComputerCraft Tweaked",
+    "icon": "minecraft:paper",
+    "category": "tech",
+    "pages": [
+        {
+            "type": "link",
+            "text": "CC: Tweaked is a fork of ComputerCraft, adding programmable computers, turtles and more to Minecraft.",
+			"url": "https://tweaked.cc/",
+			"link_text": "CC Tweaked Wiki"
+        }]
+}

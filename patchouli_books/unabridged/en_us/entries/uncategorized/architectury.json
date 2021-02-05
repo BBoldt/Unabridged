@@ -1,0 +1,12 @@
+{
+    "name": "Architectury API",
+    "icon": "minecraft:end_portal_frame",
+    "category": "library",
+    "pages": [
+        {
+            "type": "link",
+            "text": "An intermediary api aimed to ease developing multiplatform mods.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/architectury-forge",
+			"link_text": "Architectury"
+        }]
+}

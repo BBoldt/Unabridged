@@ -1,0 +1,12 @@
+{
+    "name": "Cat Jammies",
+    "icon": "minecraft:paper",
+    "category": "tweaks",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Makes cats jam to music played in nearby jukeboxes. (The more music there is the more jamming they do).",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/cat-jammies",
+			"link_text": "Cat Jammies CF"
+        }]
+}

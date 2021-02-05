@@ -78,7 +78,7 @@
 	#Allows teleportation to other dimensions [false/true|default:true]
 	teleport_dim = true
 	#Whether to cancel the Ghostly Shape effect on breaking a block or opening a chest [false/true|default:false]
-	nerf_ghostly_shape = false
+	nerf_ghostly_shape = true
 	#Beneficial effects that can't used by certain features such as ankh of pray, lollipop, scroll of preservation, alchemy perk and magic siphon enchantment
 	unhandled_beneficial_effects = ["tombstone:ghostly_shape", "tombstone:preservation", "tombstone:exorcism"]
 	#Harmful effects that can't used by certain features such as tablet of cupidity and the enchantment plague bringer

@@ -401,7 +401,7 @@ helper.creator.multiselect.button.hoversound.reset.btndesc = Will reset the hove
 helper.creator.add.playerentity = Player Entity
 
 helper.creator.items.playerentity.setscale = Set Scale
-helper.creator.items.playerentity.playername = Playerame
+helper.creator.items.playerentity.playername = Player Name
 helper.creator.items.playerentity.playername.auto = Auto
 helper.creator.items.playerentity.playername.setname = Set Name
 helper.creator.items.playerentity.skin = Set Skin

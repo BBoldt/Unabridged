@@ -1,0 +1,12 @@
+{
+    "name": "CoFH Core",
+    "icon": "minecraft:paper",
+    "category": "library",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Core for team CoFH mods.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/cofh-core",
+			"link_text": "CoFH Core CF"
+        }]
+}

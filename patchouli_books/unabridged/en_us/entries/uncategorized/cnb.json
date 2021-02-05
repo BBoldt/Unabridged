@@ -1,0 +1,12 @@
+{
+    "name": "Creatures & Beasts",
+    "icon": "minecraft:paper",
+    "category": "mobs",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Fills each biome with new mobs, from the oceans of the overworld to the void of the end. ",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/creatures-and-beasts",
+			"link_text": "CNB CF"
+        }]
+}

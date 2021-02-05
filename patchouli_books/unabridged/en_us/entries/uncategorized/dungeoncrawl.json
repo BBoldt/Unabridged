@@ -1,0 +1,40 @@
+{
+    "name": "Dungeon Crawl",
+    "icon": "minecraft:diamond_sword",
+    "category": "exploration",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Keep an eye out for towers that lead to deep underground maze corridors. With perils, traps, and treasures!",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/dungeon-crawl",
+			"link_text": "Dungeon Crawl CF"
+        },
+		{
+            "type": "spots",
+			"itema2": "minecraft:stone_brick_stairs",
+			"itemb3": "minecraft:cracked_stone_bricks",
+			"itemb4": "minecraft:cracked_stone_bricks",
+			"itemb5": "minecraft:cracked_stone_bricks",
+			"itemb6": "minecraft:cracked_stone_bricks",
+			"itemb7": "minecraft:cracked_stone_bricks",
+			"itemc2": "minecraft:stone_brick_stairs",
+			"itemc3": "minecraft:cracked_stone_bricks",
+			"itemc4": "minecraft:iron_bars",
+			"itemc5": "minecraft:iron_bars",
+			"itemc6": "minecraft:iron_bars",
+			"itemc7": "minecraft:cracked_stone_bricks",
+			"itemd2": "minecraft:stone_brick_stairs",
+			"itemd3": "minecraft:cracked_stone_bricks",
+			"itemd4": "minecraft:iron_bars",
+			"itemd5": "minecraft:iron_bars",
+			"itemd6": "minecraft:iron_bars",
+			"itemd7": "minecraft:cracked_stone_bricks",
+			"iteme3": "minecraft:cracked_stone_bricks",
+			"iteme4": "minecraft:cracked_stone_bricks",
+			"iteme5": "minecraft:cracked_stone_bricks",
+			"iteme6": "minecraft:cracked_stone_bricks",
+			"iteme7": "minecraft:cracked_stone_bricks",
+			"itemf2": "minecraft:stone_brick_stairs"
+        }
+    ]
+}

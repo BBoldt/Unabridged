@@ -1,0 +1,12 @@
+{
+    "name": "Additional Banners",
+    "icon": "minecraft:loom",
+    "category": "decoration",
+    "pages": [
+        {
+            "type": "link",
+            "text": "This mod adds a variety of banner patterns to the game. These patterns draw inspiration from various game mechanics and provide a great way for players to spice up their builds. All banner patterns in this mod are applied using the new Loom block. To select the pattern you must have the pattern item for the specific design you want to use. Most of the patterns in this mod can be crafted however some are exclusive trades from the wandering merchant.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/additional-banners",
+			"link_text": "Additional Banners CF"
+        }]
+}

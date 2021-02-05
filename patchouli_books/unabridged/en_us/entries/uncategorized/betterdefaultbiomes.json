@@ -1,0 +1,12 @@
+{
+    "name": "Better Default Biomes",
+    "icon": "minecraft:end_portal_frame",
+    "category": "exploration",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Enhancments to vanilla biomes with new mobs, arrows, foods, trees, advancements, and enchantments.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/better-default-biomes",
+			"link_text": "BD Biomes CF"
+        }]
+}

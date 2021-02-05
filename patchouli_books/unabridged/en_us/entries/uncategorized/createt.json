@@ -1,0 +1,12 @@
+{
+    "name": "CreateTweaker",
+    "icon": "minecraft:paper",
+    "category": "tweaks",
+    "pages": [
+        {
+            "type": "link",
+            "text": "CraftTweaker support for Create Machines",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/createtweaker",
+			"link_text": "CreateT CF"
+        }]
+}

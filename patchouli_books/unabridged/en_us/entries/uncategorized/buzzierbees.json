@@ -1,0 +1,12 @@
+{
+    "name": "Buzzier Bees",
+    "icon": "minecraft:end_portal_frame",
+    "category": "mobs",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Expands on all bee related content with blocks, items, flowers, mobs, and more.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/buzzier-bees",
+			"link_text": "Buzzier Bees CF"
+        }]
+}

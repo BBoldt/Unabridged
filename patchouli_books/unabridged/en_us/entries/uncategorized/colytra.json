@@ -1,0 +1,12 @@
+{
+    "name": "Colytra",
+    "icon": "minecraft:paper",
+    "category": "tweaks",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Adds the ability to attach an elytra to any chestplate you want, allowing you to reap the benefits of having an elytra without sacrificing the ability to wear your cool-looking armor.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/colytra",
+			"link_text": "Colytra CF"
+        }]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Better Badlands",
+    "icon": "minecraft:end_portal_frame",
+    "category": "exploration",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Better Badlands improves Minecraft’s badlands biome with a few new features like improved generation and new blocks.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/better-badlands",
+			"link_text": "Badlands CF"
+        }]
+}

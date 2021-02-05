@@ -1,0 +1,12 @@
+{
+    "name": "Builder's Crafts & Additions",
+    "icon": "minecraft:paper",
+    "category": "decoration",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Panels, Pillars, Storage & Furniture!",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/buildersaddition",
+			"link_text": "BCA CF"
+        }]
+}

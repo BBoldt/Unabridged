@@ -1,0 +1,12 @@
+{
+    "name": "Botania",
+    "icon": "minecraft:paper",
+    "category": "magic",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Botania is a tech mod in essence. The theme is natural magic, revolving around flora. Of course, it's not limited to that. Most of the info on Botania can be found in the Lexica Botania, the mod's ingame 'documentation book'. You can craft it with a book and any type of sapling.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/botania",
+			"link_text": "Botania CF"
+        }]
+}

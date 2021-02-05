@@ -1,0 +1,12 @@
+{
+    "name": "Ambient Environment",
+    "icon": "minecraft:end_portal_frame",
+    "category": "tweaks",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Adds ambient color noise to the biome colors of the game. This means that things like grass, water, and leaves will have very subtle differences in color based on where they are in the world. This noise helps the world seem more varied and alive. This is based on a similar feature from the Bedrock version of the game.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/ambient-environment",
+			"link_text": "Ambient Environment CF"
+        }]
+}

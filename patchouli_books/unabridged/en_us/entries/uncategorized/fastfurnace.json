@@ -1,0 +1,12 @@
+{
+    "name": "FastFurnace",
+    "icon": "minecraft:furnace",
+    "category": "tweaks",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Speeds up furnace calculations.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/fastfurnace",
+			"link_text": "FastFurnace CF"
+        }]
+}

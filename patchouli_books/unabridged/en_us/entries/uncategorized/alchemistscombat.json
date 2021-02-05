@@ -1,0 +1,12 @@
+{
+    "name": "Alchemist's Combat 2",
+    "icon": "minecraft:end_portal_frame",
+    "category": "gadgets",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Apply potions to weaponry!",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/alchemists-combat",
+			"link_text": "Alchemist's Combat CF"
+        }]
+}

@@ -1,0 +1,28 @@
+
+[Tweaks]
+	#Scales healing and instant damage inflicted by tipped arrows, like in Combat test snapshots.
+	#Default: true
+	"Arrow Instant Effect Nerf" = true
+	#Default: 0.25
+	#Range: 0.125 ~ 1.0
+	"Arrow Instant Effect Scaling" = 0.25
+	#Allows arrows fired from crossbows enchanted with Piercing to damage closed shulkers.
+	#Default: true
+	"Shulker Shell Piercing" = true
+	#Allows sponge blocks to reduce fall damage by 80%, like hay bales.
+	#Default: true
+	"Sponge Reduces Fall Damage" = true
+
+#Features related to log filtering.
+[Filtering]
+	#Default: true
+	Enabled = true
+	#Any lines containing the following text will be removed from the logs.
+	"Strings To Remove" = ["[net.minecraft.util.Util]: No data fixer registered for", "[net.minecraft.command.Commands]: Ambiguity between arguments"]
+	#Any lines matching the following regular expressions will be removed from the logs.
+	#Default: [\[net\.minecraftforge\.common\.ForgeConfigSpec\/CORE\]: Configuration file .* is not correct. Correcting, \[net\.minecraftforge\.common\.ForgeConfigSpec\/CORE\]: Incorrect key .* was corrected from .* to .*]
+	"Patterns To Remove" = ["\\[net\\.minecraftforge\\.common\\.ForgeConfigSpec\\/CORE\\]: Configuration file .* is not correct. Correcting", "\\[net\\.minecraftforge\\.common\\.ForgeConfigSpec\\/CORE\\]: Incorrect key .* was corrected from .* to .*"]
+	#Stack traces from the following exceptions will be truncated, leaving only the message.
+	#Default: [com.google.gson.JsonSyntaxException]
+	"Exceptions To Truncate" = ["com.google.gson.JsonSyntaxException"]
+

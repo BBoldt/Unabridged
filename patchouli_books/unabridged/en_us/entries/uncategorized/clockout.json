@@ -1,0 +1,12 @@
+{
+    "name": "Clockout",
+    "icon": "minecraft:paper",
+    "category": "gadgets",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Adds a block that emits redstone while the player who placed it is logged in.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/clockout",
+			"link_text": "Clockout CF"
+        }]
+}

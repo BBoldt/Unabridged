@@ -1,0 +1,24 @@
+{
+    "name": "Atmospheric",
+    "icon": "atmospheric:rosewood_sapling",
+    "category": "exploration",
+    "pages": [
+        {
+			"type": "link",
+			"text": "Atmospheric is a series of a unique biomes. There are currently two sets of biomes, Rainforests, and Dunes, both of which have many sub-variants to be found, and are plentiful in offering new rewards.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/atmospheric",
+			"link_text": "Atmospheric CF"
+		},
+		{
+            "type": "spotsandtextright",
+			"item": "atmospheric:rosewood_sapling",
+			"item2": "atmospheric:passionfruit",
+			"item3": "atmospheric:passion_vine_coil",
+			"item4": "atmospheric:rosewood_ladder",
+			"item5": "atmospheric:aloe_leaves",
+			"item6": "atmospheric:aloe_gel_bottle",
+			"item7": "atmospheric:rosewood_log",
+			"text": "Some new locales. The rosewood forest, forest plateau, plateau and mountains. Each one is lush and covered with patches of flowers, with podzol patches and mossy boulders. Rosewood biomes are mostly covered by a canopy of rosewood trees, other than the plateau, making them somewhat dangerous but beautiful, and the perfect place to build a tree village."
+        }
+    ]
+}

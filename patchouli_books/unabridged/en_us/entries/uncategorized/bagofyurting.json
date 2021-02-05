@@ -1,0 +1,12 @@
+{
+    "name": "Bag of Yurting",
+    "icon": "minecraft:end_portal_frame",
+    "category": "gadgets",
+    "pages": [
+        {
+            "type": "link",
+            "text": "The Bag of Yurting is a powerful, versatile, dyeable, upgradeable, all-purpose yurt storage tool.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/bag-of-yurting",
+			"link_text": "Yurt Bag CF"
+        }]
+}

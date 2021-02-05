@@ -1,0 +1,12 @@
+{
+    "name": "BML",
+    "icon": "minecraft:paper",
+    "category": "library",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Black_dogs's Modding Library",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/bml",
+			"link_text": "BML CF"
+        }]
+}

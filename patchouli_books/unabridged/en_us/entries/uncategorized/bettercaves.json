@@ -1,0 +1,12 @@
+{
+    "name": "Better Caves",
+    "icon": "minecraft:end_portal_frame",
+    "category": "exploration",
+    "pages": [
+        {
+            "type": "link",
+            "text": "YUNG's Better Caves completely overhauls Minecraft's cave systems. Caves are small and unassuming at the surface, but the deeper you go, the crazier things get. You'll find lava caverns, underground lakes and rivers, flooded caverns, and more!",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-caves",
+			"link_text": "Caves CF"
+        }]
+}

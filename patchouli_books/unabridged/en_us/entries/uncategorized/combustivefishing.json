@@ -1,0 +1,12 @@
+{
+    "name": "Combustive Fishing",
+    "icon": "minecraft:paper",
+    "category": "gadgets",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Adds a few items and features that allow you to fish in lava.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/combustive-fishing",
+			"link_text": "Combustive CF"
+        }]
+}

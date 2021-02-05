@@ -1,0 +1,12 @@
+{
+    "name": "Culinary Construct",
+    "icon": "minecraft:paper",
+    "category": "food_plants",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Make custom sandwiches or bowls/stews out of any food items you have lying around. That's right, any of them!",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/culinary-construct",
+			"link_text": "Culinary CF"
+        }]
+}

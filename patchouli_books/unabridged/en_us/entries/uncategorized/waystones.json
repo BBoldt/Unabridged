@@ -1,0 +1,12 @@
+{
+    "name": "Waystones",
+    "icon": "minecraft:end_portal_frame",
+    "category": "exploration",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Waystones that can be teleported to after being activated.",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/waystones",
+			"link_text": "Waystones CF"
+        }]
+}

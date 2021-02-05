@@ -1,0 +1,12 @@
+{
+    "name": "Connected Glass",
+    "icon": "minecraft:glass",
+    "category": "decoration",
+    "pages": [
+        {
+            "type": "link",
+            "text": "Connected Glass adds new types of glass with connecting textures! This includes regular, clear and the old glass textures!",
+			"url": "https://www.curseforge.com/minecraft/mc-mods/connected-glass",
+			"link_text": "C Glass CF"
+        }]
+}

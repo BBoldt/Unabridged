@@ -391,6 +391,7 @@
 	"Springy Slime" = true
 	"Utility Recipes" = true
 	"Villagers Follow Emeralds" = true
+	"Lava Bucket As Trash" = true
 
 	[tweaks.skull_pikes]
 		"Pike Range" = 5.0
@@ -2103,10 +2104,10 @@
 		"Nerf Villager Discount" = true
 		#
 		#Makes Iron Golems not drop Iron Ingots
-		"Disable Iron Farms" = true
+		"Disable Iron Farms" = false
 		#
 		#Makes Boats not glide on ice
-		"Disable Ice Roads" = true
+		"Disable Ice Roads" = false
 		#
 		#Makes Sheep not drop Wool when killed
 		"Disable Wool Drops" = true
