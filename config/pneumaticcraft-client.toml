@@ -40,6 +40,8 @@
 	path_update_setting = "NORMAL"
 	#True: show pressure as numbers.  False: show pressure as horizontal bar.
 	show_pressure_numerically = true
+	#Should enchantment glint be shown on Pneumatic Armor pieces? Disable if you don't like the enchantment glint messing up your carefully chosen colour scheme...
+	show_enchant_glint = true
 
 [sound]
 	#Volume level of the Elevator while running

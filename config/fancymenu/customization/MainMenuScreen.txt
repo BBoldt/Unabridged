@@ -6,8 +6,8 @@ customization-meta {
 }
 
 customization {
-  path = resources/fancymenu/scrn/01.png
-  action = texturizebackground
+  name = myslideshow
+  action = setbackgroundslideshow
 }
 
 customization {
@@ -231,24 +231,14 @@ customization {
 }
 
 customization {
-  path = resources/fancymenu/textures/gui/unabridged_flare.png
-  orientation = top-centered
-  x = -240
-  width = 483
-  action = addtexture
-  y = 17
-  height = 232
-}
-
-customization {
   orientation = top-centered
   shadow = false
   centered = false
-  x = -6
+  x = -24
   action = addtext
-  y = 114
+  y = 19
   scale = 1.0
-  value = 6.0
+  value = 6.0.4 BETA
 }
 
 customization {
@@ -304,5 +294,18 @@ customization {
   action = addtexture
   y = 20
   height = 100
+}
+
+customization {
+  showname = true
+  orientation = bottom-centered
+  crouching = false
+  x = 0
+  slim = false
+  action = addentity
+  y = -47
+  scale = 50
+  playername = %playername%
+  parrot = false
 }
 

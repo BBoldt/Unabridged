@@ -39,7 +39,7 @@
 
 	[worldgen.marble]
 		#Set this to false to disable this worldgen feature.
-		enabled = true
+		enabled = false
 		#Set this to true to let this feature generate in any biome.
 		everyBiome = true
 		#Set this to true to let this feature generate in any world. (Does NOT work for structures!)

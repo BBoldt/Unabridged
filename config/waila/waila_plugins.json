@@ -2,8 +2,8 @@
   "minecraft": {
     "crop_progress": true,
     "comparator": true,
-    "hide_infestations": true,
     "display_furnace_contents": true,
+    "hide_infestations": true,
     "jukebox": true,
     "lever": true,
     "spawner_type": true,
@@ -20,10 +20,11 @@
   "jade": {
     "horse_inventory": true,
     "total_ench_power": true,
+    "show_entity_armor": true,
     "chicken_egg": true,
     "horse_stat": true,
-    "misc_entity": true,
     "brewing_stand": true,
+    "misc_entity": true,
     "note_block": true,
     "inventory": true,
     "beehive": true,
@@ -32,6 +33,7 @@
     "hide_mod_name": false,
     "armor_stand": true,
     "profession": true,
+    "item_tooltip": true,
     "hide_item_mod_name": false,
     "breaking_progress": true,
     "tnt_stability": true,
@@ -46,8 +48,8 @@
   },
   "waila": {
     "show_registry": false,
-    "show_entity_hp": true,
     "show_states": false,
+    "show_entity_hp": true,
     "show_entities": true
   },
   "fruittrees": {

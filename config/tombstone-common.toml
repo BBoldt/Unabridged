@@ -163,12 +163,15 @@
 	restrict_shadow_step_to_player = true
 	#The wearer is also affected by the effect if his alignment is not bad [false/true|default:true]
 	nerf_plague_bringer = true
-	#Maximum duration of stolen effects in minutes [1..MAX|default:1440]
+	#Maximum duration of stolen effects in minutes [1..MAX|default:60]
 	#Range: > 1
 	max_duration_magic_siphon = 1440
 	#Duration of applied effects in seconds [1..MAX|default:10]
 	#Range: > 1
 	duration_plague_bringer = 10
+	#Defines if players can steal effects to others players. If nerfed, the stolen effect duration is limited to 10% of the initial effect [ALLOW/NERFED/DISALLOW|default:ALLOW]
+	#Allowed Values: ALLOW, NERFED, DISALLOW
+	magic_siphon_on_player_rule = "ALLOW"
 
 #Options related to the command recovery and auto-save of players
 [recovery]

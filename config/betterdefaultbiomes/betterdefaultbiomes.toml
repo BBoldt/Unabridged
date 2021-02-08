@@ -24,8 +24,8 @@
 
 		[World.Generation.Plants]
 			Feather_Reed_Grass = true
-			Dead_Grass = true
-			Short_Grass = true
+			Dead_Grass = false
+			Short_Grass = false
 			Dune_Grass = true
 			Tall_Water_Reeds = true
 
@@ -76,7 +76,7 @@
 	[Mobs.Hunter]
 		#Spawn weight for the Hunter. (Default: 90)
 		#Range: 0 ~ 10000
-		weight = 90
+		weight = 10
 		#Minimum amount of Hunters to spawn in a group. (Default: 1)
 		min_group = 1
 		#Maximum amount of Hunters to spawn in a group. (Default: 3)
@@ -95,7 +95,7 @@
 			head_hunter = true
 			#Spawn weight for the Head Hunter. (Default: 10)
 			#Range: 0 ~ 10000
-			weight = 10
+			weight = 1
 
 			#This is the interval between shots.
 			[Mobs.Hunter.Head_Hunter.Firing_Speed]
@@ -109,7 +109,7 @@
 	[Mobs.Jungle_Creeper]
 		#Spawn weight for the Jungle Creeper. (Default: 90)
 		#Range: 0 ~ 10000
-		weight = 90
+		weight = 10
 		#Minimum amount of Jungle Creepers to spawn in a group. (Default: 1)
 		min_group = 1
 		#Maximum amount of Jungle Creepers to spawn in a group. (Default: 3)
@@ -137,7 +137,7 @@
 	[Mobs.Desert_Bandit]
 		#Spawn weight for the Desert Bandits. (Default: 90)
 		#Range: 0 ~ 10000
-		weight = 90
+		weight = 25
 		#Spawn Biomes/BiomeCategories where the Desert Bandits will spawn.
 		#To add Biomes or Categories:
 		#["Category 1", "Category 2", "Biome 1", "Biome 2", etc...]

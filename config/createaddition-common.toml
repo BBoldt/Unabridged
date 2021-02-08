@@ -47,3 +47,20 @@
 	#Range: 0 ~ 1024
 	rolling_mill_stress = 16
 
+#Heater
+[heater]
+	#Induction Heater max input in FE (Energy transfer not consumption).
+	#Range: > 0
+	heater_max_input = 8192
+	#Induction Heater internal capacity in FE.
+	#Range: > 0
+	heater_capacity = 16000
+	#Induction Heater normal consumption rate in FE/t.
+	#Range: > 0
+	heater_normal_consumption = 30
+	#Induction Heater when attached to a Furnace Engine consumption rate in FE/t.
+	#Range: > 0
+	heater_furnace_engine_consumption = 400
+	#Enable Induction Heater when attached to a Furnace Engine.
+	heater_furnace_engine_enable = false
+
