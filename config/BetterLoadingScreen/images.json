@@ -1,0 +1,101 @@
+[
+  {
+    "resourceLocation": "textures/gui/title/UnabridgedLoadingdark.png",
+    "positionType": "CENTER",
+    "type": "STATIC",
+    "texture": {
+      "x": 0,
+      "y": 0,
+      "width": 256,
+      "height": 256
+    },
+    "position": {
+      "x": 0,
+      "y": 10,
+      "width": 256,
+      "height": 256
+    },
+    "comment": "None"
+  },
+  {
+    "resourceLocation": "textures/font/ascii.png",
+    "positionType": "CENTER",
+    "type": "DYNAMIC_TEXT_STATUS",
+    "position": {
+      "x": 0,
+      "y": -30,
+      "width": 0,
+      "height": 0
+    },
+    "colour": "63dfb9",
+    "comment": ""
+  },
+  {
+    "resourceLocation": "textures/font/ascii.png",
+    "positionType": "CENTER",
+    "type": "DYNAMIC_TEXT_PERCENTAGE",
+    "position": {
+      "x": 0,
+      "y": -40,
+      "width": 0,
+      "height": 0
+    },
+    "colour": "63dfb9",
+    "comment": ""
+  },
+  {
+    "resourceLocation": "betterloadingscreen:textures/progressBarsUnabridged.png",
+    "positionType": "CENTER",
+    "type": "STATIC",
+    "texture": {
+      "x": 0,
+      "y": 50,
+      "width": 182,
+      "height": 5
+    },
+    "position": {
+      "x": 0,
+      "y": -50,
+      "width": 182,
+      "height": 5
+    },
+    "comment": "None"
+  },
+  {
+    "resourceLocation": "betterloadingscreen:textures/progressBarsUnabridged.png",
+    "positionType": "CENTER",
+    "type": "DYNAMIC_PERCENTAGE",
+    "texture": {
+      "x": 0,
+      "y": 55,
+      "width": 182,
+      "height": 5
+    },
+    "position": {
+      "x": 0,
+      "y": -50,
+      "width": 182,
+      "height": 5
+    },
+    "comment": "None"
+  },
+  {
+    "type": "CLEAR_COLOUR",
+    "colour": "1a1a1a",
+    "comment": ""
+  },
+  {
+    "resourceLocation": "textures/font/ascii.png",
+    "positionType": "BOTTOM_CENTER",
+    "type": "STATIC_TEXT",
+    "position": {
+      "x": 0,
+      "y": 10,
+      "width": 0,
+      "height": 0
+    },
+    "colour": "63dfb9",
+    "text": "Use code 'bboldt' on Bisect Hosting for a a discount on a new server! ~ 2023 ~",
+    "comment": "Text at the bottom of the screen"
+  }
+]

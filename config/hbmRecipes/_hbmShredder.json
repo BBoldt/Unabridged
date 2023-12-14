@@ -1,0 +1,1917 @@
+{
+  "comment": "Ingot/block/ore -> dust recipes are generated in post and can therefore not be changed with the config. Non-auto recipes do not use ore dict.",
+  "recipes": [
+    {
+      "input": ["hbm:item.crystal_fluorite"],
+      "output": ["hbm:item.fluorite",8]
+    },
+    {
+      "input": ["hbm:tile.bobblehead",1,1],
+      "output": ["hbm:item.scrap_plastic",1,8]
+    },
+    {
+      "input": ["Forestry:planks",1,32767],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["dendrology:cedrum_planks",1,32767],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["ExtraTrees:log",1,17],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:item.ore_cleaned"],
+      "output": ["hbm:item.ore_enriched"]
+    },
+    {
+      "input": ["minecraft:apple"],
+      "output": ["minecraft:sugar"]
+    },
+    {
+      "input": ["hbm:tile.ore_rare"],
+      "output": ["hbm:item.powder_desh_mix"]
+    },
+    {
+      "input": ["hbm:tile.steel_grate"],
+      "output": ["hbm:item.powder_steel_tiny",3]
+    },
+    {
+      "input": ["minecraft:log2",1,32767],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,16],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["minecraft:clay"],
+      "output": ["minecraft:clay_ball",4]
+    },
+    {
+      "input": ["hbm:item.ore_separated",1,4],
+      "output": ["hbm:item.ore_enriched",1,4]
+    },
+    {
+      "input": ["minecraft:anvil"],
+      "output": ["hbm:item.powder_iron",31]
+    },
+    {
+      "input": ["hbm:item.crystal_phosphorus"],
+      "output": ["hbm:item.powder_fire",8]
+    },
+    {
+      "input": ["hbm:tile.meteor_polished"],
+      "output": ["hbm:item.powder_meteorite"]
+    },
+    {
+      "input": ["minecraft:dirt"],
+      "output": ["hbm:item.dust"]
+    },
+    {
+      "input": ["hbm:tile.sellafield"],
+      "output": ["hbm:item.scrap_nuclear"]
+    },
+    {
+      "input": ["ExtraUtilities:colorWoodPlanks",1,7],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:tile.bobblehead",1,2],
+      "output": ["hbm:item.scrap_plastic",1,2]
+    },
+    {
+      "input": ["hbm:tile.deco_pipe_rim_rusted"],
+      "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["dendrology:logs3",1,32767],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:item.crystal_niter"],
+      "output": ["hbm:item.niter",8]
+    },
+    {
+      "input": ["hbm:tile.stone_cracked"],
+      "output": ["hbm:item.scrap_oil"]
+    },
+    {
+      "input": ["ExtraTrees:log",1,16],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,15],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:tile.sand_dirty"],
+      "output": ["hbm:item.scrap_oil"]
+    },
+    {
+      "input": ["hbm:item.ore_separated",1,3],
+      "output": ["hbm:item.ore_enriched",1,3]
+    },
+    {
+      "input": ["hbm:item.coil_copper"],
+      "output": ["hbm:item.powder_red_copper"]
+    },
+    {
+      "input": ["hbm:item.dust"],
+      "output": ["hbm:item.dust"]
+    },
+    {
+      "input": ["ExtraTrees:log",1,15],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:item.crystal_schraranium"],
+      "output": ["hbm:item.nugget_schrabidium",3]
+    },
+    {
+      "input": ["hbm:tile.pole_top"],
+      "output": ["hbm:item.powder_tungsten",4]
+    },
+    {
+      "input": ["GalaxySpace:barnardacblocks",1,4],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["dendrology:nucis_planks",1,32767],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:item.scrap"],
+      "output": ["hbm:item.dust"]
+    },
+    {
+      "input": ["ExtraUtilities:colorWoodPlanks",1,8],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:tile.brick_concrete_mossy"],
+      "output": ["minecraft:gravel"]
+    },
+    {
+      "input": ["hbm:item.crystal_titanium"],
+      "output": ["hbm:item.powder_titanium",3]
+    },
+    {
+      "input": ["hbm:tile.bobblehead",1,3],
+      "output": ["hbm:item.scrap_plastic",1,3]
+    },
+    {
+      "input": ["hbm:item.debris_element"],
+      "output": ["hbm:item.scrap_nuclear",4]
+    },
+    {
+      "input": ["minecraft:skull",1,3],
+      "output": ["hbm:item.biomass",4]
+    },
+    {
+      "input": ["hbm:tile.block_schrabidate"],
+      "output": ["hbm:item.powder_schrabidate",9]
+    },
+    {
+      "input": ["etfuturum:log_stripped",1,1],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,18],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["minecraft:quartz_block"],
+      "output": ["hbm:item.powder_quartz",4]
+    },
+    {
+      "input": ["hbm:item.ore_separated",1,2],
+      "output": ["hbm:item.ore_enriched",1,2]
+    },
+    {
+      "input": ["etfuturum:log_stripped",1,2],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["ExtraTrees:log",1,14],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["dendrology:acemus_planks",1,32767],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["dendrology:salyx_planks",1,32767],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["ExtraUtilities:colorWoodPlanks",1,9],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:tile.crate_tungsten"],
+      "output": ["hbm:item.powder_tungsten",36]
+    },
+    {
+      "input": ["minecraft:skull",1,4],
+      "output": ["hbm:item.biomass",4]
+    },
+    {
+      "input": ["hbm:item.crystal_trixite"],
+      "output": ["hbm:item.powder_plutonium",6]
+    },
+    {
+      "input": ["dendrology:kiparis_planks",1,32767],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:tile.bobblehead",1,4],
+      "output": ["hbm:item.scrap_plastic",1,4]
+    },
+    {
+      "input": ["MineFactoryReloaded:rubberwood.sapling"],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,17],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:item.ore_separated",1,1],
+      "output": ["hbm:item.ore_enriched",1,1]
+    },
+    {
+      "input": ["Forestry:logs",1,32767],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["ExtraUtilities:colorWoodPlanks",1,10],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["etfuturum:log_stripped",1,3],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["ExtraTrees:log",1,13],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,12],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:item.ore_cleaned",1,4],
+      "output": ["hbm:item.ore_enriched",1,4]
+    },
+    {
+      "input": ["hbm:item.crystal_iron"],
+      "output": ["hbm:item.powder_iron",3]
+    },
+    {
+      "input": ["ExtraTrees:log",1,21],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["GalaxySpace:barnardaclog"],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:item.ore_separated"],
+      "output": ["hbm:item.ore_enriched"]
+    },
+    {
+      "input": ["hbm:item.fragment_actinium"],
+      "output": ["hbm:item.powder_actinium_tiny"]
+    },
+    {
+      "input": ["minecraft:quartz_block",1,2],
+      "output": ["hbm:item.powder_quartz",4]
+    },
+    {
+      "input": ["hbm:tile.deco_pipe_quad"],
+      "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["ExtraUtilities:colorWoodPlanks",1,3],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["witchery:witchsapling",1,32767],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,11],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["dendrology:logs1",1,32767],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["etfuturum:log_stripped"],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["minecraft:quartz_stairs"],
+      "output": ["hbm:item.powder_quartz",3]
+    },
+    {
+      "input": ["ExtraTrees:log",1,20],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:item.ore_cleaned",1,3],
+      "output": ["hbm:item.ore_enriched",1,3]
+    },
+    {
+      "input": ["hbm:item.debris_graphite"],
+      "output": ["hbm:item.powder_coal"]
+    },
+    {
+      "input": ["minecraft:quartz_block",1,1],
+      "output": ["hbm:item.powder_quartz",4]
+    },
+    {
+      "input": ["hbm:item.coil_advanced_torus"],
+      "output": ["hbm:item.powder_advanced_alloy",2]
+    },
+    {
+      "input": ["ExtraUtilities:colorWoodPlanks",1,4],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:item.crystal_aluminium"],
+      "output": ["hbm:item.powder_aluminium",3]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,14],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["Forestry:saplingGE",1,32767],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["minecraft:stained_hardened_clay",1,15],
+      "output": ["minecraft:clay_ball",4]
+    },
+    {
+      "input": ["hbm:tile.deco_pipe_framed"],
+      "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["ExtraTrees:log",1,19],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:item.crystal_redstone"],
+      "output": ["minecraft:redstone",8]
+    },
+    {
+      "input": ["hbm:item.fragment_niobium"],
+      "output": ["hbm:item.powder_niobium_tiny"]
+    },
+    {
+      "input": ["hbm:tile.deco_pipe"],
+      "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["hbm:item.ore_cleaned",1,2],
+      "output": ["hbm:item.ore_enriched",1,2]
+    },
+    {
+      "input": ["ExtraUtilities:colorWoodPlanks",1,5],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:tile.deco_pipe_framed_rusted"],
+      "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["hbm:tile.gas_duct"],
+      "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,13],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:tile.bobblehead"],
+      "output": ["hbm:item.scrap_plastic"]
+    },
+    {
+      "input": ["hbm:item.fragment_boron"],
+      "output": ["hbm:item.powder_boron_tiny"]
+    },
+    {
+      "input": ["dendrology:logs2",1,32767],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["minecraft:stained_hardened_clay",1,14],
+      "output": ["minecraft:clay_ball",4]
+    },
+    {
+      "input": ["ExtraTrees:log",1,18],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:item.crystal_gold"],
+      "output": ["hbm:item.powder_gold",3]
+    },
+    {
+      "input": ["hbm:item.ore_cleaned",1,1],
+      "output": ["hbm:item.ore_enriched",1,1]
+    },
+    {
+      "input": ["hbm:item.arc_electrode_desh"],
+      "output": ["hbm:item.powder_desh",2]
+    },
+    {
+      "input": ["hbm:item.crystal_lead"],
+      "output": ["hbm:item.powder_lead",3]
+    },
+    {
+      "input": ["ExtraUtilities:colorWoodPlanks",1,6],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["minecraft:quartz_ore"],
+      "output": ["hbm:item.powder_quartz",2]
+    },
+    {
+      "input": ["hbm:tile.deco_pipe_quad_rusted"],
+      "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,8],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:tile.ore_tektite_osmiridium"],
+      "output": ["hbm:item.powder_tektite"]
+    },
+    {
+      "input": ["hbm:item.crystal_coal"],
+      "output": ["hbm:item.powder_coal",3]
+    },
+    {
+      "input": ["minecraft:stained_hardened_clay",1,13],
+      "output": ["minecraft:clay_ball",4]
+    },
+    {
+      "input": ["hbm:item.ore_centrifuged",1,3],
+      "output": ["hbm:item.ore_enriched",1,3]
+    },
+    {
+      "input": ["hbm:item.ore_bedrock",1,4],
+      "output": ["hbm:item.ore_enriched",1,4]
+    },
+    {
+      "input": ["etfuturum:bark"],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["Natura:Rare Tree",1,2],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["ExtraTrees:log",1,8],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["minecraft:glowstone"],
+      "output": ["minecraft:glowstone_dust",4]
+    },
+    {
+      "input": ["dendrology:tuopa_planks",1,32767],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:item.ingot_schrabidate"],
+      "output": ["hbm:item.powder_schrabidate"]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,7],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["minecraft:stained_hardened_clay",1,12],
+      "output": ["minecraft:clay_ball",4]
+    },
+    {
+      "input": ["TaintedMagic:BlockWarpwoodPlanks"],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:item.ore_bedrock",1,3],
+      "output": ["hbm:item.ore_enriched",1,3]
+    },
+    {
+      "input": ["hbm:tile.deco_pipe_rim_green_rusted"],
+      "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["hbm:item.ore_cleaned",1,7],
+      "output": ["hbm:item.ore_enriched",1,7]
+    },
+    {
+      "input": ["hbm:item.ore_centrifuged",1,4],
+      "output": ["hbm:item.ore_enriched",1,4]
+    },
+    {
+      "input": ["etfuturum:bark",1,1],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["Natura:Rare Tree",1,3],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:tile.crate_iron"],
+      "output": ["hbm:item.powder_iron",8]
+    },
+    {
+      "input": ["hbm:tile.sand_dirty_red"],
+      "output": ["hbm:item.scrap_oil"]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,6],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["ExtraTrees:log",1,7],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["Natura:planks"],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,10],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["ExtraUtilities:colorWoodPlanks"],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:item.ingot_schraranium"],
+      "output": ["hbm:item.nugget_schrabidium",2]
+    },
+    {
+      "input": ["hbm:tile.steel_scaffold",1,32767],
+      "output": ["hbm:item.powder_steel_tiny",7]
+    },
+    {
+      "input": ["hbm:item.ore_cleaned",1,6],
+      "output": ["hbm:item.ore_enriched",1,6]
+    },
+    {
+      "input": ["minecraft:stained_hardened_clay",1,11],
+      "output": ["minecraft:clay_ball",4]
+    },
+    {
+      "input": ["hbm:item.ore_centrifuged",1,1],
+      "output": ["hbm:item.ore_enriched",1,1]
+    },
+    {
+      "input": ["etfuturum:bark2",1,1],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["etfuturum:bark",1,2],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:tile.brick_concrete_cracked"],
+      "output": ["minecraft:gravel"]
+    },
+    {
+      "input": ["netherlicious:Stem",1,32767],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:item.coil_tungsten"],
+      "output": ["hbm:item.powder_tungsten"]
+    },
+    {
+      "input": ["Natura:Rare Tree"],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:item.ore_bedrock",1,6],
+      "output": ["hbm:item.ore_enriched",1,6]
+    },
+    {
+      "input": ["hbm:item.fragment_meteorite"],
+      "output": ["hbm:item.powder_meteorite_tiny"]
+    },
+    {
+      "input": ["ExtraTrees:log",1,39],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:item.fragment_cobalt"],
+      "output": ["hbm:item.powder_cobalt_tiny"]
+    },
+    {
+      "input": ["ExtraTrees:log",1,6],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["minecraft:wool",1,15],
+      "output": ["minecraft:string",4]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,9],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["ExtraUtilities:colorWoodPlanks",1,1],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:item.ore_centrifuged",1,2],
+      "output": ["hbm:item.ore_enriched",1,2]
+    },
+    {
+      "input": ["hbm:item.ore_bedrock",1,5],
+      "output": ["hbm:item.ore_enriched",1,5]
+    },
+    {
+      "input": ["hbm:item.ore_cleaned",1,5],
+      "output": ["hbm:item.ore_enriched",1,5]
+    },
+    {
+      "input": ["hbm:tile.concrete"],
+      "output": ["minecraft:gravel"]
+    },
+    {
+      "input": ["minecraft:stained_hardened_clay",1,10],
+      "output": ["minecraft:clay_ball",4]
+    },
+    {
+      "input": ["Natura:planks",1,1],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["etfuturum:bark2"],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["etfuturum:bark",1,3],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["Natura:Rare Tree",1,1],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["minecraft:brick_stairs"],
+      "output": ["minecraft:clay_ball",3]
+    },
+    {
+      "input": ["ExtraUtilities:colorWoodPlanks",1,2],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["ExtraTrees:log",1,38],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["ExtraTrees:log",1,5],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["dendrology:sapling0",1,32767],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["etfuturum:wood2_stripped",1,3],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:tile.dirt_dead"],
+      "output": ["hbm:item.scrap_oil"]
+    },
+    {
+      "input": ["hbm:tile.deco_pipe_framed_green_rusted"],
+      "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["hbm:tile.sellafield",1,5],
+      "output": ["hbm:item.scrap_nuclear",15]
+    },
+    {
+      "input": ["harvestcraft:pamPaperbark"],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:item.crystal_lapis"],
+      "output": ["hbm:item.powder_lapis",8]
+    },
+    {
+      "input": ["minecraft:stained_hardened_clay",1,9],
+      "output": ["minecraft:clay_ball",4]
+    },
+    {
+      "input": ["hbm:tile.meteor_brick_chiseled"],
+      "output": ["hbm:item.powder_meteorite"]
+    },
+    {
+      "input": ["Natura:planks",1,2],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:item.ore_centrifuged",1,7],
+      "output": ["hbm:item.ore_enriched",1,7]
+    },
+    {
+      "input": ["etfuturum:bark2",1,3],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["ExtraTrees:log",1,12],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["netherlicious:Stem2",1,32767],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:tile.sellafield",1,4],
+      "output": ["hbm:item.scrap_nuclear",7]
+    },
+    {
+      "input": ["Natura:tree",1,2],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,3],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:tile.brick_obsidian"],
+      "output": ["hbm:tile.gravel_obsidian"]
+    },
+    {
+      "input": ["etfuturum:wood2_stripped",1,2],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["dendrology:lata_planks",1,32767],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["minecraft:planks",1,32767],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["witchery:witchwood",1,32767],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:tile.steel_poles"],
+      "output": ["hbm:item.powder_steel_tiny",3]
+    },
+    {
+      "input": ["minecraft:stained_hardened_clay",1,8],
+      "output": ["minecraft:clay_ball",4]
+    },
+    {
+      "input": ["Natura:planks",1,3],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["etfuturum:bark2",1,2],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["ExtraTrees:log",1,11],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:item.ore_bedrock",1,7],
+      "output": ["hbm:item.ore_enriched",1,7]
+    },
+    {
+      "input": ["Natura:tree",1,3],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:tile.deco_pipe_quad_green"],
+      "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["hbm:tile.sellafield",1,3],
+      "output": ["hbm:item.scrap_nuclear",5]
+    },
+    {
+      "input": ["thaumicbases:genLogs",1,32767],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,2],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["dendrology:sapling1",1,32767],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["etfuturum:wood2_stripped",1,1],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:tile.deco_pipe_quad_red"],
+      "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["hbm:tile.tape_recorder"],
+      "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["dendrology:hekur_planks",1,32767],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["minecraft:stained_hardened_clay",1,7],
+      "output": ["minecraft:clay_ball",4]
+    },
+    {
+      "input": ["Natura:planks",1,4],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:item.ore_centrifuged",1,5],
+      "output": ["hbm:item.ore_enriched",1,5]
+    },
+    {
+      "input": ["hbm:tile.deco_pipe_framed_marked"],
+      "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["ExtraTrees:log",1,10],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["Thaumcraft:blockMagicalLog",1,32767],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,5],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:tile.sellafield",1,2],
+      "output": ["hbm:item.scrap_nuclear",3]
+    },
+    {
+      "input": ["etfuturum:wood2_stripped"],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["Natura:tree"],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["minecraft:carrot"],
+      "output": ["minecraft:sugar"]
+    },
+    {
+      "input": ["Thaumcraft:blockMagicalLog",1,1],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:item.crystal_tungsten"],
+      "output": ["hbm:item.powder_tungsten",3]
+    },
+    {
+      "input": ["minecraft:sand"],
+      "output": ["EnderIO:itemMaterial"]
+    },
+    {
+      "input": ["hbm:item.crystal_starmetal"],
+      "output": ["hbm:item.powder_dura_steel",6]
+    },
+    {
+      "input": ["hbm:item.powder_lapis"],
+      "output": ["hbm:item.powder_cobalt_tiny"]
+    },
+    {
+      "input": ["Natura:planks",1,5],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["minecraft:sandstone_stairs"],
+      "output": ["minecraft:sand",6]
+    },
+    {
+      "input": ["hbm:tile.ore_oil_empty"],
+      "output": ["minecraft:gravel"]
+    },
+    {
+      "input": ["hbm:item.ore_centrifuged",1,6],
+      "output": ["hbm:item.ore_enriched",1,6]
+    },
+    {
+      "input": ["minecraft:stone"],
+      "output": ["minecraft:gravel"]
+    },
+    {
+      "input": ["minecraft:stained_hardened_clay",1,6],
+      "output": ["minecraft:clay_ball",4]
+    },
+    {
+      "input": ["hbm:item.debris_metal"],
+      "output": ["hbm:item.powder_steel_tiny",3]
+    },
+    {
+      "input": ["minecraft:stained_hardened_clay",1,5],
+      "output": ["minecraft:clay_ball",4]
+    },
+    {
+      "input": ["ExtraTrees:log",1,9],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["TwilightForest:tile.TFTowerStone",1,32767],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,4],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:tile.sellafield",1,1],
+      "output": ["hbm:item.scrap_nuclear",2]
+    },
+    {
+      "input": ["minecraft:cobblestone"],
+      "output": ["minecraft:gravel"]
+    },
+    {
+      "input": ["Natura:tree",1,1],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["harvestcraft:pamCinnamon"],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["Thaumcraft:blockMagicalLog"],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:tile.deco_pipe_rim"],
+      "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["hbm:item.coil_gold_torus"],
+      "output": ["hbm:item.powder_gold",2]
+    },
+    {
+      "input": ["netherlicious:FullWood",1,32767],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["Natura:planks",1,6],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:item.ore_purified",1,3],
+      "output": ["hbm:item.ore_enriched",1,3]
+    },
+    {
+      "input": ["minecraft:stone_slab",1,7],
+      "output": ["hbm:item.powder_quartz",2]
+    },
+    {
+      "input": ["hbm:tile.bobblehead",1,17],
+      "output": ["hbm:item.scrap_plastic",1,19]
+    },
+    {
+      "input": ["Thaumcraft:blockCustomPlant"],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["minecraft:stained_hardened_clay",1,4],
+      "output": ["minecraft:clay_ball",4]
+    },
+    {
+      "input": ["minecraft:fermented_spider_eye"],
+      "output": ["hbm:item.powder_poison",3]
+    },
+    {
+      "input": ["minecraft:wool",1,9],
+      "output": ["minecraft:string",4]
+    },
+    {
+      "input": ["ExtraTrees:log",1,33],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["ExtraTrees:log"],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["minecraft:flower_pot"],
+      "output": ["minecraft:clay_ball",3]
+    },
+    {
+      "input": ["etfuturum:log2_stripped",1,1],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,32],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:tile.deco_pipe_quad_green_rusted"],
+      "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["hbm:item.crystal_schrabidium"],
+      "output": ["hbm:item.powder_schrabidium",3]
+    },
+    {
+      "input": ["hbm:item.fragment_neodymium"],
+      "output": ["hbm:item.powder_neodymium_tiny"]
+    },
+    {
+      "input": ["Natura:planks",1,7],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:item.ore_purified",1,4],
+      "output": ["hbm:item.ore_enriched",1,4]
+    },
+    {
+      "input": ["BiomesOPlenty:logs2",1,32767],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["etfuturum:log2_stripped",1,2],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["minecraft:stained_hardened_clay",1,3],
+      "output": ["minecraft:clay_ball",4]
+    },
+    {
+      "input": ["hbm:tile.brick_light"],
+      "output": ["minecraft:clay_ball",4]
+    },
+    {
+      "input": ["hbm:tile.bobblehead",1,18],
+      "output": ["hbm:item.scrap_plastic",1,1]
+    },
+    {
+      "input": ["Thaumcraft:blockCustomPlant",1,1],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["minecraft:wool",1,10],
+      "output": ["minecraft:string",4]
+    },
+    {
+      "input": ["hbm:tile.sellafield_slaked"],
+      "output": ["minecraft:gravel"]
+    },
+    {
+      "input": ["ExtraTrees:log",1,32],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,31],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:tile.deco_pipe_rim_red"],
+      "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["ExtraTrees:log",1,31],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["etfuturum:wood_stripped",1,1],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:tile.oil_duct_solid"],
+      "output": ["hbm:item.powder_steel_tiny",3]
+    },
+    {
+      "input": ["minecraft:enchanted_book"],
+      "output": ["hbm:item.powder_magic"]
+    },
+    {
+      "input": ["hbm:item.ore_purified",1,1],
+      "output": ["hbm:item.ore_enriched",1,1]
+    },
+    {
+      "input": ["hbm:tile.deco_pipe_green_rusted"],
+      "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["hbm:item.coil_advanced_alloy"],
+      "output": ["hbm:item.powder_advanced_alloy"]
+    },
+    {
+      "input": ["Natura:planks",1,8],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["etfuturum:log2_stripped",1,3],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:tile.bobblehead",1,19],
+      "output": ["hbm:item.scrap_plastic",1,11]
+    },
+    {
+      "input": ["minecraft:stained_hardened_clay",1,2],
+      "output": ["minecraft:clay_ball",4]
+    },
+    {
+      "input": ["Natura:planks",1,9],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["minecraft:wool",1,7],
+      "output": ["minecraft:string",4]
+    },
+    {
+      "input": ["TwilightForest:tile.TFMagicLog",1,32767],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,1],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:tile.steel_wall"],
+      "output": ["hbm:item.powder_steel_tiny",13]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,34],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:item.crystal_cobalt"],
+      "output": ["hbm:item.powder_cobalt",3]
+    },
+    {
+      "input": ["ExtraTrees:log",1,30],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["etfuturum:wood_stripped"],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:tile.ore_nether_fire"],
+      "output": ["hbm:item.powder_fire",6]
+    },
+    {
+      "input": ["Forestry:sapling",1,32767],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["hbm:item.ore_purified",1,2],
+      "output": ["hbm:item.ore_enriched",1,2]
+    },
+    {
+      "input": ["minecraft:log",1,32767],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["BiomesOPlenty:logs1",1,32767],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["minecraft:stained_hardened_clay",1,1],
+      "output": ["minecraft:clay_ball",4]
+    },
+    {
+      "input": ["minecraft:wool",1,8],
+      "output": ["minecraft:string",4]
+    },
+    {
+      "input": ["Natura:planks",1,10],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:tile.bobblehead",1,20],
+      "output": ["hbm:item.scrap_plastic"]
+    },
+    {
+      "input": ["hbm:item.debris_shrapnel"],
+      "output": ["hbm:item.powder_steel_tiny",5]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,33],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["thaumicbases:enderPlanks"],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["dendrology:kulist_planks",1,32767],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["ExtraTrees:planks"],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:item.fragment_lanthanium"],
+      "output": ["hbm:item.powder_lanthanium_tiny"]
+    },
+    {
+      "input": ["netherlicious:Planks",1,32767],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["etfuturum:wood_stripped",1,3],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:item.coil_copper_torus"],
+      "output": ["hbm:item.powder_red_copper",2]
+    },
+    {
+      "input": ["minecraft:stonebrick"],
+      "output": ["minecraft:gravel"]
+    },
+    {
+      "input": ["hbm:tile.bobblehead",1,13],
+      "output": ["hbm:item.scrap_plastic",1,16]
+    },
+    {
+      "input": ["hbm:item.ore_bedrock"],
+      "output": ["hbm:item.ore_enriched"]
+    },
+    {
+      "input": ["hbm:item.ore_purified",1,7],
+      "output": ["hbm:item.ore_enriched",1,7]
+    },
+    {
+      "input": ["hbm:item.crystal_sulfur"],
+      "output": ["hbm:item.sulfur",8]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,28],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["minecraft:stained_hardened_clay"],
+      "output": ["minecraft:clay_ball",4]
+    },
+    {
+      "input": ["Natura:planks",1,11],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["minecraft:wool",1,13],
+      "output": ["minecraft:string",4]
+    },
+    {
+      "input": ["ExtraTrees:log",1,37],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["ExtraTrees:log",1,4],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:tile.dungeon_chain"],
+      "output": ["hbm:item.powder_steel_tiny"]
+    },
+    {
+      "input": ["etfuturum:wood_stripped",1,2],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:item.crystal_rare"],
+      "output": ["hbm:item.powder_desh_mix",2]
+    },
+    {
+      "input": ["hbm:item.ore_centrifuged"],
+      "output": ["hbm:item.ore_enriched"]
+    },
+    {
+      "input": ["thaumicbases:goldenOakSapling"],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["hbm:tile.bobblehead",1,14],
+      "output": ["hbm:item.scrap_plastic",1,17]
+    },
+    {
+      "input": ["dendrology:cerasu_planks",1,32767],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,27],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["BiomesOPlenty:colorizedSaplings",1,32767],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["ExtraTrees:log",1,3],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["minecraft:wool",1,14],
+      "output": ["minecraft:string",4]
+    },
+    {
+      "input": ["harvestcraft:pamMaple"],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["Natura:florasapling",1,32767],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["ExtraTrees:log",1,36],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:tile.deco_pipe_red"],
+      "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["hbm:tile.stone_gneiss"],
+      "output": ["hbm:item.powder_lithium_tiny"]
+    },
+    {
+      "input": ["minecraft:packed_ice"],
+      "output": ["hbm:item.powder_ice"]
+    },
+    {
+      "input": ["hbm:item.ore_bedrock",1,2],
+      "output": ["hbm:item.ore_enriched",1,2]
+    },
+    {
+      "input": ["hbm:item.ore_purified",1,5],
+      "output": ["hbm:item.ore_enriched",1,5]
+    },
+    {
+      "input": ["Forestry:logsFireproof",1,32767],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:tile.oil_duct"],
+      "output": ["hbm:item.powder_steel_tiny",3]
+    },
+    {
+      "input": ["hbm:tile.bobblehead",1,15],
+      "output": ["hbm:item.scrap_plastic",1,18]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,30],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:tile.deco_pipe_framed_red"],
+      "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["dendrology:porffor_planks",1,32767],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["ExtraTrees:log",1,35],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:tile.deco_pipe_rusted"],
+      "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["ExtraTrees:log",1,2],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["minecraft:wool",1,11],
+      "output": ["minecraft:string",4]
+    },
+    {
+      "input": ["hbm:tile.brick_concrete"],
+      "output": ["minecraft:gravel"]
+    },
+    {
+      "input": ["Natura:willow"],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:tile.deco_pipe_rim_marked"],
+      "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["hbm:item.coil_magnetized_tungsten"],
+      "output": ["hbm:item.powder_magnetized_tungsten"]
+    },
+    {
+      "input": ["hbm:tile.machine_fluidtank"],
+      "output": ["hbm:item.powder_steel",32]
+    },
+    {
+      "input": ["hbm:item.ore_bedrock",1,1],
+      "output": ["hbm:item.ore_enriched",1,1]
+    },
+    {
+      "input": ["hbm:item.ore_purified",1,6],
+      "output": ["hbm:item.ore_enriched",1,6]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,29],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:tile.bobblehead",1,16],
+      "output": ["hbm:item.scrap_plastic",1,15]
+    },
+    {
+      "input": ["hbm:item.debris_exchanger"],
+      "output": ["hbm:item.powder_steel",3]
+    },
+    {
+      "input": ["TaintedMagic:BlockWarpwoodSapling"],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["minecraft:wool",1,12],
+      "output": ["minecraft:string",4]
+    },
+    {
+      "input": ["ExtraTrees:log",1,34],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["ExtraTrees:log",1,1],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:tile.deco_pipe_quad_marked"],
+      "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["ExtraTrees:log",1,25],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:tile.bobblehead",1,9],
+      "output": ["hbm:item.scrap_plastic",1,10]
+    },
+    {
+      "input": ["hbm:item.crystal_diamond"],
+      "output": ["hbm:item.powder_diamond",3]
+    },
+    {
+      "input": ["hbm:item.crystal_uranium"],
+      "output": ["hbm:item.powder_uranium",3]
+    },
+    {
+      "input": ["minecraft:wool"],
+      "output": ["minecraft:string",4]
+    },
+    {
+      "input": ["Thaumcraft:blockWoodenDevice",1,7],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:tile.gas_duct_solid"],
+      "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["ExtraUtilities:colorWoodPlanks",1,15],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:tile.pink_planks"],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,24],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:item.coil_gold"],
+      "output": ["hbm:item.powder_gold"]
+    },
+    {
+      "input": ["hbm:item.crystal_thorium"],
+      "output": ["hbm:item.powder_thorium",3]
+    },
+    {
+      "input": ["dendrology:ewcaly_planks",1,32767],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["ExtraTrees:log",1,24],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:tile.pole_satellite_receiver"],
+      "output": ["hbm:item.powder_steel",5]
+    },
+    {
+      "input": ["hbm:tile.stone_porous"],
+      "output": ["hbm:item.scrap_oil"]
+    },
+    {
+      "input": ["hbm:item.arc_electrode_burnt"],
+      "output": ["hbm:item.powder_coal"]
+    },
+    {
+      "input": ["hbm:tile.bobblehead",1,10],
+      "output": ["hbm:item.scrap_plastic",1,9]
+    },
+    {
+      "input": ["minecraft:wool",1,1],
+      "output": ["minecraft:string",4]
+    },
+    {
+      "input": ["hbm:tile.brick_concrete_broken"],
+      "output": ["minecraft:gravel"]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,23],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["Natura:redwood",1,1],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["minecraft:diamond_ore"],
+      "output": ["hbm:tile.gravel_diamond",2]
+    },
+    {
+      "input": ["hbm:tile.dirt_oily"],
+      "output": ["hbm:item.scrap_oil"]
+    },
+    {
+      "input": ["minecraft:brick_block"],
+      "output": ["minecraft:clay_ball",4]
+    },
+    {
+      "input": ["hbm:tile.bobblehead",1,11],
+      "output": ["hbm:item.scrap_plastic",1,13]
+    },
+    {
+      "input": ["ExtraTrees:log",1,23],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["TwilightForest:tile.TFSapling",1,32767],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["hbm:item.crystal_lithium"],
+      "output": ["hbm:item.powder_lithium",3]
+    },
+    {
+      "input": ["witchery:witchlog",1,32767],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:item.crystal_copper"],
+      "output": ["hbm:item.powder_copper",3]
+    },
+    {
+      "input": ["hbm:tile.meteor_pillar"],
+      "output": ["hbm:item.powder_meteorite"]
+    },
+    {
+      "input": ["hbm:tile.steel_corner"],
+      "output": ["hbm:item.powder_steel_tiny",26]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,26],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:tile.crate_steel"],
+      "output": ["hbm:item.powder_steel",8]
+    },
+    {
+      "input": ["hbm:tile.meteor_brick_cracked"],
+      "output": ["hbm:item.powder_meteorite"]
+    },
+    {
+      "input": ["minecraft:hardened_clay"],
+      "output": ["minecraft:clay_ball",4]
+    },
+    {
+      "input": ["hbm:tile.concrete_smooth"],
+      "output": ["minecraft:gravel"]
+    },
+    {
+      "input": ["arsmagica2:planksWitchwood"],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["minecraft:poisonous_potato"],
+      "output": ["hbm:item.powder_poison"]
+    },
+    {
+      "input": ["minecraft:gravel"],
+      "output": ["minecraft:sand"]
+    },
+    {
+      "input": ["dendrology:logs0",1,32767],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["ExtraTrees:log",1,22],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:tile.bobblehead",1,12],
+      "output": ["hbm:item.scrap_plastic",1,12]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,25],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["Thaumcraft:blockWoodenDevice",1,6],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["minecraft:tnt"],
+      "output": ["minecraft:gunpowder",5]
+    },
+    {
+      "input": ["minecraft:skull",1,1],
+      "output": ["hbm:item.biomass",4]
+    },
+    {
+      "input": ["hbm:tile.bobblehead",1,5],
+      "output": ["hbm:item.scrap_plastic",1,5]
+    },
+    {
+      "input": ["ExtraTrees:log",1,29],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["Natura:Rare Sapling",1,32767],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,20],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["minecraft:obsidian"],
+      "output": ["hbm:tile.gravel_obsidian"]
+    },
+    {
+      "input": ["hbm:tile.block_meteor"],
+      "output": ["hbm:item.powder_meteorite",10]
+    },
+    {
+      "input": ["ExtraUtilities:colorWoodPlanks",1,11],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["minecraft:sandstone"],
+      "output": ["minecraft:sand",4]
+    },
+    {
+      "input": ["minecraft:wool",1,5],
+      "output": ["minecraft:string",4]
+    },
+    {
+      "input": ["hbm:tile.steel_beam"],
+      "output": ["hbm:item.powder_steel_tiny",3]
+    },
+    {
+      "input": ["hbm:item.pipes_steel"],
+      "output": ["hbm:item.powder_steel",27]
+    },
+    {
+      "input": ["minecraft:quartz"],
+      "output": ["hbm:item.powder_quartz"]
+    },
+    {
+      "input": ["dendrology:wood0",1,32767],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["TaintedMagic:BlockWarpwoodLog"],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:item.fragment_cerium"],
+      "output": ["hbm:item.powder_cerium_tiny"]
+    },
+    {
+      "input": ["minecraft:skull",1,2],
+      "output": ["hbm:item.biomass",4]
+    },
+    {
+      "input": ["BiomesOPlenty:saplings",1,32767],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["ExtraTrees:log",1,28],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:tile.bobblehead",1,6],
+      "output": ["hbm:item.scrap_plastic",1,6]
+    },
+    {
+      "input": ["hbm:tile.steel_roof"],
+      "output": ["hbm:item.powder_steel_tiny",13]
+    },
+    {
+      "input": ["Natura:Dark Tree"],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:item.ore_purified"],
+      "output": ["hbm:item.ore_enriched"]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,19],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["BiomesOPlenty:logs4",1,32767],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:tile.pink_log"],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["dendrology:delnas_planks",1,32767],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:tile.deco_pipe_green"],
+      "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["ExtraUtilities:colorWoodPlanks",1,12],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:tile.meteor_brick_mossy"],
+      "output": ["hbm:item.powder_meteorite"]
+    },
+    {
+      "input": ["minecraft:reeds"],
+      "output": ["minecraft:sugar",3]
+    },
+    {
+      "input": ["minecraft:wool",1,6],
+      "output": ["minecraft:string",4]
+    },
+    {
+      "input": ["hbm:item.ore_separated",1,7],
+      "output": ["hbm:item.ore_enriched",1,7]
+    },
+    {
+      "input": ["hbm:tile.deco_pipe_framed_green"],
+      "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["ExtraTrees:log",1,27],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:item.debris_concrete"],
+      "output": ["hbm:item.scrap_nuclear",2]
+    },
+    {
+      "input": ["hbm:tile.bobblehead",1,7],
+      "output": ["hbm:item.scrap_plastic",1,7]
+    },
+    {
+      "input": ["Natura:Dark Tree",1,1],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,22],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["TwilightForest:tile.TFLog",1,32767],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["BiomesOPlenty:planks",1,32767],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["minecraft:wool",1,2],
+      "output": ["minecraft:string",4]
+    },
+    {
+      "input": ["ExtraUtilities:colorWoodPlanks",1,13],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["minecraft:wool",1,3],
+      "output": ["minecraft:string",4]
+    },
+    {
+      "input": ["hbm:item.ore_separated",1,6],
+      "output": ["hbm:item.ore_enriched",1,6]
+    },
+    {
+      "input": ["hbm:tile.deco_pipe_rim_green"],
+      "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["minecraft:sapling",1,32767],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["hbm:item.crystal_plutonium"],
+      "output": ["hbm:item.powder_plutonium",3]
+    },
+    {
+      "input": ["minecraft:brick"],
+      "output": ["minecraft:clay_ball"]
+    },
+    {
+      "input": ["ExtraTrees:log",1,26],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["Forestry:planksFireproof",1,32767],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["ExtraTrees:planks",1,21],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["hbm:item.coal_infernal"],
+      "output": ["hbm:item.powder_coal",3]
+    },
+    {
+      "input": ["hbm:tile.deco_pipe_marked"],
+      "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["hbm:tile.bobblehead",1,8],
+      "output": ["hbm:item.scrap_plastic",1,14]
+    },
+    {
+      "input": ["hbm:tile.meteor_brick"],
+      "output": ["hbm:item.powder_meteorite"]
+    },
+    {
+      "input": ["hbm:tile.boxcar"],
+      "output": ["hbm:item.powder_steel",32]
+    },
+    {
+      "input": ["BiomesOPlenty:logs3",1,32767],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["minecraft:wool",1,4],
+      "output": ["minecraft:string",4]
+    },
+    {
+      "input": ["hbm:item.ore_separated",1,5],
+      "output": ["hbm:item.ore_enriched",1,5]
+    },
+    {
+      "input": ["hbm:item.crystal_beryllium"],
+      "output": ["hbm:item.powder_beryllium",3]
+    },
+    {
+      "input": ["ExtraUtilities:colorWoodPlanks",1,14],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
+      "input": ["arsmagica2:WitchwoodLog"],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["etfuturum:log2_stripped"],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["minecraft:skull"],
+      "output": ["hbm:item.biomass",4]
+    }
+  ]
+}

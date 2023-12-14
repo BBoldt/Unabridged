@@ -1,0 +1,67 @@
+[
+  {
+    "resourceLocation": "textures/gui/options_background.png",
+    "positionType": "CENTER",
+    "type": "STATIC",
+    "texture": {
+      "x": 0,
+      "y": 0,
+      "width": 65536,
+      "height": 65536
+    },
+    "position": {
+      "x": 0,
+      "y": 0,
+      "width": 8192,
+      "height": 8192
+    },
+    "colour": "404040",
+    "comment": "Background image"
+  },
+  {
+    "resourceLocation": "textures/font/ascii.png",
+    "positionType": "CENTER",
+    "type": "DYNAMIC_TEXT_STATUS",
+    "position": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "colour": "FFFFFF",
+    "comment": "The current operation"
+  },
+  {
+    "resourceLocation": "textures/font/ascii.png",
+    "positionType": "CENTER",
+    "type": "DYNAMIC_TEXT_PERCENTAGE",
+    "position": {
+      "x": 0,
+      "y": -10,
+      "width": 0,
+      "height": 0
+    },
+    "colour": "FFFFFF",
+    "comment": "The overall percentage progress"
+  },
+  {
+    "resourceLocation": "textures/font/ascii.png",
+    "positionType": "BOTTOM_CENTER",
+    "type": "STATIC_TEXT",
+    "position": {
+      "x": 0,
+      "y": 10,
+      "width": 0,
+      "height": 0
+    },
+    "colour": "FFDD49",
+    "text": "Better Loading Screen by AlexIIL",
+    "comment": "Text at the bottom of the screen"
+  },
+  {
+    "resourceLocation": "",
+    "type": "CLEAR_COLOUR",
+    "colour": "ffffff",
+    "comment": "Background colour"
+  }
+]

@@ -1,7 +1,7 @@
 {
     "copper": {
         "template": "uniform",
-        "block": "ThermalFoundation:Ore",
+        "block": "etfuturum:copper_ore",
         "clusterSize": 8,
         "numClusters": 10,
         "minHeight": 40,

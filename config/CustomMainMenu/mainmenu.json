@@ -149,7 +149,7 @@
             "text" : "",
 			"normalTextColor" : -1,
 			"hoverTextColor" : 3125670,
-			"tooltip" : "Use promo code 'unabridged' on Bisect Hosting for easy server setup and 25% off.",
+			"tooltip" : "Use promo code 'bboldt' on Bisect Hosting for easy server setup and 25% off.",
 			"texture" : "custommainmenu:textures/btn.png",
             "posX" : -100,
             "posY" : -100,
@@ -160,7 +160,7 @@
 			"alignment" : "bottom_right",
             "action" : {
                 "type" : "openLink",
-				        "link" : "https://bisecthosting.com/unabridged"
+				        "link" : "https://bisecthosting.com/bboldt"
             }
         },
 		
@@ -214,40 +214,6 @@
 				"link" : "https://www.github.com/BBoldt/Unabridged/issues"
             }
         },
-
-		"Reddit":
-        {
-            "text" : "",
-			"texture" : "custommainmenu:textures/icons/reddit.png",
-			"tooltip" : "Reddit",
-			"alignment" : "bottom_center",
-            "posX" : -79,
-            "posY" : -30,
-            "width" : 30,
-            "height" : 20,
-			"action" :
-			{
-                "type" : "openLink",
-				"link" : "http://www.reddit.com/r/MinecraftUnabridged/"
-            }	
-        },
-        
-        "Twitter":
-        {
-            "text" : "",
-			"texture" : "custommainmenu:textures/icons/twitter.png",
-			"tooltip" : "Twitter",
-			"alignment" : "bottom_center",
-            "posX" : 49,
-            "posY" : -30,
-            "width" : 30,
-            "height" : 20,
-			"action" :
-			{
-                "type" : "openLink",
-				"link" : "http://www.twitter.com/bboldtabridged"
-            }	
-        },
 		
 		"Discord":
         {
@@ -271,7 +237,7 @@
     {
         "version":
         {
-            "text" : "3.19",
+            "text" : "3.21",
             "posX" : -10,
             "posY" : 75,
             "color" : -1,

@@ -1,0 +1,87 @@
+[
+  {
+    "resourceLocation": "textures/gui/title/mojang.png",
+    "positionType": "CENTER",
+    "type": "STATIC",
+    "texture": {
+      "x": 0,
+      "y": 0,
+      "width": 256,
+      "height": 256
+    },
+    "position": {
+      "x": 0,
+      "y": 0,
+      "width": 256,
+      "height": 256
+    },
+    "comment": "None"
+  },
+  {
+    "resourceLocation": "textures/font/ascii.png",
+    "positionType": "CENTER",
+    "type": "DYNAMIC_TEXT_STATUS",
+    "position": {
+      "x": 0,
+      "y": -30,
+      "width": 0,
+      "height": 0
+    },
+    "colour": "000000",
+    "comment": ""
+  },
+  {
+    "resourceLocation": "textures/font/ascii.png",
+    "positionType": "CENTER",
+    "type": "DYNAMIC_TEXT_PERCENTAGE",
+    "position": {
+      "x": 0,
+      "y": -40,
+      "width": 0,
+      "height": 0
+    },
+    "colour": "000000",
+    "comment": ""
+  },
+  {
+    "resourceLocation": "betterloadingscreen:textures/progressBars.png",
+    "positionType": "CENTER",
+    "type": "STATIC",
+    "texture": {
+      "x": 0,
+      "y": 10,
+      "width": 182,
+      "height": 5
+    },
+    "position": {
+      "x": 0,
+      "y": -50,
+      "width": 182,
+      "height": 5
+    },
+    "comment": "None"
+  },
+  {
+    "resourceLocation": "betterloadingscreen:textures/progressBars.png",
+    "positionType": "CENTER",
+    "type": "DYNAMIC_PERCENTAGE",
+    "texture": {
+      "x": 0,
+      "y": 15,
+      "width": 182,
+      "height": 5
+    },
+    "position": {
+      "x": 0,
+      "y": -50,
+      "width": 182,
+      "height": 5
+    },
+    "comment": "None"
+  },
+  {
+    "type": "CLEAR_COLOUR",
+    "colour": "ffffff",
+    "comment": ""
+  }
+]

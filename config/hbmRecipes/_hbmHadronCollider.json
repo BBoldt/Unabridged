@@ -1,0 +1,125 @@
+{
+  "comment": "Rules: Both in- and output stacks cannot be null. Stacksizes are set to 1 for all stacks.",
+  "recipes": [
+    {
+      "momentum": 900,
+      "lineMode": true,
+      "inputs": [
+        ["hbm:item.particle_hydrogen"],
+        ["hbm:item.particle_copper"]
+      ],
+      "outputs": [
+        ["hbm:item.particle_aproton"],
+        ["hbm:item.particle_aelectron"]
+      ]
+    },
+    {
+      "momentum": 900,
+      "lineMode": false,
+      "inputs": [
+        ["hbm:item.particle_amat"],
+        ["hbm:item.particle_amat"]
+      ],
+      "outputs": [
+        ["hbm:item.particle_aschrab"],
+        ["hbm:item.particle_empty"]
+      ]
+    },
+    {
+      "momentum": 100000,
+      "lineMode": false,
+      "inputs": [
+        ["hbm:item.particle_aschrab"],
+        ["hbm:item.particle_aschrab"]
+      ],
+      "outputs": [
+        ["hbm:item.particle_dark"],
+        ["hbm:item.particle_empty"]
+      ]
+    },
+    {
+      "momentum": 2000,
+      "lineMode": true,
+      "inputs": [
+        ["hbm:item.particle_hydrogen"],
+        ["hbm:item.particle_amat"]
+      ],
+      "outputs": [
+        ["hbm:item.particle_muon"],
+        ["hbm:item.particle_empty"]
+      ]
+    },
+    {
+      "momentum": 5000,
+      "lineMode": false,
+      "inputs": [
+        ["hbm:item.particle_hydrogen"],
+        ["hbm:item.particle_lead"]
+      ],
+      "outputs": [
+        ["hbm:item.particle_higgs"],
+        ["hbm:item.particle_empty"]
+      ]
+    },
+    {
+      "momentum": 2000,
+      "lineMode": true,
+      "inputs": [
+        ["hbm:item.particle_muon"],
+        ["hbm:item.particle_higgs"]
+      ],
+      "outputs": [
+        ["hbm:item.particle_tachyon"],
+        ["hbm:item.particle_empty"]
+      ]
+    },
+    {
+      "momentum": 100000,
+      "lineMode": false,
+      "inputs": [
+        ["hbm:item.particle_muon"],
+        ["hbm:item.particle_dark"]
+      ],
+      "outputs": [
+        ["hbm:item.particle_strange"],
+        ["hbm:item.particle_empty"]
+      ]
+    },
+    {
+      "momentum": 500000,
+      "lineMode": false,
+      "inputs": [
+        ["hbm:item.particle_strange"],
+        ["hbm:item.powder_magic"]
+      ],
+      "outputs": [
+        ["hbm:item.particle_sparkticle"],
+        ["hbm:item.dust"]
+      ]
+    },
+    {
+      "momentum": 1000000,
+      "lineMode": false,
+      "inputs": [
+        ["hbm:item.particle_sparkticle"],
+        ["hbm:item.particle_higgs"]
+      ],
+      "outputs": [
+        ["hbm:item.particle_digamma"],
+        ["hbm:item.particle_empty"]
+      ]
+    },
+    {
+      "momentum": 100,
+      "lineMode": false,
+      "inputs": [
+        ["minecraft:chicken"],
+        ["minecraft:chicken"]
+      ],
+      "outputs": [
+        ["hbm:item.nugget"],
+        ["hbm:item.nugget"]
+      ]
+    }
+  ]
+}

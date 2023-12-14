@@ -1,5 +1,5 @@
 invertYMouse:false
-mouseSensitivity:0.16901408
+mouseSensitivity:0.3802817
 fov:0.0
 gamma:1.0
 saturation:0.0
@@ -9,7 +9,7 @@ particles:0
 bobView:false
 anaglyph3d:false
 advancedOpengl:false
-maxFps:120
+maxFps:260
 fboEnable:true
 difficulty:2
 fancyGraphics:true
@@ -25,7 +25,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
 fullscreen:false
-enableVsync:true
+enableVsync:false
 hideServerAddress:false
 advancedItemTooltips:false
 pauseOnLostFocus:true

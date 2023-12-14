@@ -30,6 +30,9 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
+key_of.key.zoom:29
+key_PcktCrft Open (FZ):46
+key_Sprint (FZ):0
 key_key.OpenTerminal:0
 key_key.OpenMagnetFilter:0
 key_key.SwitchMagnetMode:0
@@ -39,17 +42,6 @@ key_Mode Switch Key:0
 key_Side Inventory Key:0
 key_IC2 Hub Expand Key:0
 key_key.openCompendium:207
-key_key.craftingtweaks.decompress:0
-key_key.craftingtweaks.toggleButtons:0
-key_key.cofh.empower:0
-key_key.craftingtweaks.clear:0
-key_key.craftingtweaks.rotate:0
-key_FpsReducer.key.guiOpen:64
-key_key.cofh.multimode:0
-key_key.craftingtweaks.balance:0
-key_key.craftingtweaks.compress:0
-key_key.sapmanpack.updateKey:0
-key_invtweaks.key.sort:23
 key_key.archimedes.up:0
 key_key.archimedes.down:0
 key_key.archimedes.brake:0
@@ -59,6 +51,7 @@ key_key.archimedes.shipinv:0
 key_Pneumatic Helmet Options:0
 key_Pneumatic Helmet Hack:0
 key_Pneumatic Helmet Debugging Drone:0
+key_cos.key.openCosArmorInventory:46
 key_Tool Increase:0
 key_Tool Decrease:0
 key_key.discordRing:0
@@ -85,6 +78,8 @@ key_Baubles Inventory:48
 key_Change Wand Focus:33
 key_Activate Hover Harness:0
 key_Misc Wand Toggle:0
+key_Mekanism Item Mode Switch:51
+key_Mekanism Armor Mode Switch:49
 key_keys.armourersworkshop.equipmentWardrobe:0
 key_keys.armourersworkshop.undo:0
 key_waila.keybind.wailaconfig:76
@@ -92,16 +87,6 @@ key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
 key_waila.keybind.recipe:19
 key_waila.keybind.usage:22
-key_key.tarmor:0
-key_key.tgoggles:0
-key_key.tbelt:0
-key_key.tzoom:0
-key_[GC] Galaxy Map:0
-key_[GC] Open Spaceship Inventory:0
-key_[GC] Toggle Sensor Goggles Mode:0
-key_Mekanism Item Mode Switch:51
-key_Mekanism Armor Mode Switch:49
-key_Mekanism Voice:0
 key_Automagy.key.focusCrafting:0
 key_key.materialCosts:56
 key_key.clipboardPaste:210
@@ -120,8 +105,15 @@ key_key.craftingtweaks.clear:0
 key_key.craftingtweaks.toggleButtons:0
 key_key.craftingtweaks.compress:0
 key_key.craftingtweaks.decompress:0
+key_key.tarmor:26
+key_key.tgoggles:0
+key_key.tbelt:0
+key_key.tzoom:0
 key_ttmisc.toggleArmor:0
 key_FpsReducer.key.guiOpen:64
+key_[GC] Galaxy Map:0
+key_[GC] Open Spaceship Inventory:0
+key_[GC] Toggle Sensor Goggles Mode:0
 key_invtweaks.key.sort:23
 key_key.rotateup:200
 key_key.rotatedown:208
@@ -130,15 +122,22 @@ key_key.rotateleft:203
 key_key.flip:47
 key_key.mark:50
 key_MAtmos:65
+key_Toggle Numina FOV fix :0
+key_Open MPS Keybind GUI:-1
+key_Go Down (MPS Flight Control):44
+key_Cycle Tool Backward (MPS):-1
+key_Cycle Tool Forward (MPS):-1
+key_Zoom (MPS):21
+key_Cosmetic (MPS):-1
 key_key.fart.desc:43
 key_key.openRadial:0
-key_key.quit:1
-key_key.hideHUD:59
-key_key.debugScreen:61
-key_key.disableShader:62
 key_key.aspectMenu:0
+key_Change Arcane Lens:0
+key_Activate Morphic Fingers:0
+key_Toggle Spider Climb:0
+key_Toggle Chameleon Skin:0
 key_key.craftingGrid:0
-key_TG.keybind.openInv:28
+key_TG.keybind.openInv:0
 key_TG.keybind.activeaAbilities:0
 key_key.ShapeGroups:0
 key_key.SpellBookNext:0
@@ -153,11 +152,11 @@ key_railcraft.keybind.loco.slower:0
 key_railcraft.keybind.loco.mode:0
 key_railcraft.keybind.loco.whistle:0
 key_key.control:0
-key_key.journeymap.map_toggle:25
+key_key.journeymap.map_toggle:36
 key_key.journeymap.zoom_in:13
 key_key.journeymap.zoom_out:12
-key_key.journeymap.minimap_type:0
-key_key.journeymap.minimap_type:0
+key_key.journeymap.minimap_type:27
+key_key.journeymap.minimap_type:27
 key_key.journeymap.minimap_preset:26
 key_key.journeymap.create_waypoint:27
 key_BetterFps:88

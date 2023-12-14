@@ -1,0 +1,68 @@
+{
+  "recipes": [
+    {
+      "input": ["hbm:item.waste_plate_ra226be",1,1],
+      "output": ["hbm:item.waste_plate_ra226be"]
+    },
+    {
+      "input": ["hbm:item.waste_uranium",1,1],
+      "output": ["hbm:item.waste_uranium"]
+    },
+    {
+      "input": ["hbm:item.waste_thorium",1,1],
+      "output": ["hbm:item.waste_thorium"]
+    },
+    {
+      "input": ["hbm:item.waste_mox",1,1],
+      "output": ["hbm:item.waste_mox"]
+    },
+    {
+      "input": ["hbm:item.waste_plate_u235",1,1],
+      "output": ["hbm:item.waste_plate_u235"]
+    },
+    {
+      "input": ["hbm:item.waste_plate_pu239",1,1],
+      "output": ["hbm:item.waste_plate_pu239"]
+    },
+    {
+      "input": ["hbm:item.waste_plutonium",1,1],
+      "output": ["hbm:item.waste_plutonium"]
+    },
+    {
+      "input": ["hbm:item.waste_schrabidium",1,1],
+      "output": ["hbm:item.waste_schrabidium"]
+    },
+    {
+      "input": ["hbm:item.waste_plate_mox",1,1],
+      "output": ["hbm:item.waste_plate_mox"]
+    },
+    {
+      "input": ["hbm:item.waste_u235",1,1],
+      "output": ["hbm:item.waste_u235"]
+    },
+    {
+      "input": ["hbm:item.waste_plate_u233",1,1],
+      "output": ["hbm:item.waste_plate_u233"]
+    },
+    {
+      "input": ["hbm:item.waste_natural_uranium",1,1],
+      "output": ["hbm:item.waste_natural_uranium"]
+    },
+    {
+      "input": ["hbm:item.waste_plate_pu238be",1,1],
+      "output": ["hbm:item.waste_plate_pu238be"]
+    },
+    {
+      "input": ["hbm:item.waste_u233",1,1],
+      "output": ["hbm:item.waste_u233"]
+    },
+    {
+      "input": ["hbm:item.waste_plate_sa326",1,1],
+      "output": ["hbm:item.waste_plate_sa326"]
+    },
+    {
+      "input": ["hbm:item.waste_zfb_mox",1,1],
+      "output": ["hbm:item.waste_zfb_mox"]
+    }
+  ]
+}

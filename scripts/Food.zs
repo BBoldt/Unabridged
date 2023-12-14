@@ -16,7 +16,6 @@
 <ore:listAllberry>.add(<ExtraTrees:food:41>);
 <ore:listAllberry>.add(<aether_legacy:blueberry>);
 <ore:listAllberry>.add(<aether_legacy:enchanted_blueberry>);
-<ore:listAllberry>.add(<uptodate:sweet_berries>);
 <ore:listAllberry>.add(<Natura:berry>);
 <ore:listAllberry>.add(<Natura:berry:1>);
 <ore:listAllberry>.add(<Natura:berry:2>);
@@ -80,17 +79,11 @@
 //Meat Oredict
 <ore:listAllmeatraw>.add(<TwilightForest:item.venisonRaw>);
 <ore:listAllmeatraw>.add(<TwilightForest:item.meefRaw>);
-<ore:listAllmeatraw>.add(<etfuturum:mutton_raw>);
-<ore:listAllmeatraw>.add(<etfuturum:rabbit_raw>);
 <ore:listAllmeatraw>.add(<witchery:ingredient:50>);
 <ore:listAllmeatraw>.add(<witchery:ingredient:158>);
 
-//Veggie Oredict
-<ore:listAllveggie>.add(<etfuturum:beetroot>);
-
 //Singular Oredict additions
 <ore:cropCoffee>.add(<IC2:item.itemCoffeeBeans>);
-<ore:cropBeet>.add(<etfuturum:beetroot>);
 <ore:cropPapaya>.add(<ExtraTrees:food:40>);
 <ore:cropCoconut>.add(<ExtraTrees:food:50>);
 <ore:cropAvocado>.add(<ExtraTrees:food:52>);
@@ -98,7 +91,6 @@
 <ore:cropChilipepper>.add(<ExtraTrees:food:55>);
 <ore:croplistAllpepper>.add(<ExtraTrees:food:55>);
 <ore:cropMango>.add(<ExtraTrees:food:57>);
-<ore:cropCranberry>.add(<uptodate:sweet_berries>);
 <ore:cropCranberry>.add(<BiomesOPlenty:food>);
 <ore:cropRaspberry>.add(<ExtraTrees:food:44>);
 <ore:cropRaspberry>.add(<ExtraTrees:food:49>);

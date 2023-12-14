@@ -1,1 +1,5 @@
-ThermalExpansion:satchel,1,1,{Inventory:{Slot2:{id:4775s,Count:1b,Damage:0s},Slot3:{id:4774s,Count:1b,Damage:0s},Slot4:{id:4736s,Count:1b,Damage:0s},Slot5:{id:275s,Count:1b,Damage:0s},Slot0:{id:4777s,Count:1b,Damage:0s},Slot1:{id:4776s,Count:1b,Damage:0s},Slot6:{id:50s,Count:16b,Damage:0s},Slot7:{id:260s,Count:8b,Damage:0s},Slot8:{id:5929s,Count:1b,Damage:29s}},Accessible:1b}
+minecraft:apple,16,0
+ironbackpacks:basicBackpack,1,0
+TConstruct:broadsword,1,0,{InfiTool:{BaseDurability:78,Head:1,BaseAttack:5,ToolEXP:0L,Built:1b,HarvestLevel:1,Attack:5,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,RenderAccessory:1,ToolLevel:1,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:78,Modifiers:0},display:{Name:"§fStone Broadsword"}}
+PortalGun:PortalGunBlue,1,0
+minecraft:torch,16,0

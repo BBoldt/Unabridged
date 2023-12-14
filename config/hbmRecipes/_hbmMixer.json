@@ -1,0 +1,103 @@
+{
+  "recipes": [
+    {
+      "duration": 50,
+      "output": ["NITAN",1000],
+      "input1": ["KEROSENE",600],
+      "input2": ["MERCURY",200],
+      "solidInput": ["item","hbm:item.powder_nitan_mix"]
+    },
+    {
+      "duration": 100,
+      "output": ["SCHRABIDIC",16000],
+      "input1": ["SAS3",8000],
+      "input2": ["ACID",6000],
+      "solidInput": ["item","hbm:item.pellet_charged"]
+    },
+    {
+      "duration": 40,
+      "output": ["PETROIL_LEADED",1000],
+      "input1": ["PETROIL",800],
+      "solidInput": ["item","hbm:item.antiknock"]
+    },
+    {
+      "duration": 40,
+      "output": ["COALGAS_LEADED",1000],
+      "input1": ["COALGAS",800],
+      "solidInput": ["item","hbm:item.antiknock"]
+    },
+    {
+      "duration": 40,
+      "output": ["GASOLINE_LEADED",1000],
+      "input1": ["GASOLINE",800],
+      "solidInput": ["item","hbm:item.antiknock"]
+    },
+    {
+      "duration": 50,
+      "output": ["NITRIC_ACID",500],
+      "input1": ["SULFURIC_ACID",500],
+      "solidInput": ["dict","dustSaltpeter"]
+    },
+    {
+      "duration": 50,
+      "output": ["SOLVENT",1000],
+      "input1": ["NAPHTHA",500],
+      "input2": ["AROMATICS",500]
+    },
+    {
+      "duration": 50,
+      "output": ["CRYOGEL",2000],
+      "input1": ["COOLANT",1800],
+      "solidInput": ["item","hbm:item.powder_ice"]
+    },
+    {
+      "duration": 50,
+      "output": ["SULFURIC_ACID",500],
+      "input1": ["ACID",800],
+      "solidInput": ["dict","dustSulfur"]
+    },
+    {
+      "duration": 20,
+      "output": ["FRACKSOL",1000],
+      "input1": ["WATER",1000],
+      "input2": ["PETROLEUM",100],
+      "solidInput": ["dict","dustSulfur"]
+    },
+    {
+      "duration": 30,
+      "output": ["PETROIL",1000],
+      "input1": ["RECLAIMED",800],
+      "input2": ["LUBRICANT",200]
+    },
+    {
+      "duration": 50,
+      "output": ["COOLANT",2000],
+      "input1": ["WATER",1800],
+      "solidInput": ["dict","dustSaltpeter"]
+    },
+    {
+      "duration": 100,
+      "output": ["ENDERJUICE",100],
+      "input1": ["XPJUICE",500],
+      "solidInput": ["dict","dustDiamond"]
+    },
+    {
+      "duration": 50,
+      "output": ["OXYHYDROGEN",1000],
+      "input1": ["HYDROGEN",500],
+      "input2": ["OXYGEN",500]
+    },
+    {
+      "duration": 20,
+      "output": ["LUBRICANT",1000],
+      "input1": ["HEATINGOIL",500],
+      "input2": ["UNSATURATEDS",500]
+    },
+    {
+      "duration": 50,
+      "output": ["SYNGAS",1000],
+      "input1": ["COALOIL",500],
+      "input2": ["STEAM",500]
+    }
+  ]
+}

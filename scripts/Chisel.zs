@@ -159,4 +159,5 @@ mods.chisel.Groups.addVariation("void_quartz", <netherlicious:QuartzPillar:2>);
 mods.chisel.Groups.addVariation("quartz", <netherlicious:QuartzBricks>);
 mods.chisel.Groups.addVariation("quartz", <netherlicious:QuartzBricks:1>);
 mods.chisel.Groups.addVariation("quartz", <netherlicious:QuartzPillar>);
-mods.chisel.Groups.addVariation("quartz", <uptodate:smooth_quartz>);
+mods.chisel.Groups.addVariation("quartz", <etfuturum:smooth_quartz>);
+mods.chisel.Groups.addVariation("quartz", <etfuturum:quartz_bricks>);
